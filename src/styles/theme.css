@@ -1,0 +1,27 @@
+/* Fuente custom (Inter) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+:root {
+  /* Colores */
+  --fp-primary: #3e786f;               /* verde cabecera */
+  --fp-primary-contrast: #ffffff;      /* texto sobre primario */
+  --fp-accent: #d99643;                /* naranja botón */
+  --fp-bg: #dfe7e1;                    /* fondo general */
+  --fp-text: #4a2a2a;                  /* texto principal (bordó/marrón) */
+
+  /* Dimensiones útiles */
+  --fp-topbar-1-h: 44px;               /* franja “Volver” */
+  --fp-topbar-2-h: 64px;               /* franja con título */
+  --fp-cta-h: 56px;                    /* alto del botón pill */
+  --fp-cta-gap: 16px;                  /* separación del borde inferior */
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  background: var(--fp-bg);
+  color: var(--fp-text);
+  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+}

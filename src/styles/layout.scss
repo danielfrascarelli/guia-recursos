@@ -1,0 +1,61 @@
+.step-layout {
+  /* Franja superior (Volver) – tono naranja */
+  .fp-topbar-1 {
+    height: var(--fp-topbar-1-h);
+    background: linear-gradient(0deg, #e3a555, var(--fp-accent));
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding-inline: 12px;
+  }
+  /* Header sticky compuesto por dos franjas */
+  .fp-intro-sticky {
+    position: sticky;
+    top: 0;
+    z-index: 1020; /* por encima del contenido */
+  }
+
+  /* Botón flotante sticky inferior */
+  .fp-intro-cta-wrap {
+    position: sticky;
+    bottom: 0;
+    z-index: 1010;
+    height: 0; /* no ocupa espacio visual, solo sirve de ancla */
+  }
+
+  .fp-intro-cta {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: var(--fp-cta-gap);
+    background: var(--fp-accent);
+    color: #fff;
+    border: none;
+    height: var(--fp-cta-h);
+    padding: 0 22px;
+    border-radius: 999px; /* pill */
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+  }
+
+  /* Contenedor del texto para que no quede tapado por el CTA */
+  .fp-intro-content {
+    padding: 16px 14px;
+    /* espacio para que el botón flotante no tape el texto */
+    padding-bottom: calc(var(--fp-cta-h) + var(--fp-cta-gap) * 2);
+    line-height: 1.7;
+    font-size: 1.05rem;
+  }
+
+  /* color blanco en Volver dentro de la franja superior */
+  .fp-topbar-1,
+  .fp-topbar-1,
+  .fp-topbar-1 {
+    color: var(--fp-primary-contrast) !important; /* blanco */
+    text-decoration: none;
+    opacity: 1;
+  }
+}

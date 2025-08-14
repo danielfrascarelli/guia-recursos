@@ -1,0 +1,21 @@
+.fp-back-btn {
+  color: #fff;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.fp-back-btn:hover,
+.fp-back-btn:focus {
+  color: #fff;
+  text-decoration: none;
+  opacity: .9;
+}
+
+.fp-back-btn,
+.fp-back-btn:hover,
+.fp-back-btn:focus {
+  color: var(--fp-primary-contrast) !important; /* blanco */
+  text-decoration: none;
+  opacity: 1;
+}
