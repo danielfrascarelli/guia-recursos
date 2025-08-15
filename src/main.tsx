@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 
 import "./styles/theme.css";
-import "./index.css";
+import "./styles/index.scss";
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>

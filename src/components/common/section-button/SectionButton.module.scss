@@ -1,0 +1,77 @@
+@use "../../../styles/variables" as v;
+
+.item {
+  appearance: none;
+  border: 0;
+  width: 100%;
+  border-radius: 22px;
+  padding: 14px 16px;
+  display: grid;
+  grid-template-columns: 28px 1fr;
+  align-items: center;
+  gap: 12px;
+  color: v.$white;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  box-shadow: 0 1px 0 rgba(0,0,0,.04), 0 6px 16px rgba(0,0,0,.10);
+  transition: transform .06s ease, box-shadow .12s ease, filter .12s ease;
+  will-change: transform, filter;
+  text-align: left;
+
+  &:active { transform: translateY(1px) scale(0.995); }
+  &:focus-visible {
+    outline: 2px solid v.$focus;
+    outline-offset: 2px;
+  }
+}
+
+.icon {
+  display: grid;
+  place-items: center;
+
+  svg {
+    width: 22px;
+    height: 22px;
+    opacity: .95;
+  }
+}
+.text {
+  line-height: 1.25;
+}
+
+/* Variantes de color */
+.green {
+  background: v.$green-600;
+
+  /* “franja” central translúcida similar al mockup */
+  background: v.$green-600;
+    // linear-gradient(
+    //   to right,
+    //   transparent 0 10%,
+    //   rgba(255,255,255,.06) 10% 25%,
+    //   rgba(0,0,0,.06) 25% 75%,
+    //   rgba(255,255,255,.06) 75% 90%,
+    //   transparent 90% 100%
+    // ),
+    // v.$green-600;
+
+  &:hover { filter: brightness(1.02); }
+}
+
+.orange {
+  background: v.$orange-600;
+
+//   background:
+//     linear-gradient(
+//       to right,
+//       transparent 0 10%,
+//       rgba(255,255,255,.07) 10% 25%,
+//       rgba(0,0,0,.07) 25% 75%,
+//       rgba(255,255,255,.07) 75% 90%,
+//       transparent 90% 100%
+//     ),
+//     v.$orange-600;
+
+  &:hover { filter: brightness(1.03); }
+}

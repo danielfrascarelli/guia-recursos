@@ -2,7 +2,8 @@
   /* Franja superior (Volver) – tono naranja */
   .fp-topbar-1 {
     height: var(--fp-topbar-1-h);
-    background: linear-gradient(0deg, #e3a555, var(--fp-accent));
+    // background: linear-gradient(0deg, #e3a555, var(--fp-accent));
+    background: #e3a555;
     color: #fff;
     display: flex;
     align-items: center;

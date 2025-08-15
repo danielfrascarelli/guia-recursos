@@ -1,6 +1,6 @@
 import { Button } from "react-bootstrap";
 
-import "./styles.css"
+import "./BackButton.module.scss"
 
 type BackButtonProps = {
   label?: string;

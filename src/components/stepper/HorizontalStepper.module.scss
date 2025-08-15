@@ -1,0 +1,130 @@
+/* usa tus variables globales:
+   --fp-primary, --fp-primary-contrast, --fp-accent, --fp-bg, --fp-text
+*/
+
+.stepper {
+  position: relative;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr; /* cada paso ocupa el mismo ancho */
+  align-items: center;
+  gap: 0;
+  padding: 14px 8px 8px;
+  width: 100%;
+}
+
+/* línea base */
+.track {
+  position: absolute;
+  left: 8px;
+  right: 8px;
+  top: 34px; /* alineado al centro de los nodos */
+  height: 4px;
+  background: rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  pointer-events: none;
+}
+
+/* línea de progreso */
+.progress {
+  position: absolute;
+  left: 8px;
+  top: 34px;
+  height: 4px;
+  background: var(--fp-primary);
+  border-radius: 2px;
+  pointer-events: none;
+  transition: width 220ms ease;
+}
+
+/* botón/nodo de cada paso */
+.step {
+  position: relative;
+  background: transparent;
+  border: 0;
+  padding: 0 4px;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+
+  &:focus-visible {
+    outline: 2px solid var(--fp-primary);
+    outline-offset: 2px;
+    border-radius: 8px;
+  }
+}
+
+/* icono circular descriptivo */
+.icon {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #fff;
+  color: var(--fp-primary);
+  border: 2px solid var(--fp-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  position: relative;
+  z-index: 1; /* por encima de la línea */
+}
+
+/* número superpuesto (pequeño badge) */
+.number {
+  position: absolute;
+  top: 18px;
+  transform: translateY(-50%);
+  background: var(--fp-bg);
+  border: 2px solid var(--fp-primary);
+  color: var(--fp-primary);
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: 700;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* label visible SOLO para el actual */
+.label {
+  margin-top: 4px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: var(--fp-text);
+  text-align: center;
+  max-width: 90%;
+}
+
+/* estados */
+.done .icon {
+  background: var(--fp-primary);
+  color: #fff;
+}
+.done .number {
+  background: var(--fp-primary);
+  color: #fff;
+  border-color: var(--fp-primary);
+}
+
+.active .icon {
+  background: var(--fp-accent);
+  color: #fff;
+  border-color: var(--fp-accent);
+}
+.active .number {
+  background: #fff;
+  color: var(--fp-accent);
+  border-color: var(--fp-accent);
+}
+
+/* Responsivo */
+@media (max-width: 360px) {
+  .icon { width: 32px; height: 32px; font-size: 16px; }
+  .number { width: 20px; height: 20px; font-size: 11px; }
+  .label { font-size: 0.85rem; }
+}
