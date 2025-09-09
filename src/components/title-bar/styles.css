@@ -16,12 +16,4 @@
   font-weight: 700;
   letter-spacing: 0.2px;
 }
-
-/* color blanco en Volver dentro de la franja superior */
-.fp-topbar-1,
-.fp-topbar-1,
-.fp-topbar-1 {
-  color: var(--fp-primary-contrast) !important; /* blanco */
-  text-decoration: none;
-  opacity: 1;
-}
+ 

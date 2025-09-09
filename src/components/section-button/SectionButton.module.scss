@@ -1,0 +1,100 @@
+@use "../../styles/variables" as v;
+
+.item {
+  width: 100%;
+  border-radius: 22px;
+  color: v.$white;
+  padding: 12px 16px;
+  --gap: 12px; // valor por defecto si no se pasa "gap" desde el componente
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.icon {
+  display: inline-flex;
+  flex: 0 0 auto;
+  line-height: 0; // evita desalineo vertical
+}
+
+/* Sólo agrega margen si hay ícono antes */
+.icon + .text {
+  margin-left: var(--gap);
+}
+
+.text {
+  flex: 1 1 auto; // ocupa el espacio disponible
+  text-align: left; // texto pegado a la izquierda
+}
+
+.arrow {
+  margin-left: auto; // empuja la flecha al extremo derecho
+  display: inline-flex;
+  flex: 0 0 auto;
+}
+
+/* Variantes de color */
+.green {
+  background: v.$green-600;
+  &:hover {
+    filter: brightness(1.02);
+  }
+}
+
+.orange {
+  background: v.$orange-600;
+  &:hover {
+    filter: brightness(1.03);
+  }
+}
+
+// .item {
+//   appearance: none;
+//   border: 0;
+//   width: 100%;
+//   border-radius: 22px;
+//   padding: 14px 16px;
+//   display: grid;
+//   grid-template-columns: 28px 1fr;
+//   align-items: center;
+//   gap: 12px;
+//   color: v.$white;
+//   font-size: 15px;
+//   font-weight: 600;
+//   letter-spacing: 0.2px;
+//   box-shadow:
+//     0 1px 0 rgba(0, 0, 0, 0.04),
+//     0 6px 16px rgba(0, 0, 0, 0.1);
+//   transition:
+//     transform 0.06s ease,
+//     box-shadow 0.12s ease,
+//     filter 0.12s ease;
+//   will-change: transform, filter;
+//   text-align: left;
+
+//   &:active {
+//     transform: translateY(1px) scale(0.995);
+//   }
+//   &:focus-visible {
+//     outline: 2px solid v.$focus;
+//     outline-offset: 2px;
+//   }
+
+//   .icon {
+//     display: grid;
+//     place-items: center;
+
+//     svg {
+//       width: 22px;
+//       height: 22px;
+//       opacity: 0.95;
+//     }
+//   }
+
+//   .text {
+//     line-height: 1.25;
+//   }
+// }

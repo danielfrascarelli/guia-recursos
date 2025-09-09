@@ -1,14 +1,4 @@
 .step-layout {
-  /* Franja superior (Volver) – tono naranja */
-  .fp-topbar-1 {
-    height: var(--fp-topbar-1-h);
-    // background: linear-gradient(0deg, #e3a555, var(--fp-accent));
-    background: #e3a555;
-    color: #fff;
-    display: flex;
-    align-items: center;
-    padding-inline: 12px;
-  }
   /* Header sticky compuesto por dos franjas */
   .fp-intro-sticky {
     position: sticky;
@@ -49,14 +39,5 @@
     padding-bottom: calc(var(--fp-cta-h) + var(--fp-cta-gap) * 2);
     line-height: 1.7;
     font-size: 1.05rem;
-  }
-
-  /* color blanco en Volver dentro de la franja superior */
-  .fp-topbar-1,
-  .fp-topbar-1,
-  .fp-topbar-1 {
-    color: var(--fp-primary-contrast) !important; /* blanco */
-    text-decoration: none;
-    opacity: 1;
   }
 }
