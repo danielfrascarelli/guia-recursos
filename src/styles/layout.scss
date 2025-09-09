@@ -1,43 +1,75 @@
+/* Asegurá el alto de pantalla y contexto de posicionamiento */
 .step-layout {
-  /* Header sticky compuesto por dos franjas */
+  min-height: 100dvh; /* fallback */
+  min-height: 100svh; /* small viewport */
+  min-height: 100dvh; /* dynamic viewport (moderno) */
+
+  position: relative;
+
+  // background-color: #ff00002e;
+
+  /* Header “Volver / Título” pegado arriba */
   .fp-intro-sticky {
     position: sticky;
     top: 0;
-    z-index: 1020; /* por encima del contenido */
+    z-index: 900;
   }
 
-  /* Botón flotante sticky inferior */
-  .fp-intro-cta-wrap {
-    position: sticky;
-    bottom: 0;
-    z-index: 1010;
-    height: 0; /* no ocupa espacio visual, solo sirve de ancla */
-  }
-
-  .fp-intro-cta {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: var(--fp-cta-gap);
-    background: var(--fp-accent);
-    color: #fff;
-    border: none;
-    height: var(--fp-cta-h);
-    padding: 0 22px;
-    border-radius: 999px; /* pill */
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    font-weight: 600;
-  }
-
-  /* Contenedor del texto para que no quede tapado por el CTA */
   .fp-intro-content {
-    padding: 16px 14px;
-    /* espacio para que el botón flotante no tape el texto */
-    padding-bottom: calc(var(--fp-cta-h) + var(--fp-cta-gap) * 2);
-    line-height: 1.7;
-    font-size: 1.05rem;
+    height: calc(100% - 64px - 44px);
+  }
+
+  /* Cuando HAY CTA, reservamos espacio al final para que no lo tape */
+  &.has-cta .fp-intro-content {
+    padding-bottom: calc(108px + env(safe-area-inset-bottom));
+  }
+}
+
+/* CTA fijo sobre el contenido, centrado y con safe-area para iOS */
+.fp-intro-cta-wrap {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0; /* anclado al viewport */
+  z-index: 1000;
+
+  /* El gradiente ayuda a la legibilidad cuando hay texto detrás */
+  // background: linear-gradient(
+  //   180deg,
+  //   rgba(255, 255, 255, 0) 0%,
+  //   rgba(255, 255, 255, 0.85) 40%,
+  //   rgba(255, 255, 255, 1) 100%
+  // );
+
+  display: flex;
+  justify-content: center;
+
+  /* Respeta el notch/home-indicator en iOS */
+  padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
+
+  /* Hacemos clickeable sólo el botón (útil si el gradiente cubre el contenido) */
+  // pointer-events: none;
+}
+
+.fp-intro-cta {
+  pointer-events: auto;
+  border-radius: 9999px;
+  padding: 16px 28px;
+  font-weight: 800;
+  font-size: clamp(16px, 4.5vw, 20px);
+  line-height: 1;
+  width: min(520px, 100%);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+
+  /* Tus colores aquí (ejemplo naranja) */
+  background: #f2a44f;
+  border: 0;
+  color: #fff;
+
+  &:hover {
+    filter: brightness(0.98);
+  }
+  &:active {
+    transform: translateY(1px);
   }
 }

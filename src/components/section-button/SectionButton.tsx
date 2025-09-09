@@ -1,3 +1,33 @@
+// // src/components/section-button/SectionButton.tsx
+// import React from "react";
+
+// export function SectionButton({
+//   label,
+//   icon,
+//   variant = "success", // success (verde) o warning (naranja)
+//   showRight = true,
+//   onClick,
+// }: {
+//   label: string;
+//   icon?: React.ReactNode;
+//   variant?: "success" | "warning";
+//   showRight?: boolean;
+//   onClick?: () => void;
+// }) {
+//   const btnClass = `btn btn-${variant} w-100 py-3 px-3 rounded-4 d-flex align-items-center justify-content-between`;
+//   return (
+//     <button className={btnClass} onClick={onClick} type="button">
+//       <span className="d-flex align-items-center gap-3">
+//         {icon && <span className="d-inline-grid place-items-center fs-5">{icon}</span>}
+//         <span className="fw-semibold text-start">{label}</span>
+//       </span>
+//       {showRight && <i className="bi bi-arrow-right fs-5" aria-hidden="true" />}
+//     </button>
+//   );
+// }
+
+
+
 import React from "react";
 
 import type { SectionButtonProps } from "./SectionButtonProps";

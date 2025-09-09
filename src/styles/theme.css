@@ -1,27 +1,68 @@
 /* Fuente custom (Inter) */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
 
 :root {
+  /* brand assets */
+  --brand-bg-light: #F2EDE5;     /* fondo crema */
+  --brand-accent:   #F1A546;     /* acento naranja */
+  --brand-wine:     #6B131F;     /* bordó */
+  --brand-sage:     #7CA192;     /* verde salvia */
+  --brand-dark:     #20040E;     /* casi negro */
+
+  --brand-orange-live: #f2a44f;
+  --brand-green-dead: #6b8f87;
+  --brand-green-live: #0e7c66;
+  --brand-green-light: #dfe7e1;
+
+/*   
+  --brand-beige: #f2ede5;
+  --brand-goldenrod: #e3a555;
+  --brand-maroon: #6b131f;
+  --brand-green: #7ca192;
+  --brand-richblack: #20040e; */
+
+  /* --brand- */
+
   /* Colores */
-  --fp-primary: #3e786f;               /* verde cabecera */
-  --fp-primary-contrast: #ffffff;      /* texto sobre primario */
-  --fp-accent: #d99643;                /* naranja botón */
-  --fp-bg: #dfe7e1;                    /* fondo general */
-  --fp-text: #4a2a2a;                  /* texto principal (bordó/marrón) */
+  --fp-primary: #3e786f; /* verde cabecera */
+  --fp-primary-contrast: #ffffff; /* texto sobre primario */
+  --fp-accent: #d99643; /* naranja botón */
+  --fp-bg: #dfe7e1; /* fondo general */
+  --fp-text: #4a2a2a; /* texto principal (bordó/marrón) */
 
   /* Dimensiones útiles */
-  --fp-topbar-1-h: 44px;               /* franja “Volver” */
-  --fp-topbar-2-h: 64px;               /* franja con título */
-  --fp-cta-h: 56px;                    /* alto del botón pill */
-  --fp-cta-gap: 16px;                  /* separación del borde inferior */
+  --fp-topbar-1-h: 44px; /* franja “Volver” */
+  --fp-topbar-2-h: 64px; /* franja con título */
+  --fp-cta-h: 56px; /* alto del botón pill */
+  --fp-cta-gap: 16px; /* separación del borde inferior */
 }
 
-html, body, #root {
+html,
+body,
+#root {
   height: 100%;
 }
 
 body {
-  background: var(--fp-bg);
+  margin: 0;
+  /* background: var(--fp-bg); */
   color: var(--fp-text);
-  font-family: "Inter", system-ui, -apple-system, Segoe UI, Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family:
+    "Inter",
+    system-ui,
+    -apple-system,
+    Segoe UI,
+    Roboto,
+    "Helvetica Neue",
+    Arial,
+    sans-serif;
+}
+
+.color--brand-wine {
+  color: var(--brand-wine);
+}
+
+
+.bg--brand-bg-light {
+  background: var(--brand-bg-light);
 }
