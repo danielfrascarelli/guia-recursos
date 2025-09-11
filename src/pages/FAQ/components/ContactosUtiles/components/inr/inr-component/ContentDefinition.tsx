@@ -41,8 +41,9 @@ export function getContentDefinition(): ContentDefinition[] {
       icon: "",
       variant: "green",
       componentType: "InrUnidadComponent",
-      props: {
-        title: "Unidad 1 - Punta de Rieles, Montevideo",
+      props: { 
+        shortAddressDescription: "Punta de Rieles, Montevideo",
+        title: "Unidad 1",
         data
       },
       url: "unidad-1"
@@ -53,7 +54,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 2 - Chacra de Libertad, San José",
+        title: "Unidad 2",
+        shortAddressDescription: "Chacra de Libertad, San José",
         data
       },
       url: "unidad-2"
@@ -64,7 +66,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 3 - Penal de Libertad, San José ",
+        title: "Unidad 3",
+        shortAddressDescription: "Penal de Libertad, San José ",
         data
       },
       url: "unidad-3"
@@ -74,7 +77,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 4 - Santiago Vázquez, Montevideo",
+        title: "Unidad 4",
+        shortAddressDescription: "Santiago Vázquez, Montevideo",
         data
       },
       url: "unidad-4"
@@ -85,7 +89,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 5 - CMRF, Montevideo",
+        title: "Unidad 5",
+        shortAddressDescription: "CMRF, Montevideo",
         data
       },
       url: "unidad-5"
@@ -96,7 +101,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 6 - Punta de Rieles, Montevideo",
+        title: "Unidad 6",
+        shortAddressDescription: "Punta de Rieles, Montevideo",
         data
       },
       url: "unidad-6"
@@ -107,7 +113,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 7 - Chacra Policial, Canelones",
+        title: "Unidad 7",
+        shortAddressDescription: "Chacra Policial, Canelones",
         data
       },
       url: "unidad-7"
@@ -118,7 +125,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 8 - Domingo Arena, Montevideo",
+        title: "Unidad 8",
+        shortAddressDescription: "Domingo Arena, Montevideo",
         data
       },
       url: "unidad-8"
@@ -129,7 +137,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 9 - Montevideo",
+        title: "Unidad 9",
+        shortAddressDescription: "Montevideo",
         data
       },
       url: "unidad-9"
@@ -140,7 +149,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 10 - Soler, San José",
+        title: "Unidad 10",
+        shortAddressDescription: "Soler, San José",
         data
       },
       url: "unidad-10"
@@ -151,7 +161,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 11 - Cañitas, Río Negro",
+        title: "Unidad 11",
+        shortAddressDescription: "Cañitas, Río Negro",
         data
       },
       url: "unidad-11"
@@ -162,7 +173,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 12 - Cerro Carancho, Rivera",
+        title: "Unidad 12",
+        shortAddressDescription: "Cerro Carancho, Rivera",
         data
       },
       url: "unidad-12"
@@ -173,7 +185,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 13 - Paraje Las Rosas, Maldonado",
+        title: "Unidad 13",
+        shortAddressDescription: "Paraje Las Rosas, Maldonado",
         data
       },
       url: "unidad-13"
@@ -184,7 +197,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 14 - Piedra de los Indios, Colonia",
+        title: "Unidad 14",
+        shortAddressDescription: "Piedra de los Indios, Colonia",
         data
       },
       url: "unidad-14"
@@ -195,7 +209,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 15 - Melo, Cerro Largo",
+        title: "Unidad 15",
+        shortAddressDescription: "Melo, Cerro Largo",
         data
       },
       url: "unidad-15"
@@ -206,7 +221,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 16 - Paysandú",
+        title: "Unidad 16",
+        shortAddressDescription: "Paysandú",
         data
       },
       url: "unidad-16"
@@ -217,7 +233,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 17 - Campanero, Lavalleja",
+        title: "Unidad 17",
+        shortAddressDescription: "Campanero, Lavalleja",
         data
       },
       url: "unidad-17"
@@ -228,7 +245,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 18 - Durazno",
+        title: "Unidad 18",
+        shortAddressDescription: "Durazno",
         data
       },
       url: "unidad-18"
@@ -239,7 +257,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 19 - Florida",
+        title: "Unidad 19",
+        shortAddressDescription: "Florida",
         data
       },
       url: "unidad-19"
@@ -250,7 +269,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 20 - Salto, Salto",
+        title: "Unidad 20",
+        shortAddressDescription: "Salto, Salto",
         data
       },
       url: "unidad-20"
@@ -261,7 +281,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 21 - Paraje Pintado Grande, Artigas",
+        title: "Unidad 21",
+        shortAddressDescription: "Paraje Pintado Grande, Artigas",
         data
       },
       url: "unidad-21"
@@ -272,7 +293,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 22 - Rocha",
+        title: "Unidad 22",
+        shortAddressDescription: "Rocha",
         data
       },
       url: "unidad-22"
@@ -283,7 +305,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 23 - Chacra Treinta y Tres, Treinta y Tres",
+        title: "Unidad 23",
+        shortAddressDescription: "Chacra Treinta y Tres, Treinta y Tres",
         data
       },
       url: "unidad-23"
@@ -294,7 +317,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 24 - Ruta 2 Km. 278.000, Pense, Soriano Soriano",
+        title: "Unidad 24",
+        shortAddressDescription: "Ruta 2 Km. 278.000, Pense, Soriano Soriano",
         data
       },
       url: "unidad-24"
@@ -305,7 +329,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 25 - Máxima Seguridad, Santiago Vazquez, Montevideo",
+        title: "Unidad 25",
+        shortAddressDescription: "Máxima Seguridad, Santiago Vazquez, Montevideo",
         data
       },
       url: "unidad-25"
@@ -316,7 +341,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "green",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 26 - Tacuarembó, Tacuarembó",
+        title: "Unidad 26",
+        shortAddressDescription: "Tacuarembó",
         data
       },
       url: "unidad-26"
@@ -324,3 +350,30 @@ export function getContentDefinition(): ContentDefinition[] {
   ] satisfies ContentDefinition[];
   return items;
 }
+
+
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26

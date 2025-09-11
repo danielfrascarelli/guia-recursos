@@ -14,13 +14,13 @@ import { InrUnidad } from "../pages/FAQ/components/ContactosUtiles/components/in
 import type { CommonOfficeInfoProps } from "../pages/FAQ/components/ContactosUtiles/components/common/common-component/CommonOfficeInfoProps";
 import { CommonOfficeInfo } from "../pages/FAQ/components/ContactosUtiles/components/common/common-component/CommonOfficeInfo";
 
-export  const registry = {
+export const registry = {
     TextComponent: TextComponent as React.ComponentType<TextComponentProps>,
     Text2Component: Text2Component as React.ComponentType<Text2ComponentProps>,
     TextListOptionsComponent: TextListOptions as React.ComponentType<TextListOptionsProps>,
-    InrComponent: Inr  as React.ComponentType<InrProps>,
-    InrUnidadComponent: InrUnidad  as React.ComponentType<InrUnidadProps>,
-    CommonOfficeInfoComponent: CommonOfficeInfo  as React.ComponentType<CommonOfficeInfoProps>
+    InrComponent: Inr as React.ComponentType<InrProps>,
+    InrUnidadComponent: InrUnidad as React.ComponentType<InrUnidadProps>,
+    CommonOfficeInfoComponent: CommonOfficeInfo as React.ComponentType<CommonOfficeInfoProps>
 } as const;
 
 export type Registry = typeof registry;

@@ -94,9 +94,9 @@ export default function Layout({
   // showNextButton=false;
   const navigate = useNavigate();
   const location = useLocation();
-
+//  h-100
   return (
-    <div  className={`step-layout bg--brand-bg-light p-0 h-100 ${showNextButton && nextRoute ? "has-cta" : ""}`}    >
+    <div  className={`step-layout bg--brand-bg-light p-0 ${showNextButton && nextRoute ? "has-cta" : ""}`}    >
       <div className="fp-intro-sticky">
         {backButtonShow &&
           <BackButton onBack={() => navigate(getBackUrl(location.pathname))} label={backButtonText} />

@@ -1,11 +1,8 @@
-// icons.tsx
 import type { SVGProps } from "react";
 
 export type IconProps = SVGProps<SVGSVGElement>;
 
 const svgProps: IconProps = {
-  width: 22,
-  height: 22,
   viewBox: "0 0 24 24",
   fill: "none",
   stroke: "currentColor",

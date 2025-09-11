@@ -1,0 +1,5 @@
+.fp-btn .d-flex > svg {
+  width: clamp(50px, calc(50px + 4vw), 150px);
+  height: clamp(50px, calc(50px + 4vw), 150px);
+  stroke-width: 1;
+}

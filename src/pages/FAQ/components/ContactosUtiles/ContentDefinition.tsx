@@ -1,23 +1,15 @@
+import { AlertIcon } from "../../../../assets/icons/icons";
 import type { ContentDefinition } from "../../../../components/ItemDefinition";
 
-const commmonOfficeData = {
-  departamento: "Montevideo",
-  ciudad: "Montevideo",
-  barrio: "Belvedere",
-  direccion: {
-    texto: "Cnel. Bolognesi N° 287 entre Emancipación y General Hornos",
-    url: "https://www.google.com/maps/search/?api=1&query=Cnel.+Bolognesi+287,+Montevideo"
-  },
-  telefono: "4340 2628 int 1600",
-  correo: "sai-ppl@minterior.gub.uy",
-  web: {
-    texto: "sai.minterior.gub.uy",
-    url: "https://sai.minterior.gub.uy"
-  },
-  horario: "9 hs a 16 hs"
-} as const;
+import asseDataJson from "../../../../data/offices/asse.json";
+import type { OfficeData } from "./components/common/common-component/CommonOfficeInfoProps";
+
+
 
 export function getContentDefinition(): ContentDefinition[] {
+
+  const asseData: OfficeData = asseDataJson;
+
   const items = [
     {
       id: "1",
@@ -26,6 +18,7 @@ export function getContentDefinition(): ContentDefinition[] {
       componentType: "InrComponent",
       props: {
         title: "Instituto Nacional de Rehabilitación",
+        imageUrl: "/src/assets/images/logos_contactos_utiles/logo_inr.png",
       },
     },
     {
@@ -34,8 +27,9 @@ export function getContentDefinition(): ContentDefinition[] {
       url: "6",
       componentType: "CommonOfficeInfoComponent",
       props: {
-        title: "ASSE Sistema de Atención Integral - Personas Privadas de Libertad (SAI - PPL)",
-        data: commmonOfficeData
+        title: "ASSE (SAI - PPL)",
+        imageUrl: "/src/assets/images/logos_contactos_utiles/asse.png",
+        data: asseData
       },
     },
     {
@@ -44,8 +38,9 @@ export function getContentDefinition(): ContentDefinition[] {
       url: "7",
       componentType: "CommonOfficeInfoComponent",
       props: {
-        title: "Programa Nacional de Educación en Cárceles – MEC",
-        data: commmonOfficeData
+        title: "Programa Nacional de Educación en Cárceles",
+        imageUrl: "/src/assets/images/logos_contactos_utiles/pnec.png",
+        data: asseData
       },
     },
     {
@@ -54,8 +49,9 @@ export function getContentDefinition(): ContentDefinition[] {
       url: "7",
       componentType: "CommonOfficeInfoComponent",
       props: {
-        title: "Dirección Nacional de Apoyo al Liberado (DINALI - MIDES)",
-        data: commmonOfficeData
+        title: "Dirección Nacional de Apoyo al Liberado",
+        imageUrl: "/src/assets/images/logos_contactos_utiles/dinali.png",
+        data: asseData
       },
     },
     {
@@ -64,8 +60,8 @@ export function getContentDefinition(): ContentDefinition[] {
       url: "7",
       componentType: "CommonOfficeInfoComponent",
       props: {
-        title: "Dirección Nacional de Medidas Alternativas (DINAMA – INR)",
-        data: commmonOfficeData
+        title: "Dirección Nacional de Medidas Alternativas (DINAMA)",
+        data: asseData
       },
     },
     {
@@ -75,7 +71,8 @@ export function getContentDefinition(): ContentDefinition[] {
       componentType: "CommonOfficeInfoComponent",
       props: {
         title: "Comisionado Parlamentario Penitenciario",
-        data: commmonOfficeData
+        imageUrl: "/src/assets/images/logos_contactos_utiles/comisionado.parlamentario.png",
+        data: asseData
       },
     },
     {
@@ -84,8 +81,9 @@ export function getContentDefinition(): ContentDefinition[] {
       url: "7",
       componentType: "CommonOfficeInfoComponent",
       props: {
-        title: "Instituto Nacional de Derechos Humanos y Defensoria del Pueblo - (INDDHH)",
-        data: commmonOfficeData
+        title: "Instituto Nacional de Derechos Humanos y Defensoria del Pueblo",
+        imageUrl: "/src/assets/images/logos_contactos_utiles/inddhh.png",
+        data: asseData
       },
     },
     {
@@ -94,8 +92,8 @@ export function getContentDefinition(): ContentDefinition[] {
       url: "7",
       componentType: "CommonOfficeInfoComponent",
       props: {
-        title: "Mecanismo Nacional de Prevención de la Tortura - (MNP)",
-        data: commmonOfficeData
+        title: "Mecanismo Nacional de Prevención de la Tortura",
+        data: asseData
       },
     },
     {
@@ -105,7 +103,7 @@ export function getContentDefinition(): ContentDefinition[] {
       componentType: "CommonOfficeInfoComponent",
       props: {
         title: "Defensoría Pública de Ejecución Penal",
-        data: commmonOfficeData
+        data: asseData
       },
     },
     {
@@ -115,10 +113,9 @@ export function getContentDefinition(): ContentDefinition[] {
       componentType: "CommonOfficeInfoComponent",
       props: {
         title: "Juzgado Letrado de Ejecución y Vigilancia",
-        data: commmonOfficeData
+        data: asseData
       },
     }
   ] satisfies ContentDefinition[];
   return items;
 }
- 

@@ -1,3 +1,5 @@
+import type { DefinitionProps } from "../../../../../../../components/DefinitionProps";
+
 export type Telefono = { area: string; numeros: string };
 export type Correo = { area: string; email: string };
 
@@ -20,7 +22,8 @@ export interface InfoUnidad {
     };
 };
 
-export interface InrUnidadProps {
-    title: string;
+export interface InrUnidadProps extends DefinitionProps {
     data: InfoUnidad;
+    // number: number;
+    shortAddressDescription: string;
 };

@@ -7,14 +7,14 @@
   flex-direction: column;
 }
 
-.header {
-  position: sticky;
-  top: 0;
-  background:  v.$orange-700; 
-  backdrop-filter: saturate(120%) blur(2px);
-  padding: 10px 12px;
-  z-index: 2;
-}
+// .header {
+//   position: sticky;
+//   top: 0;
+//   background:  v.$orange-700; 
+//   backdrop-filter: saturate(120%) blur(2px);
+//   padding: 10px 12px;
+//   z-index: 2;
+// }
 
 .main {
   padding: 16px 18px 28px;
@@ -28,7 +28,7 @@
   margin: 18px 0 16px;
 }
 
-.list {
-  display: grid;
-  gap: 14px;
-}
+// .list {
+//   display: grid;
+//   gap: 14px;
+// }

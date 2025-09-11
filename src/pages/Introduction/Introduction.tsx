@@ -3,7 +3,7 @@ import "./introduction.scss";
 export default function Introduction() {
   return (
     <div className="h-100">
-      <div className="mx-3 p-0 pt-3 fp-introduction">
+      <div className="mx-3 p-0 pt-3 text-font-size lh-base">
         <p>
           Cuando una persona es encarcelada, su familia también transita la cárcel.
         </p>

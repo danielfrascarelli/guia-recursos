@@ -9,19 +9,18 @@
   --brand-sage:     #7CA192;     /* verde salvia */
   --brand-dark:     #20040E;     /* casi negro */
 
+
+
+  /* common assets */
+  --brand-white: #fff;
+  --brand-accent-700: #e2933a;
+
+
   --brand-orange-live: #f2a44f;
   --brand-green-dead: #6b8f87;
   --brand-green-live: #0e7c66;
   --brand-green-light: #dfe7e1;
 
-/*   
-  --brand-beige: #f2ede5;
-  --brand-goldenrod: #e3a555;
-  --brand-maroon: #6b131f;
-  --brand-green: #7ca192;
-  --brand-richblack: #20040e; */
-
-  /* --brand- */
 
   /* Colores */
   --fp-primary: #3e786f; /* verde cabecera */
@@ -62,7 +61,11 @@ body {
   color: var(--brand-wine);
 }
 
-
 .bg--brand-bg-light {
   background: var(--brand-bg-light);
+}
+
+
+.text-font-size { 
+   font-size:clamp(18px, 3vw, 24px); 
 }

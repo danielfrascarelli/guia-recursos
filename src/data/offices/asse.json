@@ -1,0 +1,26 @@
+{
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": "Belvedere",
+  "address": {
+    "text": "Cnel. Bolognesi N° 287 entre Emancipación y General Hornos",
+    "url": "https://www.google.com/maps/search/?api=1&query=Cnel.+Bolognesi+287,+Montevideo"
+  },
+  "phone": [
+    {
+      "area": "",
+      "phone": "4340 2628 int 1600"
+    }
+  ],
+  "email": [
+    {
+      "area": "",
+      "email": "sai-ppl@minterior.gub.uy"
+    }
+  ],
+  "web": {
+    "text": "sai.minterior.gub.uy",
+    "url": "https://sai.minterior.gub.uy"
+  },
+  "openingHours": "9 hs a 16 hs"
+}

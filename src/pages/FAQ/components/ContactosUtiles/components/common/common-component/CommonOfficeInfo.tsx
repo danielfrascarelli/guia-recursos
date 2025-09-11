@@ -5,26 +5,28 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
 
   return (
     <section>
-      <p><strong>Departamento:</strong> {data.departamento}</p>
-      <p><strong>Ciudad:</strong> {data.ciudad}</p>
-      <p><strong>Barrio:</strong> {data.barrio}</p>
+      <p><strong>Departamento:</strong> {data.department}</p>
+      <p><strong>Ciudad:</strong> {data.city}</p>
+      <p><strong>Barrio:</strong> {data.neighborhood}</p>
 
       <p>
         <strong>Dirección:</strong>{" "}
-        {data.direccion.url ? (
-          <a href={data.direccion.url} target="_blank" rel="noreferrer">
-            {data.direccion.texto}
+        {data.address.url ? (
+          <a href={data.address.url} target="_blank" rel="noreferrer">
+            {data.address.text}
           </a>
         ) : (
-          data.direccion.texto
+          data.address.text
         )}
       </p>
 
-      <p><strong>Teléfono:</strong> {data.telefono}</p>
-
+      <p>
+        <strong>Teléfonos:</strong>{" "}
+        <a href={`mailto:${data.phone[0].phone}`}>{data.phone[0].phone}</a>
+      </p>
       <p>
         <strong>Correo electrónico:</strong>{" "}
-        <a href={`mailto:${data.correo}`}>{data.correo}</a>
+        <a href={`mailto:${data.email[0].email}`}>{data.email[0].email}</a>
       </p>
 
       {data.web && (
@@ -32,15 +34,15 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
           <strong>Web:</strong>{" "}
           {data.web.url ? (
             <a href={data.web.url} target="_blank" rel="noreferrer">
-              {data.web.texto}
+              {data.web.text}
             </a>
           ) : (
-            data.web.texto
+            data.web.text
           )}
         </p>
       )}
 
-      <p><strong>Horario:</strong> {data.horario}</p>
+      <p><strong>Horario:</strong> {data.openingHours}</p>
     </section>
   );
 }

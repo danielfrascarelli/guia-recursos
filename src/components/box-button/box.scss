@@ -1,0 +1,51 @@
+.fp-btn {
+  width: clamp(200px, 92vw, 250px);
+
+  .box-image {
+    max-width: clamp(150px, calc(150px + 5vw), 250px);
+    max-height: clamp(150px, calc(150px + 5vw), 150px);
+  }
+
+  .text-title-box-font-size {
+    font-size: clamp(15px, 3vw, 26px);
+  }
+
+  .text-subtitle-box-font-size {
+    font-size: clamp(15px, 3vw, 20px);
+  }
+}
+
+.fp-btn-green {
+  color: var(--brand-white);
+  background: var(--brand-sage);
+  border: var(--brand-sage);
+}
+
+.fp-btn-orange {
+  color: var(--brand-dark);
+  background: var(--brand-accent);
+  border: var(--brand-accent);
+}
+
+// Paleta por variante (usá tus tokens si ya los tenés en theme.css)
+// const palettes = {
+//   green: {
+//     text: "var(--brand-white)",
+//     bg: "var(--brand-sage)",
+//     border: "var(--brand-sage)",
+//     hoverText: "var(--brand-white)",
+//     hoverBg: "color-mix(in srgb, var(--brand-sage) 85%, black)",
+//     hoverBorder: "color-mix(in srgb, var(--brand-sage) 85%, black)",
+//     focusRgb: "124,161,146"
+//   },
+//   orange: {
+//     text: "var(--brand-dark)",
+//     bg: "var(--brand-accent)",
+//     border: "var(--brand-accent)",
+//     hoverText: "var(--brand-dark)",
+//     hoverBg: "var(--brand-accent-700)",
+//     hoverBorder: "var(--brand-accent-700)",
+//     focusRgb: "241,165,70"
+//   },
+// } as const;
+// const p = palettes[variant];

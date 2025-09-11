@@ -1,6 +1,5 @@
-import type { TextListItem } from "../../shared/utils/Item";
+import type { TextListItem } from "../../shared/utils/Item"; 
 
 export interface TextListOptionsProps {
     items: TextListItem[];
-    // onClick?: (url: string) => void;
 };
