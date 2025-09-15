@@ -5,52 +5,45 @@ import { RoutesFAQ } from "./RoutesFAQ";
 
 export const ItemsFAQ: TextListItem[] = [
   {
-    id: "detencion",
-    title: "Primeros momentos de la detención",
-    icon: <AlertIcon />,
-    variant: "green",
-    url: RoutesFAQ.PrimerosPasos.URL
-  },
-  {
     id: "visitas",
     title: "Visitas y contacto",
     icon: <PeopleIcon />,
-    variant: "orange",
+    variant: "pretty_white",
     url: RoutesFAQ.VisitasYContactos.URL
   },
   {
     id: "traslados",
     title: "Traslados",
     icon: <TruckIcon />,
-    variant: "green",
+    variant: "pretty_white",
     url: RoutesFAQ.Traslados.URL
   },
   {
     id: "salud",
-    title: "Salud y sanciones",
+    title: "Salud",
     icon: <HeartIcon />,
-    variant: "orange",
+    variant: "pretty_white",
     url: RoutesFAQ.SaludYSanciones.URL
   },
   {
     id: "derechos",
     title: "Acceso a derechos y actividades",
     icon: <KeyIcon />,
-    variant: "green",
+    variant: "pretty_white",
     url: RoutesFAQ.AccesoDerechosActividades.URL
   },
   {
     id: "egreso",
-    title: "Liberación y egreso",
+    title: "La salida",
     icon: <HomeIcon />,
-    variant: "orange",
-    url: RoutesFAQ.LiberacionYEgreso.URL
+    variant: "pretty_white",
+    url: RoutesFAQ.Salida.URL
   },
   {
     id: "contactos",
     title: "Contactos útiles",
     icon: <PhoneIcon />,
-    variant: "green",
+    variant: "pretty_white",
     url: RoutesFAQ.ContactosUtiles.URL
   },
 ];

@@ -1,16 +1,17 @@
-// import { Container, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
-import InlineSpotlight from "../../components/inline-spotlight/InlineSpotlight";
-import familias_presentes from '../../assets/images/familias_presentes.png'
+import familias_presentes from '../../assets/images/familias_presentes.png';
 import europe from '../../assets/images/europe.svg'
 
 import "./home.scss";
 
+
+
+
 export default function HomePage() {
   const navigate = useNavigate();
   const onNext = () => navigate("/introduccion");
-  const onSkipIntro = () => navigate("/preguntas-frecuentes");
+  const onSkipIntro = () => navigate("/mapa-de-ruta");
 
   return (
     <main className="min-vh-100 d-flex align-items-stretch bg--brand-bg-light">
@@ -26,18 +27,18 @@ export default function HomePage() {
 
         <section>
           <h2 className="mx-1 mx-md-5 text-center  lh-base">
-            Esta guía es para quienes estamos afuera,
-            {" "}
+            Esta guía es para quienes estamos afuera, acompañando y sosteniendo los procesos de los procesos de encarcelamiento.
+            {/* {" "}
             <InlineSpotlight bg="var(--brand-sage)" color="white" rounded={1} px={0.4}>
               acompañando y sosteniendo
             </InlineSpotlight>
             {" "}
-            los procesos de
+            
             {" "}
             <InlineSpotlight bg="var(--brand-wine)" color="white" rounded={1} px={0.4}>
               encarcelamiento
             </InlineSpotlight>
-            .
+            . */}
           </h2>
         </section>
 

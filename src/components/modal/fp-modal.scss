@@ -1,0 +1,42 @@
+/* Franja superior (Volver) – tono naranja */
+.topbar-back-button-container {
+  height: var(--fp-topbar-1-h);
+  // background: linear-gradient(0deg, #e3a555, var(--fp-accent));
+  background: #e3a555 !important;
+  color: #fff  !important;
+  display: flex;
+  align-items: center;
+  padding-inline: 12px;
+}
+
+/* color blanco en Volver dentro de la franja superior */
+.fp-topbar-back-button,
+.fp-topbar-back-button,
+.fp-topbar-back-button {
+  color: var(--fp-primary-contrast) !important; /* blanco */
+  text-decoration: none;
+  opacity: 1;
+}
+
+.topbar-back-button {
+  color: #fff !important;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.topbar-back-button:hover,
+.topbar-back-button:focus {
+  color: #fff;
+  text-decoration: none;
+  opacity: 0.9;
+}
+
+.topbar-back-button,
+.topbar-back-button:hover,
+.topbar-back-button:focus {
+  color: var(--fp-primary-contrast) !important; /* blanco */
+  text-decoration: none;
+  opacity: 1;
+}

@@ -1,0 +1,18 @@
+@use "../../../../styles/variables" as v;
+
+.screen {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  padding: 16px 18px 28px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 600;
+  color: v.$ink-900;
+  text-align: center;
+  margin: 18px 0 16px;
+}

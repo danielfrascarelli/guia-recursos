@@ -30,25 +30,10 @@
   position: fixed;
   left: 0;
   right: 0;
-  bottom: 0; /* anclado al viewport */
-  z-index: 1000;
-
-  /* El gradiente ayuda a la legibilidad cuando hay texto detrás */
-  // background: linear-gradient(
-  //   180deg,
-  //   rgba(255, 255, 255, 0) 0%,
-  //   rgba(255, 255, 255, 0.85) 40%,
-  //   rgba(255, 255, 255, 1) 100%
-  // );
-
+  bottom: 0;  z-index: 1000;
   display: flex;
   justify-content: center;
-
-  /* Respeta el notch/home-indicator en iOS */
   padding: 12px 16px calc(12px + env(safe-area-inset-bottom));
-
-  /* Hacemos clickeable sólo el botón (útil si el gradiente cubre el contenido) */
-  // pointer-events: none;
 }
 
 .fp-intro-cta {
@@ -62,7 +47,7 @@
   box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 
   /* Tus colores aquí (ejemplo naranja) */
-  background: #f2a44f;
+  background: var(--brand-wine); // #f2a44f;
   border: 0;
   color: #fff;
 
@@ -72,4 +57,16 @@
   &:active {
     transform: translateY(1px);
   }
+}
+
+
+/* Aplica las sombras leídas de variables a cada estado */
+.btn-brand-shadow {
+  box-shadow: var(--brand-btn-shadow);
+}
+.btn-brand-shadow:hover {
+  box-shadow: var(--brand-btn-hover-shadow);
+}
+.btn-brand-shadow:active {
+  box-shadow: var(--brand-btn-active-shadow);
 }

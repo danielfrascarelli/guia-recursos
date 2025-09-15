@@ -1,9 +1,11 @@
-export interface SectionButtonProps {
+import type { ItemVariant } from "../../shared/utils/Item";
+
+export interface SectionButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     label: string;
     icon?: React.ReactNode;
-    variant?: "green" | "orange";
+    variant?: ItemVariant;
+    showLeftIcon?: boolean;
     showRight?: boolean;
     onClick?: () => void;
-    /** separación entre ícono y texto (px, rem, etc). Ej: 12 o "0.75rem" */
     gap?: number | string;
 };

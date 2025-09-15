@@ -5,7 +5,7 @@ const steps: StepDef[] = [
   { name: "Detención",          icon: "bi-shield-lock" },
   { name: "Contacto",           icon: "bi-telephone" },
   { name: "Traslado",           icon: "bi-truck" },
-  { name: "Salud y sanciones",  icon: "bi-heart-pulse" },
+  { name: "Salud",  icon: "bi-heart-pulse" },
   { name: "Derechos",           icon: "bi-book" },
 ];
 

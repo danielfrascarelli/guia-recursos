@@ -4,7 +4,7 @@ export function getContentDefinition(): ContentDefinition[] {
   const items = [
     {
       id: "1",
-      variant: "orange",
+      variant: "pretty_white",
       url: "1",
       componentType: "TextComponent",
       props: {
@@ -14,7 +14,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "2",
-      variant: "green",
+      variant: "pretty_white",
       url: "2",
       componentType: "TextComponent",
       props: {
@@ -24,7 +24,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "3",
-      variant: "orange",
+      variant: "pretty_white",
       url: "3",
       componentType: "TextComponent",
       props: {
@@ -34,7 +34,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "4",
-      variant: "green",
+      variant: "pretty_white",
       url: "4",
       componentType: "TextComponent",
       props: {
@@ -44,7 +44,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "5",
-      variant: "orange",
+      variant: "pretty_white",
       url: "5",
       componentType: "TextComponent",
       props: {
@@ -54,7 +54,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "6",
-      variant: "green",
+      variant: "pretty_white",
       url: "6",
       componentType: "TextComponent",
       props: {
@@ -64,7 +64,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "7",
-      variant: "orange",
+      variant: "pretty_white",
       url: "7",
       componentType: "TextComponent",
       props: {
@@ -74,7 +74,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "8",
-      variant: "green",
+      variant: "pretty_white",
       url: "8",
       componentType: "TextComponent",
       props: {
@@ -84,7 +84,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "9",
-      variant: "orange",
+      variant: "pretty_white",
       url: "9",
       componentType: "TextComponent",
       props: {
@@ -94,7 +94,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "10",
-      variant: "green",
+      variant: "pretty_white",
       url: "10",
       componentType: "TextComponent",
       props: {
@@ -104,7 +104,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "11",
-      variant: "orange",
+      variant: "pretty_white",
       url: "11",
       componentType: "TextComponent",
       props: {
@@ -114,7 +114,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "12",
-      variant: "green",
+      variant: "pretty_white",
       url: "12",
       componentType: "TextComponent",
       props: {
@@ -124,7 +124,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "13",
-      variant: "orange",
+      variant: "pretty_white",
       url: "13",
       componentType: "TextComponent",
       props: {
@@ -134,7 +134,7 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "14",
-      variant: "green",
+      variant: "pretty_white",
       url: "14",
       componentType: "Text2Component",
       props: {

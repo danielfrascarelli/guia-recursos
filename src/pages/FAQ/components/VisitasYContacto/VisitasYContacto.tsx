@@ -1,19 +1,24 @@
-import { useNavigate } from "react-router-dom";
-
 import styles from "./VisitasYContacto.module.scss";
 import { TextListOptions } from "../../../../components/text-list-options/TextListOptions";
 import { getContentDefinition } from "./ContentDefinition";
+import type { TextComponentProps } from "../../../../components/text-component/TextComponentProps";
+import TitleBar from "../../../../components/title-bar/TitleBar";
+import type { DefinitionProps } from "../../../../components/DefinitionProps";
+import type { RelativeType } from "../../../../shared/utils/RelativeType";
+
+export interface VisitasYContactoProps extends DefinitionProps {
+  type: RelativeType;
+};
 
 export default function VisitasYContacto() {
-  const navigate = useNavigate();
 
-  const items = getContentDefinition().map(i => ({ title: i.props.title, ...i }));
+  const items = getContentDefinition().map(i => ({ title: (i.props as TextComponentProps).title, ...i }));
 
   return (
     <div className={styles.screen}>
+      <TitleBar title={"Visitas y contacto"} />
       <main className={styles.main}>
-        <h1 className={styles.title}>Visitas y contacto</h1>
-        <TextListOptions items={items} onClick={(url: string) => navigate(url)} />
+        <TextListOptions items={items}  />
       </main>
     </div>
   );

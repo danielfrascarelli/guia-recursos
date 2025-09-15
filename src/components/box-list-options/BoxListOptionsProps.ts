@@ -1,6 +1,6 @@
 import type { TextListItem } from "../../shared/utils/Item";
 
-export type BoxListVariant = "contacts" | "faq" | "inr"| "default";
+export type BoxListVariant = "contacts" | "faq" | "inr" | "default" | "white";
 
 export interface BoxListOptionsProps {
     items: TextListItem[];

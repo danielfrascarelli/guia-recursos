@@ -1,0 +1,41 @@
+.speaker {
+  position: relative;
+  width: var(--spk-width, min(1100px, 100%));
+  margin: 0;
+}
+
+/* imagen de la mujer (escala responsiva) */
+.speaker__img {
+  display: block;
+  width: 100%;
+  height: auto;
+  /* si querés esquinas suaves:
+     border-radius: 12px; */
+}
+
+/* contenedor del globo, posicionado encima de la imagen */
+.speaker__bubble {
+  position: absolute;
+  top: var(--spk-bubble-top, 21%);
+  /* elegí una de estas dos anclas (left o right) */
+  left: var(--spk-bubble-left, auto);
+  right: var(--spk-bubble-right, 4%);
+  transform: translateY(-6%); /* ajuste fino vertical */
+  z-index: 2;
+
+  /* límites para no salirse en pantallas chicas */
+  max-width: min(var(--spk-bubble-max, 520px), 92vw);
+  min-width: var(--spk-bubble-min, unset);
+}
+
+/* accesibilidad: oculto visual pero legible por SR */
+.visually-hidden {
+  position: absolute !important;
+  clip: rect(1px,1px,1px,1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+  white-space: nowrap;
+}

@@ -30,6 +30,11 @@ export const BoxListOptions: React.FC<BoxListOptionsProps> = ({ items, variant =
       ["--bl-text" as any]: "var(--brand-ink)",
       ["--bl-border" as any]: "transparent",
     },
+    white: {
+      ["--bl-bg" as any]: "var(--bs-light)",
+      ["--bl-text" as any]: "var(--bs-body-color)",
+      ["--bl-border" as any]: "var(--bs-border-color)",
+    },
     default: {
       ["--bl-bg" as any]: "var(--bs-light)",
       ["--bl-text" as any]: "var(--bs-body-color)",
@@ -46,7 +51,7 @@ export const BoxListOptions: React.FC<BoxListOptionsProps> = ({ items, variant =
 
   return (
     <nav
-      className={`d-flex flex-wrap justify-content-right gap-2 gap-md-3 gap-lg-4 gap-xl-5 ${className}`}
+      className={`d-flex flex-wrap justify-content-center gap-2 gap-md-3 gap-lg-4 gap-xl-5 ${className}`}
       style={style}>
       {items.map((item) => (
         <BoxButton

@@ -23,7 +23,7 @@ export abstract class RoutesFAQ {
   // Salud y sanciones
   static readonly SaludYSanciones = class {
     private constructor() { }
-    static readonly URL = "salud-y-sanciones";
+    static readonly URL = "salud";
   };
 
   // Salud y sanciones
@@ -33,9 +33,9 @@ export abstract class RoutesFAQ {
   };
 
   // Salud y sanciones
-  static readonly LiberacionYEgreso = class {
+  static readonly Salida = class {
     private constructor() { }
-    static readonly URL = "liberacion-y-egreso";
+    static readonly URL = "salida";
   };
 
   // Salud y sanciones

@@ -1,0 +1,45 @@
+.offset-card {
+  position: relative;
+  /* el contenedor ya no dibuja borde, lo hará ::after */
+  background: transparent;
+  padding: var(--oc-pad, 24px);
+  border: none;
+  /* crea un stacking context para que ::before (z:-1) no se vaya
+     debajo de hermanos; y ::after quede arriba del contenido */
+  z-index: 0;
+  isolation: isolate;
+  overflow: visible;
+}
+
+/* Fondo corrido DETRÁS del borde */
+.offset-card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;                     /* detrás de todo dentro de la card */
+  top:    var(--oc-off-y-start, 16px);
+  left:   var(--oc-off-x-start, 16px);
+  right:  calc(var(--oc-over-x, 18px) * -1);   /* overhang hacia afuera */
+  bottom: calc(var(--oc-over-y, 18px) * -1);
+  border-radius: calc(var(--oc-radius, 28px) - var(--oc-bw, 4px));
+  background: var(--oc-bg, #dff2ec);
+}
+
+/* Borde por ENCIMA de fondo y contenido */
+.offset-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;                        /* cubre exactamente la caja */
+  border: var(--oc-bw, 4px) solid var(--oc-border, #00a896);
+  border-radius: var(--oc-radius, 28px);
+  pointer-events: none;            /* no bloquea clicks al contenido */
+  z-index: 2;                      /* sobre contenido y fondo */
+}
+
+.offset-card__content {
+  position: relative;
+  z-index: 1;      /* debajo del borde (::after) pero sobre el fondo */
+  color: #182b66;
+  font-size: clamp(18px, 2.1vw, 28px);
+  line-height: 1.35;
+  font-weight: 700;
+}
