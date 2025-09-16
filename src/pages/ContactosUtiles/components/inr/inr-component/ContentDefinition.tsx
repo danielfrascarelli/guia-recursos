@@ -1,5 +1,6 @@
-import type { ContentDefinition } from "../../../../../../../components/ItemDefinition";
+import type { ContentDefinition } from "../../../../../components/ItemDefinition";
 
+ 
 export const data = {
   departamento: "Montevideo",
   ciudad: "Montevideo",

@@ -3,13 +3,19 @@ import { Modal, Button } from 'react-bootstrap';
 
 type ModalProps = {
   title: string;
-  modalTitle: string;
-  children: React.ReactNode;
+  modalTitle?: string;
+  children?: React.ReactNode;
+  onClick?: () => void;
 };
+
+
+import woman from "../../assets/images/woman.svg";
+import "./fp-modal.scss";
 
 export default function FpModal({
   title,
   modalTitle,
+  onClick,
   children,
 }: ModalProps) {
   const [show, setShow] = useState(false); // State to control modal visibility
@@ -19,9 +25,16 @@ export default function FpModal({
   return (
 
     <>
-      <Button variant="primary" onClick={handleShow}>
-        {title}
-      </Button>
+      <button className="box-btn" onClick={() => { onClick ? onClick() : handleShow() }}>
+        <div className="box-container">
+          <div className="box-title">
+            {title}
+          </div>
+          <div className="box-image-container">
+            <img src={woman} className="box-image" alt={`${title} logo`} />
+          </div>
+        </div>
+      </button>
 
       <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>

@@ -10,9 +10,9 @@ export interface VisitasYContactoProps extends DefinitionProps {
   type: RelativeType;
 };
 
-export default function VisitasYContacto() {
+export default function VisitasYContacto({type}:VisitasYContactoProps) {
 
-  const items = getContentDefinition().map(i => ({ title: (i.props as TextComponentProps).title, ...i }));
+  const items = getContentDefinition(type).map(i => ({ title: (i.props as TextComponentProps).title, ...i }));
 
   return (
     <div className={styles.screen}>

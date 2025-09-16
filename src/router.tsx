@@ -1,4 +1,4 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter, Navigate } from "react-router-dom";
 
 import Layout from "./layouts/Layout";
 import Introduction from "./pages/Introduction/Introduction";
@@ -13,7 +13,47 @@ import EarlyMoments from "./pages/RouteMap/components/early-moments/EarlyMoments
 import { getContentDefinition as getEarlyMomentsContentDefinition } from "./pages/RouteMap/components/early-moments/ContentDefinition";
 import { SelectRelativeType } from "./pages/RouteMap/components/select-relative-type/SelectRelativeType";
 import FAQ from "./pages/FAQ/FAQ";
-import { RelativeType } from "./shared/utils/RelativeType";
+import { getRelativeTypeName, RelativeType } from "./shared/utils/RelativeType";
+import { getContentDefinition as getFAQContentDefinition } from "./pages/FAQ/ContentDefinition";
+import { getContentDefinition as getVisitasYContactoContentDefinition } from "./pages/FAQ/components/VisitasYContacto/ContentDefinition";
+import { getContentDefinition as getTrasladosContentDefinition } from "./pages/FAQ/components/Traslados/ContentDefinition";
+import { getContentDefinition as getAccesoADerechoContentDefinition } from "./pages/FAQ/components/AccesoADerechos/ContentDefinition";
+import { getContentDefinition as getSalidaContentDefinition } from "./pages/FAQ/components/Salida/ContentDefinition";
+import { getContentDefinition as getSaludContentDefinition } from "./pages/FAQ/components/Salud/ContentDefinition";
+
+const allFaqRoutes = [RelativeType.Adult, RelativeType.Teenager].flatMap(type => {
+  return [{
+    url: 'visitas-y-contacto',
+    fn: getVisitasYContactoContentDefinition
+  },
+  {
+    url: 'traslados',
+    fn: getTrasladosContentDefinition
+  },
+  {
+    url: 'salud',
+    fn: getSaludContentDefinition
+  },
+  {
+    url: 'acceso-a-derecho',
+    fn: getAccesoADerechoContentDefinition
+  },
+  {
+    url: 'salida',
+    fn: getSalidaContentDefinition
+  }
+  ].flatMap(pathFn => {
+    const items = pathFn.fn(type);
+    return items.flatMap(i => {
+      const Cmp = registry[i.componentType] as React.ComponentType<any>;
+      return ({
+        path: `/mapa-de-ruta/${getRelativeTypeName(type)}/${pathFn.url}/${i.url}`,
+        element: <Cmp key={i} {...i.props} />
+      });
+    });
+
+  });
+});
 
 export const router = createBrowserRouter([
   {
@@ -49,42 +89,6 @@ export const router = createBrowserRouter([
     element: <Layout titleShow={false} showNextButton={false} />,
     children: [
       { index: true, element: <RouteMap /> },
-      // TODO: hacer este routeo de forma mas inteligente
-
-      // /preguntas-frecuentes/primeros-momentos-de-la-detencion'
-
-      {
-        path: '/mapa-de-ruta/seleccionar-familiar',
-        element: <SelectRelativeType title="dummy" />,
-      },
-      {
-        path: '/mapa-de-ruta/adulto',
-        element: <FAQ type={RelativeType.Adult} title="dummy" />,
-      },
-      {
-        path: '/mapa-de-ruta/adolescente',
-        element: <FAQ type={RelativeType.Teenager} title="dummy" />,
-      },
-      // ...getAdultContentDefinition().map((i) => {
-      //   const Cmp = registry[i.componentType] as React.ComponentType<any>;
-      //   return ({
-      //     path: `/preguntas-frecuentes/primeros-momentos-de-la-detencion/mapa-de-ruta/adulto/${i.url}`,
-      //     element: <Cmp key={i} {...i.props} />
-      //   })
-      // }),
-
-      // {
-      //   path: '/preguntas-frecuentes/primeros-momentos-de-la-detencion/mapa-de-ruta/adolescente',
-      //   element: <TypePerson title="" type="adolescente" />,
-      // },
-
-      // ...getTeenagerContentDefinition().map((i) => {
-      //   const Cmp = registry[i.componentType] as React.ComponentType<any>;
-      //   return ({
-      //     path: `/preguntas-frecuentes/primeros-momentos-de-la-detencion/mapa-de-ruta/adolescente/${i.url}`,
-      //     element: <Cmp key={i} {...i.props} />
-      //   })
-      // }),
 
       {
         path: '/mapa-de-ruta/primeros-momentos',
@@ -98,90 +102,36 @@ export const router = createBrowserRouter([
         })
       }),
 
-      // // visitas-y-contacto'
-      // {
-      //   path: '/preguntas-frecuentes/visitas-y-contacto',
-      //   element: <VisitasYContacto />,
-      // },
-      // ...getVisitasYContactoContentDefinition().map((i) => {
-      //   const Cmp = registry[i.componentType] as React.ComponentType<any>;
-      //   return ({
-      //     path: `/preguntas-frecuentes/visitas-y-contacto/${i.url}`,
-      //     element: <Cmp key={i} {...i.props} />
-      //   })
-      // }),
+      {
+        path: '/mapa-de-ruta/seleccionar-familiar',
+        element: <SelectRelativeType title="dummy" />,
+      },
 
-      // // traslados
-      // {
-      //   path: '/preguntas-frecuentes/traslados',
-      //   element: <Traslados />,
-      // },
-      // ...getTrasladosContentDefinition().map((i) => {
-      //   const Cmp = registry[i.componentType] as React.ComponentType<any>;
-      //   return ({
-      //     path: `/preguntas-frecuentes/traslados/${i.url}`,
-      //     element: <Cmp key={i} {...i.props} />
-      //   })
-      // }),
+      {
+        path: '/mapa-de-ruta/adulto',
+        element: <FAQ type={RelativeType.Adult} title="dummy" />,
+      },
+      ...getFAQContentDefinition(RelativeType.Adult).map((i) => {
+        const Cmp = registry[i.componentType] as React.ComponentType<any>;
+        return ({
+          path: `/mapa-de-ruta/${getRelativeTypeName(RelativeType.Adult)}/${i.url}`,
+          element: <Cmp key={i} {...i.props} />
+        })
+      }),
 
+      {
+        path: '/mapa-de-ruta/adolescente',
+        element: <FAQ type={RelativeType.Teenager} title="dummy" />,
+      },
+      ...getFAQContentDefinition(RelativeType.Teenager).map((i) => {
+        const Cmp = registry[i.componentType] as React.ComponentType<any>;
+        return ({
+          path: `/mapa-de-ruta/${getRelativeTypeName(RelativeType.Teenager)}/${i.url}`,
+          element: <Cmp key={i} {...i.props} />
+        })
+      }),
 
-
-      // // salud
-      // {
-      //   path: '/preguntas-frecuentes/salud',
-      //   element: <Salud />,
-      // },
-      // ...getSaludContentDefinition().map((i) => {
-      //   const Cmp = registry[i.componentType] as React.ComponentType<any>;
-      //   return ({
-      //     path: `/preguntas-frecuentes/salud/${i.url}`,
-      //     element: <Cmp key={i} {...i.props} />
-      //   })
-      // }),
-
-
-      // // acceso-a-derechos
-      // {
-      //   path: '/preguntas-frecuentes/acceso-a-derechos-y-actividades',
-      //   element: <AccesoADerechos />,
-      // },
-      // ...getAccesoADerechosContentDefinition().map((i) => {
-      //   const Cmp = registry[i.componentType] as React.ComponentType<any>;
-      //   return ({
-      //     path: `/preguntas-frecuentes/acceso-a-derechos-y-actividades/${i.url}`,
-      //     element: <Cmp key={i} {...i.props} />
-      //   })
-      // }),
-
-      // // salida
-      // {
-      //   path: '/preguntas-frecuentes/salida',
-      //   element: <Salida />,
-      // },
-      // ...SalidaContentDefinition().map((i) => {
-      //   const Cmp = registry[i.componentType] as React.ComponentType<any>;
-      //   return ({
-      //     path: `/preguntas-frecuentes/salida/${i.url}`,
-      //     element: <Cmp key={i} {...i.props} />
-      //   })
-      // }),
-
-
-
-      // // contactos-utiles
-      // {
-      //   path: '/preguntas-frecuentes/contactos-utiles/instituto-nacional-de-rehabilitacion',
-      //   element: <Inr title="Instituto Nacional de Rehabilitación" />,
-      // },
-      // ...getInrContentDefinition().map((i) => {
-      //   const Cmp = registry[i.componentType] as React.ComponentType<any>;
-      //   return ({
-      //     path: `/preguntas-frecuentes/contactos-utiles/instituto-nacional-de-rehabilitacion/${i.url}`,
-      //     element: <Cmp key={i} {...i.props} />
-      //   })
-      // }),
-
-
+      ...allFaqRoutes,
 
       // contactos-utiles
       {
@@ -195,12 +145,12 @@ export const router = createBrowserRouter([
           element: <Cmp key={i} {...i.props} />
         })
       }),
-
-
-
-
     ],
   },
+  {
+    path: '*',
+    element: <Navigate to="/" />
+  }
 ]);
 
 
@@ -211,4 +161,3 @@ export const router = createBrowserRouter([
 
 
 
- 

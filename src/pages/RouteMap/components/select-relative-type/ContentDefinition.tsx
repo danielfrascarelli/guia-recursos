@@ -1,7 +1,8 @@
-import type { ContentDefinition } from "../../../../../../components/ItemDefinition";
-
+ 
 import adulto from "/src/assets/images/adulto.png";
 import adolescente from "/src/assets/images/adolescente.png"; 
+import type { ContentDefinition } from "../../../../components/ItemDefinition";
+import { RelativeType } from "../../../../shared/utils/RelativeType";
 
 export function getContentDefinition(): ContentDefinition[] {
   const items = [{
@@ -12,7 +13,7 @@ export function getContentDefinition(): ContentDefinition[] {
     componentType: "TypePersonComponent",
     props: {
       title: "Adulto",
-      type: "adulto",
+      type: RelativeType.Adult,
     },
   },
   {
@@ -23,7 +24,7 @@ export function getContentDefinition(): ContentDefinition[] {
     componentType: "TypePersonComponent",
     props: {
       title: "Adolescente",
-      type: "adolescente",
+      type: RelativeType.Teenager,
     }
   }
   ] satisfies ContentDefinition[];

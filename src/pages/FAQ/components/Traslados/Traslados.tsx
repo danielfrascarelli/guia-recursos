@@ -3,9 +3,15 @@ import { TextListOptions } from "../../../../components/text-list-options/TextLi
 import { getContentDefinition } from "./ContentDefinition";
 import type { TextComponentProps } from "../../../../components/text-component/TextComponentProps";
 import TitleBar from "../../../../components/title-bar/TitleBar";
+import type { RelativeType } from "../../../../shared/utils/RelativeType";
+import type { DefinitionProps } from "../../../../components/DefinitionProps";
 
-export default function Traslados() {
-  const items = getContentDefinition().map(i => ({ title: (i.props as TextComponentProps).title, ...i }));
+export interface TrasladosProps extends DefinitionProps {
+  type: RelativeType;
+};
+
+export default function Traslados({ type }: TrasladosProps) {
+  const items = getContentDefinition(type).map(i => ({ title: (i.props as TextComponentProps).title, ...i }));
 
   return (
     <div className={styles.screen}>

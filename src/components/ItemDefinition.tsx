@@ -22,6 +22,10 @@ import type { SelectRelativeTypeProps } from "../pages/RouteMap/components/selec
 import EarlyMoments, { type EarlyMomentsProps } from "../pages/RouteMap/components/early-moments/EarlyMoments";
 import type { VisitasYContactoProps } from "../pages/FAQ/components/VisitasYContacto/VisitasYContacto";
 import VisitasYContacto from "../pages/FAQ/components/VisitasYContacto/VisitasYContacto";
+import AccesoADerechos, { type AccesoADerechosProps } from "../pages/FAQ/components/AccesoADerechos/AccesoADerechos";
+import Salida, { type SalidaProps } from "../pages/FAQ/components/Salida/Salida";
+import Salud, { type SaludProps } from "../pages/FAQ/components/Salud/Salud";
+import Traslados, { type TrasladosProps } from "../pages/FAQ/components/Traslados/Traslados";
 
 export const registry = {
     TextComponent: TextComponent as React.ComponentType<TextComponentProps>,
@@ -36,6 +40,10 @@ export const registry = {
     FAQComponent: FAQ as React.ComponentType<FAQProps>,
     EarlyMomentsComponent: EarlyMoments as React.ComponentType<EarlyMomentsProps>,
     VisitasYContactoComponent: VisitasYContacto as React.ComponentType<VisitasYContactoProps>,
+    TrasladosComponent: Traslados as React.ComponentType<TrasladosProps>,
+    SaludComponent: Salud as React.ComponentType<SaludProps>,
+    AccesoADerechosComponent: AccesoADerechos as React.ComponentType<AccesoADerechosProps>,
+    SalidaComponent: Salida as React.ComponentType<SalidaProps>,
 
     
 } as const;

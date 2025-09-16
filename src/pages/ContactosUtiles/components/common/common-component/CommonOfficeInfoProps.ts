@@ -1,5 +1,6 @@
-import type { DefinitionProps } from "../../../../../../../components/DefinitionProps";
+import type { DefinitionProps } from "../../../../../components/DefinitionProps";
 
+ 
 export interface Phone {
     area: string,
     phone: string

@@ -1,42 +1,28 @@
-/* Franja superior (Volver) – tono naranja */
-.topbar-back-button-container {
-  height: var(--fp-topbar-1-h);
-  // background: linear-gradient(0deg, #e3a555, var(--fp-accent));
-  background: #e3a555 !important;
-  color: #fff  !important;
-  display: flex;
-  align-items: center;
-  padding-inline: 12px;
-}
+.box-btn,
+.box-btn:hover,
+.box-btn:active {
+  background-color: transparent;
+  border: none;
 
-/* color blanco en Volver dentro de la franja superior */
-.fp-topbar-back-button,
-.fp-topbar-back-button,
-.fp-topbar-back-button {
-  color: var(--fp-primary-contrast) !important; /* blanco */
-  text-decoration: none;
-  opacity: 1;
-}
+  .box-container {
+    .box-title {
+      padding-top: 30px;
+      border-top: 0.8px solid #204f55; // black;
+      border-left: 0.8px solid #204f55;
+      border-right: 0.8px solid #204f55;
+      margin-left: 20.5px;
+      margin-right: 17.7px;
+      border-top-left-radius: 20px;
+      border-top-right-radius: 20px;
+      width: 231.805px;
+    }
 
-.topbar-back-button {
-  color: #fff !important;
-  font-weight: 500;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
-
-.topbar-back-button:hover,
-.topbar-back-button:focus {
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.9;
-}
-
-.topbar-back-button,
-.topbar-back-button:hover,
-.topbar-back-button:focus {
-  color: var(--fp-primary-contrast) !important; /* blanco */
-  text-decoration: none;
-  opacity: 1;
+    .box-image-container {
+      .box-image {
+        background-color: transparent;
+        border: none;
+        width: 270px;
+      }
+    }
+  }
 }

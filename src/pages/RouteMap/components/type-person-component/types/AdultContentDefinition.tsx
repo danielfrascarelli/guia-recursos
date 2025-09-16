@@ -1,4 +1,4 @@
-import type { ContentDefinition } from "../../../../../../../components/ItemDefinition";
+import type { ContentDefinition } from "../../../../../components/ItemDefinition";
 
 
 export function getAdultContentDefinition(): ContentDefinition[] {
@@ -24,8 +24,8 @@ Para ver al juez, existe un tiempo de espera de hasta 24 hs.
       componentType: "TextComponent",
       props: {
         title: "Es importante conocer la tipificación del delito (causa) de tu familiar:",
-        text: 
-`
+        text:
+          `
 Los/as defensores/as necesitan la colaboración de las familias durante el proceso, por eso es importante que estés en los primeros momentos de la detención. 
 Podes acercarte a hablar con el/la defensor/a para tener mayor información y así saber como ayudar y acompañar. 
 

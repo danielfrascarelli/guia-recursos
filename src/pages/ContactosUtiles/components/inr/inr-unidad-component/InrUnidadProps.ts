@@ -1,5 +1,6 @@
-import type { DefinitionProps } from "../../../../../../../components/DefinitionProps";
+import type { DefinitionProps } from "../../../../../components/DefinitionProps";
 
+ 
 export type Telefono = { area: string; numeros: string };
 export type Correo = { area: string; email: string };
 

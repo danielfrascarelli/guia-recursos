@@ -1,12 +1,7 @@
 import check from '../../assets/images/check.svg'
 import OffsetCard from '../../components/offset-card/OffsetCard';
 
-import "./tips.scss";
-
-import womanMegaphone from "../../assets/images/megaphone_woman.png";
-import SpeakerWithBubble from '../../components/speaker-with-bubble/SpeakerWithBubble';
-import MegaphoneSketch from '../../components/speaker-with-bubble/SpeakerWithBubble';
-import SpeechBubble from '../../components/speaker-with-bubble/speech-bubble/SpeechBubble';
+import "./tips.scss"; 
 
 export default function Tips() {
   return (
@@ -67,51 +62,6 @@ export default function Tips() {
           es importante que sea comunicado para la tramitación del ingreso de la misma.
         </OffsetCard>
       </div>
-      al boceto, con piquito abajo inclinado a la derecha
-<SpeechBubble text="TEXTO" maxWidth={420} fontSize={48} tailLean="right" />
-
-// Piquito hacia la izquierda
-<SpeechBubble
-  text={"Mensaje con dos líneas\nque se adapta al ancho"}
-  maxWidth={520}
-  tailLean="left"
-/>
-      // básico, como el boceto
-      <SpeechBubble text="TEXTO" maxWidth={420} fontSize={48} />
-
-// piquito más fino, un poco a la derecha
-      <SpeechBubble
-        text={"Un globo que se adapta al largo del texto.\nEn dos líneas."}
-        maxWidth={520}
-        tailWidth={36}
-        tailHeight={16}
-        tailOffset={40}
-        tailCurve={0.9}
-      />
-
-// limitar altura (tres líneas máximo aprox.)
-      <SpeechBubble
-        text={"Este texto es muy largo y debería cortarse con puntos suspensivos si sobrepasa el alto."}
-        maxWidth={420}
-        maxHeight={450}
-      />
-
-
-      {/* <MegaphoneSketch
-  text={"TEXTO"}
-  bubbleMaxWidth={520}
-  bubbleX={760}
-  bubbleY={60}
-  bubbleSide="left"
-  bubbleTailOffset={88}
-  tailTipX={515}
-  tailTipY={220}
-  fontSize={42}
-  lineHeight={1.1}
-  strokeWidth={4}
-  radius={22}
-/> */}
-
     </div>
   );
 }

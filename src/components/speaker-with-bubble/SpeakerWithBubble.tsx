@@ -130,7 +130,7 @@ function bubbleTailPath(opts: {
   tipX: number;
   tipY: number;
 }) {
-  const { side, boxX, boxY, boxW, boxH, radius, tailW, tailH, tailOffset, tipX, tipY } = opts;
+  const { side, boxX, boxY, boxW, boxH, radius,   tailH, tailOffset, tipX, tipY } = opts;
   const rr = Math.min(radius, boxH / 2 - 1);
   const clamp = (v: number, a: number, b: number) => Math.max(a, Math.min(b, v));
   const baseY = clamp(boxY + tailOffset, boxY + rr + 2, boxY + boxH - rr - 2);

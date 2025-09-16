@@ -7,7 +7,7 @@ export function getContentDefinition(): ContentDefinition[] {
       id: "1",
       variant: "pretty_white",
       url: "primeros-momentos",
-      componentType: "PrimerosPasosComponent",
+      componentType: "EarlyMomentsComponent",
       props: {
         title: "Primeros momentos de la detencion",
       },
