@@ -64,6 +64,7 @@ const palettes = {
 export const SectionButton: React.FC<SectionButtonProps> = ({
   label,
   icon,
+  iconLabel,
   variant = "green",
   showRight = true,
   showLeftIcon = true,
@@ -95,7 +96,7 @@ export const SectionButton: React.FC<SectionButtonProps> = ({
         <span className="sb-badge flex-shrink-0" aria-hidden="true"
         >
           {/* <label className="showLeftIcon">?</label> */}
-          {icon ?? "?"}
+          {iconLabel ?? "?"}
         </span>
       )}
       <div className="d-flex align-items-center" style={{ gap: gapValue }}>

@@ -5,7 +5,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
   const items = [
     {
       id: "1",
-      variant: "orange",
+      variant: "pretty_white",
       url: "1",
       componentType: "TextComponent",
       props: {
@@ -15,7 +15,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
     },
     {
       id: "2",
-      variant: "green",
+      variant: "pretty_white",
       url: "2",
       componentType: "TextComponent",
       props: {
@@ -25,7 +25,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
     },
     {
       id: "3",
-      variant: "orange",
+      variant: "pretty_white",
       url: "3",
       componentType: "TextComponent",
       props: {
@@ -35,7 +35,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
     },
     {
       id: "4",
-      variant: "green",
+      variant: "pretty_white",
       url: "4",
       componentType: "TextComponent",
       props: {
@@ -45,7 +45,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
     },
     {
       id: "5",
-      variant: "orange",
+      variant: "pretty_white",
       url: "5",
       componentType: "TextComponent",
       props: {
@@ -55,7 +55,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
     },
     {
       id: "6",
-      variant: "green",
+      variant: "pretty_white",
       url: "6",
       componentType: "TextComponent",
       props: {
@@ -65,7 +65,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
     },
     {
       id: "7",
-      variant: "orange",
+      variant: "pretty_white",
       url: "7",
       componentType: "TextComponent",
       props: {

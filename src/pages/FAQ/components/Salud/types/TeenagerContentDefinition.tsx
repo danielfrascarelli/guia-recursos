@@ -5,7 +5,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
   const items = [
     {
       id: "1",
-      variant: "orange",
+      variant: "pretty_white",
       url: "1",
       componentType: "TextComponent",
       props: {
@@ -15,7 +15,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
     },
     {
       id: "2",
-      variant: "green",
+      variant: "pretty_white",
       url: "2",
       componentType: "TextComponent",
       props: {
@@ -25,7 +25,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
     },
     {
       id: "3",
-      variant: "orange",
+      variant: "pretty_white",
       url: "3",
       componentType: "TextComponent",
       props: {

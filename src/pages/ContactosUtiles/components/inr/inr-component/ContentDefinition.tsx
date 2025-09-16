@@ -39,8 +39,8 @@ export function getContentDefinition(): ContentDefinition[] {
   const items = [
     {
       id: "unidad-1",
-      icon: "",
-      variant: "green",
+      iconLabel: "1", 
+      variant: "pretty_white",      
       componentType: "InrUnidadComponent",
       props: { 
         shortAddressDescription: "Punta de Rieles, Montevideo",
@@ -51,8 +51,8 @@ export function getContentDefinition(): ContentDefinition[] {
     }
     , {
       id: "unidad-2",
-      icon: "",
-      variant: "green",
+      iconLabel: "2",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 2",
@@ -63,8 +63,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-3",
-      icon: "",
-      variant: "green",
+      iconLabel: "3",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 3",
@@ -74,8 +74,8 @@ export function getContentDefinition(): ContentDefinition[] {
       url: "unidad-3"
     }, {
       id: "unidad-4",
-      icon: "",
-      variant: "green",
+      iconLabel: "4",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 4",
@@ -86,8 +86,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-5",
-      icon: "",
-      variant: "green",
+      iconLabel: "5",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 5",
@@ -98,8 +98,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-6",
-      icon: "",
-      variant: "green",
+      iconLabel: "6",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 6",
@@ -110,8 +110,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-7",
-      icon: "",
-      variant: "green",
+      iconLabel: "7",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 7",
@@ -122,8 +122,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-8",
-      icon: "",
-      variant: "green",
+      iconLabel: "8",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 8",
@@ -134,8 +134,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-9",
-      icon: "",
-      variant: "green",
+      iconLabel: "9",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 9",
@@ -146,8 +146,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-10",
-      icon: "",
-      variant: "green",
+      iconLabel: "10",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 10",
@@ -158,8 +158,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-11",
-      icon: "",
-      variant: "green",
+      iconLabel: "11",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 11",
@@ -170,8 +170,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-12",
-      icon: "",
-      variant: "green",
+      iconLabel: "12",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 12",
@@ -182,8 +182,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-13",
-      icon: "",
-      variant: "green",
+      iconLabel: "13",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 13",
@@ -194,8 +194,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-14",
-      icon: "",
-      variant: "green",
+      iconLabel: "14",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 14",
@@ -206,8 +206,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-15",
-      icon: "",
-      variant: "green",
+      iconLabel: "15",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 15",
@@ -218,8 +218,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-16",
-      icon: "",
-      variant: "green",
+      iconLabel: "16",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 16",
@@ -230,8 +230,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-17",
-      icon: "",
-      variant: "green",
+      iconLabel: "17",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 17",
@@ -242,8 +242,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-18",
-      icon: "",
-      variant: "green",
+      iconLabel: "18",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 18",
@@ -254,8 +254,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-19",
-      icon: "",
-      variant: "green",
+      iconLabel: "19",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 19",
@@ -266,8 +266,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-20",
-      icon: "",
-      variant: "green",
+      iconLabel: "20",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 20",
@@ -278,8 +278,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-21",
-      icon: "",
-      variant: "green",
+      iconLabel: "21",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 21",
@@ -290,8 +290,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-22",
-      icon: "",
-      variant: "green",
+      iconLabel: "22",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 22",
@@ -302,8 +302,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-23",
-      icon: "",
-      variant: "green",
+      iconLabel: "23",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 23",
@@ -314,8 +314,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-24",
-      icon: "",
-      variant: "green",
+      iconLabel: "24",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 24",
@@ -326,8 +326,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-25",
-      icon: "",
-      variant: "green",
+      iconLabel: "25",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 25",
@@ -338,8 +338,8 @@ export function getContentDefinition(): ContentDefinition[] {
     },
     {
       id: "unidad-26",
-      icon: "",
-      variant: "green",
+      iconLabel: "26",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
         title: "Unidad 26",

@@ -3,6 +3,7 @@ import type { ItemVariant } from "../../shared/utils/Item";
 export interface SectionButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
     label: string;
     icon?: React.ReactNode;
+    iconLabel?: string;
     variant?: ItemVariant;
     showLeftIcon?: boolean;
     showRight?: boolean;

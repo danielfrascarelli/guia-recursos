@@ -14,6 +14,7 @@ export const TextListOptions: React.FC<TextListOptionsProps> = ({ items }) => {
         <SectionButton
           key={item.id}
           icon={item.icon}
+          iconLabel={item.iconLabel}
           label={item.title}
           showRight
           variant={item.variant}

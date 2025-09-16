@@ -2,6 +2,7 @@ export type ItemVariant = "green" | "orange" | "white" | "pretty_white";
 
 export interface ListItem extends CoreItem {
     icon?: React.ReactNode;
+    iconLabel?: string;
     imageUrl?: string;
     variant: ItemVariant; 
 };
