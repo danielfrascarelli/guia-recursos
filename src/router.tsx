@@ -20,6 +20,8 @@ import { getContentDefinition as getTrasladosContentDefinition } from "./pages/F
 import { getContentDefinition as getAccesoADerechoContentDefinition } from "./pages/FAQ/components/AccesoADerechos/ContentDefinition";
 import { getContentDefinition as getSalidaContentDefinition } from "./pages/FAQ/components/Salida/ContentDefinition";
 import { getContentDefinition as getSaludContentDefinition } from "./pages/FAQ/components/Salud/ContentDefinition";
+import { getContentDefinition as getInrContentDefinition } from "./pages/ContactosUtiles/components/inr/inr-component/ContentDefinition";
+import { Inr } from "./pages/ContactosUtiles/components/inr/inr-component/Inr";
 
 const allFaqRoutes = [RelativeType.Adult, RelativeType.Teenager].flatMap(type => {
   return [{
@@ -145,6 +147,22 @@ export const router = createBrowserRouter([
           element: <Cmp key={i} {...i.props} />
         })
       }),
+
+      
+
+      // instituto-nacional-de-rehabilitacion
+      {
+        path: '/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion',
+        element: <Inr title="Instituto Nacional de Rehabilitación" />,
+      },
+      ...getInrContentDefinition().map((i) => {
+        const Cmp = registry[i.componentType] as React.ComponentType<any>;
+        return ({
+          path: `/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/${i.url}`,
+          element: <Cmp key={i} {...i.props} />
+        })
+      }),
+
     ],
   },
   {
