@@ -6,13 +6,14 @@ type TitleBarProps = {
   rightIcon?: string;
 };
 
-export default function TitleBar({ title, rightIcon = "bi-person" }: TitleBarProps) {
+export default function TitleBar({ title }: TitleBarProps) {
   return (
-      <div className={styles.sticky}>
-          <div className={`${styles.stickyInner} fp-topbar-2`}>
-            <h1 className={`${styles.title} fp-title`}>{title}</h1>
-            <i className={`bi ${rightIcon} fs-4`} aria-hidden="true" />
-          </div>
-        </div>  
+    <div className={styles.sticky}>
+      <div className={`${styles.fpTopbar2Container} `} >
+        <div className={`${styles.stickyInner} fp-topbar-2`}>
+          <h1 className={`${styles.title} fp-title`}>{title}</h1>
+        </div>
+      </div>
+    </div>
   );
 }

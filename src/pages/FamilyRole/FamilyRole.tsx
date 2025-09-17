@@ -46,6 +46,9 @@ export default function FamilyRole() {
         <div className="mx-2 p-0 mt-4 text-font-size lh-base">
           <FpModal title="Si queres saber más acerca de Los principios de Bogota, pincha acá" onClick={() => { window.open('https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf', '_blank', 'noopener,noreferrer'); }} />
         </div>
+        <p>
+          <InlineSpotlight bg="var(--brand-wine)">Si tu familiar es una mujer</InlineSpotlight>, está detenida y embarazada o tiene hijos/as pequeños. Tiene derecho a ser trasladada a una unidad para madres con hijos/as, donde pueden ingresar los niños y niñas de 0 a 3 años.
+        </p>
       </div>
     </div>
   );

@@ -1,42 +1,58 @@
-/* Franja superior (Volver) – tono naranja */
 .topbar-back-button-container {
   height: var(--fp-topbar-1-h);
-  // background: linear-gradient(0deg, #e3a555, var(--fp-accent));
-  background: #e3a555 !important;
-  color: #fff  !important;
+  background: var(--brand-green-live);
+  color: #fff !important;
   display: flex;
   align-items: center;
   padding-inline: 12px;
-}
 
-/* color blanco en Volver dentro de la franja superior */
-.fp-topbar-back-button,
-.fp-topbar-back-button,
-.fp-topbar-back-button {
-  color: var(--fp-primary-contrast) !important; /* blanco */
-  text-decoration: none;
-  opacity: 1;
-}
+  .fp-topbar-back-button {
+    color: var(--fp-primary-contrast) !important;
+    text-decoration: none;
+    opacity: 1;
+    border-radius: 14px;
+    background-color: #4e9386;
+    padding-top: 0px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    padding-right: 8px;
+  }
+  .fp-topbar-back-button:hover {
+    border-color: var(--brand-green-live);
+  }
+  .fp-topbar-back-button:active {
+    border-color: #4e9386;
+  }
+  .fp-topbar-back-button:focus {
+    border-color: var(--brand-green-live);
+  }
 
-.topbar-back-button {
-  color: #fff !important;
-  font-weight: 500;
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-}
+  .topbar-back-button {
+    color: #fff !important;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+  }
 
-.topbar-back-button:hover,
-.topbar-back-button:focus {
-  color: #fff;
-  text-decoration: none;
-  opacity: 0.9;
-}
+  .topbar-back-button:hover,
+  .topbar-back-button:focus {
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.9;
+  }
 
-.topbar-back-button,
-.topbar-back-button:hover,
-.topbar-back-button:focus {
-  color: var(--fp-primary-contrast) !important; /* blanco */
-  text-decoration: none;
-  opacity: 1;
+  .topbar-back-button,
+  .topbar-back-button:hover,
+  .topbar-back-button:focus {
+    color: var(--fp-primary-contrast) !important;
+    text-decoration: none;
+    opacity: 1;
+  }
+  .fp-topbar-back-arrow {
+    vertical-align: middle;
+  }
+  .fp-topbar-back-span {
+    vertical-align: middle;
+  }
 }

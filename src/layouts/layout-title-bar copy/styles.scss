@@ -1,0 +1,23 @@
+.fp-layout-topbar-2-container {
+  background-color: red;
+  background: var(--brand-green-live);
+  .fp-layout-topbar-2 {
+    height: var(--fp-topbar-2-h);
+    background: var(--brand-bg-light);
+    // background: var(--brand-green-live);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 14px;
+    border-top-right-radius: 27px;
+    border-top-left-radius: 27px;
+  }
+
+  .fp-layout-title {
+    margin: 0;
+    font-size: 1.25rem;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: var(--brand-wine);
+  }
+}

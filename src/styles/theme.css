@@ -3,24 +3,20 @@
 
 :root {
   /* brand assets */
-  --brand-bg-light: #F2EDE5;     /* fondo crema */
-  --brand-accent:   #F1A546;     /* acento naranja */
-  --brand-wine:     #6B131F;     /* bordó */
-  --brand-sage:     #7CA192;     /* verde salvia */
-  --brand-dark:     #20040E;     /* casi negro */
-
-
+  --brand-bg-light: #f2ede5; /* fondo crema */
+  --brand-accent: #f1a546; /* acento naranja */
+  --brand-wine: #6b131f; /* bordó */
+  --brand-sage: #7ca192; /* verde salvia */
+  --brand-dark: #20040e; /* casi negro */
 
   /* common assets */
   --brand-white: #fff;
   --brand-accent-700: #e2933a;
 
-
   --brand-orange-live: #f2a44f;
   --brand-green-dead: #6b8f87;
-  --brand-green-live: #0e7c66;
+  --brand-green-live: #3e786f;
   --brand-green-light: #dfe7e1;
-
 
   /* Colores */
   --fp-primary: #3e786f; /* verde cabecera */
@@ -30,7 +26,7 @@
   --fp-text: #4a2a2a; /* texto principal (bordó/marrón) */
 
   /* Dimensiones útiles */
-  --fp-topbar-1-h: 44px; /* franja “Volver” */
+  --fp-topbar-1-h: 50px; /* franja “Volver” */
   --fp-topbar-2-h: 64px; /* franja con título */
   --fp-cta-h: 56px; /* alto del botón pill */
   --fp-cta-gap: 16px; /* separación del borde inferior */
@@ -65,7 +61,6 @@ body {
   background: var(--brand-bg-light);
 }
 
-
-.text-font-size { 
-   font-size:clamp(18px, 3vw, 24px); 
+.text-font-size {
+  font-size: clamp(16px, 3vw, 24px);
 }

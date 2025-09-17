@@ -1,15 +1,16 @@
-import "./styles.css"
+import "./styles.scss"
 
 type TitleBarProps = {
   title: string;
   rightIcon?: string;
 };
 
-export default function LayoutTitleBar({ title, rightIcon = "bi-person" }: TitleBarProps) {
+export default function LayoutTitleBar({ title }: TitleBarProps) {
   return (
-    <div className="fp-topbar-2">
-      <h1 className="fp-title">{title}</h1>
-      <i className={`bi ${rightIcon} fs-4`} aria-hidden="true" />
+    <div className="fp-layout-topbar-2-container">
+      <div className="fp-layout-topbar-2">
+        <h1 className="fp-layout-title">{title}</h1>
+      </div>
     </div>
   );
 }

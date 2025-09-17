@@ -1,5 +1,3 @@
-import { Button } from "react-bootstrap";
-
 import "./BackButton.scss"
 
 type BackButtonProps = {
@@ -11,14 +9,13 @@ type BackButtonProps = {
 export default function BackButton({ label, onBack, className }: BackButtonProps) {
   return (
     <div className={`topbar-back-button-container ${className ?? ""}`} onClick={onBack}>
-      <Button
-        variant="link"
-        className={`fp-topbar-back-button ps-0 `}
+      <button
+        className={`fp-topbar-back-button ps-1 `}
         onClick={onBack}
       >
-        <i className="bi bi-arrow-left-short fs-4" aria-hidden="true" />
-        <span>{label}</span>
-      </Button>
+        <i className="bi bi-arrow-left-short fs-6 " aria-hidden="true" />
+        <span className="fp-topbar-back-span" >{label}</span>
+      </button>
     </div>
   );
 }

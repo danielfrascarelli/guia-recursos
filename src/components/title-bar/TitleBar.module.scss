@@ -3,9 +3,15 @@
 .sticky {
   position: sticky;
   top: var(--sticky-offset, 44px);
+  // top: var(--fp-topbar-2-h, 64px);
+  
   z-index: 3; // por encima del contenido
 }
+.fpTopbar2Container{
+  background-color: red;
+  background: var(--brand-green-live);
 
+}
 .stickyInner { 
   border-bottom: 1px solid rgba(0, 0, 0, 0.06);
   padding: 10px 18px;
