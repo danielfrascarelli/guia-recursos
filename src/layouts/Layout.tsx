@@ -1,11 +1,12 @@
 import { Outlet } from "react-router-dom";
 import { useNavigate, useLocation } from "react-router-dom";
 
-import BackButton from "../components/back-button/BackButton"; 
+import BackButton from "../components/back-button/BackButton";
 
 import "../styles/layout.scss";
 import getBackUrl from "../shared/utils/Back";
 import LayoutTitleBar from "./layout-title-bar copy/LayoutTitleBar";
+import SwipeNavigator from "./Swipe";
 
 type StepLayoutProps = {
   titleText?: string;
@@ -27,28 +28,38 @@ export default function Layout({
   const navigate = useNavigate();
   const location = useLocation();
   return (
-    <div className={`step-layout bg--brand-bg-light p-0 ${showNextButton && nextRoute ? "has-cta" : ""}`}    >
-      <div className="fp-intro-sticky">
-        {backButtonShow &&
-          <BackButton onBack={() => navigate(getBackUrl(location.pathname))} label={backButtonText} />
-        }
+    <SwipeNavigator
+      thresholdPx={150}     // antes eran 60
+      maxAngleDeg={25}      // más estricto con el ángulo
+      maxTimeMs={400}       // un poco menos de tiempo
+      onBack={() => navigate(-1)}
+      onNext={() => showNextButton && nextRoute && navigate(nextRoute)} // o la que corresponda
+      className="h-full"
 
-        {titleShow && titleText &&
-          <LayoutTitleBar title={titleText} />
-        }
-      </div>
+    >
+      <div className={`step-layout bg--brand-bg-light p-0 ${showNextButton && nextRoute ? "has-cta" : ""}`}    >
+        <div className="fp-intro-sticky">
+          {backButtonShow &&
+            <BackButton onBack={() => navigate(getBackUrl(location.pathname))} label={backButtonText} />            
+          }
 
-      <div className="fp-intro-content">
-        <Outlet />
-      </div>
-
-      {showNextButton && nextRoute && (
-        <div className="fp-intro-cta-wrap">
-          <button className="fp-intro-cta" onClick={() => navigate(nextRoute)}>
-            Siguiente <i className="bi bi-arrow-right" aria-hidden="true" />
-          </button>
+          {titleShow && titleText &&
+            <LayoutTitleBar title={titleText} />
+          }
         </div>
-      )}
-    </div>
+
+        <div className="fp-intro-content">
+          <Outlet />
+        </div>
+
+        {showNextButton && nextRoute && (
+          <div className="fp-intro-cta-wrap">
+            <button className="fp-intro-cta" onClick={() => navigate(nextRoute)}>
+              Siguiente <i className="bi bi-arrow-right" aria-hidden="true" />
+            </button>
+          </div>
+        )}
+      </div>
+    </SwipeNavigator>
   );
 }

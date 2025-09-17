@@ -1,3 +1,4 @@
+// import React from "react";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
 
 export function getTeenagerContentDefinition(): ContentDefinition[] {
@@ -8,8 +9,28 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       url: "1",
       componentType: "TextComponent",
       props: {
-        title: "Cómo debe ser la vestimenta, colores y otras particularidades.",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title: "Tenes que saber",
+        text: (
+          <>
+            <p> El/la adolescente detenido/a debe tener derecho a comunicarse con sus familiares y su abogado/a.</p>
+            <p> Debe asegurarse que un referente adulto esté al tanto de la situación del/de la adolescente.</p>
+            <p> El tiempo en la seccional no puede superar las 2 horas. Luego debe ser visto por la Fiscalía.</p>
+            <p> Durante las primeras 24 horas después de la detención en la zona metropolitana, el/la adolescente permanece en el Centro de Ingreso Transitorio (CIT), mientras se espera qué pasos se van a seguir.</p>
+            <p> Existen tres centros de ingreso en relación a la edad: Para mayores de 15 años, otro para menores de entre 13 y 14 años y uno para adolescentes mujeres.</p>
+            <p> Fuera del Área Metropolitana de Montevideo, se los/as traslada a un Centro de INAU del departamento donde fue detenido/a.</p>
+
+            <p> Sabías que…?</p>
+            <p> En nuestro país, hay aproximadamente 350 adolescentes cumpliendo medidas en contextos de encierro dentro del Sistema Penal Juvenil. </p>
+            <p> Esto permite qué INISA pueda acompañar de forma más cercana y qué el sistema no esté colapsado.</p>
+            <p> Aunque las familiares enfrentan desafíos similares a los del sistema penal de adultos, acá las respuestas suelen ser más ágiles y personalizadas.</p>
+
+            <p> Derecho a la comunicación de los /as familiares con los/as adolescentes:</p>
+
+            <p> • Se realizan entrevistas a la familia y al adolescente al momento del ingreso, donde se les informa los días de visitas establecidos y se coordina con los familiares otras posibles gestiones o contemplaciones específicas.</p>
+            <p> • La familia puede comunicarse con la Dirección del Centro para coordinar visitas y recibir información.</p>
+            <p> • En situaciones en que no existe familiar presente, se autoriza un referente adulto con quien el/la adolescente tenga un vínculo significativo.</p>
+          </>
+        )
       },
     },
     {

@@ -6,6 +6,11 @@
   align-items: center;
   padding-inline: 12px;
 
+  //   display: flex;
+  // align-items: center;
+  justify-content: space-between;   // <- separa izquierda/derecha
+  gap: 8px;  
+
   .fp-topbar-back-button {
     color: var(--fp-primary-contrast) !important;
     text-decoration: none;
@@ -56,3 +61,8 @@
     vertical-align: middle;
   }
 }
+
+
+/* Por si usás otras cosas además de 2 botones */
+.topbar-back-button-container > :first-child { margin-right: auto; }
+.topbar-back-button-container > :last-child  { margin-left:  auto; }

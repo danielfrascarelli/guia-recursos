@@ -5,8 +5,19 @@ import type { ContentDefinition } from "../../../../components/ItemDefinition";
 import { RelativeType } from "../../../../shared/utils/RelativeType";
 
 export function getContentDefinition(): ContentDefinition[] {
-  const items = [{
+  const items = [
+  {
     id: "1",
+    variant: "pretty_white",
+    url: "../adolescente",
+    imageUrl: adolescente,
+    componentType: "TypePersonComponent",
+    props: {
+      title: "Adolescente",
+      type: RelativeType.Teenager,
+    }
+  },{
+    id: "2",
     variant: "pretty_white",
     url: "../adulto",
     imageUrl: adulto,
@@ -16,17 +27,6 @@ export function getContentDefinition(): ContentDefinition[] {
       type: RelativeType.Adult,
     },
   },
-  {
-    id: "2",
-    variant: "pretty_white",
-    url: "../adolescente",
-    imageUrl: adolescente,
-    componentType: "TypePersonComponent",
-    props: {
-      title: "Adolescente",
-      type: RelativeType.Teenager,
-    }
-  }
   ] satisfies ContentDefinition[];
   return items;
 }
