@@ -64,6 +64,14 @@ export default function EarlyMoments() {
               <p> Es importante saber que cualquier persona puede presenciar una audiencia penal, ya que son públicas.</p>
               <p> Como familiar, tenés derecho a estar presente, salvo que la persona detenida no quiera que estés. En ese caso, se respeta su decisión.</p>
             </div>
+            <div style={{ color: "red" }}>
+              globito: Cuando vayas a visitar a tu familiar, chequea esta información.
+
+Globito: Las infancias y adolescencias atravesadas por los procesos de encarcelamiento sufren impactos en su vida cotidiana, generando distintas afectaciones en su desarrollo y bienestar.
+
+Globito: En Uruguay se desconoce el porcentaje de infancias y adolescencias afectadas por el encarcelamiento.
+
+            </div>
           </div>
         </div>
       </main>

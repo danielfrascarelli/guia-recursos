@@ -2,6 +2,8 @@ import { useNavigate } from "react-router-dom";
 
 import familias_presentes from '../../assets/images/familias_presentes.png';
 import europe from '../../assets/images/europe.svg'
+import coope_bien_alto from '../../assets/images/coope_bien_alto.png'
+import inr from '../../assets/images/logos_contactos_utiles/logo_inr.png'
 
 import "./home.scss";
 
@@ -61,7 +63,7 @@ export default function HomePage() {
         </section>
 
         {/* logos */}
-        <footer className="d-flex justify-content-center align-items-center gap-4 pb-1">
+        {/* <footer className="d-flex justify-content-center align-items-center gap-4 pb-1">
           <img
             src={familias_presentes}
             alt="Familias Presentes"
@@ -74,7 +76,58 @@ export default function HomePage() {
             className="img-fluid"
             style={{ height: 48 }}
           />
+        </footer> */}
+        <footer className="d-flex justify-content-center align-items-end gap-3 pb-3">
+          {/* Familias Presentes */}
+          <div className="text-center">
+            <img
+              src={familias_presentes}
+              alt="Familias Presentes"
+              title="Familias Presentes"
+              className="img-fluid"
+              style={{ height: 40 }}
+              onClick={()=>{ window.open('https://familiaspresentes.uy', '_blank', 'noopener,noreferrer'); }}
+            />
+          </div>
+
+          {/* Unión Europea */}
+          <div className="text-left">
+            <small className="d-block text-secondary mb-1">Financia:</small>
+            <img
+              src={europe}
+              alt="Unión Europea"
+              title="Unión Europea"
+              className="img-fluid"
+              style={{ height: 40 }}
+            />
+          </div>
+
+          {/* INR */}
+          <div className="text-left">
+            <small className="d-block text-secondary mb-1">Apoya:</small>
+            <img
+              src={inr}
+              alt="Instituto Nacional de Rehabilitació"
+              title="Instituto Nacional de Rehabilitación"
+              className="img-fluid"
+              style={{ height: 40 }}
+            />
+          </div>
+
+          {/* Cooperativa Bien Alto */}
+          <div className="text-left">
+            <small className="d-block text-secondary mb-1">Produce:</small>
+            <img
+              src={coope_bien_alto}
+              alt="Cooperativa Bien Alto"
+              title="Cooperativa Bien Alto"
+              className="img-fluid"
+              style={{ height: 40 }}
+              onClick={()=>{ window.open('https://www.instagram.com/bienaltocooperativa', '_blank', 'noopener,noreferrer'); }}
+            />
+          </div>
         </footer>
+
       </div>
     </main>
   );
