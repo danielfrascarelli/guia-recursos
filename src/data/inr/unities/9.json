@@ -1,0 +1,73 @@
+{
+    "shortName": null,
+    "longName": "Defensoría Pública De Ejecución Penal",
+    "department": "Montevideo",
+    "city": "Montevideo",
+    "neighborhood": "Punta de Rieles",
+    "address": {
+        "text": "Camino Dionisos 6350 esquina Chacarita de los Padres",
+        "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
+    },
+    "phone": [
+        {
+            "area": "1er piso",
+            "phones": [
+                "20309943"
+            ]
+        },
+        {
+            "area": "Guardia interna / centro",
+            "phones": [
+                "20309947"
+            ]
+        },
+        {
+            "area": "Juridica",
+            "phones": [
+                "20309945"
+            ]
+        },
+        {
+            "area": "Direccion",
+            "phones": [
+                "20309942"
+            ]
+        }
+    ],
+    "email": [
+        {
+            "area": "Sub–dirección administrativa",
+            "emails": [
+                "inr-u-9.secretaria@minterior.gub.uy"
+            ]
+        },
+        {
+            "area": "Sub–dirección operativa",
+            "emails": [
+                "inr-u-9.operativa@minterior.gub.uy"
+            ]
+        },
+        {
+            "area": "Sub–dirección técnica",
+            "emails": [
+                "inr-u-9.tecnica@minterior.gub.uy"
+            ]
+        }
+    ],
+    "web": null,
+    "openingHours": null,
+    "packages": {
+        "deliveryHours": "dentro del horario de visita.",
+        "restrictionsUrl": "#"
+    },
+    "visiting": {
+        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
+        "restrictionsDressCodeUrl": "#",
+        "restrictionsText": [
+            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
+            "Recibe un máximo de 4 visitantes, incluidos menores.",
+            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
+            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
+        ]
+    }
+}
