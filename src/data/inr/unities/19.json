@@ -1,12 +1,12 @@
 {
     "shortName": "Unidad 1",
     "longName": "Unidad 1 - Punta de Rieles, Montevideo",
-    "department": "Montevideo",
-    "city": "Montevideo",
-    "neighborhood": "Punta de Rieles",
+    "department": "Florida",
+    "city": null,
+    "neighborhood": null,
     "address": {
-        "text": "Camino Dionisos 6350 esquina Chacarita de los Padres",
-        "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
+        "text": "Camino Paso Paraguay S/N (Ruta 5 KM 100), Florida",
+        "url": "https://maps.google.com/?q=Camino+Paso+Paraguay+S%2FN+%28Ruta+5+KM+100%29%2C+Florida"
     },
     "phone": [
         {

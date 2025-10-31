@@ -1,12 +1,12 @@
 {
     "shortName": "Unidad 1",
     "longName": "Unidad 1 - Punta de Rieles, Montevideo",
-    "department": "Montevideo",
-    "city": "Montevideo",
-    "neighborhood": "Punta de Rieles",
+    "department": "Cerro Largo",
+    "city": null,
+    "neighborhood": null,
     "address": {
-        "text": "Camino Dionisos 6350 esquina Chacarita de los Padres",
-        "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
+        "text": "Carretera Punta de los Conventos y Camino Vecinal, Melo, Cerro Largo",
+        "url": "https://maps.google.com/?q=Carretera+Punta+de+los+Conventos+y+Camino+Vecinal%2C+Melo%2C+Cerro+Largo"
     },
     "phone": [
         {

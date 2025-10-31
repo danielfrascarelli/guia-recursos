@@ -1,12 +1,12 @@
 {
     "shortName": "Unidad 1",
     "longName": "Unidad 1 - Punta de Rieles, Montevideo",
-    "department": "Montevideo",
-    "city": "Montevideo",
-    "neighborhood": "Punta de Rieles",
+    "department": "Rocha",
+    "city": null,
+    "neighborhood": null,
     "address": {
-        "text": "Camino Dionisos 6350 esquina Chacarita de los Padres",
-        "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
+        "text": "Camino de la Z a 2,5 Km de Ruta 9 Km. 210, Rocha",
+        "url": "https://maps.google.com/?q=Camino+de+la+Z+a+2%2C5+Km+de+Ruta+9+Km.+210%2C+Rocha"
     },
     "phone": [
         {

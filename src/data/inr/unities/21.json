@@ -1,12 +1,12 @@
 {
     "shortName": "Unidad 1",
     "longName": "Unidad 1 - Punta de Rieles, Montevideo",
-    "department": "Montevideo",
-    "city": "Montevideo",
-    "neighborhood": "Punta de Rieles",
+    "department": "Artigas",
+    "city": null,
+    "neighborhood": null,
     "address": {
-        "text": "Camino Dionisos 6350 esquina Chacarita de los Padres",
-        "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
+        "text": "Ruta 30 Km. 141.500, Paraje Pintado Grande, Artigas",
+        "url": "https://maps.google.com/?q=Ruta+30+Km.+141.500%2C+Paraje+Pintado+Grande%2C+Artigas"
     },
     "phone": [
         {

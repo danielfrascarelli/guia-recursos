@@ -2,11 +2,11 @@
     "shortName": "Unidad 1",
     "longName": "Unidad 1 - Punta de Rieles, Montevideo",
     "department": "Montevideo",
-    "city": "Montevideo",
-    "neighborhood": "Punta de Rieles",
+    "city": null,
+    "neighborhood": null,
     "address": {
-        "text": "Camino Dionisos 6350 esquina Chacarita de los Padres",
-        "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
+        "text": "Camino Dionisos 6602 esquina Camino Punta de Rieles, Montevideo",
+        "url": "https://maps.google.com/?q=Camino+Dionisos+6602+esquina+Camino+Punta+de+Rieles%2C+Montevideo"
     },
     "phone": [
         {

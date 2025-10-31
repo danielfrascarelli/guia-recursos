@@ -1,16 +1,16 @@
 {
     "shortName": "Unidad 1",
     "longName": "Unidad 1 - Punta de Rieles, Montevideo",
-    "department": "Montevideo",
-    "city": "Montevideo",
-    "neighborhood": "Punta de Rieles",
+    "department": "San José",
+    "city": null,
+    "neighborhood": null,
     "address": {
-        "text": "Camino Dionisos 6350 esquina Chacarita de los Padres",
-        "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
+        "text": "Chacra de Libertad, Ruta Nacional Nº 1, Km 53.100 y ruta 89, San José",
+        "url": "https://maps.google.com/?q=Chacra+de+Libertad%2C+Ruta+Nacional+N%C2%BA+1%2C+Km+53.100+y+ruta+89%2C+San+Jos%C3%A9"
     },
     "phone": [
         {
-            "area": "Área Jurídica / Guardia / Seguridad",
+            "area": "Área Juridica y Guardia",
             "phones": [
                 "4345 2065"
             ]

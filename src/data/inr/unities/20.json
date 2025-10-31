@@ -1,14 +1,14 @@
 {
     "shortName": "Unidad 1",
     "longName": "Unidad 1 - Punta de Rieles, Montevideo",
-    "department": "Montevideo",
-    "city": "Montevideo",
-    "neighborhood": "Punta de Rieles",
+    "department": "Salto",
+    "city": null,
+    "neighborhood": null,
     "address": {
-        "text": "Camino Dionisos 6350 esquina Chacarita de los Padres",
-        "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
+        "text": "Defensa esquina Perú, Salto",
+        "url": "https://maps.google.com/?q=Defensa+esquina+Per%C3%BA%2C+Salto"
     },
-    "phone": [
+    "phone":  [
         {
             "area": "Sub-dirección Administrativa",
             "phones": [
