@@ -2,32 +2,33 @@ import type { ContentDefinition } from "../../../../../components/ItemDefinition
 
 
 export const data = {
-  name: "name of the office",
+  shortName: "name of the office2",
+  longName: "name of the office2",
   department: "Montevideo",
   city: "Montevideo",
   neighborhood: "Punta de Rieles",
   address: {
     text: "Camino Dionisos 6350 esquina Chacarita de los Padres",
-    url: "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
+    url: "oficinas/https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
   },
   phone: [
-    { area: "Sub–dirección administrativa", phones: ["4340 2628 int 17" ]},
-    { area: "Sub–dirección operativa", phones: ["2030 9510" ]},
+    { area: "Sub–dirección administrativa", phones: ["4340 2628 int 17"] },
+    { area: "Sub–dirección operativa", phones: ["2030 9510"] },
     { area: "Sub–dirección técnica", phones: ["2030 9510 / 4340 3308"] }
   ],
   email: [
-    { area: "Sub–dirección administrativa", emails: ["inr-u-9.secretaria@minterior.gub.uy" ]},
-    { area: "Sub–dirección operativa", emails: ["inr-u-9.operativa@minterior.gub.uy" ]},
+    { area: "Sub–dirección administrativa", emails: ["inr-u-9.secretaria@minterior.gub.uy"] },
+    { area: "Sub–dirección operativa", emails: ["inr-u-9.operativa@minterior.gub.uy"] },
     { area: "Sub–dirección técnica", emails: ["inr-u-9.tecnica@minterior.gub.uy"] }
   ],
   openingHours: "Lunes a viernes de 8 am a 5 pm"
   // paquetes: {
   //   horarioEntrega: "dentro del horario de visita.",
-  //   restriccionesArticulosUrl: "#" // poné la URL real de “click aquí” si la tenés
+  //   restriccionesArticulosUrl: "oficinas/#" // poné la URL real de “click aquí” si la tenés
   // },
   // visitas: {
   //   horario: "8 hs a 15 hs (los días dependen del sector)",
-  //   restriccionesVestimentaUrl: "#", // poné la URL real de “click aquí”
+  //   restriccionesVestimentaUrl: "oficinas/#", // poné la URL real de “click aquí”
   //   restriccionesTexto: [
   //     "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
   //     "Recibe un máximo de 4 visitantes, incluidos menores.",
@@ -40,7 +41,7 @@ export const data = {
 export function getContentDefinition(): ContentDefinition[] {
   const items = [
     {
-      id: "unidad-1",
+      id: "office-1",
       iconLabel: "1",
       variant: "pretty_white",
       componentType: "InrOfficeComponent",
@@ -48,10 +49,10 @@ export function getContentDefinition(): ContentDefinition[] {
         title: "Atención a la Familia de Personas Privadas de Libertad",
         data
       },
-      url: "unidad-1"
+      url: "oficinas/1"
     }
     , {
-      id: "unidad-2",
+      id: "office-2",
       iconLabel: "2",
       variant: "pretty_white",
       componentType: "InrOfficeComponent",
@@ -59,10 +60,10 @@ export function getContentDefinition(): ContentDefinition[] {
         title: "Junta Nacional de Traslados",
         data
       },
-      url: "unidad-2"
+      url: "oficinas/2"
     },
     {
-      id: "unidad-3",
+      id: "office-3",
       iconLabel: "3",
       variant: "pretty_white",
       componentType: "InrOfficeComponent",
@@ -70,9 +71,9 @@ export function getContentDefinition(): ContentDefinition[] {
         title: "Sub-Dirección Técnica Nacional",
         data
       },
-      url: "unidad-3"
+      url: "oficinas/3"
     }, {
-      id: "unidad-4",
+      id: "office-4",
       iconLabel: "4",
       variant: "pretty_white",
       componentType: "InrOfficeComponent",
@@ -80,10 +81,10 @@ export function getContentDefinition(): ContentDefinition[] {
         title: "Centro de Ingreso, Diagnóstico y Derivación (CIDD)",
         data
       },
-      url: "unidad-4"
+      url: "oficinas/4"
     },
     {
-      id: "unidad-5",
+      id: "office-5",
       iconLabel: "5",
       variant: "pretty_white",
       componentType: "InrOfficeComponent",
@@ -91,7 +92,7 @@ export function getContentDefinition(): ContentDefinition[] {
         title: "Departamento de Género y Diversidad",
         data
       },
-      url: "unidad-5"
+      url: "oficinas/5"
     }
   ] satisfies ContentDefinition[];
   return items;

@@ -21,7 +21,8 @@ import { getContentDefinition as getTrasladosContentDefinition } from "./pages/F
 import { getContentDefinition as getAccesoADerechoContentDefinition } from "./pages/FAQ/components/AccesoADerechos/ContentDefinition";
 import { getContentDefinition as getSalidaContentDefinition } from "./pages/FAQ/components/Salida/ContentDefinition";
 import { getContentDefinition as getSaludContentDefinition } from "./pages/FAQ/components/Salud/ContentDefinition";
-import { getContentDefinition as getInrContentDefinition } from "./pages/ContactosUtiles/components/inr/inr-component/OfficesContentDefinition";
+import { getContentDefinition as getOfficesContentDefinition } from "./pages/ContactosUtiles/components/inr/inr-component/OfficesContentDefinition";
+import { getContentDefinition as getUnitiesContentDefinition } from "./pages/ContactosUtiles/components/inr/inr-component/UnitiesContentDefinition";
 import { Inr } from "./pages/ContactosUtiles/components/inr/inr-component/Inr";
 import { NotFoundRedirect } from "./components/not-found-redirect/NotFoundRedirect";
 import JudicialProcess from "./pages/RouteMap/components/judicial-process/JudicialProcess";
@@ -171,7 +172,14 @@ export const router = createBrowserRouter([
         path: '/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion',
         element: <Inr title="Instituto Nacional de Rehabilitación" />,
       },
-      ...getInrContentDefinition().map((i) => {
+      ...getOfficesContentDefinition().map((i) => {
+        const Cmp = registry[i.componentType] as React.ComponentType<any>;
+        return ({
+          path: `/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/${i.url}`,
+          element: <Cmp key={i} {...i.props} />
+        })
+      }),
+      ...getUnitiesContentDefinition().map((i) => {
         const Cmp = registry[i.componentType] as React.ComponentType<any>;
         return ({
           path: `/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/${i.url}`,

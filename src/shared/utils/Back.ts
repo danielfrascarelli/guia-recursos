@@ -60,9 +60,11 @@ export default function getBackUrl(curr: string): string {
             if (curr.startsWith('/mapa-de-ruta/adulto/') && (curr.match(/\//g) || []).length == 3) return '/mapa-de-ruta/adulto';
             if (curr.startsWith('/mapa-de-ruta/adolescente/') && (curr.match(/\//g) || []).length == 3) return '/mapa-de-ruta/adolescente';
 
-            if (curr.startsWith('/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/') && (curr.match(/\//g) || []).length == 4)
+            if (curr.startsWith('/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/') && (curr.match(/\//g) || []).length == 4
+                || curr.startsWith('/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/oficinas/')
+                || curr.startsWith('/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/unidades/')
+            )
                 return '/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion';
-
 
             if (curr.startsWith('/mapa-de-ruta/contactos-utiles/') && (curr.match(/\//g) || []).length == 3)
                 return '/mapa-de-ruta/contactos-utiles';

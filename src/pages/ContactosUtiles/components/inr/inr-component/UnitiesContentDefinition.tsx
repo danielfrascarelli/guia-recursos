@@ -1,41 +1,62 @@
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
 
+import type { InfoUnidad } from "../inr-unidad-component/InrUnidadProps";
 
-export const data = {
-  departamento: "Montevideo",
-  ciudad: "Montevideo",
-  barrio: "Punta de Rieles",
-  direccion: {
-    texto: "Camino Dionisos 6350 esquina Chacarita de los Padres",
-    url: "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
-  },
-  telefonos: [
-    { area: "Sub–dirección administrativa", phones: ["4340 2628 int 17"] },
-    { area: "Sub–dirección operativa", phones: ["2030 9510"] },
-    { area: "Sub–dirección técnica", phones: ["2030 9510 / 4340 3308"] }
-  ],
-  correos: [
-    { area: "Sub–dirección administrativa", emails: ["inr-u-9.secretaria@minterior.gub.uy"] },
-    { area: "Sub–dirección operativa", emails: ["inr-u-9.operativa@minterior.gub.uy"] },
-    { area: "Sub–dirección técnica", emails: ["inr-u-9.tecnica@minterior.gub.uy"] }
-  ],
-  paquetes: {
-    horarioEntrega: "dentro del horario de visita.",
-    restriccionesArticulosUrl: "#" // poné la URL real de “click aquí” si la tenés
-  },
-  visitas: {
-    horario: "8 hs a 15 hs (los días dependen del sector)",
-    restriccionesVestimentaUrl: "#", // poné la URL real de “click aquí”
-    restriccionesTexto: [
-      "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-      "Recibe un máximo de 4 visitantes, incluidos menores.",
-      "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-      "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-    ]
-  }
-};
+import u1DataJson from '../../../../../data/inr/unities/1.json';
+import u2DataJson from '../../../../../data/inr/unities/2.json';
+import u3DataJson from '../../../../../data/inr/unities/3.json';
+import u4DataJson from '../../../../../data/inr/unities/4.json';
+import u5DataJson from '../../../../../data/inr/unities/5.json';
+import u6DataJson from '../../../../../data/inr/unities/6.json';
+import u7DataJson from '../../../../../data/inr/unities/7.json';
+import u8DataJson from '../../../../../data/inr/unities/8.json';
+import u9DataJson from '../../../../../data/inr/unities/9.json';
+import u10DataJson from '../../../../../data/inr/unities/10.json';
+import u11DataJson from '../../../../../data/inr/unities/11.json';
+import u12DataJson from '../../../../../data/inr/unities/12.json';
+import u13DataJson from '../../../../../data/inr/unities/13.json';
+import u14DataJson from '../../../../../data/inr/unities/14.json';
+import u15DataJson from '../../../../../data/inr/unities/15.json';
+import u16DataJson from '../../../../../data/inr/unities/16.json';
+import u17DataJson from '../../../../../data/inr/unities/17.json';
+import u18DataJson from '../../../../../data/inr/unities/18.json';
+import u19DataJson from '../../../../../data/inr/unities/19.json';
+import u20DataJson from '../../../../../data/inr/unities/20.json';
+import u21DataJson from '../../../../../data/inr/unities/21.json';
+import u22DataJson from '../../../../../data/inr/unities/22.json';
+import u23DataJson from '../../../../../data/inr/unities/23.json';
+import u24DataJson from '../../../../../data/inr/unities/24.json';
+import u25DataJson from '../../../../../data/inr/unities/25.json';
+import u26DataJson from '../../../../../data/inr/unities/26.json';
 
 export function getContentDefinition(): ContentDefinition[] {
+  const u1Data: InfoUnidad = u1DataJson;
+  const u2Data: InfoUnidad = u2DataJson;
+  const u3Data: InfoUnidad = u3DataJson;
+  const u4Data: InfoUnidad = u4DataJson;
+  const u5Data: InfoUnidad = u5DataJson;
+  const u6Data: InfoUnidad = u6DataJson;
+  const u7Data: InfoUnidad = u7DataJson;
+  const u8Data: InfoUnidad = u8DataJson;
+  const u9Data: InfoUnidad = u9DataJson;
+  const u10Data: InfoUnidad = u10DataJson;
+  const u11Data: InfoUnidad = u11DataJson;
+  const u12Data: InfoUnidad = u12DataJson;
+  const u13Data: InfoUnidad = u13DataJson;
+  const u14Data: InfoUnidad = u14DataJson;
+  const u15Data: InfoUnidad = u15DataJson;
+  const u16Data: InfoUnidad = u16DataJson;
+  const u17Data: InfoUnidad = u17DataJson;
+  const u18Data: InfoUnidad = u18DataJson;
+  const u19Data: InfoUnidad = u19DataJson;
+  const u20Data: InfoUnidad = u20DataJson;
+  const u21Data: InfoUnidad = u21DataJson;
+  const u22Data: InfoUnidad = u22DataJson;
+  const u23Data: InfoUnidad = u23DataJson;
+  const u24Data: InfoUnidad = u24DataJson;
+  const u25Data: InfoUnidad = u25DataJson;
+  const u26Data: InfoUnidad = u26DataJson;
+
   const items = [
     {
       id: "unidad-1",
@@ -45,9 +66,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         shortAddressDescription: "Punta de Rieles, Montevideo",
         title: "Unidad 1",
-        data
+        data: u1Data
       },
-      url: "unidad-1"
+      url: "unidades/1"
     }
     , {
       id: "unidad-2",
@@ -57,9 +78,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Unidad 2",
         shortAddressDescription: "Chacra de Libertad, San José",
-        data
+        data: u2Data
       },
-      url: "unidad-2"
+      url: "unidades/2"
     },
     {
       id: "unidad-3",
@@ -69,9 +90,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Unidad 3",
         shortAddressDescription: "Penal de Libertad, San José ",
-        data
+        data: u3Data
       },
-      url: "unidad-3"
+      url: "unidades/3"
     }, {
       id: "unidad-4",
       iconLabel: "4",
@@ -80,9 +101,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Unidad 4",
         shortAddressDescription: "Santiago Vázquez, Montevideo",
-        data
+        data: u4Data
       },
-      url: "unidad-4"
+      url: "unidades/4"
     },
     {
       id: "unidad-5",
@@ -90,11 +111,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 5",
+        title: "**Unidad 5",
         shortAddressDescription: "CMRF, Montevideo",
-        data
+        data: u5Data
       },
-      url: "unidad-5"
+      url: "unidades/5"
     },
     {
       id: "unidad-6",
@@ -102,11 +123,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 6",
+        title: "**Unidad 6",
         shortAddressDescription: "Punta de Rieles, Montevideo",
-        data
+        data: u6Data
       },
-      url: "unidad-6"
+      url: "unidades/6"
     },
     {
       id: "unidad-7",
@@ -114,11 +135,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 7",
+        title: "**Unidad 7",
         shortAddressDescription: "Chacra Policial, Canelones",
-        data
+        data: u7Data
       },
-      url: "unidad-7"
+      url: "unidades/7"
     },
     {
       id: "unidad-8",
@@ -128,9 +149,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Unidad 8",
         shortAddressDescription: "Domingo Arena, Montevideo",
-        data
+        data: u8Data
       },
-      url: "unidad-8"
+      url: "unidades/8"
     },
     {
       id: "unidad-9",
@@ -140,9 +161,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Unidad 9",
         shortAddressDescription: "Montevideo",
-        data
+        data: u9Data
       },
-      url: "unidad-9"
+      url: "unidades/9"
     },
     {
       id: "unidad-10",
@@ -152,9 +173,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Unidad 10",
         shortAddressDescription: "Soler, San José",
-        data
+        data: u10Data
       },
-      url: "unidad-10"
+      url: "unidades/10"
     },
     {
       id: "unidad-11",
@@ -162,11 +183,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 11",
+        title: "**Unidad 11",
         shortAddressDescription: "Cañitas, Río Negro",
-        data
+        data: u11Data
       },
-      url: "unidad-11"
+      url: "unidades/11"
     },
     {
       id: "unidad-12",
@@ -174,11 +195,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 12",
+        title: "**Unidad 12",
         shortAddressDescription: "Cerro Carancho, Rivera",
-        data
+        data: u12Data
       },
-      url: "unidad-12"
+      url: "unidades/12"
     },
     {
       id: "unidad-13",
@@ -186,11 +207,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 13",
+        title: "**Unidad 13",
         shortAddressDescription: "Paraje Las Rosas, Maldonado",
-        data
+        data: u13Data
       },
-      url: "unidad-13"
+      url: "unidades/13"
     },
     {
       id: "unidad-14",
@@ -198,11 +219,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 14",
+        title: "**Unidad 14",
         shortAddressDescription: "Piedra de los Indios, Colonia",
-        data
+        data: u14Data
       },
-      url: "unidad-14"
+      url: "unidades/14"
     },
     {
       id: "unidad-15",
@@ -210,11 +231,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 15",
+        title: "**Unidad 15",
         shortAddressDescription: "Melo, Cerro Largo",
-        data
+        data: u15Data
       },
-      url: "unidad-15"
+      url: "unidades/15"
     },
     {
       id: "unidad-16",
@@ -222,11 +243,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 16",
+        title: "**Unidad 16",
         shortAddressDescription: "Paysandú",
-        data
+        data: u16Data
       },
-      url: "unidad-16"
+      url: "unidades/16"
     },
     {
       id: "unidad-17",
@@ -234,11 +255,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 17",
+        title: "**Unidad 17",
         shortAddressDescription: "Campanero, Lavalleja",
-        data
+        data: u17Data
       },
-      url: "unidad-17"
+      url: "unidades/17"
     },
     {
       id: "unidad-18",
@@ -246,11 +267,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 18",
+        title: "**Unidad 18",
         shortAddressDescription: "Durazno",
-        data
+        data: u18Data
       },
-      url: "unidad-18"
+      url: "unidades/18"
     },
     {
       id: "unidad-19",
@@ -260,9 +281,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Unidad 19",
         shortAddressDescription: "Florida",
-        data
+        data: u19Data
       },
-      url: "unidad-19"
+      url: "unidades/19"
     },
     {
       id: "unidad-20",
@@ -270,11 +291,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 20",
+        title: "**Unidad 20",
         shortAddressDescription: "Salto, Salto",
-        data
+        data: u20Data
       },
-      url: "unidad-20"
+      url: "unidades/20"
     },
     {
       id: "unidad-21",
@@ -282,11 +303,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 21",
+        title: "**Unidad 21",
         shortAddressDescription: "Paraje Pintado Grande, Artigas",
-        data
+        data: u21Data
       },
-      url: "unidad-21"
+      url: "unidades/21"
     },
     {
       id: "unidad-22",
@@ -296,9 +317,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Unidad 22",
         shortAddressDescription: "Rocha",
-        data
+        data: u22Data
       },
-      url: "unidad-22"
+      url: "unidades/22"
     },
     {
       id: "unidad-23",
@@ -306,11 +327,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 23",
+        title: "**Unidad 23",
         shortAddressDescription: "Chacra Treinta y Tres, Treinta y Tres",
-        data
+        data: u23Data
       },
-      url: "unidad-23"
+      url: "unidades/23"
     },
     {
       id: "unidad-24",
@@ -318,11 +339,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 24",
+        title: "**Unidad 24",
         shortAddressDescription: "Ruta 2 Km. 278.000, Pense, Soriano Soriano",
-        data
+        data: u24Data
       },
-      url: "unidad-24"
+      url: "unidades/24"
     },
     {
       id: "unidad-25",
@@ -330,11 +351,11 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        title: "Unidad 25",
+        title: "**Unidad 25",
         shortAddressDescription: "Máxima Seguridad, Santiago Vazquez, Montevideo",
-        data
+        data: u25Data
       },
-      url: "unidad-25"
+      url: "unidades/25"
     },
     {
       id: "unidad-26",
@@ -344,9 +365,9 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Unidad 26",
         shortAddressDescription: "Tacuarembó",
-        data
+        data: u26Data
       },
-      url: "unidad-26"
+      url: "unidades/26"
     }
   ] satisfies ContentDefinition[];
   return items;

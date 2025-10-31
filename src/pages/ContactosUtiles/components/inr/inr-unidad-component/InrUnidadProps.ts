@@ -1,27 +1,19 @@
 import type { DefinitionProps } from "../../../../../components/DefinitionProps";
-import type { Address } from "../../../../../shared/Address";
-import type { Email } from "../../../../../shared/Email";
-import type { Phone } from "../../../../../shared/Phone";
+import type { OfficeData } from "../../common/common-component/CommonOfficeInfoProps";
 
-export interface InfoUnidad {
-    departamento: string;
-    ciudad: string;
-    barrio: string;
-    direccion: Address;
-    telefonos: Phone[];
-    correos: Email[];
-    paquetes: {
-        horarioEntrega: string;
-        restriccionesArticulosUrl?: string;
+export interface InfoUnidad extends OfficeData {
+    packages: {
+        deliveryHours: string;
+        restrictionsUrl?: string;
     };
-    visitas: {
-        horario: string;
-        restriccionesVestimentaUrl?: string;
-        restriccionesTexto: string[];
+    visiting: {
+        visitingHours: string;
+        restrictionsDressCodeUrl?: string;
+        restrictionsText: string[];
     };
 };
 
 export interface InrUnidadProps extends DefinitionProps {
-    data: InfoUnidad; 
+    data: InfoUnidad;
     shortAddressDescription: string;
 };

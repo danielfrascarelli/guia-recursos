@@ -1,22 +1,59 @@
 import React from "react";
 import type { InrUnidadProps } from "./InrUnidadProps";
+import { CommonOfficeInfo } from "../../common/common-component/CommonOfficeInfo";
 
-export const InrUnidad: React.FC<InrUnidadProps> = ({ data }: InrUnidadProps) => {
+export const InrUnidad: React.FC<InrUnidadProps> = ({ title, data }: InrUnidadProps) => {
 
   return (
-    <section>
-      <p><strong>Departamento:</strong> {data.departamento}</p>
-      <p><strong>Ciudad:</strong> {data.ciudad}</p>
-      <p><strong>Barrio:</strong> {data.barrio}</p>
+    <div>
+      <div>
+        <CommonOfficeInfo title={title} data={data} />
+      </div>
+      <div>
+
+        <h3>Paquetes</h3>
+        <p><em>Horarios de entrega:</em> {data.packages.deliveryHours}</p>
+        {data.packages.restrictionsUrl && (
+          <p>
+            <em>Restricciones en cantidad y tipo de artículos:</em>{" "}
+            <a href={data.packages.restrictionsUrl} target="_blank" rel="noreferrer">
+              click aquí
+            </a>
+          </p>
+        )}
+
+        <h3>Visitas</h3>
+        <p><em>Horario:</em> {data.visiting.visitingHours}</p>
+        {data.visiting.restrictionsDressCodeUrl && (
+          <div>
+            <em>Restricciones en vestimenta:</em>{" "}
+            <a href={data.visiting.restrictionsDressCodeUrl} target="_blank" rel="noreferrer">
+              click aquí
+            </a>
+          </div>
+        )}
+        <div>
+          <em>Restricciones:</em>
+          <ul>
+            {data.visiting.restrictionsText.map((txt, i) => (
+              <li key={i}>{txt}</li>
+            ))}
+          </ul>
+        </div>
+      </div>
+      {/* <section>
+      <p><strong>Departamento:</strong> {data.department}</p>
+      <p><strong>Ciudad:</strong> {data.city}</p>
+      <p><strong>Barrio:</strong> {data.neighborhood}</p>
 
       <p>
         <strong>Dirección:</strong>{" "}
-        {data.direccion.url ? (
+        {data.address?.url ? (
           <a href={data.direccion.url} target="_blank" rel="noreferrer">
-            {data.direccion.texto}
+            {data.direccion.text}
           </a>
         ) : (
-          data.direccion.texto
+          data.direccion.text
         )}
       </p>
 
@@ -69,6 +106,6 @@ export const InrUnidad: React.FC<InrUnidadProps> = ({ data }: InrUnidadProps) =>
           ))}
         </ul>
       </div>
-    </section>
-  );
+    </section> */}
+    </div>);
 } 

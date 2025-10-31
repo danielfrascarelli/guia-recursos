@@ -17,17 +17,6 @@ export const Inr: React.FC<InrProps> = ({ }) => {
   const getBoxTitle = (props: InrUnidadProps | InrOfficeProps): string => props.title;
   const getBoxSubtitle = (props: InrUnidadProps | InrOfficeProps): string => ("shortAddressDescription" in props) ? props.shortAddressDescription ?? "" : "";
 
-  // const inrContent = getContentDefinition();
-  // const listItems: TextListItem[] = inrContent.map(u => ({
-  //   ...u,
-  //   title: `${getBoxTitle(u.props as InrUnidadProps)} - ${getBoxSubtitle(u.props as InrUnidadProps)}`
-  // }));
-  // const boxItems: TextListItem[] = inrContent.map(u => ({
-  //   ...u,
-  //   title: getBoxTitle(u.props as InrUnidadProps),
-  //   subtitle: getBoxSubtitle(u.props as InrUnidadProps),
-  // }));
-
   const fnListItems = function (cd: ContentDefinition[]) {
     return cd.map(u => ({
       ...u,

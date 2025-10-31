@@ -53,7 +53,7 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
           </ul>
         </div>
       )}
-
+ 
       {data.email != null && (
         <div className="mt-4">
           <strong>Correo electrónico:</strong>
