@@ -10,20 +10,20 @@
     },
     "phone": [
         {
-            "area": "guardia",
+            "area": "Guardia / Seguridad",
             "phones": [
                 "2030 9704",
                 "2030 9757"
             ]
         },
         {
-            "area": "juridica, tecnica",
+            "area": "Área Jurídica / Sub-dirección Técnica",
             "phones": [
                 "2030 9051"
             ]
         },
         {
-            "area": "secretaria",
+            "area": "Secretaría",
             "phones": [
                 "2030 9065"
             ]

@@ -10,25 +10,25 @@
     },
     "phone": [
         {
-            "area": "direccion",
+            "area": "Dirección",
             "phones": [
                 "2030 9633"
             ]
         },
         {
-            "area": "administracion",
+            "area": "Sub-dirección Administrativa",
             "phones": [
                 "2030 9632"
             ]
         },
         {
-            "area": "atencion a familias",
+            "area": "Atención a Familias",
             "phones": [
                 "2030 9634"
             ]
         },
         {
-            "area": "subdireccion tecnica",
+            "area": "Sub-dirección Técnica",
             "phones": [
                 "099718852"
             ]

@@ -10,25 +10,25 @@
     },
     "phone": [
         {
-            "area": "operativa",
+            "area": "Sub-dirección Operativa",
             "phones": [
                 "2030 9514"
             ]
         },
         {
-            "area": "tecnica",
+            "area": "Sub-dirección Técnica",
             "phones": [
                 "2030 9501"
             ]
         },
         {
-            "area": "admin",
+            "area": "Sub-dirección Administrativa",
             "phones": [
                 "2030 9504"
             ]
         },
         {
-            "area": "jefatura de servicio",
+            "area": "Jefatura de Servicio",
             "phones": [
                 "2030 9510"
             ]

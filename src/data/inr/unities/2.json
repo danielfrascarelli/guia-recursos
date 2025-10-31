@@ -9,12 +9,13 @@
         "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
     },
     "phone": [
-    {
-        "area": "Área Juridica y Guardia",
-        "phones": ["4345 2065"]
-    }
-]
-,
+        {
+            "area": "Área Jurídica / Guardia / Seguridad",
+            "phones": [
+                "4345 2065"
+            ]
+        }
+    ],
     "email": [
         {
             "area": "Sub-dirección administrativa",

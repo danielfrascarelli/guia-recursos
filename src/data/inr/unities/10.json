@@ -10,19 +10,19 @@
     },
     "phone": [
         {
-            "area": "Subdirección Administrativa",
+            "area": "Sub-dirección Administrativa",
             "phones": [
                 "4340 2628 int. 17"
             ]
         },
         {
-            "area": "Subdirección Operativa",
+            "area": "Sub-dirección Operativa",
             "phones": [
                 "4340 2628 int. 14"
             ]
         },
         {
-            "area": "Subdirección Técnica",
+            "area": "Sub-dirección Técnica",
             "phones": [
                 "4340 2628 int. 18"
             ]
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "area": "Atención a Familiares",
+            "area": "Atención a Familias",
             "phones": [
                 "4340 3308",
                 "4340 2628"

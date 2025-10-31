@@ -10,19 +10,19 @@
     },
     "phone": [
         {
-            "area": "sub dir operativa y dirección",
+            "area": "Sub-dirección Operativa / Dirección",
             "phones": [
                 "2030 5538"
             ]
         },
         {
-            "area": "guardia",
+            "area": "Guardia / Seguridad",
             "phones": [
                 "2030 5559"
             ]
         },
         {
-            "area": "técnica",
+            "area": "Sub-dirección Técnica",
             "phones": [
                 "2030 5555"
             ]

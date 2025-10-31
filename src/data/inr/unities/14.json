@@ -10,19 +10,19 @@
     },
     "phone": [
         {
-            "area": "direccion",
+            "area": "Dirección",
             "phones": [
                 "2030 9541"
             ]
         },
         {
-            "area": "juridica",
+            "area": "Área Jurídica",
             "phones": [
                 "2030 9539"
             ]
         },
         {
-            "area": "guardia",
+            "area": "Guardia / Seguridad",
             "phones": [
                 "2030 9540"
             ]

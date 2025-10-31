@@ -10,31 +10,31 @@
     },
     "phone": [
         {
-            "area": "administracion",
+            "area": "Sub-dirección Administrativa",
             "phones": [
                 "4533 0399 int. 102"
             ]
         },
         {
-            "area": "tecnica y atencion a familia",
+            "area": "Sub-dirección Técnica / Atención a Familias",
             "phones": [
                 "4533 0399 int. 103"
             ]
         },
         {
-            "area": "operativa",
+            "area": "Sub-dirección Operativa",
             "phones": [
                 "4533 0399 int. 104"
             ]
         },
         {
-            "area": "juridica",
+            "area": "Área Jurídica",
             "phones": [
                 "4533 0399 int. 106"
             ]
         },
         {
-            "area": "revisoria",
+            "area": "Revisoría",
             "phones": [
                 "4533 0399 int. 108"
             ]

@@ -9,12 +9,13 @@
         "url": "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
     },
     "phone": [
-    {
-        "area": "juridica",
-        "phones": ["2030 9674"]
-    }
-]
-,
+        {
+            "area": "Área Jurídica",
+            "phones": [
+                "2030 9674"
+            ]
+        }
+    ],
     "email": [
         {
             "area": "Sub-dirección administrativa",

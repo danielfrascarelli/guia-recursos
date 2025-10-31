@@ -10,25 +10,25 @@
     },
     "phone": [
         {
-            "area": "Secretaría de Dirección",
+            "area": "Secretaría",
             "phones": [
                 "42226967"
             ]
         },
         {
-            "area": "Subdirección Administrativa",
+            "area": "Sub-dirección Administrativa",
             "phones": [
                 "2030 9206"
             ]
         },
         {
-            "area": "Subdirección Operativa",
+            "area": "Sub-dirección Operativa",
             "phones": [
                 "42226967"
             ]
         },
         {
-            "area": "Subdirección Técnica",
+            "area": "Sub-dirección Técnica",
             "phones": [
                 "2030 9205"
             ]
@@ -46,19 +46,19 @@
             ]
         },
         {
-            "area": "Oficina de Atención a Familiares de PPL",
+            "area": "Atención a Familias",
             "phones": [
                 "2030 9204"
             ]
         },
         {
-            "area": "Guardia Externa",
+            "area": "Guardia / Seguridad",
             "phones": [
                 "2030 9202"
             ]
         },
         {
-            "area": "Oficina Redención de Pena",
+            "area": "Oficina de Redención de Pena",
             "phones": [
                 "2030 9207"
             ]
