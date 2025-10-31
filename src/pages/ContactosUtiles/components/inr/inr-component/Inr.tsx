@@ -1,35 +1,70 @@
 import React from "react";
 
-import type { InrProps } from "./InrProps"; 
-import { getContentDefinition } from "./ContentDefinition"; 
-import type { InrUnidadProps } from "../inr-unidad-component/InrUnidadProps"; 
+import styles from "./Inr.module.scss";
+import type { InrProps } from "./InrProps";
+import { getContentDefinition as getOfficesContentDefinition } from "./OfficesContentDefinition";
+import { getContentDefinition as getUnitiesContentDefinition } from "./UnitiesContentDefinition";
+import type { InrUnidadProps } from "../inr-unidad-component/InrUnidadProps";
 import { BoxListOptions } from "../../../../../components/box-list-options/BoxListOptions";
 import { TextListOptions } from "../../../../../components/text-list-options/TextListOptions";
-import type { TextListItem } from "../../../../../shared/utils/Item";
+import TitleBar from "../../../../../components/title-bar/TitleBar";
+import SubtitleBar from "../../../../../components/subtitle-bar/SubtitleBar";
+import type { ContentDefinition } from "../../../../../components/ItemDefinition";
+import { isBlankOrEmpty } from "../../../../../shared/utils/String";
+import type { InrOfficeProps } from "../inr-offices-component/InrOfficeProps";
 
 export const Inr: React.FC<InrProps> = ({ }) => {
-  const inrContent = getContentDefinition();
+  const getBoxTitle = (props: InrUnidadProps | InrOfficeProps): string => props.title;
+  const getBoxSubtitle = (props: InrUnidadProps | InrOfficeProps): string => ("shortAddressDescription" in props) ? props.shortAddressDescription ?? "" : "";
 
-  const getBoxTitle = (props: InrUnidadProps): string => props.title;
-  const getBoxSubtitle = (props: InrUnidadProps): string => `${props.shortAddressDescription}`;
+  // const inrContent = getContentDefinition();
+  // const listItems: TextListItem[] = inrContent.map(u => ({
+  //   ...u,
+  //   title: `${getBoxTitle(u.props as InrUnidadProps)} - ${getBoxSubtitle(u.props as InrUnidadProps)}`
+  // }));
+  // const boxItems: TextListItem[] = inrContent.map(u => ({
+  //   ...u,
+  //   title: getBoxTitle(u.props as InrUnidadProps),
+  //   subtitle: getBoxSubtitle(u.props as InrUnidadProps),
+  // }));
 
-  const listItems: TextListItem[] = inrContent.map(u => ({
-    ...u,
-    title: `${getBoxTitle(u.props as InrUnidadProps)} - ${getBoxSubtitle(u.props as InrUnidadProps)}`
-  }));
-  const boxItems: TextListItem[] = inrContent.map(u => ({
-    ...u,
-    title: getBoxTitle(u.props as InrUnidadProps),
-    subtitle: getBoxSubtitle(u.props as InrUnidadProps),
-  }));
+  const fnListItems = function (cd: ContentDefinition[]) {
+    return cd.map(u => ({
+      ...u,
+      title: `${getBoxTitle(u.props as InrUnidadProps | InrOfficeProps)}
+      ${isBlankOrEmpty(getBoxSubtitle(u.props as InrUnidadProps | InrOfficeProps)) ? "" : " - "}
+      ${isBlankOrEmpty(getBoxSubtitle(u.props as InrUnidadProps | InrOfficeProps)) ? "" : getBoxSubtitle(u.props as InrUnidadProps)}`
+    }));
+  }
+
+  const fnBoxItems = function (cd: ContentDefinition[]) {
+    return cd.map(u => ({
+      ...u,
+      title: getBoxTitle(u.props as InrUnidadProps | InrOfficeProps),
+      subtitle: getBoxSubtitle(u.props as InrUnidadProps | InrOfficeProps),
+    }));
+  }
 
   return (
-    <div className="d-flex m-3">
-      <div className="d-block d-sm-none">
-        <TextListOptions items={listItems} />
+    <div className={styles.screen}>
+      <TitleBar title="Instituto Nacional de Rehabilitación"></TitleBar>
+      <div className="mt-3">
+        <SubtitleBar text="Oficinas"></SubtitleBar>
+        <div className="d-block d-sm-none">
+          <TextListOptions items={fnListItems(getOfficesContentDefinition())} />
+        </div>
+        <div className="d-none d-sm-block">
+          <BoxListOptions items={fnBoxItems(getOfficesContentDefinition())} variant="inr" />
+        </div>
       </div>
-      <div className="d-none d-sm-block">
-        <BoxListOptions items={boxItems} variant="inr" />
+      <div className="mt-3">
+        <SubtitleBar text="Unidades"></SubtitleBar>
+        <div className="d-block d-sm-none">
+          <TextListOptions items={fnListItems(getUnitiesContentDefinition())} />
+        </div>
+        <div className="d-none d-sm-block">
+          <BoxListOptions items={fnBoxItems(getUnitiesContentDefinition())} variant="inr" />
+        </div>
       </div>
     </div>
   );

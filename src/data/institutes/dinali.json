@@ -1,0 +1,56 @@
+{
+  "shortName": "DINALI",
+  "longName": "Dirección Nacional de Apoyo al Liberado (DINALI)",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": "Bella Vista",
+  "address": {
+    "text": "Sitio Grande 1055, Montevideo",
+    "url": "https://www.google.com/maps/search/?api=1&query=Sitio+Grande+1055,Montevideo"
+  },
+  "phone": [
+    {
+      "area": "Direccion",
+      "phones": [
+        "2400 0302 int. 6802"
+      ]
+    },
+    {
+      "area": "Capacitacion y empleo",
+      "phones": [
+        "2400 0302 int. 6805 y 6806"
+      ]
+    },
+    {
+      "area": "Secretaria",
+      "phones": [
+        "2400 0302 int. 6801"
+      ]
+    },
+    {
+      "area": "Atencion al usuario de DINALI (Oficina en Miguelete y Cabildo)",
+      "phones": [
+        "2030 4516"
+      ]
+    }
+  ],
+  "email": [
+    {
+      "area": "",
+      "emails": [
+        "dinali@mides.gub.uy"
+      ]
+    },
+    {
+      "area": "",
+      "emails": [
+        "dinali@minterior.gub.uy"
+      ]
+    }
+  ],
+  "web": {
+    "text": "Dirección Nacional de Apoyo al Liberado",
+    "url": "https://guiaderecursos.mides.gub.uy/35509/direccion-nacional-de-apoyo-al-liberado-dinali"
+  },
+  "openingHours": "9 hs a 15 hs"
+}

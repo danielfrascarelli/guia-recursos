@@ -1,0 +1,194 @@
+{
+  "shortName": null,
+  "longName": "Juzgado Letrado De Ejecución Y Vigilancia",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": null,
+  "address": null,
+  "phone": null,
+  "email": null,
+  "web": {
+    "text": "Juzgado Letrado De Ejecución Y Vigilancia",
+    "url": "https://www.poderjudicial.gub.uy/oficinas.html"
+  },
+  "openingHours": null,
+  "areas": [
+    {
+      "shortName": null,
+      "longName": "Juzgado Letrado de Ejecución y Vigilancia de 1º y 3º Turno",
+      "department": null,
+      "city": null,
+      "neighborhood": null,
+      "address": {
+        "text": "Misiones 1469 / 4° y 5° Piso, Montevideo",
+        "url": "https://www.google.com/maps/place/Juzgado+Letrado+de+1%C2%AA+Instancia+en+lo+Penal+de+1er,+2%C2%BA,+3%C2%BA+Turno/@-34.9065229,-56.2069629,20z/data=!4m15!1m8!3m7!1s0x959f7f81242fff3d:0x1dfaa153fbe5ed!2sMisiones+1469,+11000+Montevideo,+Departamento+de+Montevideo!3b1!8m2!3d-34.9065081!4d-56.2067215!16s%2Fg%2F11l76j0xkl!3m5!1s0x959f7f296d868bcf:0x6083f59cb1de3b01!8m2!3d-34.9064647!4d-56.2066368!16s%2Fg%2F11fhzhf1w2?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "phone": [
+        {
+          "area": "4° piso",
+          "phones": [
+            "29151776",
+            "29151679",
+            "1º Tº 1907 Int. 8485"
+          ]
+        },
+        {
+          "area": "5° piso",
+          "phones": [
+            "29155338",
+            "29161159",
+            "3º Tº 1907 Int. 8162"
+          ]
+        }
+      ],
+      "email": [
+        {
+          "area": "1° turno",
+          "emails": [
+            "jpenalejec1@poderjudicial.gub.uy"
+          ]
+        },
+        {
+          "area": "3° turno",
+          "emails": [
+            "jpenalejec3@poderjudicial.gub.uy"
+          ]
+        }
+      ],
+      "web": null,
+      "openingHours": null
+    },
+    {
+      "shortName": null,
+      "longName": "Juzgado Letrado de Ejecución y Vigilancia de 2º, 4° y 5° Turno",
+      "department": null,
+      "city": null,
+      "neighborhood": null,
+      "address": {
+        "text": "Misiones 1469 / 2° y 3° Piso, Montevideo",
+        "url": "https://www.google.com/maps/place/Juzgado+Letrado+de+1%C2%AA+Instancia+en+lo+Penal+de+1er,+2%C2%BA,+3%C2%BA+Turno/@-34.9065229,-56.2069629,20z/data=!4m15!1m8!3m7!1s0x959f7f81242fff3d:0x1dfaa153fbe5ed!2sMisiones+1469,+11000+Montevideo,+Departamento+de+Montevideo!3b1!8m2!3d-34.9065081!4d-56.2067215!16s%2Fg%2F11l76j0xkl!3m5!1s0x959f7f296d868bcf:0x6083f59cb1de3b01!8m2!3d-34.9064647!4d-56.2066368!16s%2Fg%2F11fhzhf1w2?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "phone": [
+        {
+          "area": "2° turno",
+          "phones": [
+            "29154183 int. 8490",
+            "29164839 int. 8490"
+          ]
+        },
+        {
+          "area": "4° turno",
+          "phones": [
+            "29154183 int. 8172",
+            "29164839 int. 8172"
+          ]
+        },
+        {
+          "area": "5° turno",
+          "phones": [
+            "29154183 int. 8168",
+            "29164839 int. 8168"
+          ]
+        }
+      ],
+      "email": [
+        {
+          "area": "2° turno",
+          "emails": [
+            "jpenalejec2@poderjudicial.gub.uy"
+          ]
+        },
+        {
+          "area": "4° turno",
+          "emails": [
+            "jpenalejec4@poderjudicial.gub.uy"
+          ]
+        },
+        {
+          "area": "5° turno",
+          "emails": [
+            "jpenalejec5@poderjudicial.gub.uy"
+          ]
+        }
+      ],
+      "web": null,
+      "openingHours": null
+    },
+    {
+      "shortName": null,
+      "longName": "Juzgado Letrado de Ejecución y Vigilancia de 6° y 7° Turno",
+      "department": null,
+      "city": null,
+      "neighborhood": null,
+      "address": {
+        "text": "Bartolomé Mitre 1275 / 4° piso, Montevideo",
+        "url": "https://www.google.com/maps/place/Juzgado+De+Montevideo/@-34.9078956,-56.201783,20.75z/data=!4m15!1m8!3m7!1s0x959f813f8874ffb5:0xc22ecb64a5bf7836!2sBartolom%C3%A9+Mitre+1275,+11000+Montevideo,+Departamento+de+Montevideo!3b1!8m2!3d-34.9078904!4d-56.2016299!16s%2Fg%2F11vjtsvtyl!3m5!1s0x959f802ac335e5e5:0x6332ceb5342e5f19!8m2!3d-34.9079379!4d-56.2016136!16s%2Fg%2F11c5xfz0ys?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "phone": [
+        {
+          "area": "",
+          "phones": [
+            "1907 Int. 7200"
+          ]
+        }
+      ],
+      "email": [
+        {
+          "area": "6° turno",
+          "emails": [
+            "jpenalejec6@poderjudicial.gub.uy"
+          ]
+        },
+        {
+          "area": "7° turno",
+          "emails": [
+            "jpenalejec7@poderjudicial.gub.uy"
+          ]
+        }
+      ],
+      "web": null,
+      "openingHours": null
+    },
+    {
+      "shortName": null,
+      "longName": "Juzgado Letrado de Ejecución y Vigilancia de 8° y 9° Turno",
+      "department": null,
+      "city": null,
+      "neighborhood": null,
+      "address": {
+        "text": "Bartolomé Mitre 1275 / 3° piso, Montevideo",
+        "url": "https://www.google.com/maps/place/Juzgado+De+Montevideo/@-34.9078956,-56.201783,20.75z/data=!4m15!1m8!3m7!1s0x959f813f8874ffb5:0xc22ecb64a5bf7836!2sBartolom%C3%A9+Mitre+1275,+11000+Montevideo,+Departamento+de+Montevideo!3b1!8m2!3d-34.9078904!4d-56.2016299!16s%2Fg%2F11vjtsvtyl!3m5!1s0x959f802ac335e5e5:0x6332ceb5342e5f19!8m2!3d-34.9079379!4d-56.2016136!16s%2Fg%2F11c5xfz0ys?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+      },
+      "phone": [
+        {
+          "area": "8° turno",
+          "phones": [
+            "1907 int. 8425"
+          ]
+        },
+        {
+          "area": "9° turno",
+          "phones": [
+            "2915 4478"
+          ]
+        }
+      ],
+      "email": [
+        {
+          "area": "8° turno",
+          "emails": [
+            "jpenalejec8@poderjudicial.gub.uy"
+          ]
+        },
+        {
+          "area": "9° turno",
+          "emails": [
+            "jpenalejec9@poderjudicial.gub.uy"
+          ]
+        }
+      ],
+      "web": null,
+      "openingHours": null
+    }
+  ]
+}

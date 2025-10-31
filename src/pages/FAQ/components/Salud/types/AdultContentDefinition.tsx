@@ -8,8 +8,25 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       url: "1",
       componentType: "TextComponent",
       props: {
-        title: "¿Cuánto tiempo transcurre hasta tener conocimiento de la unidad penitenciaria a la cual fue trasladado?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title: "¿Cuándo tienes conocimiento de qué tu familiar tiene algún problema de salud?",
+        text: (<>
+          <div>
+            <div>
+              <p>Tenes derecho a llamar y consultar sobre el mismo con algún referente del área en la unidad correspondiente.</p>
+              <p>También podes dirigirte a la Oficina de Atención a la Familia vía email o presencial, y allí se ingresará una solicitud por alguien encargado del área de salud. </p>
+              <p>Se genera un expediente que se remite a la unidad. </p>
+              <p>Te recomendamos llevar contigo el número de expediente.</p>
+            </div>
+            <div className="pt-2">
+              <p>Tene en cuenta que:</p>
+              <ul>
+                <li>En caso de internación de tu familiar, se pueden solicitar cuidados para la persona. Dicha gestión se puede realizar en el INR quién determinará si es viable o no. Luego tiene que habilitar el Centro de Salud.</li>
+                <li>También es posible que no se habiliten los cuidados pero sí, una visita especial. Se puede autorizar a algún familiar a que lo vea. Esto dependerá del perfil de la persona detenida. De esto se encarga el INR. </li>
+                <li>Es necesario tener presente qué no todos los hospitales habilitan visitas, si se puede acceder siempre al informe médico.</li>
+              </ul>
+            </div>
+          </div>
+        </>)
       },
     },
     {
@@ -18,30 +35,17 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       url: "2",
       componentType: "TextComponent",
       props: {
-        title: "¿Qué es el OASIS?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title: "Salud mental y consumo problemático",
+        text: (<>
+          <div>
+            <div>
+              <p>Te sugerimos que puedas averiguar en la unidad dónde se encuentra detenido tu familiar que tipos de dispositivos existen funcionando para el abordaje de la salud mental y el consumo problemático.</p>
+              <p>Debido a que son escasos y no en todas existen programas queden respuesta.</p>
+            </div>
+          </div>
+        </>)
       },
-    },
-    {
-      id: "3",
-      variant: "pretty_white",
-      url: "3",
-      componentType: "TextComponent",
-      props: {
-        title: "¿Cuándo tomó conocimiento de que mi familiar sería trasladado de unidad?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-    },
-    {
-      id: "4",
-      variant: "pretty_white",
-      url: "4",
-      componentType: "TextComponent",
-      props: {
-        title: "¿Qué corresponde en dichas situaciones?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-    },
+    }
   ] satisfies ContentDefinition[];
   return items;
 }

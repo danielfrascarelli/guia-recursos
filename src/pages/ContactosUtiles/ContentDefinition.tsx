@@ -1,18 +1,34 @@
- 
+
 import type { OfficeData } from "./components/common/common-component/CommonOfficeInfoProps";
 
-import logo_inr from "../../assets/images/logos_contactos_utiles/logo_inr.png" 
+import logo_inr from "../../assets/images/logos_contactos_utiles/logo_inr.png"
 import asse from "../../assets/images/logos_contactos_utiles/asse.png";
 import pnec from "../../assets/images/logos_contactos_utiles/pnec.png";
 import dinali from "../../assets/images/logos_contactos_utiles/dinali.png";
 import comisionado_parlamentario from "../../assets/images/logos_contactos_utiles/comisionado.parlamentario.png";
 import inddhh from "../../assets/images/logos_contactos_utiles/inddhh.png";
 import type { ContentDefinition } from "../../components/ItemDefinition";
-import asseDataJson from '../../data/offices/asse.json'; 
+
+import asseDataJson from '../../data/institutes/asse.json';
+import pnecDataJson from '../../data/institutes/pnec.json';
+import dinaliDataJson from '../../data/institutes/dinali.json';
+import dinamaDataJson from '../../data/institutes/dinama.json';
+import comisionadoDataJson from '../../data/institutes/comisionado.json';
+import inddhhMnpDataJson from '../../data/institutes/inddhh-mnp.json';
+import dpepDataJson from '../../data/institutes/dpep.json';
+import jlevDataJson from '../../data/institutes/jlev.json';
+import type { JLEVOfficeData } from "./components/jlev-component/JLEVOfficeInfoProps";
 
 export function getContentDefinition(): ContentDefinition[] {
 
   const asseData: OfficeData = asseDataJson;
+  const pnecData: OfficeData = pnecDataJson;
+  const dinaliData: OfficeData = dinaliDataJson;
+  const dinamaData: OfficeData = dinamaDataJson;
+  const comisionadoData: OfficeData = comisionadoDataJson;
+  const inddhhMnpData: OfficeData = inddhhMnpDataJson;
+  const dpepData: OfficeData = dpepDataJson;
+  const jlevData: JLEVOfficeData = jlevDataJson;
 
   const items = [
     {
@@ -44,7 +60,7 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Programa Nacional de Educación en Cárceles",
         imageUrl: pnec,
-        data: asseData
+        data: pnecData
       },
     },
     {
@@ -55,7 +71,7 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Dirección Nacional de Apoyo al Liberado",
         imageUrl: dinali,
-        data: asseData
+        data: dinaliData
       },
     },
     {
@@ -65,7 +81,7 @@ export function getContentDefinition(): ContentDefinition[] {
       componentType: "CommonOfficeInfoComponent",
       props: {
         title: "Dirección Nacional de Medidas Alternativas (DINAMA)",
-        data: asseData
+        data: dinamaData
       },
     },
     {
@@ -76,7 +92,7 @@ export function getContentDefinition(): ContentDefinition[] {
       props: {
         title: "Comisionado Parlamentario Penitenciario",
         imageUrl: comisionado_parlamentario,
-        data: asseData
+        data: comisionadoData
       },
     },
     {
@@ -85,40 +101,29 @@ export function getContentDefinition(): ContentDefinition[] {
       url: "inddhh",
       componentType: "CommonOfficeInfoComponent",
       props: {
-        title: "Instituto Nacional de Derechos Humanos y Defensoria del Pueblo",
+        title: "Instituto Nacional de Derechos Humanos y Defensoria del Pueblo - Mecanismo Nacional de Prevención de la Tortura",
         imageUrl: inddhh,
-        data: asseData
+        data: inddhhMnpData
       },
     },
     {
       id: "8",
       variant: "pretty_white",
-      url: "mnpt",
+      url: "dpep",
       componentType: "CommonOfficeInfoComponent",
       props: {
-        title: "Mecanismo Nacional de Prevención de la Tortura",
-        imageUrl: inddhh,
-        data: asseData
+        title: "Defensoría Pública de Ejecución Penal",
+        data: dpepData
       },
     },
     {
       id: "9",
       variant: "pretty_white",
-      url: "dpep",
-      componentType: "CommonOfficeInfoComponent",
-      props: {
-        title: "Defensoría Pública de Ejecución Penal",
-        data: asseData
-      },
-    },
-    {
-      id: "10",
-      variant: "pretty_white",
       url: "jlev",
-      componentType: "CommonOfficeInfoComponent",
+      componentType: "JLEVOfficeInfoComponent",
       props: {
         title: "Juzgado Letrado de Ejecución y Vigilancia",
-        data: asseData
+        data: jlevData
       },
     }
   ] satisfies ContentDefinition[];

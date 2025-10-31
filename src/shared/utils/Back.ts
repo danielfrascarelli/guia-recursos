@@ -9,7 +9,7 @@ function getBackUtil(path: string): string {
     const tiposValidos = ["adulto", "adolescente"];
     if (!tiposValidos.includes(tipo)) return "/";
 
-    const categoriasValidas = ["visitas-y-contacto", "traslados", "salud", "acceso-a-derechos", "salida"];
+    const categoriasValidas = ["visitas-y-comunicacion", "traslados", "salud", "acceso-a-derechos", "salida"];
 
     if (!tiposValidos.includes(tipo)) return "/";
     if (!categoriasValidas.includes(categoria)) return "/";

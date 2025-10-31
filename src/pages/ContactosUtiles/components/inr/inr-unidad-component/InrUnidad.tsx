@@ -25,7 +25,7 @@ export const InrUnidad: React.FC<InrUnidadProps> = ({ data }: InrUnidadProps) =>
         {data.telefonos.map((t, i) => (
           <li key={i}>
             <em>{t.area}:</em>{" "}
-            {t.numeros}
+            {t.phones.join(", ")}
           </li>
         ))}
       </ul>
@@ -35,7 +35,7 @@ export const InrUnidad: React.FC<InrUnidadProps> = ({ data }: InrUnidadProps) =>
         {data.correos.map((c, i) => (
           <li key={i}>
             <em>{c.area}:</em>{" "}
-            <a href={`mailto:${c.email}`}>{c.email}</a>
+            {c.emails.map(e => <a href={`mailto:${e}`}>{e}</a>)}
           </li>
         ))}
       </ul>

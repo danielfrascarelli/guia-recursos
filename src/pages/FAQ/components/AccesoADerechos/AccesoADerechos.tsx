@@ -17,7 +17,6 @@ export default function AccesoADerechos({ type }: AccesoADerechosProps) {
     <div className={styles.screen}>
       <TitleBar title={"Acceso a derechos y actividades"} />
       <main className={styles.main}>
-        {/* <h1 className={styles.title}>Acceso a derechos y actividades</h1> */}
         <TextListOptions items={items} />
       </main>
     </div>

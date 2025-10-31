@@ -4,7 +4,8 @@ import { getContentDefinition } from "./ContentDefinition";
 import type { TextComponentProps } from "../../../../components/text-component/TextComponentProps";
 import TitleBar from "../../../../components/title-bar/TitleBar";
 import type { DefinitionProps } from "../../../../components/DefinitionProps";
-import type { RelativeType } from "../../../../shared/utils/RelativeType";
+import { RelativeType } from "../../../../shared/utils/RelativeType";
+import IntroTeenager from "./IntroTeenager";
 
 export interface SaludProps extends DefinitionProps {
   type: RelativeType;
@@ -17,7 +18,11 @@ export default function Salud({ type }: SaludProps) {
     <div className={styles.screen}>
       <TitleBar title={"Salud"} />
       <main className={styles.main}>
-        {/* <h1 className={styles.title}>Salud y sanciones</h1> */}
+        {
+          type == RelativeType.Adult
+            ? <></>
+            : <IntroTeenager />
+        }
         <TextListOptions items={items} />
       </main>
     </div>

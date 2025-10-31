@@ -1,0 +1,1 @@
+export type Address = { text: string; url?: string }

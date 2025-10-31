@@ -4,7 +4,9 @@ import { getContentDefinition } from "./ContentDefinition";
 import type { TextComponentProps } from "../../../../components/text-component/TextComponentProps";
 import TitleBar from "../../../../components/title-bar/TitleBar";
 import type { DefinitionProps } from "../../../../components/DefinitionProps";
-import type { RelativeType } from "../../../../shared/utils/RelativeType";
+import { RelativeType } from "../../../../shared/utils/RelativeType";
+import IntroAdult from "./IntroAdult";
+import IntroTeenager from "./IntroTeenager";
 
 export interface SalidaProps extends DefinitionProps {
   type: RelativeType;
@@ -17,7 +19,11 @@ export default function Salida({ type }: SalidaProps) {
     <div className={styles.screen}>
       <TitleBar title={"Salida"} />
       <main className={styles.main}>
-        {/* <h1 className={styles.title}>La salida</h1> */}
+        {
+          type == RelativeType.Adult
+            ? <IntroAdult />
+            : <IntroTeenager />
+        }
         <TextListOptions items={items} />
       </main>
     </div>

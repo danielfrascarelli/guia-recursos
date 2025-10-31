@@ -14,9 +14,9 @@ export const TextComponent: React.FC<TextComponentProps> = ({
       <main className={styles.main}>
         <h1 className={styles.title}>{title}</h1>
         <Container fluid className="p-0">
-          <p>
+          <div>
             {text}
-          </p>
+          </div>
         </Container>
       </main>
     </div>

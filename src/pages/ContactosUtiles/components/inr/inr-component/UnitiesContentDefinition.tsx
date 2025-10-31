@@ -1,6 +1,6 @@
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
 
- 
+
 export const data = {
   departamento: "Montevideo",
   ciudad: "Montevideo",
@@ -10,14 +10,14 @@ export const data = {
     url: "https://maps.google.com/?q=Camino+Dionisos+6350,+Montevideo"
   },
   telefonos: [
-    { area: "Sub–dirección administrativa", numeros: "4340 2628 int 17" },
-    { area: "Sub–dirección operativa", numeros: "2030 9510" },
-    { area: "Sub–dirección técnica", numeros: "2030 9510 / 4340 3308" }
+    { area: "Sub–dirección administrativa", phones: ["4340 2628 int 17"] },
+    { area: "Sub–dirección operativa", phones: ["2030 9510"] },
+    { area: "Sub–dirección técnica", phones: ["2030 9510 / 4340 3308"] }
   ],
   correos: [
-    { area: "Sub–dirección administrativa", email: "inr-u-9.secretaria@minterior.gub.uy" },
-    { area: "Sub–dirección operativa", email: "inr-u-9.operativa@minterior.gub.uy" },
-    { area: "Sub–dirección técnica", email: "inr-u-9.tecnica@minterior.gub.uy" }
+    { area: "Sub–dirección administrativa", emails: ["inr-u-9.secretaria@minterior.gub.uy"] },
+    { area: "Sub–dirección operativa", emails: ["inr-u-9.operativa@minterior.gub.uy"] },
+    { area: "Sub–dirección técnica", emails: ["inr-u-9.tecnica@minterior.gub.uy"] }
   ],
   paquetes: {
     horarioEntrega: "dentro del horario de visita.",
@@ -39,10 +39,10 @@ export function getContentDefinition(): ContentDefinition[] {
   const items = [
     {
       id: "unidad-1",
-      iconLabel: "1", 
-      variant: "pretty_white",      
+      iconLabel: "1",
+      variant: "pretty_white",
       componentType: "InrUnidadComponent",
-      props: { 
+      props: {
         shortAddressDescription: "Punta de Rieles, Montevideo",
         title: "Unidad 1",
         data
@@ -351,30 +351,3 @@ export function getContentDefinition(): ContentDefinition[] {
   ] satisfies ContentDefinition[];
   return items;
 }
-
-
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26

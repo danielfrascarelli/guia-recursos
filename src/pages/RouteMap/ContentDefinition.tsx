@@ -24,6 +24,15 @@ export function getContentDefinition(): ContentDefinition[] {
     {
       id: "3",
       variant: "pretty_white",
+      url: "proceso-judicial",
+      componentType: "JudicialProcessComponent",
+      props: {
+        title: "Proceso Judicial",
+      },
+    },
+    {
+      id: "4",
+      variant: "pretty_white",
       url: "contactos-utiles",
       componentType: "ContactosUtilesComponent",
       props: {

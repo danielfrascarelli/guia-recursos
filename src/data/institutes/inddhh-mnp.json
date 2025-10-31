@@ -1,0 +1,33 @@
+{
+  "shortName": null,
+  "longName": "Instituto Nacional De Derechos Humanos Y Defensoria Del Pueblo ( INDDHH ) - Mecanismo Nacional De Prevención De La Tortura ( MNP )",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": "Tres Cruces",
+  "address": {
+    "text": "Bv. Gral. Artigas 1532, Montevideo",
+    "url": "https://www.google.com/maps/place/Instituci%C3%B3n+Nacional+de+Derechos+Humanos+y+Defensoria+del+Pueblo/@-34.900207,-56.1642132,20z/data=!4m15!1m8!3m7!1s0x959f81ab857ddd55:0x35f1a572af6a4b5!2sBv.+Gral.+Artigas+1532,+11600+Montevideo,+Departamento+de+Montevideo!3b1!8m2!3d-34.9001831!4d-56.1639049!16s%2Fg%2F11vjlqm4kk!3m5!1s0x959f81abfaa01e89:0x7b0d854ffb6b4888!8m2!3d-34.9002197!4d-56.163965!16s%2Fg%2F11c2qnz3fj?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "phone": [
+    {
+      "area": "",
+      "phones": [
+        "2705 9319",
+        "1948 int. 212, 213 y 214"
+      ]
+    }
+  ],
+  "email": [
+    {
+      "area": "",
+      "emails": [
+        "secretaria@inddhh.gub.uy"
+      ]
+    }
+  ],
+  "web": {
+    "text": "Instituto Nacional De Derechos Humanos Y Defensoria Del Pueblo",
+    "url": "https://www.gub.uy/institucion-nacional-derechos-humanos-uruguay/institucional/cometidos"
+  },
+  "openingHours": "lunes a viernes de 9 hs a 18 hs"
+}

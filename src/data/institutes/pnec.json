@@ -1,0 +1,29 @@
+{
+  "shortName": "PNEC",
+  "longName": "PROGRAMA NACIONAL DE EDUCACIÓN EN CÁRCELES",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": "Belvedere",
+  "address": null,
+  "phone": [
+    {
+      "area": "",
+      "phones": [
+        "1825 Interno 02209"
+      ]
+    }
+  ],
+  "email": [
+    {
+      "area": "Innovacion educativa",
+      "emails": [
+        "innovacioneducativa@mec.gub.uy"
+      ]
+    }
+  ],
+  "web": {
+    "text": "Programa Nacional de Educación en Cárceles",
+    "url": "https://www.gub.uy/ministerio-educacion-cultura/pnec"
+  },
+  "openingHours": "9 hs a 16 hs"
+}

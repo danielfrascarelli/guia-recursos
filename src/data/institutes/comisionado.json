@@ -1,0 +1,44 @@
+{
+  "shortName": null,
+  "longName": "Comisionado Parlamentario Penitenciario",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": "Bella Vista",
+  "address": {
+    "text": "Av. de las Leyes - Anexo Palacio Legislativo (entrada por Acuña Ide Figueroa), Montevideo",
+    "url": "https://www.google.com/maps/place/Edificio+Artigas+%7C+Poder+Legislativo+de+la+Rep%C3%BAblica+Oriental+del+Uruguay/@-34.8906545,-56.1893134,19.75z/data=!4m15!1m8!3m7!1s0x959f803b900d0749:0xd4a242bb14293286!2sEdificio+Jos%C3%A9+Artigas,+Av.+de+las+Leyes,+11800+Montevideo,+Departamento+de+Montevideo!3b1!8m2!3d-34.8908347!4d-56.1890543!16s%2Fg%2F11b8tjb3cv!3m5!1s0x959f803b8ee16ead:0xebc46d656d5a39a!8m2!3d-34.8905691!4d-56.1891853!16s%2Fg%2F11c55rx_l_?entry=ttu&g_ep=EgoyMDI1MTAyNy4wIKXMDSoASAFQAw%3D%3Do"
+  },
+  "phone": [
+    {
+      "area": "Comisionado",
+      "phones": [
+        "142 int. 3005"
+      ]
+    },
+    {
+      "area": "Secretaria",
+      "phones": [
+        "142 int. 3015"
+      ]
+    },
+    {
+      "area": "Teléfono Oficina de Asesores",
+      "phones": [
+        "2924 9747"
+      ]
+    }
+  ],
+  "email": [
+    {
+      "area": "",
+      "emails": [
+        "comisionado@parlamento.gub.uy"
+      ]
+    }
+  ],
+  "web": {
+    "text": "Comisionado Parlamentario Penitenciario",
+    "url": "https://parlamento.gub.uy/cpp/funciones"
+  },
+  "openingHours": "11 hs a 17 hs"
+} 

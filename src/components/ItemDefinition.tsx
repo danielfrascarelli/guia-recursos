@@ -6,7 +6,7 @@ import { TextListOptions } from "./text-list-options/TextListOptions";
 
 import type { Text2ComponentProps } from "./text2-component/Text2ComponentProps";
 import type { TextComponentProps } from "./text-component/TextComponentProps";
-import type { TextListOptionsProps } from "./text-list-options/TextListOptionsProps"; 
+import type { TextListOptionsProps } from "./text-list-options/TextListOptionsProps";
 import FAQ, { type FAQProps } from "../pages/FAQ/FAQ";
 import ContactosUtiles, { type ContactosUtilesProps } from "../pages/ContactosUtiles/ContactosUtiles";
 import { CommonOfficeInfo } from "../pages/ContactosUtiles/components/common/common-component/CommonOfficeInfo";
@@ -26,6 +26,11 @@ import AccesoADerechos, { type AccesoADerechosProps } from "../pages/FAQ/compone
 import Salida, { type SalidaProps } from "../pages/FAQ/components/Salida/Salida";
 import Salud, { type SaludProps } from "../pages/FAQ/components/Salud/Salud";
 import Traslados, { type TrasladosProps } from "../pages/FAQ/components/Traslados/Traslados";
+import JudicialProcess, { type JudicialProcessProps } from "../pages/RouteMap/components/judicial-process/JudicialProcess";
+import { InrOffice } from "../pages/ContactosUtiles/components/inr/inr-offices-component/InrOffice";
+import type { InrOfficeProps } from "../pages/ContactosUtiles/components/inr/inr-offices-component/InrOfficeProps";
+import { JLEVOfficeInfo } from "../pages/ContactosUtiles/components/jlev-component/JLEVOfficeInfo";
+import type { JLEVOfficeInfoProps } from "../pages/ContactosUtiles/components/jlev-component/JLEVOfficeInfoProps";
 
 export const registry = {
     TextComponent: TextComponent as React.ComponentType<TextComponentProps>,
@@ -33,19 +38,20 @@ export const registry = {
     TextListOptionsComponent: TextListOptions as React.ComponentType<TextListOptionsProps>,
     InrComponent: Inr as React.ComponentType<InrProps>,
     InrUnidadComponent: InrUnidad as React.ComponentType<InrUnidadProps>,
+    InrOfficeComponent: InrOffice as React.ComponentType<InrOfficeProps>,
     CommonOfficeInfoComponent: CommonOfficeInfo as React.ComponentType<CommonOfficeInfoProps>,
+    JLEVOfficeInfoComponent: JLEVOfficeInfo as React.ComponentType<JLEVOfficeInfoProps>,
     SelectRelativeTypeComponent: SelectRelativeType as React.ComponentType<SelectRelativeTypeProps>,
     TypePersonComponent: TypePerson as React.ComponentType<TypePersonProps>,
     ContactosUtilesComponent: ContactosUtiles as React.ComponentType<ContactosUtilesProps>,
+    JudicialProcessComponent: JudicialProcess as React.ComponentType<JudicialProcessProps>,
     FAQComponent: FAQ as React.ComponentType<FAQProps>,
     EarlyMomentsComponent: EarlyMoments as React.ComponentType<EarlyMomentsProps>,
     VisitasYContactoComponent: VisitasYContacto as React.ComponentType<VisitasYContactoProps>,
     TrasladosComponent: Traslados as React.ComponentType<TrasladosProps>,
     SaludComponent: Salud as React.ComponentType<SaludProps>,
     AccesoADerechosComponent: AccesoADerechos as React.ComponentType<AccesoADerechosProps>,
-    SalidaComponent: Salida as React.ComponentType<SalidaProps>,
-
-    
+    SalidaComponent: Salida as React.ComponentType<SalidaProps>
 } as const;
 
 export type Registry = typeof registry;

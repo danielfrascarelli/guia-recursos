@@ -9,11 +9,11 @@ export function getAdultContentDefinition(): ContentDefinition[] {
     {
       id: "1",
       variant: "pretty_white",
-      url: "visitas-y-contacto",
+      url: "visitas-y-comunicacion",
       icon: <PeopleIcon />,
       componentType: "VisitasYContactoComponent",
       props: {
-        title: "Visitas y contacto",
+        title: "Visitas",
         type: RelativeType.Adult
       },
     },

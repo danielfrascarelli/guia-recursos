@@ -1,4 +1,4 @@
-import { createBrowserRouter, Navigate } from "react-router-dom";
+import { createBrowserRouter } from "react-router-dom";
 
 import Layout from "./layouts/Layout";
 import Introduction from "./pages/Introduction/Introduction";
@@ -9,6 +9,7 @@ import { registry } from "./components/ItemDefinition";
 import RouteMap from "./pages/RouteMap/RouteMap";
 import ContactosUtiles from "./pages/ContactosUtiles/ContactosUtiles";
 import { getContentDefinition as getContactosUtilesContentDefinition } from "./pages/ContactosUtiles/ContentDefinition";
+import { getContentDefinition as getJudicialProcessContentDefinition } from "./pages/RouteMap/components/judicial-process/ContentDefinition";
 import EarlyMoments from "./pages/RouteMap/components/early-moments/EarlyMoments";
 import { getContentDefinition as getEarlyMomentsContentDefinition } from "./pages/RouteMap/components/early-moments/ContentDefinition";
 import { SelectRelativeType } from "./pages/RouteMap/components/select-relative-type/SelectRelativeType";
@@ -20,12 +21,14 @@ import { getContentDefinition as getTrasladosContentDefinition } from "./pages/F
 import { getContentDefinition as getAccesoADerechoContentDefinition } from "./pages/FAQ/components/AccesoADerechos/ContentDefinition";
 import { getContentDefinition as getSalidaContentDefinition } from "./pages/FAQ/components/Salida/ContentDefinition";
 import { getContentDefinition as getSaludContentDefinition } from "./pages/FAQ/components/Salud/ContentDefinition";
-import { getContentDefinition as getInrContentDefinition } from "./pages/ContactosUtiles/components/inr/inr-component/ContentDefinition";
+import { getContentDefinition as getInrContentDefinition } from "./pages/ContactosUtiles/components/inr/inr-component/OfficesContentDefinition";
 import { Inr } from "./pages/ContactosUtiles/components/inr/inr-component/Inr";
+import { NotFoundRedirect } from "./components/not-found-redirect/NotFoundRedirect";
+import JudicialProcess from "./pages/RouteMap/components/judicial-process/JudicialProcess";
 
 const allFaqRoutes = [RelativeType.Adult, RelativeType.Teenager].flatMap(type => {
   return [{
-    url: 'visitas-y-contacto',
+    url: 'visitas-y-comunicacion',
     fn: getVisitasYContactoContentDefinition
   },
   {
@@ -37,7 +40,7 @@ const allFaqRoutes = [RelativeType.Adult, RelativeType.Teenager].flatMap(type =>
     fn: getSaludContentDefinition
   },
   {
-    url: 'acceso-a-derecho',
+    url: 'acceso-a-derechos',
     fn: getAccesoADerechoContentDefinition
   },
   {
@@ -57,6 +60,8 @@ const allFaqRoutes = [RelativeType.Adult, RelativeType.Teenager].flatMap(type =>
   });
 });
 
+const basename = (import.meta.env.BASE_URL ?? '/').replace(/\/$/, '');
+
 export const router = createBrowserRouter([
   {
     path: "/",
@@ -74,7 +79,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/rol-de-la-familia",
-    element: <Layout titleText="El rol de los familiares" nextRoute="/tips" />,
+    element: <Layout titleText="El rol de las/os familiares" nextRoute="/tips" />,
     children: [
       { index: true, element: <FamilyRole /> }
     ],
@@ -147,9 +152,20 @@ export const router = createBrowserRouter([
           element: <Cmp key={i} {...i.props} />
         })
       }),
-
-      
-
+ 
+      // proceso-judicial
+      {
+        path: '/mapa-de-ruta/proceso-judicial',
+        element: <JudicialProcess />,
+      },
+      ...getJudicialProcessContentDefinition().map((i) => {
+        const Cmp = registry[i.componentType] as React.ComponentType<any>;
+        return ({
+          path: `/mapa-de-ruta/proceso-judicial/${i.url}`,
+          element: <Cmp key={i} {...i.props} />
+        })
+      }),
+ 
       // instituto-nacional-de-rehabilitacion
       {
         path: '/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion',
@@ -167,9 +183,12 @@ export const router = createBrowserRouter([
   },
   {
     path: '*',
-    element: <Navigate to="/" />
+    element: <NotFoundRedirect />
   }
-]);
+],
+  {
+    basename
+  });
 
 
 

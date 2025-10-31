@@ -1,30 +1,23 @@
 import type { DefinitionProps } from "../../../../../components/DefinitionProps";
-
- 
-export interface Phone {
-    area: string,
-    phone: string
-}
-export interface Email {
-    area: string,
-    email: string
-}
-export interface Url {
-    text: string,
-    url: string
-}
+import type { Address } from "../../../../../shared/Address";
+import type { Email } from "../../../../../shared/Email";
+import type { Phone } from "../../../../../shared/Phone";
+import type { Url } from "../../../../../shared/Url";
 
 export interface OfficeData {
-    department: string;
-    city: string;
-    neighborhood: string;
-    address: Url;
-    phone: Phone[];
-    email: Email[];
-    web?: Url;
-    openingHours: string;
+    shortName: string | null;
+    longName: string | null;
+    department: string | null;
+    city: string | null;
+    neighborhood: string | null;
+    address: Address | null;
+    phone: Phone[] | null;
+    email: Email[] | null;
+    web?: Url | null;
+    openingHours: string | null;
 };
 
 export interface CommonOfficeInfoProps extends DefinitionProps {
+    title: string;
     data: OfficeData;
 };

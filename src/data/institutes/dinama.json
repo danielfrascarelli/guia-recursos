@@ -1,0 +1,62 @@
+{
+  "shortName": "DINAMA",
+  "longName": "Dirección Nacional de Medidas ALternativas",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": "Centro",
+  "address": {
+    "text": "Mercedes 1021, Montevideo",
+    "url": "https://www.google.com/maps/search/?api=1&query=Mercedes+1021,Montevideo,Uruguay"
+  },
+  "phone": [
+    {
+      "area": "Sub-Dirección Técnica",
+      "phones": [
+        "2030 9675"
+      ]
+    },
+    {
+      "area": "Sub-Dirección Operativa",
+      "phones": [
+        "2030 9972"
+      ]
+    },
+    {
+      "area": "Dirección Nacional",
+      "phones": [
+        "2030 9983"
+      ]
+    },
+    {
+      "area": "Área monitoreo",
+      "phones": [
+        "2030 9975"
+      ]
+    },
+    {
+      "area": "Área juridica",
+      "phones": [
+        "2030 9974"
+      ]
+    },
+    {
+      "area": "Acuerdos comunitarios",
+      "phones": [
+        "2030 9675"
+      ]
+    }
+  ],
+  "email": [
+    {
+      "area": "",
+      "emails": [
+        "dinama-rrhh@minterior.gub.uy"
+      ]
+    }
+  ],
+  "web": {
+    "text": "Dirección Nacional de Medidas Alternativas",
+    "url": "https://www.gub.uy/ministerio-interior/institucional/estructura-del-organismo/direccion-nacional-medidas-alternativas"
+  },
+  "openingHours": null
+}

@@ -1,23 +1,15 @@
 // import styles from "./EarlyMoments.module.scss"; 
 // import { getContentDefinition } from "./ContentDefinition"; 
-import type { DefinitionProps } from "../../../../components/DefinitionProps"; 
+import type { DefinitionProps } from "../../../../components/DefinitionProps";
 import TitleBar from "../../../../components/title-bar/TitleBar";
 
 import './early-moments.scss';
-import InlineSpotlight from "../../../../components/inline-spotlight/InlineSpotlight"; 
+import InlineSpotlight from "../../../../components/inline-spotlight/InlineSpotlight";
 import OffsetCard from "../../../../components/offset-card/OffsetCard";
 
 export interface EarlyMomentsProps extends DefinitionProps { };
 
 export default function EarlyMoments() {
-
-  // const items = getContentDefinition().map(i => ({
-  //   title: (i.props as DefinitionProps).title,
-  //   icon: (i.props as DefinitionProps).icon,
-  //   imageUrl: (i.props as DefinitionProps).imageUrl,
-  //   ...i
-  // }));
-
   return (
 
     <div className="screen">
@@ -31,14 +23,14 @@ export default function EarlyMoments() {
               <li> Citación ante Fiscalía es cuando hay indicios de que se cometió un delito.</li>
             </ul>
 
-            <p>
+            <div>
               <strong><div>¿A dónde recurrir para saber donde está detenida la persona?</div></strong>
               Si la persona se encuentra en la seccional, la policía debe informar que se encuentra allí, en caso que se derive a Fiscalía, no es obligatorio brindar esta información.
-            </p>
-            <p>
+            </div>
+            <div>
               <strong><div>¿A dónde me puedo dirigir para saber sobre su situación?</div></strong>
               Te sugerimos: acudir a la seccional para averiguar la Sede de fiscalía correspondiente y consultar allí.
-            </p>
+            </div>
             <p>
               Luego de la formalización en Fiscalía, la persona detenida debe contar con un abogado defensor (público o particular). Este es el abogado que acompañará a la persona hasta qué exista una resolución firme.
             </p>
@@ -65,12 +57,33 @@ export default function EarlyMoments() {
               <p> Como familiar, tenés derecho a estar presente, salvo que la persona detenida no quiera que estés. En ese caso, se respeta su decisión.</p>
             </div>
             <div style={{ color: "red" }}>
-              globito: Cuando vayas a visitar a tu familiar, chequea esta información.
-
-Globito: Las infancias y adolescencias atravesadas por los procesos de encarcelamiento sufren impactos en su vida cotidiana, generando distintas afectaciones en su desarrollo y bienestar.
-
-Globito: En Uruguay se desconoce el porcentaje de infancias y adolescencias afectadas por el encarcelamiento.
-
+              <OffsetCard
+                borderColor="#e9a15f"
+                bgColor="#efcfb273"
+                borderWidth={3}
+                offsetX={7} offsetY={7}
+                overhangX={7} overhangY={7}
+              >
+                globito: Cuando vayas a visitar a tu familiar, chequea esta información.
+              </OffsetCard>
+              <OffsetCard
+                borderColor="#e9a15f"
+                bgColor="#efcfb273"
+                borderWidth={3}
+                offsetX={7} offsetY={7}
+                overhangX={7} overhangY={7}
+              >
+                Globito: Las infancias y adolescencias atravesadas por los procesos de encarcelamiento sufren impactos en su vida cotidiana, generando distintas afectaciones en su desarrollo y bienestar.
+              </OffsetCard>
+              <OffsetCard
+                borderColor="#e9a15f"
+                bgColor="#efcfb273"
+                borderWidth={3}
+                offsetX={7} offsetY={7}
+                overhangX={7} overhangY={7}
+              >
+                Globito: En Uruguay se desconoce el porcentaje de infancias y adolescencias afectadas por el encarcelamiento.
+              </OffsetCard>
             </div>
           </div>
         </div>

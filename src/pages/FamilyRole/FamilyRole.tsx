@@ -32,13 +32,13 @@ export default function FamilyRole() {
             <div>
               <img src={child} className="child-image" alt="child logo" />
               <p className="text-justify">
-                Tenes que saber que si tu familiar detenido tiene infancias a su cargo,
+                Tenes que saber que si tu familiar detenido tiene infancias o adolescencias a su cargo,
                 seguramente seas la persona que deberá brindar protección a los mismos.
               </p>
               <p className="text-justify">
                 Si no podes, lo mejor es aconsejar a la persona detenida que identifique
                 referentes protectores y de esta manera dar garantías a los derechos de
-                los/as niños, niñas y adolescentes.
+                los/as niños, niñas y adolescentes (NNA).
               </p>
             </div>
           </OffsetCard>

@@ -1,17 +1,15 @@
 import type { DefinitionProps } from "../../../../../components/DefinitionProps";
-
- 
-export type Telefono = { area: string; numeros: string };
-export type Correo = { area: string; email: string };
-
+import type { Address } from "../../../../../shared/Address";
+import type { Email } from "../../../../../shared/Email";
+import type { Phone } from "../../../../../shared/Phone";
 
 export interface InfoUnidad {
     departamento: string;
     ciudad: string;
     barrio: string;
-    direccion: { texto: string; url?: string };
-    telefonos: Telefono[];
-    correos: Correo[];
+    direccion: Address;
+    telefonos: Phone[];
+    correos: Email[];
     paquetes: {
         horarioEntrega: string;
         restriccionesArticulosUrl?: string;
@@ -24,7 +22,6 @@ export interface InfoUnidad {
 };
 
 export interface InrUnidadProps extends DefinitionProps {
-    data: InfoUnidad;
-    // number: number;
+    data: InfoUnidad; 
     shortAddressDescription: string;
 };

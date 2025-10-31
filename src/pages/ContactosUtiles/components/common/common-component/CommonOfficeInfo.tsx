@@ -5,32 +5,71 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
 
   return (
     <section>
-      <p><strong>Departamento:</strong> {data.department}</p>
-      <p><strong>Ciudad:</strong> {data.city}</p>
-      <p><strong>Barrio:</strong> {data.neighborhood}</p>
+      <div className="mt-4">
+        <strong>{data.longName}</strong>
+      </div>
+      {data.department && (
+        <div className="mt-4">
+          <strong>Departamento:</strong>{data.department}
+        </div>
+      )}
+      {data.city && (
+        <div className="mt-4">
+          <strong>Ciudad:</strong>{data.city}
+        </div>
+      )}
+      {data.neighborhood && (
+        <div className="mt-4">
+          <strong>Barrio:</strong>{data.neighborhood}
+        </div>
+      )}
 
-      <p>
-        <strong>Dirección:</strong>{" "}
-        {data.address.url ? (
-          <a href={data.address.url} target="_blank" rel="noreferrer">
-            {data.address.text}
-          </a>
-        ) : (
-          data.address.text
-        )}
-      </p>
+      {data.address != null && (
+        <div className="mt-4">
+          <>
+            <strong>Dirección:</strong>
+            {data.address.url
+              ? (
+                <a href={data.address.url} target="_blank" rel="noreferrer">
+                  {data.address.text}
+                </a>
+              )
+              : <>{data.address.text}</>
+            }
+          </>
+        </div>
+      )}
 
-      <p>
-        <strong>Teléfonos:</strong>{" "}
-        <a href={`mailto:${data.phone[0].phone}`}>{data.phone[0].phone}</a>
-      </p>
-      <p>
-        <strong>Correo electrónico:</strong>{" "}
-        <a href={`mailto:${data.email[0].email}`}>{data.email[0].email}</a>
-      </p>
+      {data.phone != null && (
+        <div className="mt-4">
+          <strong>Teléfonos:</strong>
+          <ul>
+            {data.phone.map((t, i) => (
+              <li key={i}>
+                {t.area ? <em>{t.area}:</em> : ""}
+                {t.phones.map(p => <><a href={`tel:${p}`}>{p}</a> {" "}</>)}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {data.email != null && (
+        <div className="mt-4">
+          <strong>Correo electrónico:</strong>
+          <ul>
+            {data.email.map((c, i) => (
+              <li key={i}>
+                {c.area ? <em>{c.area}:</em> : ""}
+                {c.emails.map(e => <><a href={`mailto:${e}`}>{e}</a>{" "}</>)}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
 
       {data.web && (
-        <p>
+        <div className="mt-4">
           <strong>Web:</strong>{" "}
           {data.web.url ? (
             <a href={data.web.url} target="_blank" rel="noreferrer">
@@ -39,10 +78,16 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
           ) : (
             data.web.text
           )}
-        </p>
+        </div>
       )}
 
-      <p><strong>Horario:</strong> {data.openingHours}</p>
+      {data.openingHours && (
+        <div className="mt-4">
+          <strong>Horario:</strong>
+          {data.openingHours}
+        </div>
+      )}
+
     </section>
   );
 }

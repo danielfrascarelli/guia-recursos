@@ -1,4 +1,6 @@
 {
+  "shortName": "ASSE SAI-PP",
+  "longName": "ASSE SISTEMA DE ATENCIÓN INTEGRAL - PERSONAS PRIVADAS DE LIBERTAD (SAI-PPL)",
   "department": "Montevideo",
   "city": "Montevideo",
   "neighborhood": "Belvedere",
@@ -9,13 +11,23 @@
   "phone": [
     {
       "area": "",
-      "phone": "4340 2628 int 1600"
+      "phones": [
+        "2355 4013"
+      ]
     }
   ],
   "email": [
     {
-      "area": "",
-      "email": "sai-ppl@minterior.gub.uy"
+      "area": "Dirección",
+      "emails": [
+        "direccion.saippl@asse.com.uy"
+      ]
+    },
+    {
+      "area": "Secretaria",
+      "emails": [
+        "secretaria.saippl@asse.com.uy" 
+      ]
     }
   ],
   "web": {

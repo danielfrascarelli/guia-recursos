@@ -3,8 +3,9 @@ import { TextListOptions } from "../../../../components/text-list-options/TextLi
 import { getContentDefinition } from "./ContentDefinition";
 import type { TextComponentProps } from "../../../../components/text-component/TextComponentProps";
 import TitleBar from "../../../../components/title-bar/TitleBar";
-import type { RelativeType } from "../../../../shared/utils/RelativeType";
+import { RelativeType } from "../../../../shared/utils/RelativeType";
 import type { DefinitionProps } from "../../../../components/DefinitionProps";
+import IntroTeenager from "./IntroTeenager";
 
 export interface TrasladosProps extends DefinitionProps {
   type: RelativeType;
@@ -17,6 +18,11 @@ export default function Traslados({ type }: TrasladosProps) {
     <div className={styles.screen}>
       <TitleBar title={"Traslados"} />
       <main className={styles.main}>
+        {
+          type == RelativeType.Adult
+            ? <></>
+            : <IntroTeenager />
+        }
         <TextListOptions items={items} />
       </main>
     </div>

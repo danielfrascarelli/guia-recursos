@@ -1,6 +1,8 @@
+import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
+import OffsetCard from "../../../../../components/offset-card/OffsetCard";
 
- 
+
 export function getAdultContentDefinition(): ContentDefinition[] {
   const items = [
     {
@@ -9,8 +11,19 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       url: "1",
       componentType: "TextComponent",
       props: {
-        title: "¿Cuando se redime la pena?. ¿Cuál es el criterio?. ¿Quienes tienen derecho y quienes no?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title: "Redención de pena",
+        text: (<>
+          <div>
+            <div>
+              <ul>
+                <li>Se redime 3x1 o 2x1, esto significa que cada tres días descontas uno o cada dos días descontas uno. Esto último dependera del tipo de delito.</li>
+                <li>NO todos los delitos redimen pena.</li>
+                <li>La puede realizar la persona dentro de la misma unidad. Esto dependerá de las condiciones de la misma, en relación a la cantidad de población. En este sentido, desde la unidad se informa al juzgado.</li>
+                <li>Ocurre que cuando el INR no realiza la redención, corresponde que el abogado lo haga. </li>
+              </ul>
+            </div>
+          </div>
+        </>)
       },
     },
     {
@@ -19,8 +32,17 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       url: "2",
       componentType: "TextComponent",
       props: {
-        title: "En relación a la redención de pena y solicitudes, ¿qué puede hacer la persona detenida, a dónde debe dirigirse y qué gestiones puede hacer el familiar?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title: "Cupos laborales",
+        text: (<>
+          <div>
+            <div>
+              <ul>
+                <li>La persona detenida puede acceder a cupos laborales, lo cual no implica que sea remunerado. </li>
+                <li>En algunas situaciones particulares se puede acceder a un peculio, que es un monto de dinero menor. Puede solicitarlo la persona en la unidad o el familiar realizar la gestión.</li>
+              </ul>
+            </div>
+          </div>
+        </>)
       },
     },
     {
@@ -29,58 +51,35 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       url: "3",
       componentType: "TextComponent",
       props: {
-        title: "En cada unidad existe acceso a salud mental?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-    },
-    {
-      id: "4",
-      variant: "pretty_white",
-      url: "4",
-      componentType: "TextComponent",
-      props: {
-        title: "Existe atención en las adicciones?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-    },
-    {
-      id: "5",
-      variant: "pretty_white",
-      url: "5",
-      componentType: "TextComponent",
-      props: {
-        title: "¿Cómo puede acceder la persona detenida a cupos educativos o laborales?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-    },
-    {
-      id: "6",
-      variant: "pretty_white",
-      url: "6",
-      componentType: "TextComponent",
-      props: {
-        title: "¿En qué condiciones una persona puede llegar a tener acceso al peculio?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
-      },
-    },
-    {
-      id: "7",
-      variant: "pretty_white",
-      url: "7",
-      componentType: "TextComponent",
-      props: {
-        title: "¿Qué solicitudes pueden hacer los familiares: estudio, salud o cambio de módulo?",
-        text: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+        title: "Cupos educativos",
+        text: (<>
+          <div>
+            <div>
+              <ul>
+                <li>Los cupos educativos pueden ser solicitados por la persona en la unidad o por el familiar si la misma no logra tener acceso.</li>
+                <li>Ocurre que muchas veces son reducidos, por lo que las personas no siempre accedan. </li>
+              </ul>
+            </div>
+            <div className="pt-2">
+              <OffsetCard
+                borderColor="#e9a15f"
+                bgColor="#efcfb273"
+                borderWidth={3}
+                offsetX={7} offsetY={7}
+                overhangX={7} overhangY={7}
+              >
+                <div>
+                  <InlineSpotlight bg="var(--brand-wine)">IMPORTANTE!</InlineSpotlight>
+                </div>
+                <div className="pt-2">
+                  <p>El importante saber que la persona tiene derecho a cursar como oyente y dar el examen libre.</p>
+                </div>
+              </OffsetCard>
+            </div>
+          </div>
+        </>)
       },
     }
   ] satisfies ContentDefinition[];
   return items;
 }
-
-1
-2
-3
-4
-5
-6
-7

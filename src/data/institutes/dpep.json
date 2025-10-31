@@ -1,0 +1,32 @@
+{
+  "shortName": null,
+  "longName": "Defensoría Pública De Ejecución Penal",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": "Ciudad Vieja",
+  "address": {
+    "text": "Misiones 1295, Montevideo",
+    "url": "https://www.google.com/maps/place/Defensor%C3%ADa+P%C3%BAblica+-+Poder+Judicial/@-34.9088036,-56.2081169,17z/data=!3m1!4b1!4m6!3m5!1s0x959f7f003f4015cf:0x5f1a127c41c8897d!8m2!3d-34.908808!4d-56.205542!16s%2Fg%2F11xdg_g8fm?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "phone": [
+    {
+      "area": "",
+      "phones": [
+        "1907 int. 8500"
+      ]
+    }
+  ],
+  "email": [
+    {
+      "area": "",
+      "emails": [
+        "defejecpenal@poderjudicial.gub.uy"
+      ]
+    }
+  ],
+  "web": {
+    "text": "Defensoría Pública De Ejecución Penal",
+    "url": "https://www.poderjudicial.gub.uy/oficinas/item/6776-defensoria-publica-de-ejecucion-penal.html"
+  },
+  "openingHours": "lunes a viernes de 13 hs a 18 hs"
+}

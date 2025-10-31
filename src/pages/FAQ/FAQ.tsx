@@ -10,6 +10,8 @@ import type { DefinitionProps } from "../../components/DefinitionProps";
 import { getRelativeTypeName, RelativeType } from "../../shared/utils/RelativeType";
 import { getContentDefinition } from "./ContentDefinition";
 import type { TextListItem } from "../../shared/utils/Item";
+import AdultFaqIntro from "./components/FaqIntro/AdultFaqIntro/AdultFaqIntro";
+import TeenagerFaqIntro from "./components/FaqIntro/TeenagerFaqIntro/TeenagerFaqIntro";
 
 export interface FAQProps extends DefinitionProps {
   type: RelativeType;
@@ -25,8 +27,15 @@ export default function FAQ({ type }: FAQProps) {
   return (
     <>
       <div className={styles.screen}>
-        <TitleBar title={ `Preguntas frecuentes del ${getRelativeTypeName(type)} `} />
+        <TitleBar title={`Preguntas frecuentes del ${getRelativeTypeName(type)} `} />
         <main className={styles.main}>
+
+          {
+            type == RelativeType.Adult
+              ? <AdultFaqIntro />
+              : <TeenagerFaqIntro />
+          }
+
           <div className="d-block d-sm-none">
             <TextListOptions items={items} />
           </div>
