@@ -1,4 +1,78 @@
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
+import type { OfficeData } from "../../common/common-component/CommonOfficeInfoProps";
+
+import familiaDataJson from '../../../../../data/inr/offices/familia.json';
+import trasladosDataJson from '../../../../../data/inr/offices/traslados.json';
+import tecnicaNacionalDataJson from '../../../../../data/inr/offices/tecnicaNacional.json';
+import ciddDataJson from '../../../../../data/inr/offices/cidd.json';
+import diversidadDataJson from '../../../../../data/inr/offices/diversidad.json';
+
+export function getContentDefinition(): ContentDefinition[] {
+  const familiaData: OfficeData = familiaDataJson;
+  const trasladosData: OfficeData = trasladosDataJson;
+  const tecnicaNacionalData: OfficeData = tecnicaNacionalDataJson;
+  const ciddData: OfficeData = ciddDataJson;
+  const diversidadData: OfficeData = diversidadDataJson;
+
+  const items = [
+    {
+      id: "office-1",
+      iconLabel: "1",
+      variant: "pretty_white",
+      componentType: "InrOfficeComponent",
+      props: {
+        title: "**Atención a la Familia de Personas Privadas de Libertad",
+        data: familiaData
+      },
+      url: "oficinas/1"
+    }
+    , {
+      id: "office-2",
+      iconLabel: "2",
+      variant: "pretty_white",
+      componentType: "InrOfficeComponent",
+      props: {
+        title: "**Junta Nacional de Traslados",
+        data: trasladosData
+      },
+      url: "oficinas/2"
+    },
+    {
+      id: "office-3",
+      iconLabel: "3",
+      variant: "pretty_white",
+      componentType: "InrOfficeComponent",
+      props: {
+        title: "**Sub-Dirección Técnica Nacional",
+        data: tecnicaNacionalData
+      },
+      url: "oficinas/3"
+    }, {
+      id: "office-4",
+      iconLabel: "4",
+      variant: "pretty_white",
+      componentType: "InrOfficeComponent",
+      props: {
+        title: "**Centro de Ingreso, Diagnóstico y Derivación (CIDD)",
+        data: ciddData
+      },
+      url: "oficinas/4"
+    },
+    {
+      id: "office-5",
+      iconLabel: "5",
+      variant: "pretty_white",
+      componentType: "InrOfficeComponent",
+      props: {
+        title: "**Departamento de Género y Diversidad",
+        data: diversidadData
+      },
+      url: "oficinas/5"
+    }
+  ] satisfies ContentDefinition[];
+  return items;
+}
+
 
 
 export const data = {
@@ -37,63 +111,3 @@ export const data = {
   //   ]
   // }
 };
-
-export function getContentDefinition(): ContentDefinition[] {
-  const items = [
-    {
-      id: "office-1",
-      iconLabel: "1",
-      variant: "pretty_white",
-      componentType: "InrOfficeComponent",
-      props: {
-        title: "Atención a la Familia de Personas Privadas de Libertad",
-        data
-      },
-      url: "oficinas/1"
-    }
-    , {
-      id: "office-2",
-      iconLabel: "2",
-      variant: "pretty_white",
-      componentType: "InrOfficeComponent",
-      props: {
-        title: "Junta Nacional de Traslados",
-        data
-      },
-      url: "oficinas/2"
-    },
-    {
-      id: "office-3",
-      iconLabel: "3",
-      variant: "pretty_white",
-      componentType: "InrOfficeComponent",
-      props: {
-        title: "Sub-Dirección Técnica Nacional",
-        data
-      },
-      url: "oficinas/3"
-    }, {
-      id: "office-4",
-      iconLabel: "4",
-      variant: "pretty_white",
-      componentType: "InrOfficeComponent",
-      props: {
-        title: "Centro de Ingreso, Diagnóstico y Derivación (CIDD)",
-        data
-      },
-      url: "oficinas/4"
-    },
-    {
-      id: "office-5",
-      iconLabel: "5",
-      variant: "pretty_white",
-      componentType: "InrOfficeComponent",
-      props: {
-        title: "Departamento de Género y Diversidad",
-        data
-      },
-      url: "oficinas/5"
-    }
-  ] satisfies ContentDefinition[];
-  return items;
-}

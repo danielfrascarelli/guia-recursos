@@ -1,0 +1,33 @@
+{
+    "shortName": "Atención a la Familia de Personas Privadas de Libertad",
+    "longName": "Atención a la Familia de Personas Privadas de Libertad",
+    "department": "Montevideo",
+    "city": "Montevideo",
+    "neighborhood": "Ciudad Vieja",
+    "address": {
+        "text": "Cerrito 419 equina Zabala",
+        "url": "https://www.google.com/maps/place/Instituto+Nacional+de+Rehabilitaci%C3%B3n/@-34.9054617,-56.2077298,21z/data=!4m14!1m7!3m6!1s0x959f7f86b653809b:0x678be9d8f8f56119!2sCerrito+y+Zabala!8m2!3d-34.90562!4d-56.20788!16s%2Fg%2F11q36354tf!3m5!1s0x959f7f86c9d9f861:0x65b6127ff3b530e8!8m2!3d-34.9055473!4d-56.2077275!16s%2Fg%2F11c5hjl_bb?entry=ttu&g_ep=EgoyMDI1MTAyOC4wIKXMDSoASAFQAw%3D%3D"
+    },
+    "phone": [
+        {
+            "area": "",
+            "phones": [
+                "2030 9160",
+                "2030 9161"
+            ]
+        }
+    ],
+    "email": [
+        {
+            "area": "",
+            "emails": [
+                "inr-pplatencionalfamiliar@minterior.gub.uy "
+            ]
+        }
+    ],
+    "web": {
+        "text": "Atención a la Familia de Personas Privadas de Libertad",
+        "url": "https://www.gub.uy/tramites/solicitudes-referidas-personas-privadas-libertad"
+    },
+    "openingHours": "Lunes a Viernes de 8:30 hs a 16:30 hs"
+}
