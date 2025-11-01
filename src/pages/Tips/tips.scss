@@ -1,8 +1,62 @@
-.fp-tips {
-  // font-size: clamp(18px, 3vw, 25px);
-  line-height: 2em;
+.fp-tips__container {
+  .fp-tips {
+    // font-size: clamp(18px, 3vw, 25px);
+    line-height: 2em;
+  }
+
+  .offset-tramites .offset-card__content {
+    font-size: 14px;
+  }
+
+  .tips-tramites-inline-list {
+    ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex; /* mantiene los <li> en una línea */
+      flex-wrap: wrap; /* opcional, permite que bajen si no hay espacio */
+      // gap: 0.75rem; /* separa los ítems */
+    }
+
+    ul li {
+      display: flex;
+      align-items: center;
+    }
+
+    ul li::marker {
+      content: none; /* elimina marcador nativo */
+    }
+
+    ul li::before {
+      content: "•"; /* o "\2022", o un ícono tipo "✔" */
+      margin-right: 6px;
+      font-weight: bold;
+      display: inline-block;
+    }
+  }
 }
 
-.offset-tramites .offset-card__content {
-  font-size: 14px;
-}
+//   .woman-image {
+//     float: left;
+//   }
+
+//   .child-image {
+//     float: left;
+//     width: 80px;
+//     margin-right: 24px;
+//   }
+
+//   .float-clean {
+//     clear: both;
+//   }
+
+//   .family-role-woman-card {
+//     p {
+//       margin-bottom:0px;
+//       a {
+//         color: var(--brand-wine);
+//         font-weight: 600;
+//       }
+//     }
+//   }
+// }
