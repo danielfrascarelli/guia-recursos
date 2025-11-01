@@ -11,8 +11,14 @@ export type ImageBoxButtonProps = {
   // overhangX?: number; // default 18
   // overhangY?: number; // default 18
   // padding?: number;
-  className?: string;
+  onClick: () => void;
+
   srcImg: string;
+  label: string;
+
+  className?: string;
   style?: React.CSSProperties;
-  children: React.ReactNode;
+
+
+  // children: React.ReactNode;
 };

@@ -1,9 +1,9 @@
-import styles from "./RouteMap.module.scss";
-import { TextListOptions } from "../../components/list-options/text-list-options/TextListOptions";
+import styles from "./RouteMap.module.scss"; 
 import { getContentDefinition } from "./ContentDefinition";
 import type { DefinitionProps } from "../../components/DefinitionProps";
 import { BoxListOptions } from "../../components/list-options/box-list-options/BoxListOptions";
 import TitleBar from "../../components/title-bar/TitleBar";
+import { ImageListOptions } from "../../components/list-options/image-list-options/ImageListOptions";
 
 export default function RouteMap() {
 
@@ -19,7 +19,7 @@ export default function RouteMap() {
       <TitleBar title={"Mapa de ruta"} />
       <main className={styles.main}>
         <div className="d-block d-sm-none">
-          <TextListOptions items={items} />
+          <ImageListOptions items={items} />
         </div>
         <div className="d-none d-sm-block">
           <BoxListOptions items={items} variant="contacts" />

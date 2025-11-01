@@ -1,6 +1,10 @@
 import type { ContentDefinition } from "../../components/ItemDefinition";
 
- 
+import esposas from '../../assets/images/esposas.png';
+import edificioJusticia from '../../assets/images/edificio-justicia.png';
+import martilloJuez from '../../assets/images/martillo-juez.png';
+import telefonoVideollamada from '../../assets/images/telefono-videollamada.png';
+
 export function getContentDefinition(): ContentDefinition[] {
   const items = [
     {
@@ -10,6 +14,7 @@ export function getContentDefinition(): ContentDefinition[] {
       componentType: "EarlyMomentsComponent",
       props: {
         title: "Primeros momentos de la detencion",
+        imageUrl: esposas
       },
     },
     {
@@ -18,7 +23,8 @@ export function getContentDefinition(): ContentDefinition[] {
       url: "seleccionar-familiar",
       componentType: "SelectRelativeTypeComponent",
       props: {
-        title: "Mapa de ruta luego de la detención",
+        title: "Luego de la detención",
+        imageUrl: edificioJusticia
       },
     },
     {
@@ -28,6 +34,7 @@ export function getContentDefinition(): ContentDefinition[] {
       componentType: "JudicialProcessComponent",
       props: {
         title: "Proceso Judicial",
+        imageUrl: martilloJuez
       },
     },
     {
@@ -37,6 +44,7 @@ export function getContentDefinition(): ContentDefinition[] {
       componentType: "ContactosUtilesComponent",
       props: {
         title: "Contactos útiles",
+        imageUrl: telefonoVideollamada
       },
     }
   ] satisfies ContentDefinition[];

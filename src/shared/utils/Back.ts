@@ -46,6 +46,9 @@ export default function getBackUrl(curr: string): string {
         case '/mapa-de-ruta/adolescente': {
             return '/mapa-de-ruta/seleccionar-familiar';
         }
+        case '/mapa-de-ruta/proceso-judicial': {
+            return '/mapa-de-ruta';
+        }
         case '/mapa-de-ruta/contactos-utiles': {
             return '/mapa-de-ruta';
         }
