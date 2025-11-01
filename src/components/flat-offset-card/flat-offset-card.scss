@@ -1,0 +1,18 @@
+.flat-offset-card {
+  position: relative;
+  background: var(--oc-bg, #dff2ec);
+  padding-top: var(--oc-pad, 24px);
+  padding-bottom: var(--oc-pad, 24px);
+  border: none;
+  z-index: 0;
+  isolation: isolate;
+  overflow: visible;
+}
+
+.flat-offset-card__content {
+  position: relative;
+  z-index: 1; /* debajo del borde (::after) pero sobre el fondo */
+  color: #182b66;
+  font-size: clamp(16px, 2.1vw, 28px);
+  line-height: 1.35;
+}
