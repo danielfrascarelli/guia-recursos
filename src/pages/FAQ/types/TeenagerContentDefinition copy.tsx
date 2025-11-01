@@ -1,6 +1,6 @@
 import { HeartIcon, HomeIcon, PeopleIcon, TruckIcon } from "../../../assets/icons/icons";
 import type { ContentDefinition } from "../../../components/ItemDefinition";
-import OffsetCard from "../../../components/offset-card/OffsetCard";
+import OffsetCard from "../../../components/cards/offset-card/OffsetCard";
 // import { RelativeType } from "../../../shared/utils/RelativeType";
 
 

@@ -1,6 +1,6 @@
 import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
-import OffsetCard from "../../../../../components/offset-card/OffsetCard";
+import OffsetCard from "../../../../../components/cards/offset-card/OffsetCard";
 
 
 export function getAdultContentDefinition(): ContentDefinition[] {

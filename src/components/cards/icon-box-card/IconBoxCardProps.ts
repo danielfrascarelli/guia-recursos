@@ -1,4 +1,4 @@
-export type BoxCardProps = {
+export type IconBoxCardProps = {
   borderColor?: string;
   bgColor?: string;
   borderWidth?: number;

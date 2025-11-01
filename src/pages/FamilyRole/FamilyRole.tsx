@@ -1,10 +1,9 @@
-import FpModal from "../../components/modal/FpModal";
 import "./family-role.scss";
 
 import child from "../../assets/images/child.png";
-import FlatOffsetCard from "../../components/flat-offset-card/FlatOffsetCard";
-import BoxCard from "../../components/box-card/BoxCard";
-import WomanCard from "../../components/woman-card/WomanCard";
+import FlatOffsetCard from "../../components/cards/flat-offset-card/FlatOffsetCard";
+import IconBoxCard from "../../components/cards/icon-box-card/IconBoxCard";
+import WomanBoxButton from "../../components/woman-box-button/WomanBoxButton";
 
 export default function FamilyRole() {
   return (
@@ -49,13 +48,13 @@ export default function FamilyRole() {
           </FlatOffsetCard>
         </div>
         <div className="mt-4 mb-4 fp-tips float-clean">
-          <WomanCard className="family-role-woman-card">
+          <WomanBoxButton className="family-role-woman-card">
             <p className="text-justify">
               <a href="https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf" target="_blank">
                 Si queres saber más acerca de Los principios de Bogota, pincha acá
                 </a>
             </p>
-          </WomanCard>
+          </WomanBoxButton>
 
         </div>
 
@@ -63,7 +62,7 @@ export default function FamilyRole() {
           <FpModal title="Si queres saber más acerca de Los principios de Bogota, pincha acá" onClick={() => { window.open('https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf', '_blank', 'noopener,noreferrer'); }} />
         </div> */}
         <div className="mt-4 mb-4 fp-tips float-clean">
-          <BoxCard
+          <IconBoxCard
             borderColor="#e9a15f"
             bgColor="#efcfb273"
             borderWidth={3}
@@ -75,7 +74,7 @@ export default function FamilyRole() {
               tiene hijos/as pequeños. Tiene derecho a ser trasladada a una unidad para
               madres con hijos/as, donde pueden ingresar los niños y niñas de 0 a 3 años.
             </p>
-          </BoxCard>
+          </IconBoxCard>
         </div>
       </div>
     </div>

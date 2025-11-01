@@ -1,9 +1,9 @@
-import './box-card.scss';
-import type { BoxCardProps } from './BoxCardProps';
+import './icon-box-card.scss';
+import type { IconBoxCardProps } from './IconBoxCardProps';
 
-import important from '../../assets/images/icons/important.svg';
+import important from '../../../assets/images/icons/important.svg';
 
-export default function BoxCard({
+export default function IconBoxCard({
   borderColor = "#132c76",
   bgColor = "#edc9ab",
   borderWidth = 4,
@@ -17,7 +17,7 @@ export default function BoxCard({
   style,
   children,
   imgSrc
-}: BoxCardProps) {
+}: IconBoxCardProps) {
   const vars: React.CSSProperties = {
     ["--oc-border" as any]: borderColor,
     ["--oc-bg" as any]: bgColor,

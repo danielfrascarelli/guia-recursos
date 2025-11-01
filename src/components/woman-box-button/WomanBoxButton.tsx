@@ -1,12 +1,12 @@
-import './woman-card.scss';
-import type { WomanCardProps } from './WomanCardProps';
+import './woman-box-button.scss';
+import type { WomanCardProps as WomanBoxButtonProps } from './WomanBoxButtonProps';
 
 import woman from "../../assets/images/woman.svg";
 
-export default function WomanCard({
+export default function WomanBoxButton({
   className = "",
   children,
-}: WomanCardProps) {
+}: WomanBoxButtonProps) {
 
   return (
     <div className={`woman-card__container`} >

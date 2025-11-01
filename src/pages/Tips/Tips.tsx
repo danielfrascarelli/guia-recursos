@@ -1,17 +1,17 @@
-import BoxCard from '../../components/box-card/BoxCard';
+import IconBoxCard from '../../components/cards/icon-box-card/IconBoxCard';
 
 import circleCheck from '../../assets/images/icons/circle-check.svg';
 import pencil from '../../assets/images/icons/pencil.svg';
 
 import "./tips.scss";
-import FlatOffsetCard from '../../components/flat-offset-card/FlatOffsetCard';
+import FlatOffsetCard from '../../components/cards/flat-offset-card/FlatOffsetCard';
 
 export default function Tips() {
   return (
     <div className="h-100">
       <div className="fp-tips__container">
         <div className="text-justify mt-1">
-          <BoxCard
+          <IconBoxCard
             bgColor="transparent"
             borderWidth={3}
             offsetX={7} offsetY={7}
@@ -21,11 +21,11 @@ export default function Tips() {
             <p>
               Acércate a la Oficina de Atención a la Familia del INR y despeja junto a ellos que trámites podes realizar siendo familiar, y si no puedes escribe un correo electrónico.
             </p>
-          </BoxCard>
+          </IconBoxCard>
         </div>
 
         <div className="text-justify mt-1">
-          <BoxCard
+          <IconBoxCard
             borderColor="transparent"
             bgColor="#47b2eb4f"
             borderWidth={3}
@@ -41,11 +41,11 @@ export default function Tips() {
               <li>Solicitud cupos laborales y educativos.</li>
               <li>Denuncias.</li>
             </ul>
-          </BoxCard>
+          </IconBoxCard>
         </div>
 
         <div className="text-justify mt-1">
-          <BoxCard
+          <IconBoxCard
             bgColor="transparent"
             borderWidth={3}
             offsetX={7} offsetY={7}
@@ -55,12 +55,12 @@ export default function Tips() {
             <p>
               Llevá una libreta con vos para anotar la información importante.
             </p>
-          </BoxCard>
+          </IconBoxCard>
         </div>
       </div>
 
       <div className="text-justify mt-1">
-        <BoxCard
+        <IconBoxCard
           bgColor="transparent"
           borderWidth={3}
           offsetX={7} offsetY={7}
@@ -70,11 +70,11 @@ export default function Tips() {
           <p>
             Te aconsejamos que de ser posible vayas acompañada/o.
           </p>
-        </BoxCard>
+        </IconBoxCard>
       </div>
 
       <div className="text-justify mt-1">
-        <BoxCard
+        <IconBoxCard
           bgColor="transparent"
           borderWidth={3}
           offsetX={7} offsetY={7}
@@ -84,11 +84,11 @@ export default function Tips() {
           <p>
             Asesorate antes de contratar un/a abogado/a y en caso de que lo hagas, tené en cuenta previamente las gestiones que podes realizar por ser familiar.
           </p>
-        </BoxCard>
+        </IconBoxCard>
       </div>
 
       <div className="text-justify mt-1">
-        <BoxCard
+        <IconBoxCard
           bgColor="transparent"
           borderWidth={3}
           offsetX={7} offsetY={7}
@@ -98,11 +98,11 @@ export default function Tips() {
           <p>
             Los familiares pueden solicitar las pertenencias de la persona detenida o se le entregan a la salida.
           </p>
-        </BoxCard>
+        </IconBoxCard>
       </div>
 
       <div className="text-justify mt-1">
-        <BoxCard
+        <IconBoxCard
           bgColor="#efcfb273"
           borderWidth={3}
           offsetX={7} offsetY={7}
@@ -110,11 +110,11 @@ export default function Tips() {
         >
           Si tu familiar toma alguna medicación regularmente,
           es importante que sea comunicado para la tramitación del ingreso de la misma.
-        </BoxCard>
+        </IconBoxCard>
       </div>
 
       <div className="text-justify mt-5">
-        <BoxCard
+        <IconBoxCard
           bgColor="#47b2eb4f"
           borderWidth={3}
           offsetX={7} offsetY={7}
@@ -125,7 +125,7 @@ export default function Tips() {
           libertad, ya sea consanguíneo, legal, por afinidad o por elección incluyendo quien posea un vínculo afectivo
           derivado de un trato frecuente y de confianza, sin límites temporales y ninguna forma de discriminación."
           (CIDH, 2025, p.5)
-        </BoxCard>
+        </IconBoxCard>
       </div>
 
       <div className="mt-4">
@@ -154,7 +154,7 @@ export default function Tips() {
       </div>
 
       <div className="mt-4 mb-3 mt-3">
-        <BoxCard
+        <IconBoxCard
           bgColor="#efcfb273"
           borderWidth={3}
         >
@@ -162,7 +162,7 @@ export default function Tips() {
             <div>NO importa cuánto tiempo haya transcurrido desde la detención. </div>
             <div>ACÉRCATE o COMUNÍCATE</div>
           </div>
-        </BoxCard>
+        </IconBoxCard>
       </div>
 
       <div className="mt-4">
