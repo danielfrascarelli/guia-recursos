@@ -12,7 +12,7 @@ export default function BackButton({ label, onBack, className }: BackButtonProps
   const location = useLocation();
 
   const onShare = () => {
-    const msg = `Hola 👋, entrá al siguiente link para ver la Guía de Recursos: https://gr.face-auth.me${location.pathname}`;
+    const msg = `Hola 👋, entrá al siguiente link para ver la Guía para el acompañamiento: https://gr.face-auth.me${location.pathname}`;
     const url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(msg);
     window.open(url, "_blank");
   };

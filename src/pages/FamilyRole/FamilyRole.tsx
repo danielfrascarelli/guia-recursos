@@ -19,7 +19,7 @@ export default function FamilyRole() {
             En su mayoría somos las familiares mujeres, parejas, madres, hermanas quienes asumimos los costos de estos procesos tan complejos, que nos obligan a afrontar los cuidados del adentro y del afuera.
           </p>
           <p className="text-justify">
-            <strong>Acompañamos</strong> porque somos agentes de prevención de la tortura. Somos la voz de quién se encuentra cumpliendo una pena, somos la garantía de que se mejoren las condiciones y se respeten los Derechos Humanos.
+            <strong>Acompañamos</strong> porque somos agentes de prevención de malos tratos y tortura. Somos la voz de quién se encuentra cumpliendo una pena, somos la garantía de que se mejoren las condiciones y se respeten los Derechos Humanos.
           </p>
           <p className="text-justify">
             <strong>Sostenemos</strong> porque sabemos que la vida continua afuera, porque la vida continúa luego, porque la vida para ser transformada necesita de esperanza y dignidad.
@@ -36,7 +36,7 @@ export default function FamilyRole() {
             <div className="common-layout-margin">
               <img src={child} className="child-image" alt="child logo" />
               <p className="text-justify">
-                Tenes que saber que si tu familiar detenido tiene infancias o adolescencias a su cargo,
+                Tenes que saber que si tu familiar detenido tiene infancias o adolescencias (NNA) a su cargo,
                 seguramente seas la persona que deberá brindar protección a los mismos.
               </p>
               <p className="text-justify">
@@ -69,9 +69,8 @@ export default function FamilyRole() {
             overhangX={7} overhangY={7}
           >
             <p className="text-justify">
-              Si tu familiar es una mujer, está detenida y embarazada o
-              tiene hijos/as pequeños. Tiene derecho a ser trasladada a una unidad para
-              madres con hijos/as, donde pueden ingresar los niños y niñas de 0 a 3 años.
+              Si tu familiar es mujer, está detenida y/ o cursando un embarazo, o tiene hijos/as pequeños a su cuidado, tiene derecho a ser trasladada a una Unidad para mujeres con Niños/as, donde pueden ingresar y permanecer con ellos/as hasta que cumplan los 3 años de edad.  
+              También se tramita la asistencia a Centro infantil o CAIF. 
             </p>
           </IconBoxCard>
         </div>

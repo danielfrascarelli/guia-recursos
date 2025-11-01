@@ -23,13 +23,13 @@ export default function HomePage() {
 
         <section className="fp-home-title-container">
           <h1 className="fw-bold color--brand-dark fp-home-title mt-33vh lh-base">
-            Guía de Recursos
+            Guía para el acompañamiento
           </h1>
         </section>
 
         <section>
           <h2 className="mx-1 mx-md-5 text-center  lh-base">
-            Esta guía es para quienes estamos afuera, acompañando y sosteniendo los procesos de los procesos de encarcelamiento.
+            Esta guía es para quienes estamos afuera, acompañando y sosteniendo los procesos de encarcelamiento.
             {/* {" "}
             <InlineSpotlight bg="var(--brand-sage)" color="white" rounded={1} px={0.4}>
               acompañando y sosteniendo

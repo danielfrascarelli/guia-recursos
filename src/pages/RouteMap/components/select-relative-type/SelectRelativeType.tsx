@@ -18,7 +18,7 @@ export const SelectRelativeType: React.FC<SelectRelativeTypeProps> = ({ }) => {
   return (
     <div className="screen">
       <main className="main">
-        <div className="d-flex flex-column align-item-center m-3 mt-5">
+        <div className="d-flex flex-column align-item-center mt-5">
           <div className="d-block d-sm-none">
             <ImageListOptions items={items} />
           </div>

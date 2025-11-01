@@ -19,7 +19,7 @@ export default function Tips() {
             imgSrc={circleCheck}
           >
             <p>
-              Acércate a la Oficina de Atención a la Familia del INR y despeja junto a ellos que trámites podes realizar siendo familiar, y si no puedes escribe un correo electrónico.
+              Acércate a la Oficina de Atención a la Familia del INR y despeja junto a ellos qué trámites podes realizar siendo familiar, y si no puedes escribe un correo electrónico a <a href="mailto:inr-pplatencionalfamiliar@minterior.gub.uy">inr-pplatencionalfamiliar@minterior.gub.uy</a>.
             </p>
           </IconBoxCard>
         </div>
@@ -121,10 +121,8 @@ export default function Tips() {
           overhangX={7} overhangY={7}
           imgSrc={pencil}
         >
-          <strong>Ser familiar es: </strong>Cualquier persona que mantenga un lazo de parentezco que la haga relativa de la persona privada de
-          libertad, ya sea consanguíneo, legal, por afinidad o por elección incluyendo quien posea un vínculo afectivo
-          derivado de un trato frecuente y de confianza, sin límites temporales y ninguna forma de discriminación."
-          (CIDH, 2025, p.5)
+          <strong>Ser familiar es: </strong>"Cualquier persona que mantenga un lazo de parentezco que la haga relativa de la persona privada de libertad, ya sea consanguíneo, legal, por afinidad o por elección incluyendo quien posea un vínculo afectivo derivado de un trato frecuente y de confianza, sin límites temporales y ninguna forma de discriminación."
+          <div>(CIDH, 2025, p.5)</div>
         </IconBoxCard>
       </div>
 
