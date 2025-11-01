@@ -4,8 +4,8 @@ import type { SelectRelativeTypeProps } from "./SelectRelativeTypeProps";
 import { getContentDefinition } from "./ContentDefinition";
 
 import './select-relative-type.scss'; 
-import { BoxListOptions } from "../../../../components/box-list-options/BoxListOptions";
-import { TextListOptions } from "../../../../components/text-list-options/TextListOptions";
+import { BoxListOptions } from "../../../../components/list-options/box-list-options/BoxListOptions";
+import { TextListOptions } from "../../../../components/list-options/text-list-options/TextListOptions";
 import TitleBar from "../../../../components/title-bar/TitleBar";
 import type { TextListItem } from "../../../../shared/utils/Item";
 

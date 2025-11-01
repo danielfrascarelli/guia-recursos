@@ -1,7 +1,7 @@
 
-import { TextListOptions } from "../../components/text-list-options/TextListOptions";
+import { TextListOptions } from "../../components/list-options/text-list-options/TextListOptions";
 
-import { BoxListOptions } from "../../components/box-list-options/BoxListOptions";
+import { BoxListOptions } from "../../components/list-options/box-list-options/BoxListOptions";
 
 import styles from "./FAQ.module.scss";
 import "./faq.scss";

@@ -2,11 +2,11 @@ import type { ListItem } from "../shared/utils/Item";
 
 import { TextComponent } from "./text-component/TextComponent";
 import { Text2Component } from "./text2-component/Text2Component";
-import { TextListOptions } from "./text-list-options/TextListOptions";
+import { TextListOptions } from "./list-options/text-list-options/TextListOptions";
 
 import type { Text2ComponentProps } from "./text2-component/Text2ComponentProps";
 import type { TextComponentProps } from "./text-component/TextComponentProps";
-import type { TextListOptionsProps } from "./text-list-options/TextListOptionsProps";
+import type { TextListOptionsProps } from "./list-options/text-list-options/TextListOptionsProps";
 import FAQ, { type FAQProps } from "../pages/FAQ/FAQ";
 import ContactosUtiles, { type ContactosUtilesProps } from "../pages/ContactosUtiles/ContactosUtiles";
 import { CommonOfficeInfo } from "../pages/ContactosUtiles/components/common/common-component/CommonOfficeInfo";

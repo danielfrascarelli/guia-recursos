@@ -3,7 +3,7 @@ import React from "react";
 import type { TypePersonProps } from "./TypePersonProps";  
 
 import { getContentDefinition } from "./ContentDefinition"; 
-import { TextListOptions } from "../../../../components/text-list-options/TextListOptions";
+import { TextListOptions } from "../../../../components/list-options/text-list-options/TextListOptions";
 import type { TextListItem } from "../../../../shared/utils/Item";
 
 export const TypePerson: React.FC<TypePersonProps> = ({ type }) => {

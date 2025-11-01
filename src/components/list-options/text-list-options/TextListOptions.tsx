@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import styles from "./TextListOptions.module.scss";
 import type { TextListOptionsProps } from "./TextListOptionsProps";
-import { SectionButton } from "../section-button/SectionButton";
+import { SectionButton } from "../../section-button/SectionButton";
 
 export const TextListOptions: React.FC<TextListOptionsProps> = ({ items }) => {
   const navigate = useNavigate();

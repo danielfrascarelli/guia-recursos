@@ -1,5 +1,5 @@
 import styles from "./Salud.module.scss";
-import { TextListOptions } from "../../../../components/text-list-options/TextListOptions";
+import { TextListOptions } from "../../../../components/list-options/text-list-options/TextListOptions";
 import { getContentDefinition } from "./ContentDefinition";
 import type { TextComponentProps } from "../../../../components/text-component/TextComponentProps";
 import TitleBar from "../../../../components/title-bar/TitleBar";
