@@ -1,7 +1,4 @@
-// import styles from "./EarlyMoments.module.scss"; 
-// import { getContentDefinition } from "./ContentDefinition"; 
 import type { DefinitionProps } from "../../../../components/DefinitionProps";
-import TitleBar from "../../../../components/title-bar/TitleBar";
 
 import './early-moments.scss';
 import InlineSpotlight from "../../../../components/inline-spotlight/InlineSpotlight";
@@ -11,9 +8,7 @@ export interface EarlyMomentsProps extends DefinitionProps { };
 
 export default function EarlyMoments() {
   return (
-
     <div className="screen">
-      <TitleBar title={"Primeros momentos"} />
       <main  >
         <div className="h-100">
           <div className="mx-3 p-0 pt-3 fp-family-role text-justify">
