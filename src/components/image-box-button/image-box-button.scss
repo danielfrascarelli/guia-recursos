@@ -1,0 +1,25 @@
+.image-box-button__container {
+  .image-box-button {
+    display: flex;
+    position: relative;
+
+    border-radius: 60px;
+    border: 1px solid var(--brand-wine);
+
+    margin-left: 30px;
+    margin-right: 30px;
+
+    padding: 20px 35px;
+
+    .img-logo {
+      width: 100px;
+    }
+
+    .image-box-button__content {
+      display: flex;
+      color: var(--brand-wine);
+      font-size: clamp(16px, 2.1vw, 28px);
+      line-height: 1.35;
+    }
+  }
+}
