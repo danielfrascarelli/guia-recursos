@@ -9,7 +9,7 @@ type ModalProps = {
 };
 
 
-import woman from "../../assets/images/woman.svg";
+import woman from "../../assets/images/people/woman.svg";
 import "./fp-modal.scss";
 
 export default function FpModal({
