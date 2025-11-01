@@ -18,12 +18,23 @@
 
   .fp-intro-content {
     height: calc(100% - 64px - 44px);
+
+    // @media (max-width: 767.98px) {
+    //   padding-left: 20px;
+    //   padding-right: 20px;
+    // }
   }
 
   /* Cuando HAY CTA, reservamos espacio al final para que no lo tape */
   &.has-cta .fp-intro-content {
     padding-bottom: calc(108px + env(safe-area-inset-bottom));
   }
+}
+
+.common-layout-margin{
+    margin-left: 40px;
+    margin-right: 40px;
+
 }
 
 /* CTA fijo sobre el contenido, centrado y con safe-area para iOS */
