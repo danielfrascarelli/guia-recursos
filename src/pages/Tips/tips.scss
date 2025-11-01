@@ -1,6 +1,5 @@
 .fp-tips__container {
   .fp-tips {
-    // font-size: clamp(18px, 3vw, 25px);
     line-height: 2em;
   }
 
@@ -13,9 +12,8 @@
       list-style: none;
       padding: 0;
       margin: 0;
-      display: flex; /* mantiene los <li> en una línea */
-      flex-wrap: wrap; /* opcional, permite que bajen si no hay espacio */
-      // gap: 0.75rem; /* separa los ítems */
+      display: flex;
+      flex-wrap: wrap;
     }
 
     ul li {
@@ -24,39 +22,14 @@
     }
 
     ul li::marker {
-      content: none; /* elimina marcador nativo */
+      content: none;
     }
 
     ul li::before {
-      content: "•"; /* o "\2022", o un ícono tipo "✔" */
+      content: "•";
       margin-right: 6px;
       font-weight: bold;
       display: inline-block;
     }
   }
 }
-
-//   .woman-image {
-//     float: left;
-//   }
-
-//   .child-image {
-//     float: left;
-//     width: 80px;
-//     margin-right: 24px;
-//   }
-
-//   .float-clean {
-//     clear: both;
-//   }
-
-//   .family-role-woman-card {
-//     p {
-//       margin-bottom:0px;
-//       a {
-//         color: var(--brand-wine);
-//         font-weight: 600;
-//       }
-//     }
-//   }
-// }

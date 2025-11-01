@@ -1,5 +1,5 @@
-.woman-card__container {
-  .woman-card {
+.woman-box-button__container {
+  .woman-box-button {
     display: flex;
     position: relative;
 
@@ -15,7 +15,7 @@
       width: 100px;
     }
 
-    .woman-card__content {
+    .woman-box-button__content {
       display: flex;
       color: var(--brand-wine);
       font-size: clamp(16px, 2.1vw, 28px);

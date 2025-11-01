@@ -10,7 +10,7 @@ export default function Tips() {
   return (
     <div className="h-100">
       <div className="fp-tips__container">
-        <div className="text-justify mt-1">
+        <div className="text-justify mt-4">
           <IconBoxCard
             bgColor="transparent"
             borderWidth={3}

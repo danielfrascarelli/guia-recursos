@@ -1,13 +1,15 @@
-.screen {
-  display: flex;
-  flex-direction: column;
-}
+.fp-early-moments {
+  // .screen {
+  //   display: flex;
+  //   flex-direction: column;
+  // }
 
-.fp-tips {
-  // font-size: clamp(18px, 3vw, 25px);
-  line-height: 2em;
-}
+  .fp-tips {
+    // font-size: clamp(18px, 3vw, 25px);
+    line-height: 2em;
+  }
 
-.offset-tramites .offset-card__content {
-  font-size: 14px;
+  .offset-tramites .offset-card__content {
+    font-size: 14px;
+  }
 }

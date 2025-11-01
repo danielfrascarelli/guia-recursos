@@ -9,7 +9,7 @@ export default function FamilyRole() {
   return (
     <div className="h-100">
       <div className="fp-family-role">
-        <div className="common-layout-margin">
+        <div className="common-layout-margin mt-4">
           <strong>
             <p>
               ¿Quienes acompañamos los procesos de encarcelamiento?
@@ -55,7 +55,6 @@ export default function FamilyRole() {
                 </a>
             </p>
           </WomanBoxButton>
-
         </div>
 
         {/* <div className="mx-2 p-0 mt-4 text-font-size lh-base">

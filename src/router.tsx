@@ -93,15 +93,25 @@ export const router = createBrowserRouter([
     ],
   },
   {
+    path: "/mapa-de-ruta/primeros-momentos",
+    element: <Layout titleText="Primeros momentos"   />,
+    children: [
+      { index: true, element:  <EarlyMoments />, }
+    ],
+  },
+  {
+    path: "/mapa-de-ruta/seleccionar-familiar",
+    element: <Layout titleText="Si tu familiar es:"   />,
+    children: [
+      { index: true, element:  <SelectRelativeType title="dummy" />, }
+    ],
+  },
+  {
     path: "/mapa-de-ruta",
     element: <Layout titleShow={false} showNextButton={false} />,
     children: [
       { index: true, element: <RouteMap /> },
 
-      {
-        path: '/mapa-de-ruta/primeros-momentos',
-        element: <EarlyMoments />,
-      },
       ...getEarlyMomentsContentDefinition().map((i) => {
         const Cmp = registry[i.componentType] as React.ComponentType<any>;
         return ({
@@ -109,12 +119,6 @@ export const router = createBrowserRouter([
           element: <Cmp key={i} {...i.props} />
         })
       }),
-
-      {
-        path: '/mapa-de-ruta/seleccionar-familiar',
-        element: <SelectRelativeType title="dummy" />,
-      },
-
       {
         path: '/mapa-de-ruta/adulto',
         element: <FAQ type={RelativeType.Adult} title="dummy" />,

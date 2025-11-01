@@ -1,4 +1,4 @@
-import styles from "./RouteMap.module.scss"; 
+import styles from "./RouteMap.module.scss";
 import { getContentDefinition } from "./ContentDefinition";
 import type { DefinitionProps } from "../../components/DefinitionProps";
 import { BoxListOptions } from "../../components/list-options/box-list-options/BoxListOptions";
@@ -17,7 +17,7 @@ export default function RouteMap() {
   return (
     <div className={styles.screen}>
       <TitleBar title={"Mapa de ruta"} />
-      <main className={styles.main}>
+      <main className={`${styles.main} mt-4`}>
         <div className="d-block d-sm-none">
           <ImageListOptions items={items} />
         </div>

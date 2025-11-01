@@ -9,7 +9,7 @@ export function getContentDefinition(): ContentDefinition[] {
     {
       id: "1",
       variant: "pretty_white",
-      url: "../adolescente",
+      url: "/mapa-de-ruta/adolescente",
       imageUrl: teenager,
       componentType: "TypePersonComponent",
       props: {
@@ -20,7 +20,7 @@ export function getContentDefinition(): ContentDefinition[] {
     }, {
       id: "2",
       variant: "pretty_white",
-      url: "../adulto",
+      url: "/mapa-de-ruta/adulto",
       imageUrl: adult,
       componentType: "TypePersonComponent",
       props: {

@@ -1,4 +1,4 @@
-export type WomanCardProps = {
+export type WomanBoxButtonProps = {
   // borderColor?: string;
   // bgColor?: string;
   // borderWidth?: number;
