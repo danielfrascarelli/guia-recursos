@@ -1,4 +1,4 @@
-import check from '../../assets/images/check.svg'
+import check from '../../assets/images/icons/check.svg'
 import InlineSpotlight from '../../components/inline-spotlight/InlineSpotlight';
 import OffsetCard from '../../components/offset-card/OffsetCard';
 

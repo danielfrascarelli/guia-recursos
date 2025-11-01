@@ -1,8 +1,8 @@
 import { useNavigate } from "react-router-dom";
 
-import familias_presentes from '../../assets/images/familias_presentes.png';
-import europe from '../../assets/images/europe.svg'
-import coope_bien_alto from '../../assets/images/coope_bien_alto.png'
+import familias_presentes from '../../assets/images/logos/familias_presentes.png';
+import europe from '../../assets/images/logos/europe.svg'
+import coope_bien_alto from '../../assets/images/logos/coope_bien_alto.png'
 import inr from '../../assets/images/logos_contactos_utiles/logo_inr.png'
 
 import "./home.scss";
