@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 
 import "./box-list-options.scss";
 import type { BoxListOptionsProps, BoxListVariant } from "./BoxListOptionsProps";
-import { BoxButton } from "../../box-button/BoxButton";
+import { BoxButton } from "../../box-buttons/box-button/BoxButton";
 
 export const BoxListOptions: React.FC<BoxListOptionsProps> = ({ items, variant = "default",
 
