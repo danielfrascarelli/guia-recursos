@@ -1,5 +1,5 @@
 import './box-card.scss';
-import type { BoxCardCardProps } from './BoxCardProps';
+import type { BoxCardProps } from './BoxCardProps';
 
 import important from '../../assets/images/icons/important.svg';
 
@@ -16,7 +16,8 @@ export default function BoxCard({
   className = "",
   style,
   children,
-}: BoxCardCardProps) {
+  imgSrc
+}: BoxCardProps) {
   const vars: React.CSSProperties = {
     ["--oc-border" as any]: borderColor,
     ["--oc-bg" as any]: bgColor,
@@ -34,7 +35,7 @@ export default function BoxCard({
     <div className={`flat-offset-card ${className}`} style={vars}>
       <div className="common-layout-margin d-flex flex-row align-items-center gap-3">
         <div className="d-flex justify-content-center align-items-center flex-shrink-0">
-          <img src={important} className="img-logo" alt="important" />
+          <img src={imgSrc ?? important} className="img-logo" alt="important" />
         </div>
 
         <div className="flat-offset-card__content flex-grow-1 mb-0">

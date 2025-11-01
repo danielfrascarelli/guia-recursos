@@ -4,6 +4,7 @@ import "./family-role.scss";
 import child from "../../assets/images/child.png";
 import FlatOffsetCard from "../../components/flat-offset-card/FlatOffsetCard";
 import BoxCard from "../../components/box-card/BoxCard";
+import WomanCard from "../../components/woman-card/WomanCard";
 
 export default function FamilyRole() {
   return (
@@ -47,9 +48,20 @@ export default function FamilyRole() {
             </div>
           </FlatOffsetCard>
         </div>
-        <div className="mx-2 p-0 mt-4 text-font-size lh-base">
+        <div className="mt-4 mb-4 fp-tips float-clean">
+          <WomanCard className="family-role-woman-card">
+            <p className="text-justify">
+              <a href="https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf" target="_blank">
+                Si queres saber más acerca de Los principios de Bogota, pincha acá
+                </a>
+            </p>
+          </WomanCard>
+
+        </div>
+
+        {/* <div className="mx-2 p-0 mt-4 text-font-size lh-base">
           <FpModal title="Si queres saber más acerca de Los principios de Bogota, pincha acá" onClick={() => { window.open('https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf', '_blank', 'noopener,noreferrer'); }} />
-        </div> 
+        </div> */}
         <div className="mt-4 mb-4 fp-tips float-clean">
           <BoxCard
             borderColor="#e9a15f"

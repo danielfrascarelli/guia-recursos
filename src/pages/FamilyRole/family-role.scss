@@ -1,13 +1,25 @@
-.woman-image {
-  float: left;
-}
+.fp-family-role {
+  .woman-image {
+    float: left;
+  }
 
-.child-image {
-  float: left;
-  width: 80px;
-  margin-right: 24px;
-}
+  .child-image {
+    float: left;
+    width: 80px;
+    margin-right: 24px;
+  }
 
-.float-clean {
-  clear: both;
+  .float-clean {
+    clear: both;
+  }
+
+  .family-role-woman-card {
+    p {
+      margin-bottom:0px;
+      a {
+        color: var(--brand-wine);
+        font-weight: 600;
+      }
+    }
+  }
 }

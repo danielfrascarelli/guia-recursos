@@ -1,4 +1,4 @@
-export type BoxCardCardProps = {
+export type BoxCardProps = {
   borderColor?: string;
   bgColor?: string;
   borderWidth?: number;
@@ -12,5 +12,6 @@ export type BoxCardCardProps = {
   padding?: number;
   className?: string;
   style?: React.CSSProperties;
+  imgSrc?: string | undefined;
   children: React.ReactNode;
 };
