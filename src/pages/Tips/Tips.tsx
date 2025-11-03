@@ -1,6 +1,6 @@
 import IconBoxCard from '../../components/cards/icon-box-card/IconBoxCard';
 
-import circleCheck from '../../assets/images/icons/circle-check.svg';
+import circleCheck from '../../assets/images/icons/box-check.svg';
 import pencil from '../../assets/images/icons/pencil.svg';
 
 import "./tips.scss";
