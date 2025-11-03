@@ -1,8 +1,8 @@
 import type { ContentDefinition } from "../../../../components/ItemDefinition";
 import { RelativeType } from "../../../../shared/utils/RelativeType";
 
-import adult from '../../../../assets/images/people/adult.png';
-import teenager from '../../../../assets/images/people/teenager.png';
+import adult from '../../../../assets/images/people/adult.svg';
+import teenager from '../../../../assets/images/people/teenager.svg';
 
 export function getContentDefinition(): ContentDefinition[] {
   const items = [
