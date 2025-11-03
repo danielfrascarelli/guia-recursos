@@ -1,9 +1,9 @@
 import type { ContentDefinition } from "../../components/ItemDefinition";
 
-import esposas from '../../assets/images/esposas.png';
-import edificioJusticia from '../../assets/images/edificio-justicia.png';
-import martilloJuez from '../../assets/images/martillo-juez.png';
-import telefonoVideollamada from '../../assets/images/telefono-videollamada.png';
+import esposas from '../../assets/images/esposas.svg';
+import edificioJusticia from '../../assets/images/justicia.svg';
+import martilloJuez from '../../assets/images/martillo-juez.svg';
+import telefonoVideollamada from '../../assets/images/videollamada.svg';
 
 export function getContentDefinition(): ContentDefinition[] {
   const items = [
