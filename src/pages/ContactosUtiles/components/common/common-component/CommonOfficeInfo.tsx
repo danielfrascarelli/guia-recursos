@@ -5,9 +5,14 @@ import TitleBar from "../../../../../components/title-bar/TitleBar";
 import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
 import TitleDescriptionBar from "../../../../../components/title-description-bar/TitleDescriptionBar";
 
+import { useNavigate } from "react-router-dom";
+
 import "./styles.scss";
+import { BoxButton } from "../../../../../components/box-buttons/box-button/BoxButton";
 
 export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: CommonOfficeInfoProps) => {
+  const navigate = useNavigate();
+
   return (
     <section className="unit-card">
       <div>
@@ -34,12 +39,13 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
                 <h3 className="section-title">Teléfonos</h3>
                 <ul className="section-list">
                   {data.phone.map((t, i) => (
-                    <li key={i}>
+                    <li key={`phones-${i}`}>
                       {t.area ? <span className="area">{t.area}:&nbsp;</span> : null}
-                      {t.phones?.map((p: string, j: number) => (<>
-                        <a key={j} className="link" href={`tel:${p.replace(/\s+/g, '')}`}>{p}</a>
-                        {j < t.phones.length - 1 ? <label>,&nbsp;</label> : <></>}
-                      </>
+                      {t.phones?.map((p: string, j: number) => (
+                        <a key={`phones-${i}-area-${t.area}-${j}-$`} className="link" href={`tel:${p.replace(/\s+/g, '')}`}>
+                          {p}
+                          {j < t.phones.length - 1 ? <label>,&nbsp;</label> : <></>}
+                        </a>
                       ))}
                     </li>
                   ))}
@@ -67,12 +73,23 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
                   <p className="address-text section-content">
                     {data.address.text}
                   </p>
-
-                  {data.address.url && (
-                    <a className="map-button" href={data.address.url} target="_blank" rel="noreferrer">
-                      <span className="map-pin" aria-hidden="true">📍</span> Ver en mapa
-                    </a>
-                  )}
+                  <div className="address-button">
+                    {data.address?.url && (
+                      <BoxButton
+                        key={data.shortName + data.address?.url}
+                        variant={"white"}
+                        title={(
+                          <a className="map-button" href={data.address.url} target="_blank" rel="noreferrer">
+                            <span className="map-pin" aria-hidden="true">📍</span> Ver en mapa
+                          </a>
+                        )}
+                        style={{
+                          backgroundColor: "transparent",
+                          borderColor: "var(--brand-wine)"
+                        }}
+                      />
+                    )}
+                  </div>
                 </div>
               </div>
             )}
@@ -95,12 +112,13 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
                 <h3 className="section-title">Correos electrónicos</h3>
                 <ul className="section-list">
                   {data.email.map((c, i) => (
-                    <li key={i}>
+                    <li key={`emails-${i}`}>
                       {c.area ? <span className="area">{c.area}:&nbsp;</span> : null}
-                      {c.emails?.map((e: string, j: number) => (<>
-                        <a key={j} className="link" href={`mailto:${e}`}>{e}</a>
-                        {j < c.emails.length - 1 ? <label>,&nbsp;</label> : <></>}
-                      </>
+                      {c.emails?.map((e: string, j: number) => (
+                        <a key={`emails-${i}-area-${c.area}-${j}`} className="link" href={`mailto:${e}`}>
+                          {e}
+                          {j < c.emails.length - 1 ? <label>,&nbsp;</label> : <></>}
+                        </a>
                       ))}
                     </li>
                   ))}

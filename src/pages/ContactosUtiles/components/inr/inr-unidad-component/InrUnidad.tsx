@@ -94,20 +94,29 @@ export const InrUnidad: React.FC<InrUnidadProps> = ({ title, data }: InrUnidadPr
                   </div>
                 </div>
               )}
-              {data.visiting.restrictionsText && (
-                <div className="unit-section unit-section-h4">
-                  <div className="unit-content">
-                    <h4 className="section-title">Restricciones</h4>
-                    <ul className="section-list section-list-visiting-restrictions">
-                      {data.visiting.restrictionsText.map((txt, i) => (
-                        <li key={i}>{txt}</li>
-                      ))}
-                    </ul>
-                  </div>
-                </div>
-              )}
             </IconBoxCard>
           }
+        </div>
+        
+        { /* Restricciones */}
+        <div className="mt-3">
+          <IconBoxCard
+            bgColor="#efcfb273"
+            borderWidth={3}
+          >
+            {data.visiting.restrictionsText && (
+              <div className="unit-section unit-section-h4">
+                <div className="unit-content">
+                  <h3 className="section-title">Restricciones</h3>
+                  <ul className="section-list section-list-visiting-restrictions">
+                    {data.visiting.restrictionsText.map((txt, i) => (
+                      <li key={i}>{txt}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )}
+          </IconBoxCard>
         </div>
       </section>
     </div>
