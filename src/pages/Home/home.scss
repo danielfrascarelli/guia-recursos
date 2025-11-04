@@ -7,6 +7,27 @@
   margin: 40px 0 24px;
   font-size: clamp(44px, 6vw, 60px);
   letter-spacing: 0.15em;
+
+  // xxl
+  @media (max-width: 1400p) {
+    letter-spacing: 1em;
+  }
+  // xl
+  @media (max-width: 1200px) {
+    letter-spacing: 1em;
+  }
+  // lg
+  @media (max-width: 992px) {
+    letter-spacing: 1em;
+  }
+  // md
+  @media (max-width: 768px) {
+    letter-spacing: 1em;
+  }
+  // sm
+  @media (max-width: 576px) {
+    letter-spacing: 0.05em;
+  }
 }
 
 .fp-home-cta-wrap {
@@ -37,5 +58,5 @@
 }
 
 footer small {
-  font-size: 0.75rem; 
+  font-size: 0.75rem;
 }
