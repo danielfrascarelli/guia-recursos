@@ -2,12 +2,21 @@ import { HeartIcon, HomeIcon, KeyIcon, PeopleIcon, TruckIcon } from "../../../as
 import type { ContentDefinition } from "../../../components/ItemDefinition";
 import { RelativeType } from "../../../shared/utils/RelativeType";
 
-
 export function getAdultContentDefinition(): ContentDefinition[] {
-
   const adulto = [
     {
       id: "1",
+      variant: "pretty_white",
+      url: "detenciones",
+      icon: <PeopleIcon />,
+      componentType: "DetentionsComponent",
+      props: {
+        title: "Detenciones en adultos",
+        type: RelativeType.Adult
+      },
+    },
+    {
+      id: "2",
       variant: "pretty_white",
       url: "visitas-y-comunicacion",
       icon: <PeopleIcon />,
@@ -18,7 +27,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       },
     },
     {
-      id: "2",
+      id: "3",
       variant: "pretty_white",
       url: "traslados",
       icon: <TruckIcon />,
@@ -29,7 +38,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       },
     },
     {
-      id: "3",
+      id: "4",
       variant: "pretty_white",
       url: "salud",
       icon: <HeartIcon />,
@@ -40,7 +49,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       },
     },
     {
-      id: "4",
+      id: "5",
       variant: "pretty_white",
       url: "acceso-a-derechos",
       icon: <KeyIcon />,
@@ -51,7 +60,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       },
     },
     {
-      id: "5",
+      id: "6",
       variant: "pretty_white",
       url: "salida",
       icon: <HomeIcon />,

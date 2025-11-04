@@ -1,13 +1,15 @@
 import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
+import TitleBar from "../../../../../components/title-bar/TitleBar";
 
-export interface TeenagerFaqIntroProps {
+export interface TeenagerDetentionsProps {
 };
 
-export default function TeenagerFaqIntro({ }: TeenagerFaqIntroProps) {
+export default function TeenagerDetentions({ }: TeenagerDetentionsProps) {
 
   return (
-    <div className="fp-family-role text-justify">
-      <main>
+    <div className="h-100">
+      <TitleBar title={"Detenciones en adolescentes"} />
+      <div className="fp-tips__container mt-4">
         <div>
           <div>
             <p>Si tu familiar es <InlineSpotlight bg="var(--brand-wine)">ADOLESCENTE</InlineSpotlight> tenes que saber:</p>
@@ -42,7 +44,7 @@ export default function TeenagerFaqIntro({ }: TeenagerFaqIntroProps) {
             </div>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }

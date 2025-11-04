@@ -31,6 +31,7 @@ import { InrOffice } from "../pages/ContactosUtiles/components/inr/inr-offices-c
 import type { InrOfficeProps } from "../pages/ContactosUtiles/components/inr/inr-offices-component/InrOfficeProps";
 import { JLEVOfficeInfo } from "../pages/ContactosUtiles/components/jlev-component/JLEVOfficeInfo";
 import type { JLEVOfficeInfoProps } from "../pages/ContactosUtiles/components/jlev-component/JLEVOfficeInfoProps";
+import Detentions, { type DetentionsProps } from "../pages/FAQ/components/Detentions/Detentions";
 
 export const registry = {
     TextComponent: TextComponent as React.ComponentType<TextComponentProps>,
@@ -47,6 +48,7 @@ export const registry = {
     JudicialProcessComponent: JudicialProcess as React.ComponentType<JudicialProcessProps>,
     FAQComponent: FAQ as React.ComponentType<FAQProps>,
     EarlyMomentsComponent: EarlyMoments as React.ComponentType<EarlyMomentsProps>,
+    DetentionsComponent: Detentions as React.ComponentType<DetentionsProps>,
     VisitasYContactoComponent: VisitasYContacto as React.ComponentType<VisitasYContactoProps>,
     TrasladosComponent: Traslados as React.ComponentType<TrasladosProps>,
     SaludComponent: Salud as React.ComponentType<SaludProps>,

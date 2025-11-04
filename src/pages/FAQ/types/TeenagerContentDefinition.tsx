@@ -8,6 +8,17 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
     {
       id: "1",
       variant: "pretty_white",
+      url: "detenciones",
+      icon: <PeopleIcon />,
+      componentType: "DetentionsComponent",
+      props: {
+        title: "Detenciones en adolescencias",
+        type: RelativeType.Teenager
+      },
+    },
+    {
+      id: "2",
+      variant: "pretty_white",
       url: "visitas-y-comunicacion",
       icon: <PeopleIcon />,
       componentType: "VisitasYContactoComponent",
@@ -17,7 +28,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       },
     },
     {
-      id: "2",
+      id: "3",
       variant: "pretty_white",
       url: "traslados",
       icon: <TruckIcon />,
@@ -28,7 +39,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       },
     },
     {
-      id: "3",
+      id: "4",
       variant: "pretty_white",
       url: "salud",
       icon: <HeartIcon />,
@@ -38,16 +49,6 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
         type: RelativeType.Teenager
       },
     },
-    // {
-    //   id: "4",
-    //   variant: "pretty_white",
-    //   url: "acceso-a-derechos",
-    //   componentType: "AccesoADerechosComponent",
-    //   props: {
-    //     title: "Acceso a derechos y actividades",
-    //     type: RelativeType.Teenager
-    //   },
-    // },
     {
       id: "5",
       variant: "pretty_white",

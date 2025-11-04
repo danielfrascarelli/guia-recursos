@@ -1,5 +1,6 @@
 import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import OffsetCard from "../../../../../components/cards/offset-card/OffsetCard";
+import TitleBar from "../../../../../components/title-bar/TitleBar";
 
 
 export interface AdultFaqIntroProps {
@@ -8,8 +9,9 @@ export interface AdultFaqIntroProps {
 export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
 
   return (
-    <div >
-      <main  >
+    <div className="h-100">
+      <TitleBar title={"Detenciones en adultos"} />
+      <div className="fp-tips__container mt-4">
         <div  >
           <div className="fp-family-role text-justify">
             <p>Si tu familiar es <InlineSpotlight bg="var(--brand-wine)">ADULTO</InlineSpotlight> tenes que saber:</p>
@@ -59,10 +61,10 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
               overhangX={7} overhangY={7}
             >
               Sugerimos que te comuniques con el abogado/a defensor/a.
-            </OffsetCard> 
+            </OffsetCard>
           </div>
         </div>
-      </main>
+      </div>
     </div>
   );
 }
