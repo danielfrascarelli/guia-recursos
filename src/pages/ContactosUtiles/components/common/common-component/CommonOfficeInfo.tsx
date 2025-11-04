@@ -4,14 +4,11 @@ import check from '../../../../../assets/images/icons/box-check.svg';
 import TitleBar from "../../../../../components/title-bar/TitleBar";
 import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
 import TitleDescriptionBar from "../../../../../components/title-description-bar/TitleDescriptionBar";
-
-import { useNavigate } from "react-router-dom";
-
+ 
 import "./styles.scss";
 import { BoxButton } from "../../../../../components/box-buttons/box-button/BoxButton";
 
 export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: CommonOfficeInfoProps) => {
-  const navigate = useNavigate();
 
   return (
     <section className="unit-card">
