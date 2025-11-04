@@ -1,0 +1,23 @@
+.inr-unidad__container {
+  .unit-card {
+    .unit-section {
+      .unit-content {
+        h4.section-title {
+          font-size: 0.8em;
+          margin-bottom: 0px;
+        }
+      }
+    }
+
+    .unit-section-h4 {
+      margin-bottom: 10px;
+    }
+
+    .unit-section.unit-section-h4 {
+      ul.section-list-visiting-restrictions {
+        list-style-type: inherit;
+        padding-left: 18px;
+      }
+    }
+  }
+}

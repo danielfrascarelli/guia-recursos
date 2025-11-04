@@ -19,8 +19,8 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
         </div>
       </div>
 
+      {/* Teléfonos */}
       <div className="mt-3">
-        {/* Teléfonos */}
         {Array.isArray(data.phone) && data.phone.length > 0 &&
           <IconBoxCard
             bgColor="transparent"
@@ -50,8 +50,8 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
         }
       </div>
 
+      {/* Dirección */}
       <div className="mt-3">
-        {/* Dirección */}
         {data.address &&
           <IconBoxCard
             bgColor="transparent"
@@ -64,7 +64,7 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
               <div className="unit-section">
                 <div className="unit-content">
                   <h3 className="section-title">Dirección</h3>
-                  <p className="address-text">
+                  <p className="address-text section-content">
                     {data.address.text}
                   </p>
 
@@ -80,8 +80,8 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
         }
       </div>
 
+      {/* Correos electrónicos */}
       <div className="mt-3">
-        {/* Correos electrónicos */}
         {Array.isArray(data.email) && data.email.length > 0 &&
           <IconBoxCard
             bgColor="transparent"
@@ -111,6 +111,7 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
         }
       </div>
 
+      { /* Web */}
       <div className="mt-3">
         {data.web &&
           <IconBoxCard
@@ -138,6 +139,7 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data }: Comm
         }
       </div >
 
+      { /* Horario */}
       <div className="mt-3">
         {data.openingHours &&
           <IconBoxCard
