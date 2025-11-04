@@ -1,111 +1,124 @@
 import React from "react";
 import type { InrUnidadProps } from "./InrUnidadProps";
 import { CommonOfficeInfo } from "../../common/common-component/CommonOfficeInfo";
+import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
+
+import check from '../../../../../assets/images/icons/box-check.svg';
+
+import "./styles.scss";
 
 export const InrUnidad: React.FC<InrUnidadProps> = ({ title, data }: InrUnidadProps) => {
 
   return (
-    <div>
-      <div>
-        <CommonOfficeInfo title={title} data={data} />
-      </div>
-      <div>
-
-        <h3>Paquetes</h3>
-        <p><em>Horarios de entrega:</em> {data.packages.deliveryHours}</p>
-        {data.packages.restrictionsUrl && (
-          <p>
-            <em>Restricciones en cantidad y tipo de artículos:</em>{" "}
-            <a href={data.packages.restrictionsUrl} target="_blank" rel="noreferrer">
-              click aquí
-            </a>
-          </p>
-        )}
-
-        <h3>Visitas</h3>
-        <p><em>Horario:</em> {data.visiting.visitingHours}</p>
-        {data.visiting.restrictionsDressCodeUrl && (
-          <div>
-            <em>Restricciones en vestimenta:</em>{" "}
-            <a href={data.visiting.restrictionsDressCodeUrl} target="_blank" rel="noreferrer">
-              click aquí
-            </a>
-          </div>
-        )}
-        <div>
-          <em>Restricciones:</em>
-          <ul>
-            {data.visiting.restrictionsText.map((txt, i) => (
-              <li key={i}>{txt}</li>
-            ))}
-          </ul>
+    <div className="inr-unidad__container">
+      <CommonOfficeInfo title={title} data={data} />
+      <section className="unit-card">
+        { /* Paquetes */}
+        <div className="mt-3">
+          {data.packages &&
+            <IconBoxCard
+              bgColor="transparent"
+              borderWidth={3}
+              offsetX={7} offsetY={7}
+              overhangX={7} overhangY={7}
+              imgSrc={check}
+            >
+              {(data.packages.deliveryHours || data.packages.restrictionsUrl) && (
+                <div className="unit-section">
+                  <div className="unit-content">
+                    <h3 className="section-title">Paquetes</h3>
+                  </div>
+                </div>
+              )}
+              {data.packages.deliveryHours && (
+                <div className="unit-section unit-section-h4">
+                  <div className="unit-content">
+                    <h4 className="section-title">Horarios de entrega</h4>
+                    <p className="section-content">
+                      {data.packages.deliveryHours}
+                    </p>
+                  </div>
+                </div>
+              )}
+              {data.packages.restrictionsUrl && (
+                <div className="unit-section unit-section-h4">
+                  <div className="unit-content">
+                    <h4 className="section-title">Restricciones en cantidad y tipo de artículos</h4>
+                    <p className="section-content">
+                      <a href={data.packages.restrictionsUrl} target="_blank" rel="noreferrer">
+                        Click aquí para ver el listado
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              )}
+            </IconBoxCard>
+          }
         </div>
-      </div>
-      {/* <section>
-      <p><strong>Departamento:</strong> {data.department}</p>
-      <p><strong>Ciudad:</strong> {data.city}</p>
-      <p><strong>Barrio:</strong> {data.neighborhood}</p>
-
-      <p>
-        <strong>Dirección:</strong>{" "}
-        {data.address?.url ? (
-          <a href={data.direccion.url} target="_blank" rel="noreferrer">
-            {data.direccion.text}
-          </a>
-        ) : (
-          data.direccion.text
-        )}
-      </p>
-
-      <h3>Teléfonos</h3>
-      <ul>
-        {data.telefonos.map((t, i) => (
-          <li key={i}>
-            <em>{t.area}:</em>{" "}
-            {t.phones.join(", ")}
-          </li>
-        ))}
-      </ul>
-
-      <h3>Correos electrónicos</h3>
-      <ul>
-        {data.correos.map((c, i) => (
-          <li key={i}>
-            <em>{c.area}:</em>{" "}
-            {c.emails.map(e => <a href={`mailto:${e}`}>{e}</a>)}
-          </li>
-        ))}
-      </ul>
-
-      <h3>Paquetes</h3>
-      <p><em>Horarios de entrega:</em> {data.paquetes.horarioEntrega}</p>
-      {data.paquetes.restriccionesArticulosUrl && (
-        <p>
-          <em>Restricciones en cantidad y tipo de artículos:</em>{" "}
-          <a href={data.paquetes.restriccionesArticulosUrl} target="_blank" rel="noreferrer">
-            click aquí
-          </a>
-        </p>
-      )}
-
-      <h3>Visitas</h3>
-      <p><em>Horario:</em> {data.visitas.horario}</p>
-      {data.visitas.restriccionesVestimentaUrl && (
-        <p>
-          <em>Restricciones en vestimenta:</em>{" "}
-          <a href={data.visitas.restriccionesVestimentaUrl} target="_blank" rel="noreferrer">
-            click aquí
-          </a>
-        </p>
-      )}
-      <div>
-        <em>Restricciones:</em>
-        <ul>
-          {data.visitas.restriccionesTexto.map((txt, i) => (
-            <li key={i}>{txt}</li>
-          ))}
-        </ul>
-      </div>
-    </section> */}
-    </div>);
+        { /* Visitas */}
+        <div className="mt-3">
+          {data.packages &&
+            <IconBoxCard
+              bgColor="transparent"
+              borderWidth={3}
+              offsetX={7} offsetY={7}
+              overhangX={7} overhangY={7}
+              imgSrc={check}
+            >
+              {(data.visiting.visitingHours || data.visiting.restrictionsDressCodeUrl) && (
+                <div className="unit-section">
+                  <div className="unit-content">
+                    <h3 className="section-title">Visitas</h3>
+                  </div>
+                </div>
+              )}
+              {data.visiting.visitingHours && (
+                <div className="unit-section unit-section-h4">
+                  <div className="unit-content">
+                    <h4 className="section-title">Horario de visita</h4>
+                    <p className="section-content">
+                      {data.visiting.visitingHours}
+                    </p>
+                  </div>
+                </div>
+              )}
+              {data.visiting.restrictionsDressCodeUrl && (
+                <div className="unit-section unit-section-h4">
+                  <div className="unit-content">
+                    <h4 className="section-title">Restricciones en vestimenta</h4>
+                    <p className="section-content">
+                      <a href={data.visiting.restrictionsDressCodeUrl} target="_blank" rel="noreferrer">
+                        Click aquí para ver el listado
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              )}
+            </IconBoxCard>
+          }
+        </div>
+        
+        { /* Restricciones */}
+        <div className="mt-3">
+          <IconBoxCard
+            bgColor="#efcfb273"
+            borderWidth={3}
+          >
+            {data.visiting.restrictionsText && (
+              <div className="unit-section unit-section-h4">
+                <div className="unit-content">
+                  <h3 className="section-title">Restricciones</h3>
+                  <ul className="section-list section-list-visiting-restrictions">
+                    {data.visiting.restrictionsText.map((txt, i) => (
+                      <li key={i}>{txt}</li>
+                    ))}
+                  </ul>
+                </div>
+              </div>
+            )}
+          </IconBoxCard>
+        </div>
+      </section>
+    </div>
+  );
 } 

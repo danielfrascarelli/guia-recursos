@@ -5,7 +5,7 @@ import BackButton from "../components/back-button/BackButton";
 
 import "../styles/layout.scss";
 import getBackUrl from "../shared/utils/Back";
-import LayoutTitleBar from "./layout-title-bar copy/LayoutTitleBar";
+import LayoutTitleBar from "./layout-title-bar/LayoutTitleBar";
 import SwipeNavigator from "./Swipe";
 
 type StepLayoutProps = {

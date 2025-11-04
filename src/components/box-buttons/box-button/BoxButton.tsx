@@ -5,7 +5,7 @@ import type { BoxButtonProps } from "./BoxButtonProps";
 import './box.scss'
 
 export const BoxButton: React.FC<BoxButtonProps> = ({
-  title ,
+  title,
   subtitle,
   icon,
   imageUrl,
@@ -17,7 +17,7 @@ export const BoxButton: React.FC<BoxButtonProps> = ({
     <button
       type="button"
       onClick={onClick}
-      aria-label={title}
+      aria-label={title + ""}
       className={`fp-btn fp-btn-${variant} rounded-4 p-2 p-md-3 p-lg-4 d-flex flex-column align-items-center`}
       style={style}>
       {icon && (

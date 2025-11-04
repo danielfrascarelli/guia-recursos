@@ -1,7 +1,7 @@
 // import "./styles.css"
 // import styles from "./TitleBar.module.scss";
 
-import LayoutTitleBar from "../../layouts/layout-title-bar copy/LayoutTitleBar";
+import LayoutTitleBar from "../../layouts/layout-title-bar/LayoutTitleBar";
 
 type TitleBarProps = {
   title: string;
