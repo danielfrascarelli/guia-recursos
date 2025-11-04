@@ -1,6 +1,6 @@
 import "./family-role.scss";
 
-import child from "../../assets/images/people/child.png";
+import child from "../../assets/images/people/child.svg";
 import FlatOffsetCard from "../../components/cards/flat-offset-card/FlatOffsetCard";
 import IconBoxCard from "../../components/cards/icon-box-card/IconBoxCard";
 import WomanBoxButton from "../../components/box-buttons/woman-box-button/WomanBoxButton";
