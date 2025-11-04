@@ -11,7 +11,7 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
   return (
     <div className="h-100">
       <TitleBar title={"Detenciones en adultos"} />
-      <div className="fp-tips__container mt-4">
+      <div className="fp-tips__container common-layout-margin mt-4">
         <div  >
           <div className="fp-family-role text-justify">
             <p>Si tu familiar es <InlineSpotlight bg="var(--brand-wine)">ADULTO</InlineSpotlight> tenes que saber:</p>
