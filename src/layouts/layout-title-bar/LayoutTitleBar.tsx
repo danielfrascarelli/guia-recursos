@@ -5,7 +5,7 @@ type TitleBarProps = {
   rightIcon?: string;
 };
 
-export default function LayoutTitleBar({ title }: TitleBarProps) {
+export default function LayoutTitleBar1({ title }: TitleBarProps) {
   return (
     <div className="fp-layout-topbar-2-container">
       <div className="fp-layout-topbar-2">

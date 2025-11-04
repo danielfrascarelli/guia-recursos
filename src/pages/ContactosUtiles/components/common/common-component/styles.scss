@@ -1,0 +1,23 @@
+.unit-card {
+  .unit-section {
+    color: var(--brand-wine);
+    font-size: 1rem;
+
+    .unit-content {
+      border: 1px solid black;
+      .section-title {
+        font-weight: 700;
+        font-size: 1rem;
+      }
+      .section-list {
+        list-style-type: none;
+        margin-block-start: 0em;
+        padding-inline-start: 0px;
+        margin-bottom: 0px;
+      }
+      .section-content {
+        margin-bottom: 0px;
+      }
+    }
+  }
+}
