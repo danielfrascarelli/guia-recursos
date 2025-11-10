@@ -39,11 +39,11 @@ export default function Tips() {
             imgSrc={pencil}
           >
             <ul>
-              <li>Traslados.</li>
-              <li>Solicitudes vinculadas a la Salud.</li>
-              <li>Redención de la pena.</li>
-              <li>Solicitud cupos laborales y educativos.</li>
-              <li>Denuncias.</li>
+              <li>Traslados</li>
+              <li>Solicitudes vinculadas a la Salud</li>
+              <li>Redención de la pena</li>
+              <li>Solicitud cupos laborales y educativos</li>
+              <li>Denuncias</li>
             </ul>
           </IconBoxCard>
         </div>
