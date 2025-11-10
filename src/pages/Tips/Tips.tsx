@@ -19,7 +19,11 @@ export default function Tips() {
             imgSrc={circleCheck}
           >
             <p>
-              Acércate a la Oficina de Atención a la Familia del INR y despeja junto a ellos qué trámites podes realizar siendo familiar, y si no puedes escribe un correo electrónico a <a href="mailto:inr-pplatencionalfamiliar@minterior.gub.uy">inr-pplatencionalfamiliar@minterior.gub.uy</a>.
+              Acércate a la
+              <a href="/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/oficinas/1" target='_blank'>
+                &nbsp;Oficina de Atención a la Familia&nbsp;
+              </a>
+              del INR y despeja junto a ellos qué trámites podes realizar siendo familiar, y si no puedes escribe un correo electrónico a <a href="mailto:inr-pplatencionalfamiliar@minterior.gub.uy">inr-pplatencionalfamiliar@minterior.gub.uy</a>.
             </p>
           </IconBoxCard>
         </div>
@@ -177,7 +181,7 @@ export default function Tips() {
             </p>
           </div>
         </FlatOffsetCard>
-      </div> 
+      </div>
     </div>
   );
 }

@@ -13,7 +13,11 @@ export function getAdultContentDefinition(): ContentDefinition[] {
           <div>
             <div>
               <p>Tenes derecho a llamar y consultar sobre el mismo con algún referente del área en la unidad correspondiente.</p>
-              <p>También podes dirigirte a la Oficina de Atención a la Familia vía email o presencial, y allí se ingresará una solicitud por alguien encargado del área de salud. </p>
+              <p>También podes dirigirte a la
+                <a href="/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/oficinas/1" target='_blank'>
+                  &nbsp;Oficina de Atención a la Familia&nbsp;
+                </a>
+                vía email o presencial, y allí se ingresará una solicitud por alguien encargado del área de salud. </p>
               <p>Se genera un expediente que se remite a la unidad. </p>
               <p>Te recomendamos llevar contigo el número de expediente.</p>
             </div>

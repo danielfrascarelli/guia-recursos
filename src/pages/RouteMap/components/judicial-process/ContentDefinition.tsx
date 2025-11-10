@@ -130,7 +130,11 @@ export function getContentDefinition(): ContentDefinition[] {
                 <p>Para comunicarte con tu familiar en las Unidades de detención existen cabineros, los mismos tienen un número fijo, te conviene averiguarlo.</p>
               </div>
               <p>Es importante que tengas en cuenta que no siempre funcionan o la persona detenida logra acceder.</p>
-              <p>En caso de necesitar una comunicación urgente porque no logras saber de tu familiar hace varios días puedes dirigirte a la Oficina de Atención a la Familia.</p>
+              <p>En caso de necesitar una comunicación urgente porque no logras saber de tu familiar hace varios días puedes dirigirte a la
+                <a href="/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/oficinas/1" target='_blank'>
+                  &nbsp;Oficina de Atención a la Familia
+                </a>
+                .</p>
               <div className="pt-2">
                 <OffsetCard
                   borderColor="#e9a15f"

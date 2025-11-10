@@ -29,8 +29,11 @@ export default function Layout({
   const location = useLocation();
 
   const onBackHandler = () => {
-    window.scrollTo(0, 0);
-    navigate(getBackUrl(location.pathname));
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    setTimeout(() => {
+      navigate(getBackUrl(location.pathname));
+    }, 50);
   };
 
   const onNextHandler = () => {
