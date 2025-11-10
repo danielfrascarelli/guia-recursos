@@ -52,7 +52,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         text: (<>
           <div>
             <div>
-              <p>Mediante el  OASIS que es una evaluación qué se aplica a las personas detenidas para “medir” el riesgo de reincidencia. Dependiendo si el mismo es Medio-Alto-Bajo será a la unidad qué es trasladado. </p>
+              <p>Mediante el  OASys que es una evaluación qué se aplica a las personas detenidas para “medir” el riesgo de reincidencia. Dependiendo si el mismo es Medio-Alto-Bajo será a la unidad qué es trasladado. </p>
 
               <div className="pt-1">
                 <ul>
