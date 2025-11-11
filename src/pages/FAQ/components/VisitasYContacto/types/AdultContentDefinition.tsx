@@ -12,8 +12,8 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "¿Es tu primera vez en la unidad?",
         text: (
-          <>
-            Si es la primera vez que vas a entrar, tendrás que registrarte.
+          <div className="common-layout-margin">
+            <p>Si es la primera vez que vas a entrar, tendrás que registrarte.</p>
             <ul>
               <li>Llevar cédula de identidad.</li>
               <li>Considera que cada Unidad tiene sus particularidades. La reglamentación puede variar de una unidad a otra. Por eso, te recomendamos comunicarte previamente para confirmar cómo funcionan y despejar las dudas que tengas.</li>
@@ -22,7 +22,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <li>Se pueden registrar hasta 15 personas como máximo y la persona detenida es quien elige quienes integran esa lista.</li>
               <li>Chequea las condiciones qué hay en la unidad para guardar tus cosas personales, aquellas que  no vas a poder ingresar a la visita.</li>
             </ul>
-          </>
+          </div>
         )
       },
     },
@@ -34,8 +34,8 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "¿Cómo se registran las infancias y adolescencias que acuden a las visitas?",
         text: (
-          <>
-            <div>
+          <div>
+            <div className="common-layout-margin">
               <p>Si es la primera vez que vas a entrar, tendrás que registrarte.</p>
               <p>Lleva:</p>
               <ul>
@@ -43,6 +43,8 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <li>cédula del NNA</li>
                 <li>cédula de la persona qué tiene la tenencia del mismo/a</li>
               </ul>
+            </div>
+            <div>
               <OffsetCard
                 borderColor="#e9a15f"
                 bgColor="#efcfb273"
@@ -53,12 +55,12 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 En caso de qué concurra con otro familiar debe presentar una nota de autorización firmada.
               </OffsetCard>
             </div>
-            <div className="pt-4">
+            <div className="pt-4 common-layout-margin">
               <p>Tiempos de espera en la visita: </p>
               <p>Contempla que existen prioridades a la hora del ingreso, aquí te contamos cuáles son.</p>
               <p>Embarazadas y personas en situación de discapacidad tienen prioridad a la hora de realizar fila en la unidad. /Acá se meten unos buenos iconos. </p>
             </div>
-          </>
+          </div>
         )
       },
     },
@@ -71,7 +73,11 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         title: "¿Cómo es la visita con infancias y adolescencias?",
         text: (<>
           <div>
-            En la cárcel de mujeres existe un día particular para la visita de infancias y adolescencias. Actualmente se realizan los días viernes.
+            <div className="common-layout-margin">
+              <p>
+                En la cárcel de mujeres existe un día particular para la visita de infancias y adolescencias. Actualmente se realizan los días viernes.
+              </p>
+            </div>
 
             <div className="pt-4">
               <OffsetCard
@@ -89,7 +95,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 </div>
               </OffsetCard>
             </div>
-            <div className="pt-4">
+            <div className="pt-4 common-layout-margin">
               <ul>
                 <li>En caso de que las infancias o adolescencias estén bajo la órbita de INAU o INISA, se coordinará con la Unidad previamente con el fin de realizar la visita interinstitucional.</li>
                 <li>En caso de que el/la adolescente y el/la adulto/a referente se encuentren detenidos, se realiza la gestión para que el/la adolescente y el/la adulto/a referente tengan visitas especiales.</li>
@@ -108,9 +114,10 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         title: "Vestimenta",
         text: (<>
           <div>
-            <div>Cada unidad tiene sus particularidades. </div>
-            <div>Aquí te presentamos un listado general, sugerimos consultar a la Unidad ante cualquier duda.</div>
-
+            <div className="common-layout-margin">
+              <div>Cada unidad tiene sus particularidades. </div>
+              <div>Aquí te presentamos un listado general, sugerimos consultar a la Unidad ante cualquier duda.</div>
+            </div>
             <div className="pt-4">
               <OffsetCard
                 borderColor="#e9a15f"
@@ -127,7 +134,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 </div>
               </OffsetCard>
             </div>
-            <div className="pt-4">
+            <div className="pt-4 common-layout-margin">
               <strong>Prendas NO permitidas</strong>
               <ul>
                 <li>sin mangas, tops, escotes pronunciados, transparencias.</li>
@@ -139,7 +146,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <li>ropa interior con aros o relleno.</li>
               </ul>
             </div>
-            <div className="pt-4">
+            <div className="pt-4 common-layout-margin">
               <strong>Colores restringidos</strong>
               <ul>
                 <li>azul</li>
@@ -161,16 +168,14 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       componentType: "TextComponent",
       props: {
         title: "¿Qué cosas se le pueden llevar a tu familiar?",
-        text: (<>
-          <div>
-            <div>Te sugerimos que pienses en llevar artículos de consumo básico: </div>
-            <ul>
-              <li>artículos de higiene personal (jabón, toalla, cepillo de dientes, pasta dental).</li>
-              <li>una muda de ropa</li>
-              <li>abrigo</li>
-            </ul>
-          </div>
-        </>)
+        text: (<div className="common-layout-margin">
+          <div>Te sugerimos que pienses en llevar artículos de consumo básico: </div>
+          <ul>
+            <li>artículos de higiene personal (jabón, toalla, cepillo de dientes, pasta dental).</li>
+            <li>una muda de ropa</li>
+            <li>abrigo</li>
+          </ul>
+        </div>)
       },
     },
     {
@@ -182,7 +187,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         title: "¿Cómo se arma un paquete?",
         text: (<>
           <div>
-            <div>
+            <div className="common-layout-margin">
               <ul>
                 <li>En una caja. Te sugerimos que se encuentre cerrada de forma hermética.</li>
                 <li>NO pueden ingresar objetos de vidrios, ni cubiertos metálicos.</li>
@@ -191,6 +196,8 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <li>Podes enviarla por Correo Uruguay desde el interior, los envios se pueden hacer todas las semanas.</li>
                 <li>Cada unidad tiene un día específico para recibir paquetes, pedile a tu familiar que lo consulte previamente o asesórate tu.</li>
               </ul>
+            </div>
+            <div>
               <OffsetCard
                 borderColor="#e9a15f"
                 bgColor="#efcfb273"

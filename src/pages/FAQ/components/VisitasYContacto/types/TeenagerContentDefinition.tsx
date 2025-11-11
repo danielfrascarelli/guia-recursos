@@ -12,7 +12,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       props: {
         title: "Elementos prohibidos",
         text: (<>
-          <div>
+          <div className="common-layout-margin">
             <div>
               <p>Los siguientes articulos están prohibidos:</p>
               <ul>
@@ -26,7 +26,6 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
                 <li>Perfumes.</li>
                 <li>Pilas y baterías con revestimiento metálico.</li>
                 <li>Objetos rígidos como peines, cepillos dentales no flexibles, entre otros.</li>
-
               </ul>
             </div>
           </div>
@@ -42,7 +41,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
         title: "Elementos permitidos",
         text: (<>
           <div>
-            <div>
+            <div className="common-layout-margin">
               <p>Los siguientes articulos están permitidos:</p>
               <ul>
                 <li>Dos mudas de ropa y un par de championes.</li>

@@ -16,11 +16,11 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       props: {
         title: "Visitas y comunicación",
         text: (
-          <>
+          <div className="common-layout-margin">
             <p>En cada centro existen días de comunicación telefónica  y días de visitas. </p>
             <p>Cuando los familiares se trasladan desde el interior para concurrir a las visitas, se habilita (con previa coordinación) la extensión de la visita familiar.</p>
             <p>Las visitas se acuerdan con la dirección del centro de INISA.</p>
-          </>
+          </div>
         )
       },
     },
@@ -33,10 +33,10 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       props: {
         title: "Traslados",
         text: (
-          <>
+          <div className="common-layout-margin">
             <p>La Junta de Traslados evalua el perfil con el o la adolescente, según perfil, disponibilidad y prácticas de convivencia.</p>
             <p>Las familias pueden presentar solicitudes formales, pero la decisión final es Institucional.</p>
-          </>
+          </div>
         )
       },
     },
@@ -50,10 +50,12 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
         title: "Salud",
         text: (
           <div className="text-justify">
-            <p>El sector de Enfermería evalúa al/la adolescente en el momento del  ingreso; la consulta médica se debe producir  entre las primeras 24-48 horas.</p>
-            <p>Derecho a la atención médica en su prestador de salud (FONASA) traslados hasta la Mutualista, en caso de  ser  necesario.</p>
-            <p>Acceso a la Historia clínica electrónica de ASSE; información accesible para el/ la adolescente y familia.</p>
-            <p>Atención en Salud mental, considerando las demoras actuales, se entiende necesario el cumplimiento a través de la búsqueda de abordaje por equipos interdisciplinarios.</p>
+            <div className="common-layout-margin">
+              <p>El sector de Enfermería evalúa al/la adolescente en el momento del  ingreso; la consulta médica se debe producir  entre las primeras 24-48 horas.</p>
+              <p>Derecho a la atención médica en su prestador de salud (FONASA) traslados hasta la Mutualista, en caso de  ser  necesario.</p>
+              <p>Acceso a la Historia clínica electrónica de ASSE; información accesible para el/ la adolescente y familia.</p>
+              <p>Atención en Salud mental, considerando las demoras actuales, se entiende necesario el cumplimiento a través de la búsqueda de abordaje por equipos interdisciplinarios.</p>
+            </div>
             <OffsetCard
               borderColor="#e9a15f"
               bgColor="#efcfb273"
@@ -70,16 +72,6 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
         )
       },
     },
-    // {
-    //   id: "4",
-    //   variant: "pretty_white",
-    //   url: "acceso-a-derechos",
-    //   componentType: "AccesoADerechosComponent",
-    //   props: {
-    //     title: "Acceso a derechos y actividades",
-    //     type: RelativeType.Teenager
-    //   },
-    // },
     {
       id: "5",
       variant: "pretty_white",
@@ -89,7 +81,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       props: {
         title: "Salida",
         text: (
-          <div className="text-justify">
+          <div className="text-justify common-layout-margin">
             <p>Antes del egreso, se debe coordinar con el Programa de Inserción Social y Comunitaria.</p>
             <p>Puede existir  convenios laborales y educativos vigentes al momento del egreso, consulta acerca de ellos.</p>
             <p>El Centro debe entregar, informe de salud y diagnóstico psicosocial.</p>
