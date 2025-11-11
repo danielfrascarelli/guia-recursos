@@ -1,23 +1,24 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 
 import type { TextComponentProps } from "./TextComponentProps";
 import styles from "./TextComponent.module.scss";
+import BackButton from "../back-button/BackButton";
+import TitleBar from "../title-bar/TitleBar";
 
 export const TextComponent: React.FC<TextComponentProps> = ({
   title,
   text
 }) => {
   return (
-
     <div className={styles.screen}>
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={title} />
+      </div>
       <main className={styles.main}>
-        <h1 className={styles.title}>{title}</h1>
-        <Container fluid className="p-0">
-          <div>
-            {text}
-          </div>
-        </Container>
+        <div className="mt-3">
+          {text}
+        </div>
       </main>
     </div>
   );

@@ -19,7 +19,6 @@ type StepLayoutProps = {
 export default function Layout({
   titleText,
   titleShow = true,
-  // backButtonText = "Atrás",
   backButtonShow = true,
   showNextButton = true,
   nextRoute,
