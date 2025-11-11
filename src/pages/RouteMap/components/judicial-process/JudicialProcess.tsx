@@ -5,6 +5,7 @@ import './judicial-process.scss';
 import { TextListOptions } from "../../../../components/list-options/text-list-options/TextListOptions";
 import { getContentDefinition } from "./ContentDefinition";
 import type { TextComponentProps } from "../../../../components/text-component/TextComponentProps";
+import BackButton from "../../../../components/back-button/BackButton";
 
 export interface JudicialProcessProps extends DefinitionProps { };
 
@@ -14,8 +15,10 @@ export default function JudicialProcess() {
 
   return (
     <div className="screen">
-      <TitleBar title={"Proceso judicial"} />
-
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Proceso judicial"} />
+      </div>
       <main  >
         <div className="h-100">
           <div className="mx-3 p-0 pt-3 fp-family-role text-justify">

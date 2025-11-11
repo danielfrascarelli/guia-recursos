@@ -1,10 +1,9 @@
 import { Outlet } from "react-router-dom";
-import { useNavigate, useLocation } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import BackButton from "../components/back-button/BackButton";
 
 import "../styles/layout.scss";
-import getBackUrl from "../shared/utils/Back";
 import LayoutTitleBar from "./layout-title-bar/LayoutTitleBar";
 import SwipeNavigator from "./Swipe";
 
@@ -20,21 +19,12 @@ type StepLayoutProps = {
 export default function Layout({
   titleText,
   titleShow = true,
-  backButtonText = "Atrás",
+  // backButtonText = "Atrás",
   backButtonShow = true,
   showNextButton = true,
   nextRoute,
 }: StepLayoutProps) {
   const navigate = useNavigate();
-  const location = useLocation();
-
-  const onBackHandler = () => {
-    document.documentElement.scrollTop = 0;
-    document.body.scrollTop = 0;
-    setTimeout(() => {
-      navigate(getBackUrl(location.pathname));
-    }, 50);
-  };
 
   const onNextHandler = () => {
     if (showNextButton && nextRoute) {
@@ -56,7 +46,7 @@ export default function Layout({
       <div className={`step-layout bg--brand-bg-light p-0 ${showNextButton && nextRoute ? "has-cta" : ""}`}    >
         <div className="fp-intro-sticky">
           {backButtonShow &&
-            <BackButton onBack={onBackHandler} label={backButtonText} />
+            <BackButton />
           }
 
           {titleShow && titleText &&

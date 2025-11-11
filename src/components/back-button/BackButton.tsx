@@ -1,15 +1,24 @@
-import { useLocation } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
+
+import getBackUrl from "../../shared/utils/Back";
 
 import "./BackButton.scss"
 
 type BackButtonProps = {
-  label?: string;
-  onBack?: () => void;
   className?: string;
 };
 
-export default function BackButton({ label, onBack, className }: BackButtonProps) {
+export default function BackButton({ className }: BackButtonProps) {
+  const navigate = useNavigate();
   const location = useLocation();
+
+  const onBackHandler = () => {
+    document.documentElement.scrollTop = 0;
+    document.body.scrollTop = 0;
+    setTimeout(() => {
+      navigate(getBackUrl(location.pathname));
+    }, 50);
+  };
 
   const onShare = () => {
     const msg = `Hola 👋, entrá al siguiente link para ver la Guía para el acompañamiento: https://gr.face-auth.me${location.pathname}`;
@@ -19,9 +28,9 @@ export default function BackButton({ label, onBack, className }: BackButtonProps
 
   return (
     <div className={`topbar-back-button-container ${className ?? ""}`}>
-      <button className={`fp-topbar-back-button ps-1 `} onClick={onBack}      >
+      <button className={`fp-topbar-back-button ps-1 `} onClick={onBackHandler}>
         <i className="bi bi-arrow-left-short fs-6 " aria-hidden="true" />
-        <span className="fp-topbar-back-span" >{label}</span>
+        <span className="fp-topbar-back-span" >Atrás</span>
       </button>
       <button className={`fp-topbar-back-button ps-1 `} onClick={onShare}>
         <span className="fp-topbar-back-span" >

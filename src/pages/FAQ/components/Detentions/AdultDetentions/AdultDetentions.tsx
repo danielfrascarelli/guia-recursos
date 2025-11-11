@@ -1,6 +1,7 @@
 import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import OffsetCard from "../../../../../components/cards/offset-card/OffsetCard";
 import TitleBar from "../../../../../components/title-bar/TitleBar";
+import BackButton from "../../../../../components/back-button/BackButton";
 
 
 export interface AdultFaqIntroProps {
@@ -10,7 +11,10 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
 
   return (
     <div className="h-100">
-      <TitleBar title={"Detenciones en adultos"} />
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Detenciones en adultos"} />
+      </div>
       <div className="fp-tips__container common-layout-margin mt-4">
         <div  >
           <div className="fp-family-role text-justify">

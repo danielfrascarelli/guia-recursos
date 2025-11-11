@@ -6,6 +6,7 @@ import TitleBar from "../../../../components/title-bar/TitleBar";
 import type { DefinitionProps } from "../../../../components/DefinitionProps";
 import { RelativeType } from "../../../../shared/utils/RelativeType";
 import IntroTeenager from "./IntroTeenager";
+import BackButton from "../../../../components/back-button/BackButton";
 
 export interface VisitasYContactoProps extends DefinitionProps {
   type: RelativeType;
@@ -17,7 +18,10 @@ export default function VisitasYContacto({ type }: VisitasYContactoProps) {
 
   return (
     <div className={styles.screen}>
-      <TitleBar title={"Visitas y comunicación"} />
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Visitas y comunicación"} />
+      </div>
       <main className={styles.main}>
         {
           type == RelativeType.Adult

@@ -1,3 +1,4 @@
+import BackButton from "../../../../../components/back-button/BackButton";
 import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import TitleBar from "../../../../../components/title-bar/TitleBar";
 
@@ -8,7 +9,10 @@ export default function TeenagerDetentions({ }: TeenagerDetentionsProps) {
 
   return (
     <div className="h-100">
-      <TitleBar title={"Detenciones en adolescentes"} />
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Detenciones en adolescentes"} />
+      </div>
       <div className="fp-tips__container common-layout-margin mt-4">
         <div>
           <div>

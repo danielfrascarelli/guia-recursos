@@ -12,7 +12,7 @@ export const JLEVOfficeInfo: React.FC<JLEVOfficeInfoProps> = ({ data }: JLEVOffi
       <div>
         {data.areas.map(a => (
           <div>
-            <CommonOfficeInfo title={a.longName ?? a.shortName ?? ""} data={a} />
+            <CommonOfficeInfo title={a.longName ?? a.shortName ?? ""} data={a} showHeader={false} />
           </div>
         ))
         }

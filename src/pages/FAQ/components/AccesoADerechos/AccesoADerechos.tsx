@@ -5,6 +5,7 @@ import type { TextComponentProps } from "../../../../components/text-component/T
 import TitleBar from "../../../../components/title-bar/TitleBar";
 import type { DefinitionProps } from "../../../../components/DefinitionProps";
 import type { RelativeType } from "../../../../shared/utils/RelativeType";
+import BackButton from "../../../../components/back-button/BackButton";
 
 export interface AccesoADerechosProps extends DefinitionProps {
   type: RelativeType;
@@ -15,7 +16,10 @@ export default function AccesoADerechos({ type }: AccesoADerechosProps) {
 
   return (
     <div className={styles.screen}>
-      <TitleBar title={"Acceso a derechos y actividades"} />
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Acceso a derechos y actividades"} />
+      </div>
       <main className={styles.main}>
         <TextListOptions items={items} />
       </main>

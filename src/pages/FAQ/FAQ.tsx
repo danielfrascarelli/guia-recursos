@@ -8,6 +8,7 @@ import { getRelativeTypeName, RelativeType } from "../../shared/utils/RelativeTy
 import { getContentDefinition } from "./ContentDefinition";
 import type { TextListItem } from "../../shared/utils/Item";
 import { ImageListOptions } from "../../components/list-options/image-list-options/ImageListOptions";
+import BackButton from "../../components/back-button/BackButton";
 
 export interface FAQProps extends DefinitionProps {
   type: RelativeType;
@@ -23,7 +24,10 @@ export default function FAQ({ type }: FAQProps) {
   return (
     <>
       <div className={styles.screen}>
-        <TitleBar title={`Preguntas frecuentes del ${getRelativeTypeName(type)} `} />
+        <div className="fp-intro-sticky">
+          <BackButton />
+          <TitleBar title={`Preguntas frecuentes del ${getRelativeTypeName(type)} `} />
+        </div>
         <main className={styles.main}>
           <div className="d-block d-sm-none">
             <ImageListOptions items={items} />

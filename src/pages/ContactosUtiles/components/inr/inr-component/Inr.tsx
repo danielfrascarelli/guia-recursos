@@ -12,6 +12,7 @@ import SubtitleBar from "../../../../../components/subtitle-bar/SubtitleBar";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
 import { isBlankOrEmpty } from "../../../../../shared/utils/String";
 import type { InrOfficeProps } from "../inr-offices-component/InrOfficeProps";
+import BackButton from "../../../../../components/back-button/BackButton";
 
 export const Inr: React.FC<InrProps> = ({ }) => {
   const getBoxTitle = (props: InrUnidadProps | InrOfficeProps): string => props.title;
@@ -36,7 +37,10 @@ export const Inr: React.FC<InrProps> = ({ }) => {
 
   return (
     <div className={styles.screen}>
-      <TitleBar title="Instituto Nacional de Rehabilitación"></TitleBar>
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title="Instituto Nacional de Rehabilitación" />
+      </div>
       <div className="mt-3">
         <SubtitleBar text="Oficinas"></SubtitleBar>
         <div className="d-block d-sm-none">

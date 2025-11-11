@@ -108,7 +108,7 @@ export const router = createBrowserRouter([
   },
   {
     path: "/mapa-de-ruta",
-    element: <Layout titleShow={false} showNextButton={false} />,
+    element: <Layout titleShow={false} backButtonShow={false} showNextButton={false} />,
     children: [
       { index: true, element: <RouteMap /> },
 

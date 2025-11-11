@@ -6,6 +6,7 @@ import TitleBar from "../../../../components/title-bar/TitleBar";
 import { RelativeType } from "../../../../shared/utils/RelativeType";
 import type { DefinitionProps } from "../../../../components/DefinitionProps";
 import IntroTeenager from "./IntroTeenager";
+import BackButton from "../../../../components/back-button/BackButton";
 
 export interface TrasladosProps extends DefinitionProps {
   type: RelativeType;
@@ -16,7 +17,10 @@ export default function Traslados({ type }: TrasladosProps) {
 
   return (
     <div className={styles.screen}>
-      <TitleBar title={"Traslados"} />
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Traslados"} />
+      </div>
       <main className={styles.main}>
         {
           type == RelativeType.Adult

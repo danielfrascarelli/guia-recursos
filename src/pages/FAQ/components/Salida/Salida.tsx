@@ -7,6 +7,7 @@ import type { DefinitionProps } from "../../../../components/DefinitionProps";
 import { RelativeType } from "../../../../shared/utils/RelativeType";
 import IntroAdult from "./IntroAdult";
 import IntroTeenager from "./IntroTeenager";
+import BackButton from "../../../../components/back-button/BackButton";
 
 export interface SalidaProps extends DefinitionProps {
   type: RelativeType;
@@ -17,7 +18,10 @@ export default function Salida({ type }: SalidaProps) {
 
   return (
     <div className={styles.screen}>
-      <TitleBar title={"Salida"} />
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Salida"} />
+      </div>
       <main className={styles.main}>
         {
           type == RelativeType.Adult

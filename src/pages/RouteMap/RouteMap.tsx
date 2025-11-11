@@ -4,6 +4,7 @@ import type { DefinitionProps } from "../../components/DefinitionProps";
 import { BoxListOptions } from "../../components/list-options/box-list-options/BoxListOptions";
 import TitleBar from "../../components/title-bar/TitleBar";
 import { ImageListOptions } from "../../components/list-options/image-list-options/ImageListOptions";
+import BackButton from "../../components/back-button/BackButton";
 
 export default function RouteMap() {
 
@@ -16,7 +17,10 @@ export default function RouteMap() {
 
   return (
     <div className={styles.screen}>
-      <TitleBar title={"Mapa de ruta"} />
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Mapa de ruta"} />
+      </div>
       <main className={`${styles.main} mt-4`}>
         <div className="d-block d-sm-none">
           <ImageListOptions items={items} />

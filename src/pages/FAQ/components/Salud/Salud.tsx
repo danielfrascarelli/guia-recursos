@@ -6,6 +6,7 @@ import TitleBar from "../../../../components/title-bar/TitleBar";
 import type { DefinitionProps } from "../../../../components/DefinitionProps";
 import { RelativeType } from "../../../../shared/utils/RelativeType";
 import IntroTeenager from "./IntroTeenager";
+import BackButton from "../../../../components/back-button/BackButton";
 
 export interface SaludProps extends DefinitionProps {
   type: RelativeType;
@@ -16,7 +17,10 @@ export default function Salud({ type }: SaludProps) {
 
   return (
     <div className={styles.screen}>
-      <TitleBar title={"Salud"} />
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Salud"} />
+      </div>
       <main className={styles.main}>
         {
           type == RelativeType.Adult

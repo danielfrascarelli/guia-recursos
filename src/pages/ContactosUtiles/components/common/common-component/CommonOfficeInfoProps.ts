@@ -19,5 +19,6 @@ export interface OfficeData {
 
 export interface CommonOfficeInfoProps extends DefinitionProps {
     title: string;
+    showHeader?: boolean;
     data: OfficeData;
 };

@@ -2,10 +2,11 @@ import { BoxListOptions } from "../../components/list-options/box-list-options/B
 import type { DefinitionProps } from "../../components/DefinitionProps";
 import { TextListOptions } from "../../components/list-options/text-list-options/TextListOptions";
 import TitleBar from "../../components/title-bar/TitleBar";
-import styles from "./ContactosUtiles.module.scss"; 
-import { getContentDefinition } from "./ContentDefinition"; 
+import styles from "./ContactosUtiles.module.scss";
+import { getContentDefinition } from "./ContentDefinition";
+import BackButton from "../../components/back-button/BackButton";
 
-export interface ContactosUtilesProps extends DefinitionProps  {};
+export interface ContactosUtilesProps extends DefinitionProps { };
 
 export default function ContactosUtiles() {
 
@@ -18,9 +19,11 @@ export default function ContactosUtiles() {
 
   return (
     <div className={styles.screen}>
-      <TitleBar title={"Contactos útiles"} />
+      <div className="fp-intro-sticky">
+        <BackButton />
+        <TitleBar title={"Contactos útiles"} />
+      </div>
       <main className={styles.main}>
-        {/* <h1 className={styles.title}>Contactos útiles</h1> */}
         <div className="d-block d-sm-none">
           <TextListOptions items={items} />
         </div>
