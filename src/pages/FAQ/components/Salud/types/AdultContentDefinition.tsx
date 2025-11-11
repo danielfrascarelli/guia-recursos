@@ -10,7 +10,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "¿Cuándo tienes conocimiento de qué tu familiar tiene algún problema de salud?",
         text: (<>
-          <div>
+          <div className="common-layout-margin">
             <div>
               <p>Tenes derecho a llamar y consultar sobre el mismo con algún referente del área en la unidad correspondiente.</p>
               <p>También podes dirigirte a la
@@ -41,7 +41,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "Salud mental y consumo problemático",
         text: (<>
-          <div>
+          <div className="common-layout-margin">
             <div>
               <p>Te sugerimos que puedas averiguar en la unidad dónde se encuentra detenido tu familiar que tipos de dispositivos existen funcionando para el abordaje de la salud mental y el consumo problemático.</p>
               <p>Debido a que son escasos y no en todas existen programas queden respuesta.</p>

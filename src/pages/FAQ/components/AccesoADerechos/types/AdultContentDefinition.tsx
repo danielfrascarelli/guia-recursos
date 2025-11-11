@@ -13,7 +13,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "Redención de pena",
         text: (<>
-          <div>
+          <div className="common-layout-margin">
             <div>
               <ul>
                 <li>Se redime 3x1 o 2x1, esto significa que cada tres días descontas uno o cada dos días descontas uno. Esto último dependera del tipo de delito.</li>
@@ -34,7 +34,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "Cupos laborales",
         text: (<>
-          <div>
+          <div className="common-layout-margin">
             <div>
               <ul>
                 <li>La persona detenida puede acceder a cupos laborales, lo cual no implica que sea remunerado. </li>
@@ -54,7 +54,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         title: "Cupos educativos",
         text: (<>
           <div>
-            <div>
+            <div className="common-layout-margin">
               <ul>
                 <li>Los cupos educativos pueden ser solicitados por la persona en la unidad o por el familiar si la misma no logra tener acceso.</li>
                 <li>Ocurre que muchas veces son reducidos, por lo que las personas no siempre accedan. </li>
