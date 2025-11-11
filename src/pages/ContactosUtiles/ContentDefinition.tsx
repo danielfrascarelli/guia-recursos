@@ -1,7 +1,7 @@
 
 import type { OfficeData } from "./components/common/common-component/CommonOfficeInfoProps";
 
-import logo_inr from "../../assets/images/logos_contactos_utiles/logo_inr.png"
+import logo_inr from "../../assets/images/logos_contactos_utiles/inr.svg"
 import asse from "../../assets/images/logos_contactos_utiles/asse.png";
 import pnec from "../../assets/images/logos_contactos_utiles/pnec.png";
 import dinali from "../../assets/images/logos_contactos_utiles/dinali.png";
