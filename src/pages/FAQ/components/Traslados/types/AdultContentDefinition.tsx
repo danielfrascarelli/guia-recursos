@@ -1,6 +1,5 @@
-import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
-import OffsetCard from "../../../../../components/cards/offset-card/OffsetCard";
+import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
 
 export function getAdultContentDefinition(): ContentDefinition[] {
   const items = [
@@ -20,21 +19,16 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <li>Cuando se solicitan traslados pueden transcurrir hasta 150 días para qué se genere una respuesta, pero se trata de qué sea en los 90 días. </li>
             </ul>
           </div>
-          <div className="mt-3 mb-3">
-            <OffsetCard
-              borderColor="#e9a15f"
-              bgColor="#efcfb273"
+          <div className="mt-3">
+            <IconBoxCard
               borderWidth={3}
               offsetX={7} offsetY={7}
               overhangX={7} overhangY={7}
             >
-              <div>
-                <InlineSpotlight bg="var(--brand-wine)">IMPORTANTE!</InlineSpotlight>
+              <div className="pt-3 pb-3">
+                <div>EXISTEN PLAZOS URGENTES CUANDO HAY RIESGO DE VIDA</div>
               </div>
-              <div className="pt-2">
-                <p>EXISTEN PLAZOS URGENTES CUANDO HAY RIESGO DE VIDA</p>
-              </div>
-            </OffsetCard>
+            </IconBoxCard>
           </div>
           <div className="common-layout-margin">
             <ul>
@@ -64,21 +58,16 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               </ul>
             </div>
           </div>
-          <div className="pt-2">
-            <OffsetCard
-              borderColor="#e9a15f"
-              bgColor="#efcfb273"
+          <div className="mt-3">
+            <IconBoxCard
               borderWidth={3}
               offsetX={7} offsetY={7}
               overhangX={7} overhangY={7}
             >
-              <div>
-                <InlineSpotlight bg="var(--brand-wine)">IMPORTANTE!</InlineSpotlight>
+              <div className="pt-3 pb-3">
+                <div>Cuando una persona es trasladada a otra unidad por ejemplo por problemas de conducta debe esperar 180 días para volver a solicitar el traslado. </div>
               </div>
-              <div className="pt-2">
-                <p>Cuando una persona es trasladada a otra unidad por ejemplo por problemas de conducta debe esperar 180 días para volver a solicitar el traslado. </p>
-              </div>
-            </OffsetCard>
+            </IconBoxCard>
           </div>
         </div>)
       },

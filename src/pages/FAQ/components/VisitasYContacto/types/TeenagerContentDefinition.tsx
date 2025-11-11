@@ -1,6 +1,5 @@
-import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
-import OffsetCard from "../../../../../components/cards/offset-card/OffsetCard";
+import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
 
 export function getTeenagerContentDefinition(): ContentDefinition[] {
   const items = [
@@ -57,24 +56,19 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
                 <li>Hasta dos paquetes de galletitas.</li>
                 <li>Equipo de mate completo (bombilla de madera, bambú o similares)</li>
                 <li>Hasta 2 kilos de yerba cerrados, se transfieren a bolsa de nylon.</li>
-                <li>Hasta 3 bebidas gaseosas, las mismas serán abiertas para comprobar que el envase no fue adulterado.                                          A considerar: Cualquier otro alimento envasado, deberá presentarse en envase original cerrado, para su transferencia a envase de nylon transparente, hasta 3.</li>
+                <li>Hasta 3 bebidas gaseosas, las mismas serán abiertas para comprobar que el envase no fue adulterado.</li>
               </ul>
             </div>
-            <div className="pt-4">
-              <OffsetCard
-                borderColor="#e9a15f"
-                bgColor="#efcfb273"
+            <div className="mt-3">
+              <IconBoxCard
                 borderWidth={3}
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
               >
-                <div>
-                  <InlineSpotlight bg="var(--brand-wine)">A considerar</InlineSpotlight>
-                </div>
-                <div className="pt-2">
+                <div className="pt-3">
                   <p>Cualquier otro alimento envasado, deberá presentarse en envase original cerrado, para su transferencia a envase de nylon transparente, hasta 3.</p>
                 </div>
-              </OffsetCard>
+              </IconBoxCard>
             </div>
           </div>
         </>)

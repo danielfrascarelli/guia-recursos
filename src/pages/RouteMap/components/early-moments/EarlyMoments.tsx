@@ -93,12 +93,12 @@ export default function EarlyMoments() {
           </div>
           <div className="mt-4">
             <IconBoxCard
-            borderColor="transparent"
-            bgColor="#47b2eb4f"
+              borderColor="transparent"
+              bgColor="#47b2eb4f"
               borderWidth={3}
               offsetX={7} offsetY={7}
               overhangX={7} overhangY={7}
-            imgSrc={pencil}
+              imgSrc={pencil}
             >
               En Uruguay se desconoce el porcentaje de infancias y adolescencias afectadas por el encarcelamiento.
             </IconBoxCard>

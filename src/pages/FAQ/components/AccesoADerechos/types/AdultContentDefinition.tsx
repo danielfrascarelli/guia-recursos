@@ -1,6 +1,5 @@
-import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
-import OffsetCard from "../../../../../components/cards/offset-card/OffsetCard";
+import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
 
 
 export function getAdultContentDefinition(): ContentDefinition[] {
@@ -60,21 +59,16 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <li>Ocurre que muchas veces son reducidos, por lo que las personas no siempre accedan. </li>
               </ul>
             </div>
-            <div className="pt-2">
-              <OffsetCard
-                borderColor="#e9a15f"
-                bgColor="#efcfb273"
+            <div className="mt-2">
+              <IconBoxCard
                 borderWidth={3}
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
               >
-                <div>
-                  <InlineSpotlight bg="var(--brand-wine)">IMPORTANTE!</InlineSpotlight>
-                </div>
-                <div className="pt-2">
+                <div className="pt-3">
                   <p>El importante saber que la persona tiene derecho a cursar como oyente y dar el examen libre.</p>
                 </div>
-              </OffsetCard>
+              </IconBoxCard>
             </div>
           </div>
         </>)
