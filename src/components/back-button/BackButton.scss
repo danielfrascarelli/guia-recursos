@@ -8,8 +8,8 @@
 
   //   display: flex;
   // align-items: center;
-  justify-content: space-between;   // <- separa izquierda/derecha
-  gap: 8px;  
+  justify-content: space-between; // <- separa izquierda/derecha
+  gap: 8px;
 
   .fp-topbar-back-button {
     color: var(--fp-primary-contrast) !important;
@@ -61,8 +61,15 @@
     vertical-align: middle;
   }
 }
-
+.topbar-back-button-container {
+  padding: 0.5rem 1rem;
+  height: 48px;
+}
 
 /* Por si usás otras cosas además de 2 botones */
-.topbar-back-button-container > :first-child { margin-right: auto; }
-.topbar-back-button-container > :last-child  { margin-left:  auto; }
+.topbar-back-button-container > :first-child {
+  margin-right: auto;
+}
+.topbar-back-button-container > :last-child {
+  margin-left: auto;
+}
