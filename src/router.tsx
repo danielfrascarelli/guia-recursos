@@ -11,7 +11,6 @@ import ContactosUtiles from "./pages/ContactosUtiles/ContactosUtiles";
 import { getContentDefinition as getContactosUtilesContentDefinition } from "./pages/ContactosUtiles/ContentDefinition";
 import { getContentDefinition as getJudicialProcessContentDefinition } from "./pages/RouteMap/components/judicial-process/ContentDefinition";
 import EarlyMoments from "./pages/RouteMap/components/early-moments/EarlyMoments";
-import { getContentDefinition as getEarlyMomentsContentDefinition } from "./pages/RouteMap/components/early-moments/ContentDefinition";
 import { SelectRelativeType } from "./pages/RouteMap/components/select-relative-type/SelectRelativeType";
 import FAQ from "./pages/FAQ/FAQ";
 import { getRelativeTypeName, RelativeType } from "./shared/utils/RelativeType";
@@ -111,14 +110,6 @@ export const router = createBrowserRouter([
     element: <Layout titleShow={false} backButtonShow={false} showNextButton={false} />,
     children: [
       { index: true, element: <RouteMap /> },
-
-      ...getEarlyMomentsContentDefinition().map((i) => {
-        const Cmp = registry[i.componentType] as React.ComponentType<any>;
-        return ({
-          path: `/mapa-de-ruta/primeros-momentos/${i.url}`,
-          element: <Cmp key={i} {...i.props} />
-        })
-      }),
       {
         path: '/mapa-de-ruta/adulto',
         element: <FAQ type={RelativeType.Adult} title="dummy" />,
