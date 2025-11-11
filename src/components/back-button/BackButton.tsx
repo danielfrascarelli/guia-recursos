@@ -27,17 +27,27 @@ export default function BackButton({ className }: BackButtonProps) {
   };
 
   return (
-      <div className={`topbar-back-button-container d-flex justify-content-between align-items-center ${className ?? ""}`}>
-        <button className="fp-topbar-back-button ps-2 d-flex align-items-center gap-1" onClick={onBackHandler}>
-          <i className="bi bi-arrow-left-short fs-6" aria-hidden="true"></i>
-          <span>Atrás</span>
-        </button>
+     <div className={`topbar-back-button-container d-flex justify-content-between align-items-center ${className ?? ""}`}>
+      <button
+        className="fp-topbar-back-button d-flex align-items-center justify-content-center gap-1 px-1"
+        style={{ width: '90px' }}
+        onClick={onBackHandler}
+      >
+        <i className="bi bi-arrow-left-short fs-6" aria-hidden="true"></i>
+        <span className="small">Atrás</span>
+      </button>
 
-        <button className="fp-topbar-back-button ps-2 d-flex align-items-center  gap-1" onClick={onShare}>
-          <span>Compartir</span>
-          <i className="bi bi-share fs-6" aria-hidden="true"></i>
-        </button>
+      <button
+        className="fp-topbar-back-button d-flex align-items-center justify-content-center gap-1 px-1"
+        style={{ width: '90px' }}
+        onClick={onShare}
+      >
+        <span className="small">Compartir</span>
+        <i className="bi bi-share fs-6" aria-hidden="true"></i>
+      </button>
     </div>
+
+
 
   );
 } 
