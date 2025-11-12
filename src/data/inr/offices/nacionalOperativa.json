@@ -1,0 +1,27 @@
+{
+  "shortName": "Subdirección Nacional Operativa",
+  "longName": "Subdirección Nacional Operativa",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": null,
+  "address": null,
+  "phone": [
+    {
+      "area": "",
+      "phones": [
+        "20309076",
+        "20309077"
+      ]
+    }
+  ],
+  "email": [
+    {
+      "area": "",
+      "emails": [
+        "inr.seguridad@minterior.gub.uy"
+      ]
+    }
+  ],
+  "web": null,
+  "openingHours": null
+}

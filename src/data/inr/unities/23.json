@@ -10,7 +10,7 @@
     },
     "phone": [
         {
-            "area": "Sub-dirección Operativa / Dirección",
+            "area": "Subdirección Operativa / Dirección",
             "phones": [
                 "2030 5538"
             ]
@@ -22,7 +22,7 @@
             ]
         },
         {
-            "area": "Sub-dirección Técnica",
+            "area": "Subdirección Técnica",
             "phones": [
                 "2030 5555"
             ]
@@ -30,19 +30,19 @@
     ],
     "email": [
         {
-            "area": "Sub-dirección administrativa",
+            "area": "Subdirección administrativa",
             "emails": [
                 "inr-u-9.secretaria@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección operativa",
+            "area": "Subdirección operativa",
             "emails": [
                 "inr-u-9.operativa@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección técnica",
+            "area": "Subdirección técnica",
             "emails": [
                 "inr-u-9.tecnica@minterior.gub.uy"
             ]
