@@ -20,7 +20,7 @@ export default function Salida({ type }: SalidaProps) {
     <div className={styles.screen}>
       <div className="fp-intro-sticky">
         <BackButton />
-        <TitleBar title={"Salida"} />
+        <TitleBar title={"La salida"} />
       </div>
       <main className={styles.main}>
         {
