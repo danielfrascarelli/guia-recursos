@@ -23,7 +23,23 @@ export default function EarlyMoments() {
           <div className="mt-2">
             <strong><p>¿A dónde debes recurrir para saber donde está detenida la persona?</p></strong>
             <p>Si la persona se encuentra en la Seccional policial, el personal responsable de allí, debe de informarte que tu familiar se encuentra en el lugar, en caso de ser derivado/a ante Fiscalía, no es obligatorio que te brinden esta información.</p>
+          </div> </div>
+        <div className="">
+          <div className="mt-2">
+            <FlatOffsetCard
+              borderColor="#e9a15f"
+              bgColor="#efcfb273"
+              borderWidth={3}
+              offsetX={7} offsetY={7}
+              overhangX={7} overhangY={7}
+            >
+              <div className="mt-2 mb-2 common-layout-margin">
+                En cuanto a las pertenencias que posee tu familiar al momento de la detención, el personal policial debe labrar un acta u otorgar una copia a la persona detenida.
+              </div>
+            </FlatOffsetCard>
           </div>
+        </div>
+        <div className="common-layout-margin mt-4">
           <div className="mt-2">
             <strong><p>¿A dónde me puedo dirigir para saber sobre su situación?</p></strong>
             <p>Te sugerimos: acudir a la seccional para averiguar la Sede de fiscalía correspondiente y consultar allí.</p>
@@ -35,32 +51,41 @@ export default function EarlyMoments() {
           </div>
         </div>
         <div className="">
-          <FlatOffsetCard
+          <IconBoxCard
             borderColor="#e9a15f"
             bgColor="#efcfb273"
             borderWidth={3}
             offsetX={7} offsetY={7}
             overhangX={7} overhangY={7}
           >
-            <div className="common-layout-margin  mt-3 mb-3">
+            <div className="mt-3 mb-3">
               <p>Es fundamental saber que, durante las primeras 24 horas posteriores a la detención, el juez debe dar garantías de que se hayan respetado ciertos derechos.</p>
 
             </div>
-          </FlatOffsetCard>
+          </IconBoxCard>
         </div>
-        <div>
-          <div className="common-layout-margin mt-4">
-            <p>Como familiar tenes que saber que el/ la abogado/a defensor está a disposición de que le consultes. </p>
-            <ul style={{ marginBottom: 0 }}>
-              <li>Que la persona haya recibido una primera Atención en Salud y se haya verificado si se encontraba bajo los efectos de alguna sustancia al momento de la detención policial.</li>
-              <li>En caso de qué existan indicios de consumo, el/la abogado/a defensor/a puede, y debe intervenir en la situación. Si se considera necesario puede incluso solicitar que se realice una pericia médica para evaluar el estado de salud de la persona detenida.</li>
-            </ul>
-          </div>
+        <div className="mt-4">
+          <IconBoxCard
+            borderColor="transparent"
+            bgColor="#47b2eb4f"
+            borderWidth={3}
+            offsetX={7} offsetY={7}
+            overhangX={7} overhangY={7}
+            imgSrc={pencil}
+          >
+            <div className="mt-3 mb-3">
+              <p>Como familiar tenes que saber que el/ la abogado/a defensor está a disposición de que le consultes. </p>
+              <ul style={{ marginBottom: 0 }}>
+                <li>Que la persona haya recibido una primera Atención en Salud y se haya verificado si se encontraba bajo los efectos de alguna sustancia al momento de la detención policial.</li>
+                <li>En caso de qué existan indicios de consumo, el/la abogado/a defensor/a puede, y debe intervenir en la situación. Si se considera necesario puede incluso solicitar que se realice una pericia médica para evaluar el estado de salud de la persona detenida.</li>
+              </ul>
+            </div>
+          </IconBoxCard>
         </div>
         <div>
           <div className="common-layout-margin mt-4">
             <p>Es importante saber que cualquier persona puede presenciar una audiencia penal, ya que son públicas.</p>
-            <p>Como familiar, tenés derecho a estar presente en la audiencia, salvo que la persona detenida y/o el juez/a dispongan que no sea así, las razones deben de ser fundamentadas.</p>
+            <p>Te recordamos que como familiar, tenés derecho a estar presente en la audiencia, salvo que la persona detenida y/o el juez/a dispongan que no sea así, las razones deben de ser fundamentadas.</p>
             <p>En caso de que sea tu familiar quien no quiere que participes, debes de comprender que las situaciones son personales y eso no debería de afectar el vínculo y acompañamiento del resto del proceso.</p>
           </div>
         </div>
