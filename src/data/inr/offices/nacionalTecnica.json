@@ -1,0 +1,26 @@
+{
+  "shortName": "Subdirección Nacional Técnica",
+  "longName": "**Subdirección Nacional Técnica",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": null,
+  "address": null,
+  "phone": [
+    {
+      "area": " ",
+      "phones": [
+        ""
+      ]
+    }
+  ],
+  "email": [
+    {
+      "area": "",
+      "emails": [
+        " "
+      ]
+    }
+  ],
+  "web": null,
+  "openingHours": null
+}

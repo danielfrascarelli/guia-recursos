@@ -1,6 +1,6 @@
 {
-    "shortName": "Unidad 1",
-    "longName": "Unidad 1 - Punta de Rieles, Montevideo",
+    "shortName": "Unidad 25",
+    "longName": "Unidad 25 - Máxima Seguridad, Santiago Vazquez, Montevideo",
     "department": "Montevideo",
     "city": null,
     "neighborhood": null,
@@ -17,7 +17,7 @@
             ]
         },
         {
-            "area": "Área Jurídica / Sub-dirección Técnica",
+            "area": "Área Jurídica / Subdirección Técnica",
             "phones": [
                 "2030 9051"
             ]
@@ -31,19 +31,19 @@
     ],
     "email": [
         {
-            "area": "Sub-dirección administrativa",
+            "area": "Subdirección administrativa",
             "emails": [
                 "inr-u-9.secretaria@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección operativa",
+            "area": "Subdirección operativa",
             "emails": [
                 "inr-u-9.operativa@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección técnica",
+            "area": "Subdirección técnica",
             "emails": [
                 "inr-u-9.tecnica@minterior.gub.uy"
             ]

@@ -1,6 +1,6 @@
 {
-    "shortName": "Unidad 1",
-    "longName": "Unidad 1 - Punta de Rieles, Montevideo",
+    "shortName": "Unidad 12",
+    "longName": "Unidad 12 - Cerro Carancho, Rivera",
     "department": "Rivera",
     "city": null,
     "neighborhood": null,
@@ -24,19 +24,19 @@
     ],
     "email": [
         {
-            "area": "Sub-dirección administrativa",
+            "area": "Subdirección administrativa",
             "emails": [
                 "inr-u-9.secretaria@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección operativa",
+            "area": "Subdirección operativa",
             "emails": [
                 "inr-u-9.operativa@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección técnica",
+            "area": "Subdirección técnica",
             "emails": [
                 "inr-u-9.tecnica@minterior.gub.uy"
             ]

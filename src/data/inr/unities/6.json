@@ -1,6 +1,6 @@
 {
-    "shortName": "Unidad 1",
-    "longName": "Unidad 1 - Punta de Rieles, Montevideo",
+    "shortName": "Unidad 6",
+    "longName": "Unidad 6 - Punta de Rieles, Montevideo",
     "department": "Montevideo",
     "city": null,
     "neighborhood": null,
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "area": "Área Jurídica / Sub-dirección Administrativa",
+            "area": "Área Jurídica / Subdirección Administrativa",
             "phones": [
                 "2514 7257"
             ]
@@ -36,19 +36,19 @@
     ],
     "email": [
         {
-            "area": "Sub-dirección administrativa",
+            "area": "Subdirección administrativa",
             "emails": [
                 "inr-u-9.secretaria@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección operativa",
+            "area": "Subdirección operativa",
             "emails": [
                 "inr-u-9.operativa@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección técnica",
+            "area": "Subdirección técnica",
             "emails": [
                 "inr-u-9.tecnica@minterior.gub.uy"
             ]

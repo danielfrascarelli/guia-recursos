@@ -1,6 +1,6 @@
 {
-    "shortName": "Unidad 1",
-    "longName": "Unidad 1 - Punta de Rieles, Montevideo",
+    "shortName": "Unidad 17",
+    "longName": "Unidad 17 - Campanero, Lavalleja",
     "department": "Lavalleja",
     "city": null,
     "neighborhood": null,
@@ -16,20 +16,20 @@
             ]
         },
         {
-            "area": "Sub-dirección Operativa",
+            "area": "Subdirección Operativa",
             "phones": [
                 "444 33816"
             ]
         },
         {
-            "area": "Sub-dirección Técnica / Atención a Familias",
+            "area": "Subdirección Técnica / Atención a Familias",
             "phones": [
                 "444 40693",
                 "092 404 072"
             ]
         },
         {
-            "area": "Sub-dirección Administrativa",
+            "area": "Subdirección Administrativa",
             "phones": [
                 "444 25720"
             ]
@@ -43,19 +43,19 @@
     ],
     "email": [
         {
-            "area": "Sub-dirección administrativa",
+            "area": "Subdirección administrativa",
             "emails": [
                 "inr-u-9.secretaria@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección operativa",
+            "area": "Subdirección operativa",
             "emails": [
                 "inr-u-9.operativa@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección técnica",
+            "area": "Subdirección técnica",
             "emails": [
                 "inr-u-9.tecnica@minterior.gub.uy"
             ]

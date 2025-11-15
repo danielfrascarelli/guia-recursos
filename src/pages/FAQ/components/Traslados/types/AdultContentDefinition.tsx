@@ -1,6 +1,5 @@
-import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
-import OffsetCard from "../../../../../components/cards/offset-card/OffsetCard";
+import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
 
 export function getAdultContentDefinition(): ContentDefinition[] {
   const items = [
@@ -13,33 +12,30 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         title: "Tenes que saber que...",
         text: (<div>
           <div className="common-layout-margin">
-            <p>Para la solicitud de traslado por acercamiento familiar es necesario que presentes una constancia de domicilio, con un recibo de alguna factura (ose, UTE, Antel quizás está bueno poner los logos acá, chiquitos)</p>
+            <p>Para la solicitud de traslado por acercamiento familiar es necesario que presentes una constancia de domicilio, con un recibo de alguna factura (OSE, UTE, Antel).
+               {/* quizás está bueno poner los logos acá, chiquitos) */}
+               </p>
 
             <ul>
-              <li>Luego de qué se cumplen los 90 días en la unidad donde la persona detenida fue trasladada puede pedir la misma o algún familiar el traslado. </li>
-              <li>Cuando se solicitan traslados pueden transcurrir hasta 150 días para qué se genere una respuesta, pero se trata de qué sea en los 90 días. </li>
+              <li>Luego de qué se cumplen los primeros 90 días de encarcelamiento en una Unidad, la persona detenida puede pedir el traslado, un familiar referente afectivo en caso de considerarlo también puede hacerlo.</li>
+              <li>Cuando se solicitan Traslados de Unidad, el trámite puede demorar hasta 150 días desde el inicio de la solicitud, esto en el ideal no debería de superar los 90 días totales.</li>
             </ul>
           </div>
           <div className="mt-3 mb-3">
-            <OffsetCard
-              borderColor="#e9a15f"
-              bgColor="#efcfb273"
+            <IconBoxCard
               borderWidth={3}
               offsetX={7} offsetY={7}
               overhangX={7} overhangY={7}
             >
-              <div>
-                <InlineSpotlight bg="var(--brand-wine)">IMPORTANTE!</InlineSpotlight>
+              <div className="pt-3 pb-3">
+                <div>EXISTEN PLAZOS URGENTES CUANDO HAY RIESGO DE VIDA</div>
               </div>
-              <div className="pt-2">
-                <p>EXISTEN PLAZOS URGENTES CUANDO HAY RIESGO DE VIDA</p>
-              </div>
-            </OffsetCard>
+            </IconBoxCard>
           </div>
           <div className="common-layout-margin">
             <ul>
               <li>Para realizar la solicitud es importante qué la persona no tenga sanciones.</li>
-              <li>“No gastar pólvora en chimangos” después qué se pide un traslado hay un plazo de 90 días para pedir otro. Salvo en situaciones de riesgo de la integridad física. Por ese motivo es recomendable poder evaluar con tu familiar si es conveniente hacer el mismo.</li>
+              <li>"No gastar pólvora en chimangos" después qué se pide un traslado hay un plazo de 90 días para pedir otro. Salvo en situaciones de riesgo de la integridad física. Por ese motivo es recomendable poder evaluar con tu familiar si es conveniente hacer el mismo.</li>
               <li>Dependiendo del riesgo de reincidencia la Junta Nacional de Traslados toma la decisión del lugar al cual será trasladada la persona.</li>
             </ul>
           </div>
@@ -64,21 +60,16 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               </ul>
             </div>
           </div>
-          <div className="pt-2">
-            <OffsetCard
-              borderColor="#e9a15f"
-              bgColor="#efcfb273"
+          <div className="mt-3">
+            <IconBoxCard
               borderWidth={3}
               offsetX={7} offsetY={7}
               overhangX={7} overhangY={7}
             >
-              <div>
-                <InlineSpotlight bg="var(--brand-wine)">IMPORTANTE!</InlineSpotlight>
+              <div className="pt-3 pb-3">
+                <div>Cuando una persona es trasladada a otra unidad por ejemplo por problemas de conducta debe esperar 180 días para volver a solicitar el traslado. </div>
               </div>
-              <div className="pt-2">
-                <p>Cuando una persona es trasladada a otra unidad por ejemplo por problemas de conducta debe esperar 180 días para volver a solicitar el traslado. </p>
-              </div>
-            </OffsetCard>
+            </IconBoxCard>
           </div>
         </div>)
       },

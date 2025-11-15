@@ -1,6 +1,8 @@
-import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
-import OffsetCard from "../../../../../components/cards/offset-card/OffsetCard";
+
+import pencil from '../../../../../assets/images/icons/pencil.svg';
+import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
+import FlatOffsetCard from "../../../../../components/cards/flat-offset-card/FlatOffsetCard";
 
 export function getAdultContentDefinition(): ContentDefinition[] {
   const items = [
@@ -44,21 +46,25 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <li>cédula de la persona qué tiene la tenencia del mismo/a</li>
               </ul>
             </div>
-            <div>
-              <OffsetCard
-                borderColor="#e9a15f"
-                bgColor="#efcfb273"
+
+            <div className="mt-3">
+              <IconBoxCard
+                borderColor="transparent"
+                bgColor="#47b2eb4f"
                 borderWidth={3}
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
+                imgSrc={pencil}
               >
                 En caso de qué concurra con otro familiar debe presentar una nota de autorización firmada.
-              </OffsetCard>
+              </IconBoxCard>
             </div>
             <div className="pt-4 common-layout-margin">
               <p>Tiempos de espera en la visita: </p>
-              <p>Contempla que existen prioridades a la hora del ingreso, aquí te contamos cuáles son.</p>
-              <p>Embarazadas y personas en situación de discapacidad tienen prioridad a la hora de realizar fila en la unidad. /Acá se meten unos buenos iconos. </p>
+              <ul>
+                <li>Contempla que existen prioridades a la hora del ingreso, aquí te contamos cuáles son.</li>
+                <li>Embarazadas y personas en situación de discapacidad tienen prioridad a la hora de realizar fila en la unidad. /Acá se meten unos buenos iconos. </li>
+              </ul>
             </div>
           </div>
         )
@@ -74,30 +80,24 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         text: (<>
           <div>
             <div className="common-layout-margin">
-              <p>
+              <div>
                 En la cárcel de mujeres existe un día particular para la visita de infancias y adolescencias. Actualmente se realizan los días viernes.
-              </p>
+              </div>
             </div>
-
             <div className="pt-4">
-              <OffsetCard
-                borderColor="#e9a15f"
-                bgColor="#efcfb273"
+              <IconBoxCard
                 borderWidth={3}
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
               >
-                <div>
-                  <InlineSpotlight bg="var(--brand-wine)">IMPORTANTE!</InlineSpotlight>
-                </div>
                 <div className="pt-2">
-                  Si la persona detenida se encuentra sancionada, nunca se suspende la visita de las infancias y adolescencias.
+                  Si la persona detenida se encuentra sancionada, <strong>nunca se suspende la visita</strong> de las infancias y adolescencias.
                 </div>
-              </OffsetCard>
+              </IconBoxCard>
             </div>
             <div className="pt-4 common-layout-margin">
               <ul>
-                <li>En caso de que las infancias o adolescencias estén bajo la órbita de INAU o INISA, se coordinará con la Unidad previamente con el fin de realizar la visita interinstitucional.</li>
+                <li>En caso de que los/as niños y/o adolescentes que concurren a la visita estan bajo los cuidados de INAU o INISA se debe de coordinar con la Unidad previamente, a fin de realizar una previa coordinacion interinstitucional para no exponerlos a situaciones incomodas.</li>
                 <li>En caso de que el/la adolescente y el/la adulto/a referente se encuentren detenidos, se realiza la gestión para que el/la adolescente y el/la adulto/a referente tengan visitas especiales.</li>
               </ul>
             </div>
@@ -119,20 +119,17 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <div>Aquí te presentamos un listado general, sugerimos consultar a la Unidad ante cualquier duda.</div>
             </div>
             <div className="pt-4">
-              <OffsetCard
+              <FlatOffsetCard
                 borderColor="#e9a15f"
                 bgColor="#efcfb273"
                 borderWidth={3}
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
               >
-                <div>
-                  <InlineSpotlight bg="var(--brand-wine)">IMPORTANTE!</InlineSpotlight>
+                <div className="common-layout-margin t-2">
+                  En algunas unidades no se permite el ingreso con caravanas/accesorios como pircing u otros.
                 </div>
-                <div className="pt-2">
-                  En algunas unidades no se permite el ingreso con caravanas/ accesorios como pircing u otros.
-                </div>
-              </OffsetCard>
+              </FlatOffsetCard>
             </div>
             <div className="pt-4 common-layout-margin">
               <strong>Prendas NO permitidas</strong>
@@ -167,14 +164,28 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       url: "5",
       componentType: "TextComponent",
       props: {
-        title: "¿Qué cosas se le pueden llevar a tu familiar?",
-        text: (<div className="common-layout-margin">
+        title: "¿Qué cosas/artículos se le pueden llevar a tu familiar la primera vez que le visitas?",
+        text: (<div> <div className="common-layout-margin">
           <div>Te sugerimos que pienses en llevar artículos de consumo básico: </div>
           <ul>
             <li>artículos de higiene personal (jabón, toalla, cepillo de dientes, pasta dental).</li>
             <li>una muda de ropa</li>
             <li>abrigo</li>
           </ul>
+        </div>
+          <div className="mt-4">
+            <FlatOffsetCard
+              borderColor="transparent"
+              bgColor="#47b2eb4f"
+              borderWidth={3}
+              offsetX={7} offsetY={7}
+              overhangX={7} overhangY={7}>
+              <div className="pt-2 pb-2 common-layout-margin">
+                <label>En algunas Unidades se puede llevar a la visita solo lo que se va a compartir durante el transcurso de la misma. </label>
+                <label>En otras habilitan el ingreso de más alimentos.</label>
+              </div>
+            </FlatOffsetCard>
+          </div>
         </div>)
       },
     },
@@ -197,40 +208,34 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <li>Cada unidad tiene un día específico para recibir paquetes, pedile a tu familiar que lo consulte previamente o asesórate tu.</li>
               </ul>
             </div>
-            <div>
-              <OffsetCard
-                borderColor="#e9a15f"
-                bgColor="#efcfb273"
+            <div className="mt-4">
+              <IconBoxCard
+                borderColor="transparent"
+                bgColor="#47b2eb4f"
                 borderWidth={3}
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
-              >
-                <div>
-                  <InlineSpotlight bg="var(--brand-wine)">DATO</InlineSpotlight>
-                </div>
+                imgSrc={pencil}>
                 <div className="pt-2">
-                  <p>En algunas Unidades se puede llevar a la visita solo lo que se va a compartir durante el transcurso de la misma. </p>
-                  <p>En otras habilitan el ingreso de más alimentos.</p>
+                  <label>En algunas Unidades se puede llevar a la visita solo lo que se va a compartir durante el transcurso de la misma. </label>
+                  <label>En otras habilitan el ingreso de más alimentos.</label>
                 </div>
-              </OffsetCard>
+              </IconBoxCard>
             </div>
-            <div className="pt-4">
+            <div className="common-layout-margin pt-4">
               <p>En caso de existir escáner en la unidad, la persona y el paquete serán escaneados previo al ingreso. </p>
               <p>En caso de NO existir escáner, la revisión la realizará el personal a cargo.</p>
-              <OffsetCard
-                borderColor="#e9a15f"
-                bgColor="#efcfb273"
+            </div>
+            <div className="mt-4">
+              <IconBoxCard
                 borderWidth={3}
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
               >
-                <div>
-                  <InlineSpotlight bg="var(--brand-wine)">IMPORTANTE!</InlineSpotlight>
-                </div>
                 <div className="pt-2">
-                  <p>Cuando te revisen debes de saber que el personal disponible debe ser de tu mismo sexo.</p>
+                  <p>Cuando te revisen debes de saber que el personal disponible debe ser de tu mismo sexo y en el control no debe de existir contacto fisico, solo visual.</p>
                 </div>
-              </OffsetCard>
+              </IconBoxCard>
             </div>
           </div>
         </>)

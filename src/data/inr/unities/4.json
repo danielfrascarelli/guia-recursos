@@ -1,12 +1,12 @@
 {
-    "shortName": "Unidad 1",
-    "longName": "Unidad 1 - Punta de Rieles, Montevideo",
+    "shortName": "Unidad 4",
+    "longName": "Unidad 4 - Santiago Vázquez, Montevideo",
     "department": "Montevideo",
     "city": null,
     "neighborhood": null,
     "address": {
-        "text": "Camino Basilio Muñoz s/n esquina Camino Las Flores, Santiago Vázquez, Montevideo",
-        "url": "https://maps.google.com/?q=Camino+Basilio+Mu%C3%B1oz+s%2Fn+esquina+Camino+Las+Flores%2C+Santiago+V%C3%A1zquez%2C+Montevideo"
+        "text": "Camino Basilio Muñoz s/n esquina Camino Las Flores, Santiago Vázquez",
+        "url": "https://maps.google.com/?q=Camino+Basilio+Mu%C3%B1oz+s%2Fn+esquina+Camino+Las+Flores%2C+Santiago+V%C3%A1zquez%2C"
     },
     "phone": [
         {
@@ -22,7 +22,7 @@
             ]
         },
         {
-            "area": "Sub-dirección Operativa",
+            "area": "Subdirección Operativa",
             "phones": [
                 "2030 9737"
             ]
@@ -54,19 +54,19 @@
     ],
     "email": [
         {
-            "area": "Sub-dirección administrativa",
+            "area": "Subdirección administrativa",
             "emails": [
                 "inr-u-9.secretaria@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección operativa",
+            "area": "Subdirección operativa",
             "emails": [
                 "inr-u-9.operativa@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección técnica",
+            "area": "Subdirección técnica",
             "emails": [
                 "inr-u-9.tecnica@minterior.gub.uy"
             ]

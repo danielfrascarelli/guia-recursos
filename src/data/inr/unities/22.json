@@ -1,6 +1,6 @@
 {
-    "shortName": "Unidad 1",
-    "longName": "Unidad 1 - Punta de Rieles, Montevideo",
+    "shortName": "Unidad 22",
+    "longName": "Unidad 22 - Rocha",
     "department": "Rocha",
     "city": null,
     "neighborhood": null,
@@ -10,19 +10,19 @@
     },
     "phone": [
         {
-            "area": "Sub-dirección Administrativa",
+            "area": "Subdirección Administrativa",
             "phones": [
                 "4470 2116"
             ]
         },
         {
-            "area": "Sub-dirección Operativa",
+            "area": "Subdirección Operativa",
             "phones": [
                 "4472 6433"
             ]
         },
         {
-            "area": "Sub-dirección Técnica",
+            "area": "Subdirección Técnica",
             "phones": [
                 "4472 6433"
             ]
@@ -55,19 +55,19 @@
     ],
     "email": [
         {
-            "area": "Sub-dirección administrativa",
+            "area": "Subdirección administrativa",
             "emails": [
                 "inr-u-9.secretaria@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección operativa",
+            "area": "Subdirección operativa",
             "emails": [
                 "inr-u-9.operativa@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección técnica",
+            "area": "Subdirección técnica",
             "emails": [
                 "inr-u-9.tecnica@minterior.gub.uy"
             ]

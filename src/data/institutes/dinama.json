@@ -1,6 +1,6 @@
 {
   "shortName": "DINAMA",
-  "longName": "Dirección Nacional de Medidas ALternativas",
+  "longName": "Dirección Nacional de Medidas Alternativas",
   "department": "Montevideo",
   "city": "Montevideo",
   "neighborhood": "Centro",
@@ -10,13 +10,13 @@
   },
   "phone": [
     {
-      "area": "Sub-Dirección Técnica",
+      "area": "Subdirección Técnica",
       "phones": [
         "2030 9675"
       ]
     },
     {
-      "area": "Sub-Dirección Operativa",
+      "area": "Subdirección Operativa",
       "phones": [
         "2030 9972"
       ]
@@ -40,6 +40,12 @@
       ]
     },
     {
+      "area": "Secretaría",
+      "phones": [
+        "2030 9971"
+      ]
+    },
+    {
       "area": "Acuerdos comunitarios",
       "phones": [
         "2030 9675"
@@ -48,9 +54,9 @@
   ],
   "email": [
     {
-      "area": "",
+      "area": "Secretaría",
       "emails": [
-        "dinama-rrhh@minterior.gub.uy"
+        "dinama-direccion@minterior.gub.uy"
       ]
     }
   ],

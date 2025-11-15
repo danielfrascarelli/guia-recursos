@@ -3,14 +3,16 @@ import type { OfficeData } from "../../common/common-component/CommonOfficeInfoP
 
 import familiaDataJson from '../../../../../data/inr/offices/familia.json';
 import trasladosDataJson from '../../../../../data/inr/offices/traslados.json';
-import tecnicaNacionalDataJson from '../../../../../data/inr/offices/tecnicaNacional.json';
+import nacionalTecnicaDataJson from '../../../../../data/inr/offices/nacionalTecnica.json';
+import nacionalOperativaDataJson from '../../../../../data/inr/offices/nacionalOperativa.json';
 import ciddDataJson from '../../../../../data/inr/offices/cidd.json';
 import diversidadDataJson from '../../../../../data/inr/offices/diversidad.json';
 
 export function getContentDefinition(): ContentDefinition[] {
   const familiaData: OfficeData = familiaDataJson;
   const trasladosData: OfficeData = trasladosDataJson;
-  const tecnicaNacionalData: OfficeData = tecnicaNacionalDataJson;
+  const nacionalTecnicaData: OfficeData = nacionalTecnicaDataJson;
+  const nacionalOperativaData: OfficeData = nacionalOperativaDataJson;
   const ciddData: OfficeData = ciddDataJson;
   const diversidadData: OfficeData = diversidadDataJson;
 
@@ -21,7 +23,7 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrOfficeComponent",
       props: {
-        title: "**Atención a la Familia de Personas Privadas de Libertad",
+        title: "Atención a la Familia de Personas Privadas de Libertad",
         data: familiaData
       },
       url: "oficinas/1"
@@ -43,31 +45,42 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrOfficeComponent",
       props: {
-        title: "**Sub-Dirección Técnica Nacional",
-        data: tecnicaNacionalData
+        title: "**Subdirección Nacional Técnica",
+        data: nacionalTecnicaData
       },
       url: "oficinas/3"
-    }, {
+    },
+    {
       id: "office-4",
       iconLabel: "4",
+      variant: "pretty_white",
+      componentType: "InrOfficeComponent",
+      props: {
+        title: "**Subdirección Nacional Operativa",
+        data: nacionalOperativaData
+      },
+      url: "oficinas/4"
+    }, {
+      id: "office-5",
+      iconLabel: "5",
       variant: "pretty_white",
       componentType: "InrOfficeComponent",
       props: {
         title: "**Centro de Ingreso, Diagnóstico y Derivación (CIDD)",
         data: ciddData
       },
-      url: "oficinas/4"
+      url: "oficinas/5"
     },
     {
-      id: "office-5",
-      iconLabel: "5",
+      id: "office-6",
+      iconLabel: "6",
       variant: "pretty_white",
       componentType: "InrOfficeComponent",
       props: {
         title: "**Departamento de Género y Diversidad",
         data: diversidadData
       },
-      url: "oficinas/5"
+      url: "oficinas/6"
     }
   ] satisfies ContentDefinition[];
   return items;

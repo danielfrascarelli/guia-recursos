@@ -1,6 +1,6 @@
 {
-    "shortName": "Unidad 1",
-    "longName": "Unidad 1 - Punta de Rieles, Montevideo",
+    "shortName": "Unidad 7",
+    "longName": "Unidad 7 - Chacra Policial, Canelones",
     "department": "Canelones",
     "city": null,
     "neighborhood": null,
@@ -10,19 +10,19 @@
     },
     "phone": [
         {
-            "area": "Sub-dirección Operativa",
+            "area": "Subdirección Operativa",
             "phones": [
                 "2030 9514"
             ]
         },
         {
-            "area": "Sub-dirección Técnica",
+            "area": "Subdirección Técnica",
             "phones": [
                 "2030 9501"
             ]
         },
         {
-            "area": "Sub-dirección Administrativa",
+            "area": "Subdirección Administrativa",
             "phones": [
                 "2030 9504"
             ]
@@ -36,19 +36,19 @@
     ],
     "email": [
         {
-            "area": "Sub-dirección administrativa",
+            "area": "Subdirección administrativa",
             "emails": [
                 "inr-u-9.secretaria@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección operativa",
+            "area": "Subdirección operativa",
             "emails": [
                 "inr-u-9.operativa@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección técnica",
+            "area": "Subdirección técnica",
             "emails": [
                 "inr-u-9.tecnica@minterior.gub.uy"
             ]

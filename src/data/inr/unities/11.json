@@ -1,6 +1,6 @@
 {
-    "shortName": "Unidad 1",
-    "longName": "Unidad 1 - Punta de Rieles, Montevideo",
+    "shortName": "Unidad 11",
+    "longName": "Unidad 11 - Cañitas, Río Negro",
     "department": "Río Negro",
     "city": null,
     "neighborhood": null,
@@ -16,7 +16,7 @@
             ]
         },
         {
-            "area": "Sub-dirección Administrativa",
+            "area": "Subdirección Administrativa",
             "phones": [
                 "2030 9632"
             ]
@@ -28,7 +28,7 @@
             ]
         },
         {
-            "area": "Sub-dirección Técnica",
+            "area": "Subdirección Técnica",
             "phones": [
                 "099718852"
             ]
@@ -36,19 +36,19 @@
     ],
     "email": [
         {
-            "area": "Sub-dirección administrativa",
+            "area": "Subdirección administrativa",
             "emails": [
                 "inr-u-9.secretaria@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección operativa",
+            "area": "Subdirección operativa",
             "emails": [
                 "inr-u-9.operativa@minterior.gub.uy"
             ]
         },
         {
-            "area": "Sub-dirección técnica",
+            "area": "Subdirección técnica",
             "emails": [
                 "inr-u-9.tecnica@minterior.gub.uy"
             ]
