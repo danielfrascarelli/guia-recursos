@@ -79,7 +79,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       icon: <HomeIcon />,
       componentType: "SalidaComponent",
       props: {
-        title: "Salida",
+        title: "La salida",
         type: RelativeType.Adult
       },
     },
