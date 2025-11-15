@@ -16,7 +16,7 @@ export default function Introduction() {
             <p>Realizamos esta guía: para compartir lo que aprendimos acompañando, para que no estés sola/o, para hacer valer nuestros derechos, porque el encarcelamiento también nos hace ser parte. </p>
           </div>
 
-          {/* TODO */}
+          {/*
           <div className="mx-2 p-0 text-font-size lh-base">
             <FpModal title="Acompañar!" modalTitle="Acompañar">
               La palabra "acompañar" proviene del latín vulgar "companiare", que a su vez deriva de "cum panis" (con pan). Originalmente, significaba compartir el pan, es decir, estar con alguien y compartir un alimento básico, lo que implicaba cercanía y apoyo mutuo. Con el tiempo, el significado se extendió para abarcar la idea de estar con alguien en diferentes situaciones, no solo en la comida, sino también en el camino, en momentos importantes, ofreciendo compañía y apoyo.
@@ -24,13 +24,13 @@ export default function Introduction() {
               <p className="color-red"></p>
             </FpModal>
           </div>
-          {/* TODO */}
+          */}
 
           <div className="mt-4 mb-4 fp-tips float-clean">
             <WomanBoxButton className="fp-introduction-woman-card">
               <p className="text-justify">
-                <a href="https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf" target="_blank">
-                  Acompañar!
+                <a href="https://www.oas.org/es/cidh/informes/pdfs/2025/resolucion_ppl-es.pdf" target="_blank">
+                  CIDH 02/2025 Los Derechos de familiares y personas con vínculos afectivos de las privadas de libertad.
                 </a>
               </p>
             </WomanBoxButton>
