@@ -31,9 +31,16 @@ export default function TeenagerDetentions({ }: TeenagerDetentionsProps) {
             <div><strong>Sabías que…?</strong></div>
             <div className="pt-2">
               <p>
-                En nuestro país, hay aproximadamente 350 adolescentes cumpliendo medidas en contextos de encierro dentro del Sistema Penal Juvenil.
-                Esto permite qué INISA pueda acompañar de forma más cercana y qué el sistema no esté colapsado.
-                Aunque las familiares enfrentan desafíos similares a los del sistema penal de adultos, acá las respuestas suelen ser más ágiles y personalizadas.
+                En nuestro País, hay aproximadamente 350 adolescentes cumpliendo medidas en contextos de encierro/ Privación de Libertad,  dentro del Sistema Penal Juvenil.
+              </p>
+              <p>
+                Existen a su vez, Medidas no Privativas de Libertad donde el/la juez/a determina el tipo de sanción y acompañamiento,  las mismas Deben de ser SOCIOEDUCATIVAS, en este tipo de medidas, se realiza un proceso con el/la adolescente involucrado/a, si la medida no se cumple, la sanción se convierte en Privativa de Libertad.
+              </p>
+              <p>
+                Otro dato a considerar en este tipo de Medidas no Privativas de Libertad, es que dependiendo de la zona del País donde se encuentren, el seguimiento se dará a través de INAU y/o Organizaciones de la Sociedad Civil.
+              </p>
+              <p>
+                Aunque las familias enfrentan desafíos similares a los del Sistema Penal de Adultos/as se visualizan otro tipo de respuestas por parte de las Instituciones.
               </p>
             </div>
           </div>

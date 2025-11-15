@@ -57,10 +57,28 @@ export default function Tips() {
             imgSrc={circleCheck}
           >
             <p>
+              Para realizar solicitudes ante la oficina, necesitas realizar una solicitud, aqui te la dejamos: 
+              <a href="https://familiaspresentes.uy/guia-docs/Prototipo para solicitudes en oficina de atención a la familia.pdf" target="_blank">
+                &nbsp;Prototipo para solicitudes en oficina de atención a la familia
+              </a>
+            </p>
+          </IconBoxCard>
+        </div>        
+
+        <div className="text-justify mt-1">
+          <IconBoxCard
+            bgColor="transparent"
+            borderWidth={3}
+            offsetX={7} offsetY={7}
+            overhangX={7} overhangY={7}
+            imgSrc={circleCheck}
+          >
+            <p>
               Llevá una libreta con vos para anotar la información importante.
             </p>
           </IconBoxCard>
         </div>
+
       </div>
 
       <div className="text-justify mt-1">
