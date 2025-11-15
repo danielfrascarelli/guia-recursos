@@ -11,7 +11,7 @@ import "bootstrap-icons/font/bootstrap-icons.css";
 import "./styles/theme.css";
 import "./styles/index.scss";
 
-import familias_presentes from './assets/images/logos/familias_presentes.png';
+import familias_presentes from './assets/images/logos/familias_presentes.svg';
 import europe from './assets/images/logos/europe.svg'
 import logo_inr from '/src/assets/images/logos_contactos_utiles/inr.svg'
 import asse from '/src/assets/images/logos_contactos_utiles/asse.png'

@@ -1,8 +1,7 @@
 import { useNavigate } from "react-router-dom";
 
-import familias_presentes from '../../assets/images/logos/familias_presentes.png';
+import familias_presentes from '../../assets/images/logos/familias_presentes.svg';
 import europe from '../../assets/images/logos/europe.svg'
-import coope_bien_alto from '../../assets/images/logos/coope_bien_alto.png'
 import inr from '../../assets/images/logos_contactos_utiles/inr.svg'
 
 import "./home.scss";
@@ -112,20 +111,7 @@ export default function HomePage() {
               className="img-fluid"
               style={{ height: 40 }}
             />
-          </div>
-
-          {/* Cooperativa Bien Alto */}
-          <div className="text-left">
-            <small className="d-block text-secondary mb-1">Produce:</small>
-            <img
-              src={coope_bien_alto}
-              alt="Cooperativa Bien Alto"
-              title="Cooperativa Bien Alto"
-              className="img-fluid"
-              style={{ height: 40 }}
-              onClick={()=>{ window.open('https://www.instagram.com/bienaltocooperativa', '_blank', 'noopener,noreferrer'); }}
-            />
-          </div>
+          </div>         
         </footer>
 
       </div>
