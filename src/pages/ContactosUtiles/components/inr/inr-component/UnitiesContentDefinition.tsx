@@ -64,8 +64,8 @@ export function getContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       componentType: "InrUnidadComponent",
       props: {
-        shortAddressDescription: "Punta de Rieles, Montevideo",
         title: "Unidad 1",
+        shortAddressDescription: "Punta de Rieles, Montevideo",
         data: u1Data
       },
       url: "unidades/1"

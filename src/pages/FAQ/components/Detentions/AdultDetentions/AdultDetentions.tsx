@@ -3,7 +3,7 @@ import TitleBar from "../../../../../components/title-bar/TitleBar";
 import BackButton from "../../../../../components/back-button/BackButton";
 import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
 
-import pencil from '../../../../../assets/images/icons/pencil.svg'; 
+import pencil from '../../../../../assets/images/icons/pencil.svg';
 
 export interface AdultFaqIntroProps {
 };
@@ -22,13 +22,17 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
             <div className="common-layout-margin mt-4">
               <p>Si tu familiar es <InlineSpotlight bg="var(--brand-wine)">ADULTO</InlineSpotlight> tenes que saber:</p>
               <ul>
-                <li>La persona detenida puede permanecer en la Seccional por un máximo de 24 horas. Pasado este plazo se debe haber tomado contacto con Fiscalía y ser presentado ante un Juez. Considera que el tiempo de espera para ver al/la Juez/a puede ser de hasta 24 horas. </li>
-                <li>Los/as abogados/as defensores/as necesitan de la colaboración de las familias durante el proceso, por eso es importante que estés en los primeros momentos de la detención. Podes acercarte a hablar con el/la defensor/a para tener mayor información y así saber cómo ayudar y acompañar. </li>
-                <li>Para hablar con el/la abogado/a defensor/a, podes acercarte a la OPEC (Oficina Penal Centralizada).
+                <li>La persona detenida puede permanecer en la Seccional por un máximo de 24 horas. Pasado este plazo se debe haber tomado contacto con Fiscalía y ser presentado ante un Juez. Considera que el tiempo de espera para ver al/la Juez/a puede ser de hasta 24 horas.</li>
+                <li>Los/as abogados/as defensores/as necesitan de la colaboración de las familias durante el proceso, por eso es importante que estés en los primeros momentos de la detención. Podes acercarte a hablar con el/la defensor/a para tener mayor información y así saber cómo ayudar y acompañar.</li>
+                <li>Si estas en Montevideo, para hablar con el/la Abogado/a Defensor/a, podes acercarte a la OPEC (Oficina Penal Centralizada).
                   <ul>
-                    <li>En el Área Metropolitana de Montevideo el/la abogado/a litigante es quién acompañará a la persona detenida hasta que se decrete la resolución judicial.</li>
-                    <li>Esta oficina funciona en dos turnos, se le denominan Primer y Segundo turno y atienden  en el horario de 10 a 15 hs. Los de Tercer y Cuarto turno, atienden desde las 16  a 20 hs. </li>
-                    <li>Lista de abogados litigantes, se organiza por turnos. Poner lista para pinchar y entrar.</li>
+                    <li>En el Área Metropolitana de Montevideo el/la <strong>abogado/a litigante</strong> es quién acompañará a la persona detenida hasta que se decrete la resolución judicial.</li>
+                    <li>Esta oficina funciona en dos turnos, se le denominan Primer y Segundo turno y atienden  en el horario de 10 a 15 hs. Los de Tercer y Cuarto turno, atienden desde las 16  a 20 hs.</li>
+                    <li>Lista de abogados litigantes, se organiza por turnos.
+                      <a href="https://familiaspresentes.uy/docs-guia/Lista de abogados de oficio.pdf" target="_blank">
+                        &nbsp;Pincha acá para ver la lista.
+                      </a>
+                    </li>
                   </ul>
                 </li>
               </ul>

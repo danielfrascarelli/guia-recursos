@@ -91,13 +91,13 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 overhangX={7} overhangY={7}
               >
                 <div className="pt-2">
-                  Si la persona detenida se encuentra sancionada, nunca se suspende la visita de las infancias y adolescencias.
+                  Si la persona detenida se encuentra sancionada, <strong>nunca se suspende la visita</strong> de las infancias y adolescencias.
                 </div>
               </IconBoxCard>
             </div>
             <div className="pt-4 common-layout-margin">
               <ul>
-                <li>En caso de que las infancias o adolescencias estén bajo la órbita de INAU o INISA, se coordinará con la Unidad previamente con el fin de realizar la visita interinstitucional.</li>
+                <li>En caso de que los/as niños y/o adolescentes que concurren a la visita estan bajo los cuidados de INAU o INISA se debe de coordinar con la Unidad previamente, a fin de realizar una previa coordinacion interinstitucional para no exponerlos a situaciones incomodas.</li>
                 <li>En caso de que el/la adolescente y el/la adulto/a referente se encuentren detenidos, se realiza la gestión para que el/la adolescente y el/la adulto/a referente tengan visitas especiales.</li>
               </ul>
             </div>
