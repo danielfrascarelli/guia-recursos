@@ -1,15 +1,15 @@
-.fp-introduction{
-
+.fp-introduction {
   .fp-introduction-woman-card {
-    p {
-      margin-bottom:0px;
+    img.img-logo{
+      width: 100px;
+    }
+    p.fp-introduction-woman-card-content {
+      margin-bottom: 0px;
       a {
         color: var(--brand-wine);
         font-weight: 600;
       }
     }
   }
-
-
-
+  
 }
