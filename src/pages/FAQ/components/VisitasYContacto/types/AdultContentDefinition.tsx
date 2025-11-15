@@ -20,6 +20,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <li>Llevar cédula de identidad.</li>
               <li>Considera que cada Unidad tiene sus particularidades. La reglamentación puede variar de una unidad a otra. Por eso, te recomendamos comunicarte previamente para confirmar cómo funcionan y despejar las dudas que tengas.</li>
               <li>Aconsejamos que los días y horarios de registro deben ser corroborados previo a la visita en la Unidad.</li>
+              <li>Si vivis a más de sesenta kilómetros de la Unidad que se encuentra tu familiar detenido/a podes registrarte el mismo día de la visita.</li>
               <li>En caso de ser del interior del País, considera que para el registro de visitas, te solicitarán un documento que compruebe tu domicilio. Es posible que lo hagan el mismo día pero todo depende de la unidad. </li>
               <li>Se pueden registrar hasta 15 personas como máximo y la persona detenida es quien elige quienes integran esa lista.</li>
               <li>Chequea las condiciones qué hay en la unidad para guardar tus cosas personales, aquellas que  no vas a poder ingresar a la visita.</li>
