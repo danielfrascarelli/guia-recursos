@@ -30,7 +30,7 @@ export default function Introduction() {
             <WomanBoxButton className="fp-introduction-woman-card">
               <p className="text-justify">
                 <a href="https://www.oas.org/es/cidh/informes/pdfs/2025/resolucion_ppl-es.pdf" target="_blank">
-                  CIDH 02/2025 Los Derechos de familiares y personas con vínculos afectivos de las privadas de libertad.
+                  Entrá acá para ver el informe de la CIDH (02/2025) sobre derechos de familiares y afectos de personas privadas de libertad.
                 </a>
               </p>
             </WomanBoxButton>

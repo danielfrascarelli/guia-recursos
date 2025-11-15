@@ -51,7 +51,7 @@ export default function FamilyRole() {
           <WomanBoxButton className="family-role-woman-card">
             <p className="text-justify">
               <a href="https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf" target="_blank">
-                Si queres saber más acerca de Los principios de Bogota, pincha acá
+                Si queres saber más acerca de Los principios de Bogota, pincha acá.
                 </a>
             </p>
           </WomanBoxButton>
