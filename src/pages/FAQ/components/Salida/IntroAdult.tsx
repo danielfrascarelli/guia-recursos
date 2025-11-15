@@ -5,7 +5,7 @@ export default function IntroAdult() {
         <div>
             <div>
                 <p>Previo a la salida, desde la unidad corresponde tramitar los pasajes para el traslado de la persona hacia su comunidad.</p>
-                <p>Mientras acompañas a tu familiar y se preparan para la salida, orientalo para qué dentro de la unidad pueda generar documentación útil como: cédula de identidad, carné de salud.</p>
+                <p>Mientras acompañas a tu familiar y se preparan para la salida, orientalo para qué dentro de la Unidad pueda generar documentación útil como: cédula de identidad, carné de salud.</p>
             </div>
             <div>
                 <strong>

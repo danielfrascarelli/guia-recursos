@@ -164,14 +164,28 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       url: "5",
       componentType: "TextComponent",
       props: {
-        title: "¿Qué cosas se le pueden llevar a tu familiar?",
-        text: (<div className="common-layout-margin">
+        title: "¿Qué cosas/artículos se le pueden llevar a tu familiar la primera vez que le visitas?",
+        text: (<div> <div className="common-layout-margin">
           <div>Te sugerimos que pienses en llevar artículos de consumo básico: </div>
           <ul>
             <li>artículos de higiene personal (jabón, toalla, cepillo de dientes, pasta dental).</li>
             <li>una muda de ropa</li>
             <li>abrigo</li>
           </ul>
+        </div>
+          <div className="mt-4">
+            <FlatOffsetCard
+              borderColor="transparent"
+              bgColor="#47b2eb4f"
+              borderWidth={3}
+              offsetX={7} offsetY={7}
+              overhangX={7} overhangY={7}>
+              <div className="pt-2 pb-2 common-layout-margin">
+                <label>En algunas Unidades se puede llevar a la visita solo lo que se va a compartir durante el transcurso de la misma. </label>
+                <label>En otras habilitan el ingreso de más alimentos.</label>
+              </div>
+            </FlatOffsetCard>
+          </div>
         </div>)
       },
     },
@@ -219,7 +233,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 overhangX={7} overhangY={7}
               >
                 <div className="pt-2">
-                  <p>Cuando te revisen debes de saber que el personal disponible debe ser de tu mismo sexo.</p>
+                  <p>Cuando te revisen debes de saber que el personal disponible debe ser de tu mismo sexo y en el control no debe de existir contacto fisico, solo visual.</p>
                 </div>
               </IconBoxCard>
             </div>

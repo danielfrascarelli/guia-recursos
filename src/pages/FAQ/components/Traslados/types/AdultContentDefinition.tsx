@@ -12,14 +12,16 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         title: "Tenes que saber que...",
         text: (<div>
           <div className="common-layout-margin">
-            <p>Para la solicitud de traslado por acercamiento familiar es necesario que presentes una constancia de domicilio, con un recibo de alguna factura (ose, UTE, Antel quizás está bueno poner los logos acá, chiquitos)</p>
+            <p>Para la solicitud de traslado por acercamiento familiar es necesario que presentes una constancia de domicilio, con un recibo de alguna factura (OSE, UTE, Antel).
+               {/* quizás está bueno poner los logos acá, chiquitos) */}
+               </p>
 
             <ul>
-              <li>Luego de qué se cumplen los 90 días en la unidad donde la persona detenida fue trasladada puede pedir la misma o algún familiar el traslado. </li>
-              <li>Cuando se solicitan traslados pueden transcurrir hasta 150 días para qué se genere una respuesta, pero se trata de qué sea en los 90 días. </li>
+              <li>Luego de qué se cumplen los primeros 90 días de encarcelamiento en una Unidad, la persona detenida puede pedir el traslado, un familiar referente afectivo en caso de considerarlo también puede hacerlo.</li>
+              <li>Cuando se solicitan Traslados de Unidad, el trámite puede demorar hasta 150 días desde el inicio de la solicitud, esto en el ideal no debería de superar los 90 días totales.</li>
             </ul>
           </div>
-          <div className="mt-3">
+          <div className="mt-3 mb-3">
             <IconBoxCard
               borderWidth={3}
               offsetX={7} offsetY={7}
@@ -33,7 +35,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
           <div className="common-layout-margin">
             <ul>
               <li>Para realizar la solicitud es importante qué la persona no tenga sanciones.</li>
-              <li>“No gastar pólvora en chimangos” después qué se pide un traslado hay un plazo de 90 días para pedir otro. Salvo en situaciones de riesgo de la integridad física. Por ese motivo es recomendable poder evaluar con tu familiar si es conveniente hacer el mismo.</li>
+              <li>"No gastar pólvora en chimangos" después qué se pide un traslado hay un plazo de 90 días para pedir otro. Salvo en situaciones de riesgo de la integridad física. Por ese motivo es recomendable poder evaluar con tu familiar si es conveniente hacer el mismo.</li>
               <li>Dependiendo del riesgo de reincidencia la Junta Nacional de Traslados toma la decisión del lugar al cual será trasladada la persona.</li>
             </ul>
           </div>

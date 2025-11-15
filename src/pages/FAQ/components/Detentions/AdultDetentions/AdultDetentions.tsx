@@ -29,12 +29,15 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
                     <li>En el Área Metropolitana de Montevideo el/la <strong>abogado/a litigante</strong> es quién acompañará a la persona detenida hasta que se decrete la resolución judicial.</li>
                     <li>Esta oficina funciona en dos turnos, se le denominan Primer y Segundo turno y atienden  en el horario de 10 a 15 hs. Los de Tercer y Cuarto turno, atienden desde las 16  a 20 hs.</li>
                     <li>Lista de abogados litigantes, se organiza por turnos.
-                      <a href="https://familiaspresentes.uy/docs-guia/Lista de abogados de oficio.pdf" target="_blank">
+                      <a href="https://familiaspresentes.uy/guia-docs/Lista de abogados de oficio.pdf" target="_blank">
                         &nbsp;Pincha acá para ver la lista.
                       </a>
                     </li>
                   </ul>
                 </li>
+              </ul>
+              <ul>
+                <li>Si tu familiar está en un lugar del Interior del País, debes acudir a la Defensoría del Pueblo.</li>
               </ul>
             </div>
             <div className="mt-3">
@@ -51,7 +54,11 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
             </div>
             <div className="common-layout-margin mt-3">
               <ul>
-                <li>En el interior del país tenes que dirigirte directamente a la Defensoría Pública del departamento para tomar contacto con el/la abogado/a defensor/a.</li>
+                <li>En el interior del país tenes que dirigirte directamente a la
+                  <a href="https://www.poderjudicial.gub.uy/contenido/item/1434-defensorias-publicas.html" target="_blank">
+                    &nbsp;Defensoría Pública&nbsp;
+                  </a>
+                  del departamento para tomar contacto con el/la abogado/a defensor/a.</li>
                 <li>En el interior, el abogado acompaña a la persona durante todo el proceso, desde la detención hasta su salida.</li>
                 <li>En Montevideo y Canelones, cuando la persona tiene una pena efectiva, es asistida por un/a abogado/a de ejecución penal.  (aca Acceso a la lista, que se encuentra por orden alfabético y corresponde por apellido)</li>
               </ul>
