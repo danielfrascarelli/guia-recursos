@@ -26,7 +26,7 @@ export default function FAQ({ type }: FAQProps) {
       <div className={styles.screen}>
         <div className="fp-intro-sticky">
           <BackButton />
-          <TitleBar title={`Preguntas frecuentes del ${getRelativeTypeName(type)} `} />
+          <TitleBar title="Orientación básica" />
         </div>
         <main className={styles.main}>
           <div className="d-block d-sm-none">
