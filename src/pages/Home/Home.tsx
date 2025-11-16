@@ -6,19 +6,26 @@ import inr from '../../assets/images/logos_contactos_utiles/inr.svg'
 
 import "./home.scss";
 
-
-
-
 export default function HomePage() {
   const navigate = useNavigate();
   const onNext = () => navigate("/introduccion");
   const onSkipIntro = () => navigate("/mapa-de-ruta");
 
   return (
-    <main className="min-vh-100 d-flex align-items-stretch bg--brand-bg-light">
+    <main className="min-vh-100 d-flex align-items-stretch bg--brand-bg-light fp-home">
       <div className="container my-3 d-flex flex-column justify-content-between">
-
-        <header></header>
+        <header>
+          <div className="text-center mt-4">
+            <img
+              src={familias_presentes}
+              alt="Familias Presentes"
+              title="Familias Presentes"
+              className="img-fluid"
+              style={{ height: 100 }}
+              onClick={()=>{ window.open('https://familiaspresentes.uy', '_blank', 'noopener,noreferrer'); }}
+            />
+          </div>
+        </header>
 
         <section className="fp-home-title-container">
           <h1 className="fw-bold color--brand-dark fp-home-title mt-33vh lh-base">
@@ -29,17 +36,6 @@ export default function HomePage() {
         <section>
           <h2 className="mx-1 mx-md-5 text-center  lh-base">
             Esta guía es para quienes estamos afuera, acompañando y sosteniendo los procesos de encarcelamiento.
-            {/* {" "}
-            <InlineSpotlight bg="var(--brand-sage)" color="white" rounded={1} px={0.4}>
-              acompañando y sosteniendo
-            </InlineSpotlight>
-            {" "}
-            
-            {" "}
-            <InlineSpotlight bg="var(--brand-wine)" color="white" rounded={1} px={0.4}>
-              encarcelamiento
-            </InlineSpotlight>
-            . */}
           </h2>
         </section>
 
@@ -60,36 +56,7 @@ export default function HomePage() {
             </button>
           </div>
         </section>
-
-        {/* logos */}
-        {/* <footer className="d-flex justify-content-center align-items-center gap-4 pb-1">
-          <img
-            src={familias_presentes}
-            alt="Familias Presentes"
-            className="img-fluid"
-            style={{ height: 48 }}
-          />
-          <img
-            src={europe}
-            alt="Unión Europea"
-            className="img-fluid"
-            style={{ height: 48 }}
-          />
-        </footer> */}
         <footer className="d-flex justify-content-center align-items-end gap-3 pb-3">
-          {/* Familias Presentes */}
-          <div className="text-center">
-            <img
-              src={familias_presentes}
-              alt="Familias Presentes"
-              title="Familias Presentes"
-              className="img-fluid"
-              style={{ height: 40 }}
-              onClick={()=>{ window.open('https://familiaspresentes.uy', '_blank', 'noopener,noreferrer'); }}
-            />
-          </div>
-
-          {/* Unión Europea */}
           <div className="text-left">
             <small className="d-block text-secondary mb-1">Financia:</small>
             <img
@@ -100,8 +67,6 @@ export default function HomePage() {
               style={{ height: 40 }}
             />
           </div>
-
-          {/* INR */}
           <div className="text-left">
             <small className="d-block text-secondary mb-1">Apoya:</small>
             <img
@@ -113,7 +78,6 @@ export default function HomePage() {
             />
           </div>         
         </footer>
-
       </div>
     </main>
   );
