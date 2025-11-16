@@ -1,87 +1,76 @@
 {
-    "shortName": "Unidad 10",
-    "longName": "Unidad 10 - Soler, San José",
-    "department": "San José",
-    "city": null,
-    "neighborhood": null,
-    "address": {
-        "text": "Ruta 11 Km. 41.500, Unidad Juan Soler, San José",
-        "url": "https://maps.google.com/?q=Ruta+11+Km.+41.500%2C+Unidad+Juan+Soler%2C+San+Jos%C3%A9"
+  "shortName": "Unidad 10",
+  "longName": "Unidad 10 - Soler, San José",
+  "department": "San José",
+  "city": null,
+  "neighborhood": null,
+  "address": {
+    "text": "Ruta 11 Km. 41.500, Unidad Juan Soler, San José",
+    "url": "https://maps.google.com/?q=Ruta+11+Km.+41.500%2C+Unidad+Juan+Soler%2C+San+Jos%C3%A9"
+  },
+  "phone": [
+    {
+      "area": "Subdirección Administrativa",
+      "phones": ["4340 2628 int. 17"]
     },
-    "phone":  [
-        {
-            "area": "Subdirección Administrativa",
-            "phones": [
-                "4340 2628 int. 17"
-            ]
-        },
-        {
-            "area": "Subdirección Operativa",
-            "phones": [
-                "4340 2628 int. 14"
-            ]
-        },
-        {
-            "area": "Subdirección Técnica",
-            "phones": [
-                "4340 2628 int. 18"
-            ]
-        },
-        {
-            "area": "Secretaría",
-            "phones": [
-                "4340 2628 int. 19"
-            ]
-        },
-        {
-            "area": "Área Jurídica",
-            "phones": [
-                "4340 3308",
-                "4340 2628"
-            ]
-        },
-        {
-            "area": "Atención a Familias",
-            "phones": [
-                "4340 3308",
-                "4340 2628"
-            ]
-        }
-    ],
-    "email": [
-        {
-            "area": "Subdirección administrativa",
-            "emails": [
-                "inr-u-9.secretaria@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección operativa",
-            "emails": [
-                "inr-u-9.operativa@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección técnica",
-            "emails": [
-                "inr-u-9.tecnica@minterior.gub.uy"
-            ]
-        }
-    ],
-    "web": null,
-    "openingHours": null,
-    "packages": {
-        "deliveryHours": "dentro del horario de visita.",
-        "restrictionsUrl": "#"
+    {
+      "area": "Subdirección Operativa",
+      "phones": ["4340 2628 int. 14"]
     },
-    "visiting": {
-        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
-        "restrictionsDressCodeUrl": "#",
-        "restrictionsText": [
-            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-            "Recibe un máximo de 4 visitantes, incluidos menores.",
-            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-        ]
+    {
+      "area": "Subdirección Técnica",
+      "phones": ["4340 2628 int. 18"]
+    },
+    {
+      "area": "Secretaría",
+      "phones": ["4340 2628 int. 19"]
+    },
+    {
+      "area": "Área Jurídica",
+      "phones": ["4340 3308", "4340 2628"]
+    },
+    {
+      "area": "Atención a Familias",
+      "phones": ["4340 3308", "4340 2628"]
     }
+  ],
+  "email": [
+    {
+      "area": "Subdirección Administrativa",
+      "emails": ["inr-u10.subdir@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Operativa",
+      "emails": ["inr-subdireccion.operativa@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Técnica",
+      "emails": ["inr-u10.tecnica@minterior.uy"]
+    },
+    {
+      "area": "Secretaría",
+      "emails": ["inr-u10.secretaria@minterior.gub.uy"]
+    },
+    {
+      "area": "Área Jurídica",
+      "emails": ["inr-u10.juridica@minterior.gub.uy"]
+    },
+    {
+      "area": "Atención a Familiares",
+      "emails": ["inr-u10.atencionfamiliar@minterior.gub.uy"]
+    }
+  ],
+  "web": null,
+  "openingHours": null,
+  "packages": {
+    "deliveryHours": "dentro del horario de visita.",
+    "restrictionsUrl": "#"
+  },
+  "visiting": {
+    "visitingHours": "Sábado y domingo de 09:00 a 17:00 hs.",
+    "visitingRestrictions": "",
+    "visitingHoursConjugal": "De 09:00 a 16:00 hs.",
+    "visitingRestrictionsConjugal": "",
+    "restrictionsDressCodeUrl": ""
+  }
 }
