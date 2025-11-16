@@ -13,6 +13,7 @@ import type { ContentDefinition } from "../../../../../components/ItemDefinition
 import { isBlankOrEmpty } from "../../../../../shared/utils/String";
 import type { InrOfficeProps } from "../inr-offices-component/InrOfficeProps";
 import BackButton from "../../../../../components/back-button/BackButton";
+import { ImageListOptions } from "../../../../../components/list-options/image-list-options/ImageListOptions";
 
 export const Inr: React.FC<InrProps> = ({ }) => {
   const getBoxTitle = (props: InrUnidadProps | InrOfficeProps): string => props.title;
@@ -44,7 +45,7 @@ export const Inr: React.FC<InrProps> = ({ }) => {
       <div className="mt-3">
         <SubtitleBar text="Oficinas"></SubtitleBar>
         <div className="d-block d-sm-none">
-          <TextListOptions items={fnListItems(getOfficesContentDefinition())} />
+          <ImageListOptions items={fnListItems(getOfficesContentDefinition())} />
         </div>
         <div className="d-none d-sm-block">
           <BoxListOptions items={fnBoxItems(getOfficesContentDefinition())} variant="inr" />
@@ -53,7 +54,7 @@ export const Inr: React.FC<InrProps> = ({ }) => {
       <div className="mt-3">
         <SubtitleBar text="Unidades"></SubtitleBar>
         <div className="d-block d-sm-none">
-          <TextListOptions items={fnListItems(getUnitiesContentDefinition())} />
+          <ImageListOptions items={fnListItems(getUnitiesContentDefinition())} />
         </div>
         <div className="d-none d-sm-block">
           <BoxListOptions items={fnBoxItems(getUnitiesContentDefinition())} variant="inr" />
