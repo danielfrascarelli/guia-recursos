@@ -1,111 +1,92 @@
 {
-    "shortName": "Unidad 1",
-    "longName": "Unidad 1 - Punta de Rieles, Montevideo",
-    "department": "Montevideo",
-    "city": null,
-    "neighborhood": null,
-    "address": {
-        "text": "Camino Dionisos 6350 esquina Chacarita de los Padres, Punta de Rieles, Montevideo",
-        "url": "https://maps.google.com/?q=Camino+Dionisos+6350+esquina+Chacarita+de+los+Padres%2C+Punta+de+Rieles%2C+Montevideo"
+  "shortName": "Unidad 1",
+  "longName": "Unidad 1 - Punta de Rieles, Montevideo",
+  "department": "Montevideo",
+  "city": null,
+  "neighborhood": null,
+  "address": {
+    "text": "Camino Dionisos 6350 esquina Chacarita de los Padres, Punta de Rieles, Montevideo",
+    "url": "https://maps.google.com/?q=Camino+Dionisos+6350+esquina+Chacarita+de+los+Padres%2C+Punta+de+Rieles%2C+Montevideo"
+  },
+  "phone": [
+    {
+      "area": "Subdirección Administrativa",
+      "phones": ["2030 9316"]
     },
-    "phone": [
-        {
-            "area": "Subdirección Administrativa",
-            "phones": [
-                "2030 9316"
-            ]
-        },
-        {
-            "area": "Subdirección Operativa",
-            "phones": [
-                "2030 9337"
-            ]
-        },
-        {
-            "area": "Subdirección Técnica",
-            "phones": [
-                "2030 9306"
-            ]
-        },
-        {
-            "area": "Secretaría",
-            "phones": [
-                "2030 9313",
-                "2030 9314"
-            ]
-        },
-        {
-            "area": "Área Jurídica",
-            "phones": [
-                "2030 9301"
-            ]
-        },
-        {
-            "area": "Atención a Familias",
-            "phones": [
-                "2030 9310"
-            ]
-        },
-        {
-            "area": "Guardia / Seguridad (Registro e Identificación)",
-            "phones": [
-                "2030 9320"
-            ]
-        },
-        {
-            "area": "Jefatura de Reclusión",
-            "phones": [
-                "2030 9342"
-            ]
-        },
-        {
-            "area": "Jefatura de Servicio",
-            "phones": [
-                "2030 9304"
-            ]
-        },
-        {
-            "area": "",
-            "phones": [
-                "2030 9312",
-                "2030 9430"
-            ]
-        }
-    ],
-    "email": [
-        {
-            "area": "Subdirección administrativa",
-            "emails": [
-                "inr-u-9.secretaria@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección operativa",
-            "emails": [
-                "inr-u-9.operativa@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección técnica",
-            "emails": [
-                "inr-u-9.tecnica@minterior.gub.uy"
-            ]
-        }
-    ],
-    "web": null,
-    "openingHours": null,
-    "packages": {
-        "deliveryHours": "dentro del horario de visita.",
-        "restrictionsUrl": "#"
+    {
+      "area": "Subdirección Operativa",
+      "phones": ["2030 9337"]
     },
-    "visiting": {
-        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
-        "restrictionsDressCodeUrl": "#",
-        "restrictionsText": [
-            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-            "Recibe un máximo de 4 visitantes, incluidos menores.",
-            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-        ]
+    {
+      "area": "Subdirección Técnica",
+      "phones": ["2030 9306"]
+    },
+    {
+      "area": "Secretaría",
+      "phones": ["2030 9313", "2030 9314"]
+    },
+    {
+      "area": "Área Jurídica",
+      "phones": ["2030 9301"]
+    },
+    {
+      "area": "Atención a Familias",
+      "phones": ["2030 9310"]
+    },
+    {
+      "area": "Guardia / Seguridad (Registro e Identificación)",
+      "phones": ["2030 9320"]
+    },
+    {
+      "area": "Jefatura de Reclusión",
+      "phones": ["2030 9342"]
+    },
+    {
+      "area": "Jefatura de Servicio",
+      "phones": ["2030 9304"]
+    },
+    {
+      "area": "",
+      "phones": ["2030 9312", "2030 9430"]
     }
+  ],
+  "email": [
+    {
+      "area": "Subdirección Administrativa",
+      "emails": ["inr-u1.subdir@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Operativa",
+      "emails": ["inr-u1.subdiroperativa@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Técnica",
+      "emails": ["inr-u1.subdirtecnica@minterior.gub.uy"]
+    },
+    {
+      "area": "Secretaría",
+      "emails": ["inr-u1.secretaria@minterior.gub.uy"]
+    },
+    {
+      "area": "Área Jurídica",
+      "emails": ["inr-u1.juridica@minterior.gub.uy"]
+    },
+    {
+      "area": "Guardia / Seguridad",
+      "emails": ["inr-u1-jefaturadereclusion@minterior.gub.uy"]
+    }
+  ],
+  "web": null,
+  "openingHours": null,
+  "packages": {
+    "deliveryHours": "De 8 a 15 hs",
+    "restrictionsUrl": "#"
+  },
+  "visiting": {
+    "visitingHours": "De 8 a 12 y 14 a 18 hs. Viernes, sábado y domingo. (Un solo día por semana en horario matutino o vespertino dependiendo del sector de alojamiento).",
+    "visitingRestrictions": "La visita debe estar registrada previamente. Ingresan según disponibilidad del sector de alojamiento.",
+    "visitingHoursConjugal": "Lunes a Viernes de 09:00 a 13:00 hs. (Horario excepcional de 14:30 a 15:30 en casos justificados y con previa autorización).",
+    "visitingRestrictionsConjugal": "La visita debe estar registrada como pareja y habilitada mediante solicitud expresa con datos y copia de cédula. Debe ser mayor de edad (salvo matrimonio legal). Para el ingreso, ni la PPL ni la visita pueden poseer sanción.",
+    "restrictionsDressCodeUrl": "#"
+  }
 }
