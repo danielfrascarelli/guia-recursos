@@ -28,12 +28,29 @@
     }
 
     .image-box-button-img-logo__container {
-      width: 50px;
-      height: 50px;
+      width: 40%;
+      height: 40%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 
       .image-box-button-img-logo {
-        width: 50px;
-        height: 50px;
+        width: 40%;
+        height: auto;
+        object-fit: contain;
+      }
+    }
+
+    .image-box-button-img-icon__container {
+      width: 10%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .image-box-button-img-icon {
+        width: 10%;
+        height: auto;
+        object-fit: contain;
       }
     }
 

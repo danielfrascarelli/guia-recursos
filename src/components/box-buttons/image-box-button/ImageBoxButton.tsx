@@ -19,7 +19,7 @@ export default function ImageBoxButton({
             <img src={srcImg} className="image-box-button-img-logo" alt="important" />
           </div>
         ) : (
-          <div className="d-flex justify-content-center align-items-center flex-shrink-0 image-box-button-img-logo__container">
+          <div className="d-flex justify-content-center align-items-center flex-shrink-0 image-box-button-img-icon__container">
             <img src={InfoIcon} className="image-box-button-img-logo" alt="info" />
           </div>
         )}
