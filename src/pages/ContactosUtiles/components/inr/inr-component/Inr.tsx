@@ -6,7 +6,6 @@ import { getContentDefinition as getOfficesContentDefinition } from "./OfficesCo
 import { getContentDefinition as getUnitiesContentDefinition } from "./UnitiesContentDefinition";
 import type { InrUnidadProps } from "../inr-unidad-component/InrUnidadProps";
 import { BoxListOptions } from "../../../../../components/list-options/box-list-options/BoxListOptions";
-import { TextListOptions } from "../../../../../components/list-options/text-list-options/TextListOptions";
 import TitleBar from "../../../../../components/title-bar/TitleBar";
 import SubtitleBar from "../../../../../components/subtitle-bar/SubtitleBar";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";

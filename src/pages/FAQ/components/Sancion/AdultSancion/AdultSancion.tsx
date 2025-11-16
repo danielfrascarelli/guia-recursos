@@ -1,9 +1,6 @@
-import InlineSpotlight from "../../../../../components/inline-spotlight/InlineSpotlight";
 import TitleBar from "../../../../../components/title-bar/TitleBar";
 import BackButton from "../../../../../components/back-button/BackButton";
 import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
-
-import pencil from '../../../../../assets/images/icons/pencil.svg';
 
 export interface AdultSancionIntroProps {
 };
