@@ -35,6 +35,9 @@
   --fp-margin-desktop: 200px;
   --fp-margin-tablet: 125px;
   --fp-margin-mobile: 50px;
+
+  --fp-mobile-text-size: 16px;
+  --fp-desktop-text-size: 18px;
 }
 
 html,
@@ -64,8 +67,4 @@ body {
 
 .bg--brand-bg-light {
   background: var(--brand-bg-light);
-}
-
-.text-font-size {
-  font-size: clamp(16px, 3vw, 24px);
 }

@@ -1,3 +1,5 @@
+@use "../styles/variables";
+
 :root {
   --bs-primary: #0e7c66;
 
@@ -67,5 +69,18 @@ button:focus-visible {
   }
   button {
     background-color: #f9f9f9;
+  }
+}
+
+.text-font-size {
+  font-size: clamp(16px, 3vw, 24px);
+}
+
+.text-font-size {
+  font-size: var(--fp-desktop-text-size);
+}
+@media (max-width: variables.$fp-tablet-breakpoint-max) {
+  .text-font-size {
+    font-size: var(--fp-mobile-text-size);
   }
 }
