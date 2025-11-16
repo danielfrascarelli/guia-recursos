@@ -10,7 +10,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       componentType: "TextComponent",
       props: {
         title: "Tenes que saber que...",
-        text: (<div>
+        text: (<div className="text-justify">
           <div className="common-layout-margin">
             <p>Para la solicitud de traslado por acercamiento familiar es necesario que presentes una constancia de domicilio, con un recibo de alguna factura (OSE, UTE, Antel).</p>
             <ul>
@@ -47,7 +47,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       componentType: "TextComponent",
       props: {
         title: "¿Cómo se mide el riesgo de volver a cometer un delito?",
-        text: (<div>
+        text: (<div className="text-justify">
           <div className="common-layout-margin">
             <p>Mediante el Programa OASys, el cual es una Evaluación de la Junta, qué se aplica a las personas detenidas cuando se encuentran ya dentro del sistema penitenciario. Este Programa fue creado con el fin de establecer una categoría asociada a la designación de la Unidad y/o el Traslado de la persona.</p>
           </div>
@@ -81,7 +81,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "¿Cuándo tomó conocimiento de que mi familiar sería trasladado de unidad?",
         text: (
-          <div className="common-layout-margin">
+          <div className="common-layout-margin text-justify">
             <p>
               Corresponde qué la unidad qué deriva o recibe le avisé a algún familiar o qué se habilite una llamada y la persona detenida avisa.
             </p>

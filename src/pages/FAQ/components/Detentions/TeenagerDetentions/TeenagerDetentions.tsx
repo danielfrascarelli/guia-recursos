@@ -13,7 +13,7 @@ export default function TeenagerDetentions({ }: TeenagerDetentionsProps) {
         <BackButton />
         <TitleBar title={"Detenciones en adolescentes"} />
       </div>
-      <div className="fp-tips__container common-layout-margin mt-4">
+      <div className="fp-tips__container common-layout-margin text-justify mt-4">
         <div>
           <div>
             <p>Si tu familiar es <InlineSpotlight bg="var(--brand-wine)">ADOLESCENTE</InlineSpotlight> tenes que saber:</p>

@@ -1,6 +1,6 @@
 export default function IntroTeenager() {
     return (
-        <div>
+        <div className="common-layout-margin text-justify">
             <div>
                 <strong>Tenes que saber:</strong>
             </div>

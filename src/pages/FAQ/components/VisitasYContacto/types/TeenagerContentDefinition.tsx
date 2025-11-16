@@ -11,7 +11,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       props: {
         title: "Elementos prohibidos",
         text: (<>
-          <div className="common-layout-margin">
+          <div className="common-layout-margin text-justify"> 
             <div>
               <p>Los siguientes articulos están prohibidos:</p>
               <ul>
@@ -40,7 +40,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
         title: "Elementos permitidos",
         text: (<>
           <div>
-            <div className="common-layout-margin">
+            <div className="common-layout-margin text-justify">
               <p>Los siguientes articulos están permitidos:</p>
               <ul>
                 <li>Dos mudas de ropa y un par de championes.</li>
@@ -59,7 +59,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
                 <li>Hasta 3 bebidas gaseosas, las mismas serán abiertas para comprobar que el envase no fue adulterado.</li>
               </ul>
             </div>
-            <div className="mt-3">
+            <div className="mt-3 text-justify">
               <IconBoxCard
                 borderWidth={3}
                 offsetX={7} offsetY={7}

@@ -11,7 +11,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "¿Cuándo tienes conocimiento de qué tu familiar tiene algún problema de salud?",
         text: (<div>
-          <div className="common-layout-margin">
+          <div className="common-layout-margin text-justify">
             <p>Desde Familias Presentes comprendemos que el acompañamiento en el cuidado de la salud es de especial importancia.</p>
             <p>Si tu familiar tiene algun problema de salud crónico, está bueno que estes al tanto de su situación, si accede a la medicación correspondiente o se debe de realizar la solicitud de la misma.</p>
             <p>La persona que acompana tiene derecho a llamar y consultar acerca de la situacion de salud de su ser querido, esta consulta se realiza con el referente del área en la Unidad correspondiente.</p>
@@ -26,7 +26,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               , allí se encargarán de recepcionar tu solicitud generando un expediente, te recomendamos que solicites luego de realizado el trámite, el número de expediente para hacerle seguimiento y como garantia de que se dio inicio al trámite.
             </p>
           </div>
-          <div className="mt-3 mb-3">
+          <div className="mt-3 mb-3 text-justify">
             <IconBoxCard
               borderColor="#e9a15f"
               bgColor="#efcfb273"
@@ -39,7 +39,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               </div>
             </IconBoxCard>
           </div>
-          <div className="common-layout-margin">
+          <div className="common-layout-margin text-justify">
             <p>Si tu familiar es mujer, debe de existir acceso a métodos anticonceptivos, realización de rutinas como el Papanicolau, Mamografías, entre otros.</p>
             <p>Es importante que exista acceso a la informacion en Derechos de Salud Sexual y Reproductiva.</p>
             <p>En caso de depender de la Unidad de SAIPPL existe un correo de Atención, donde los/as familiares pueden realizar consultas y solicitudes al correo:&nbsp;
@@ -86,7 +86,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "Tenes que saber que",
         text: (<div>
-          <div className="common-layout-margin">
+          <div className="common-layout-margin text-justify">
             <ul>
               <li>A través de SAI PPL podes hacer llegar una medicación a tu familiar.</li>
               <li>En caso de que la persona necesite atención en un Centro de Salud, dependerá de las disposiciones de ese Centro Hospitalario, que los familiares accedan a informes, médicos, visitas y/o cuidados.</li>
@@ -95,7 +95,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <li>Es necesario tener presente qué no todos los Centro Hospitalarios habiliten visitas, para el acceso a los informes médicos debes de consultar en que horarios se realizan, casi siempre se dan dos informes al día, depende de cada Centro de Salud.</li>
             </ul>
           </div>
-          <div className="mt-3 mb-3">
+          <div className="mt-3 mb-3 text-justify">
             <IconBoxCard
               borderColor="#e9a15f"
               bgColor="#efcfb273"
@@ -120,7 +120,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         title: "Salud mental y consumo problemático",
         text: (
           <div>
-            <div className="common-layout-margin">
+            <div className="common-layout-margin text-justify">
               <p>Para la atención en Salud Mental y tratamiento en Adicciones, te sugerimos que consultes qué tipo de Dispositivos y/o Proyectos están funcionando en la Unidad donde se encuentra tu familiar,  también tenes que averiguar,  cómo se realiza la solicitud de atención en dichos Proyectos, los mismos son escasos o no existen en todas las Unidades. </p>
             </div>
           </div>
@@ -135,7 +135,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "Tuberculosis en prisión: lo qué necesitamos saber para poder acompañar mejor a nuestro familiar.",
         text: (<>
-          <div className="common-layout-margin">
+          <div className="common-layout-margin text-justify">
             <div>
               <p>La tuberculosis es una de las enfermedades qué más afecta a las personas privadas de libertad.. Esto se debe a las condiciones de vida dentro de las celdas y las Unidades, siendo el hacinamiento una de las características más comunes para la propagación de la misma.<br />La superpoblación a su vez, hace que los controles en salud sean escasos, por eso es importante que pidas información acerca de los controles de salud de tu familiar. </p>
               <p>Debes saber que se transmite por vía aérea, cuando una persona que tiene la enfermedad tose, libera bacterias que pueden ser inhaladas por quienes comparten el espacio, por eso los lugares cerrados son propicios para que se expanda.</p>

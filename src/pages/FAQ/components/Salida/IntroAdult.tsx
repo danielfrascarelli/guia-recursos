@@ -2,7 +2,7 @@ import InlineSpotlight from "../../../../components/inline-spotlight/InlineSpotl
 
 export default function IntroAdult() {
     return (
-      <div className="common-layout-margin">
+      <div className="common-layout-margin text-justify">
             <div>
                 <p>Previo a la salida, desde la unidad corresponde tramitar los pasajes para el traslado de la persona hacia su comunidad.</p>
                 <p>Mientras acompañas a tu familiar y se preparan para la salida, orientalo para qué dentro de la Unidad pueda generar documentación útil como: cédula de identidad, carné de salud.</p>

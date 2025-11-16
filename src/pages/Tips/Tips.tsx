@@ -8,8 +8,8 @@ import FlatOffsetCard from '../../components/cards/flat-offset-card/FlatOffsetCa
 
 export default function Tips() {
   return (
-    <div className="h-100">
-      <div className="fp-tips__container">
+    <div className="h-100 text-justify">
+      <div className="fp-tips__container text-justify">
         <div className="text-justify mt-4">
           <IconBoxCard
             bgColor="transparent"

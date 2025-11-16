@@ -12,7 +12,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         title: "Volver a estudiar y la redención de pena",
         text: (<div>
           <div>
-            <div className="common-layout-margin">
+            <div className="common-layout-margin text-justify">
               <strong><p>Si tu familiar retoma sus estudios formales puede redimir, disminuir su tiempo de Privación de Libertad.</p>                </strong>
               <ul>
                 <li>Se redime 3 x 1 o 2 x 1, esto significa que cada tres días descontas uno o cada dos días descontas uno. Esto último dependerá del tipo de delito.</li>
@@ -30,14 +30,14 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
               >
-                <div className="common-layout-margin">
+                <div className="common-layout-margin text-justify">
                   <div className="pt-3">
                     <p> La solicitud de Redención de pena se puede gestionar en la Oficina de Redención de pena de cada Unidad, posterior a comprobar que la persona está estudiando.</p>
                   </div>
                 </div>
               </FlatOffsetCard>
             </div>
-            <div className="common-layout-margin mt-4">
+            <div className="common-layout-margin mt-4 text-justify">
               <p>La persona puede cursar sus primeros estudios como Oyente, en calidad de participante en principio.</p>
             </div>
           </div>
@@ -52,7 +52,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "Acceso al Trabajo",
         text: (<>
-          <div className="common-layout-margin">
+          <div className="common-layout-margin text-justify">
             <div>
               <p>Tenes que considerar que existen Cupos Laborales para la persona que se encuentra cumpliendo un medida.</p>
               <p>La persona detenida puede acceder a Cupos Laborales, esto no implica que todos los Trabajos sean remunerados, existen prácticas laborales que son llamadas Comisiones las cuales pueden ser de estudio o trabajo.</p>

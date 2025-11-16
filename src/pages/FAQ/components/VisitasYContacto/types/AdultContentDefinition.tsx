@@ -14,7 +14,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "¿Es tu primera vez en la unidad?",
         text: (
-          <div className="common-layout-margin">
+          <div className="common-layout-margin text-justify">
             <p>Si es la primera vez que vas a entrar, tendrás que registrarte.</p>
             <ul>
               <li>Llevar cédula de identidad.</li>
@@ -37,7 +37,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "¿Cómo se registran las infancias y adolescencias que acuden a las visitas?",
         text: (
-          <div>
+          <div className="text-justify">
             <div className="common-layout-margin">
               <p>Si es la primera vez que vas a entrar, tendrás que registrarte.</p>
               <p>Lleva:</p>
@@ -79,7 +79,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "¿Cómo es la visita con infancias y adolescencias?",
         text: (<>
-          <div>
+          <div className="text-justify">
             <div className="common-layout-margin">
               <div>
                 En la cárcel de mujeres existe un día particular para la visita de infancias y adolescencias. Actualmente se realizan los días viernes.
@@ -114,7 +114,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "Vestimenta",
         text: (<>
-          <div>
+          <div className="text-justify">
             <div className="common-layout-margin">
               <div>Cada unidad tiene sus particularidades. </div>
               <div>Aquí te presentamos un listado general, sugerimos consultar a la Unidad ante cualquier duda.</div>
@@ -166,28 +166,30 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       componentType: "TextComponent",
       props: {
         title: "¿Qué cosas/artículos se le pueden llevar a tu familiar la primera vez que le visitas?",
-        text: (<div> <div className="common-layout-margin">
-          <div>Te sugerimos que pienses en llevar artículos de consumo básico: </div>
-          <ul>
-            <li>artículos de higiene personal (jabón, toalla, cepillo de dientes, pasta dental).</li>
-            <li>una muda de ropa</li>
-            <li>abrigo</li>
-          </ul>
-        </div>
-          <div className="mt-4">
-            <FlatOffsetCard
-              borderColor="transparent"
-              bgColor="#47b2eb4f"
-              borderWidth={3}
-              offsetX={7} offsetY={7}
-              overhangX={7} overhangY={7}>
-              <div className="pt-2 pb-2 common-layout-margin">
-                <label>En algunas Unidades se puede llevar a la visita solo lo que se va a compartir durante el transcurso de la misma. </label>
-                <label>En otras habilitan el ingreso de más alimentos.</label>
-              </div>
-            </FlatOffsetCard>
-          </div>
-        </div>)
+        text: (
+          <div className="text-justify">
+            <div className="common-layout-margin">
+              <div>Te sugerimos que pienses en llevar artículos de consumo básico: </div>
+              <ul>
+                <li>artículos de higiene personal (jabón, toalla, cepillo de dientes, pasta dental).</li>
+                <li>una muda de ropa</li>
+                <li>abrigo</li>
+              </ul>
+            </div>
+            <div className="mt-4">
+              <FlatOffsetCard
+                borderColor="transparent"
+                bgColor="#47b2eb4f"
+                borderWidth={3}
+                offsetX={7} offsetY={7}
+                overhangX={7} overhangY={7}>
+                <div className="pt-2 pb-2 common-layout-margin">
+                  <label>En algunas Unidades se puede llevar a la visita solo lo que se va a compartir durante el transcurso de la misma. </label>
+                  <label>En otras habilitan el ingreso de más alimentos.</label>
+                </div>
+              </FlatOffsetCard>
+            </div>
+          </div>)
       },
     },
     {
@@ -198,7 +200,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       props: {
         title: "¿Cómo se arma un paquete?",
         text: (<>
-          <div>
+          <div className="text-justify">
             <div className="common-layout-margin">
               <ul>
                 <li>En una caja. Te sugerimos que se encuentre cerrada de forma hermética.</li>

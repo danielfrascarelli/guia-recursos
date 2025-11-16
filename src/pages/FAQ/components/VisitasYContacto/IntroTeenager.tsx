@@ -1,6 +1,6 @@
 export default function IntroTeenager() {
     return (
-        <div>
+        <div className="text-justify">
             <div>
                 <ul>
                     <li>En cada centro existen días de comunicación telefónica y días de visitas. </li>

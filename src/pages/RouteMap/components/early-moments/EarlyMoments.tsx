@@ -11,7 +11,7 @@ export interface EarlyMomentsProps extends DefinitionProps { };
 export default function EarlyMoments() {
   return (
     <div className="h-100">
-      <div className="fp-early-moments">
+      <div className="fp-early-moments text-justify">
         <div className="common-layout-margin mt-4">
           <div className="mt-2">
             <p>La detención puede ocurrir en flagrancia o mediante citación ante Fiscalía.</p>
