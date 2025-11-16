@@ -137,14 +137,17 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         text: (<>
           <div className="common-layout-margin">
             <div>
-              <p style={{"color": "red"}}>FALTA UN LINK ABAJO</p>
-              <p>La tuberculosis es una de las enfermedades qué más afecta a las personas privadas de libertad.. Esto se debe a las condiciones de vida dentro de las celdas y las Unidades, siendo el hacinamiento una de las características más comunes para la propagación de la misma.<br/>La superpoblación a su vez, hace que los controles en salud sean escasos, por eso es importante que pidas información acerca de los controles de salud de tu familiar. </p>
+              <p>La tuberculosis es una de las enfermedades qué más afecta a las personas privadas de libertad.. Esto se debe a las condiciones de vida dentro de las celdas y las Unidades, siendo el hacinamiento una de las características más comunes para la propagación de la misma.<br />La superpoblación a su vez, hace que los controles en salud sean escasos, por eso es importante que pidas información acerca de los controles de salud de tu familiar. </p>
               <p>Debes saber que se transmite por vía aérea, cuando una persona que tiene la enfermedad tose, libera bacterias que pueden ser inhaladas por quienes comparten el espacio, por eso los lugares cerrados son propicios para que se expanda.</p>
-              <p>No se transmite por contacto con ropa personal, cama o uso de platos, cubiertos u objetos personales de la persona enferma.<br/>Tampoco se transmite en las relaciones sexuales, ni en las trasnfusiones de sangre, de todas formas hay otras enfermedades que si, por lo que siempre debes de usar protección. </p>
+              <p>No se transmite por contacto con ropa personal, cama o uso de platos, cubiertos u objetos personales de la persona enferma.<br />Tampoco se transmite en las relaciones sexuales, ni en las trasnfusiones de sangre, de todas formas hay otras enfermedades que si, por lo que siempre debes de usar protección. </p>
               <p>Tenes que saber que si se puede compartir Mate.</p>
               <p>Es importante conocer los síntomas, saber cómo se previene y qué hacer frente a la situación.</p>
-              <p>Pincha aqui para saber más:</p>
-              <p style={{"color": "red"}}>FALTA UN LINK ACA</p>
+              <p>
+                Pincha aqui para saber más:
+                <a href="https://familiaspresentes.uy/guia-docs/Comisión Honoraria para la Lucha Antituberculosa y Enfermedades Prevalentes.pdf" target="_blank">
+                  &nbsp;Comisión Honoraria para la Lucha Antituberculosa y Enfermedades Prevalentes
+                </a>
+              </p>
               <p></p>
             </div>
           </div>
