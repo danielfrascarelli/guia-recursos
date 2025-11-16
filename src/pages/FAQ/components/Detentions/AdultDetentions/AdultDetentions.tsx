@@ -37,7 +37,11 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
                 </li>
               </ul>
               <ul>
-                <li>Si tu familiar está en un lugar del Interior del País, debes acudir a la Defensoría del Pueblo.</li>
+                <li>Si tu familiar está en un lugar del Interior del País, debes de tener clara esta información:
+                  <a href="https://www.poderjudicial.gub.uy/contenido/item/1434-defensorias-publicas.html" target="_blank">
+                    &nbsp;pincha aquí para acceder al contacto con la Defensoría
+                  </a>
+                  .</li>
               </ul>
             </div>
             <div className="mt-3">
@@ -54,11 +58,7 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
             </div>
             <div className="common-layout-margin mt-3">
               <ul>
-                <li>En el interior del país tenes que dirigirte directamente a la
-                  <a href="https://www.poderjudicial.gub.uy/contenido/item/1434-defensorias-publicas.html" target="_blank">
-                    &nbsp;Defensoría Pública&nbsp;
-                  </a>
-                  del departamento para tomar contacto con el/la abogado/a defensor/a.</li>
+                <li>En el interior del país tenes que dirigirte directamente a la Defensoría Pública del departamento para tomar contacto con el/la abogado/a defensor/a.</li>
                 <li>En el interior, el abogado acompaña a la persona durante todo el proceso, desde la detención hasta su salida.</li>
                 <li>En Montevideo y Canelones, cuando la persona tiene una pena efectiva, es asistida por un/a abogado/a de ejecución penal.  (aca Acceso a la lista, que se encuentra por orden alfabético y corresponde por apellido)</li>
               </ul>
