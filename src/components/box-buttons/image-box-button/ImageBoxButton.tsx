@@ -25,7 +25,7 @@ export default function ImageBoxButton({
         )}
 
           
-          <div className="d-flex flex-row justify-content-center image-box-button__content flex-grow-1 mb-0">
+          <div className="d-flex flex-row image-box-button__content flex-grow-1 mb-0">
             {label}
           </div>
         </div>

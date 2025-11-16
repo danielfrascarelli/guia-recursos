@@ -12,10 +12,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         title: "Tenes que saber que...",
         text: (<div>
           <div className="common-layout-margin">
-            <p>Para la solicitud de traslado por acercamiento familiar es necesario que presentes una constancia de domicilio, con un recibo de alguna factura (OSE, UTE, Antel).
-               {/* quizás está bueno poner los logos acá, chiquitos) */}
-               </p>
-
+            <p>Para la solicitud de traslado por acercamiento familiar es necesario que presentes una constancia de domicilio, con un recibo de alguna factura (OSE, UTE, Antel).</p>
             <ul>
               <li>Luego de qué se cumplen los primeros 90 días de encarcelamiento en una Unidad, la persona detenida puede pedir el traslado, un familiar referente afectivo en caso de considerarlo también puede hacerlo.</li>
               <li>Cuando se solicitan Traslados de Unidad, el trámite puede demorar hasta 150 días desde el inicio de la solicitud, esto en el ideal no debería de superar los 90 días totales.</li>
