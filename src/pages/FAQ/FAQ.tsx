@@ -4,7 +4,7 @@ import styles from "./FAQ.module.scss";
 import "./faq.scss";
 import TitleBar from "../../components/title-bar/TitleBar";
 import type { DefinitionProps } from "../../components/DefinitionProps";
-import { getRelativeTypeName, RelativeType } from "../../shared/utils/RelativeType";
+import { RelativeType } from "../../shared/utils/RelativeType";
 import { getContentDefinition } from "./ContentDefinition";
 import type { TextListItem } from "../../shared/utils/Item";
 import { ImageListOptions } from "../../components/list-options/image-list-options/ImageListOptions";
