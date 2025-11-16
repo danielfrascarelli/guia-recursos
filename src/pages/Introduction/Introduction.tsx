@@ -17,7 +17,7 @@ export default function Introduction() {
           </div>
         </div>
         <div>
-          <div className="mt-4">
+          <div className="mt-4 common-layout-margin-only-desktop">
             <WomanBoxButton className="fp-introduction-woman-card">
               <p className="fp-introduction-woman-card-content text-justify">
                 <a href="https://www.oas.org/es/cidh/informes/pdfs/2025/resolucion_ppl-es.pdf" target="_blank">

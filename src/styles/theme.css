@@ -30,6 +30,11 @@
   --fp-topbar-2-h: 64px; /* franja con título */
   --fp-cta-h: 56px; /* alto del botón pill */
   --fp-cta-gap: 16px; /* separación del borde inferior */
+
+  --fp-margin-large-desktop: 350px;
+  --fp-margin-desktop: 200px;
+  --fp-margin-tablet: 125px;
+  --fp-margin-mobile: 50px;
 }
 
 html,

@@ -10,12 +10,9 @@ export default function Tips() {
   return (
     <div className="h-100 text-justify">
       <div className="fp-tips__container text-justify">
-        <div className="text-justify mt-4">
+        <div className="text-justify mt-4 common-layout-margin-only-desktop">
           <IconBoxCard
             bgColor="transparent"
-            borderWidth={3}
-            offsetX={7} offsetY={7}
-            overhangX={7} overhangY={7}
             imgSrc={circleCheck}
           >
             <p>
@@ -28,7 +25,7 @@ export default function Tips() {
           </IconBoxCard>
         </div>
 
-        <div className="text-justify mt-1">
+        <div className="text-justify mt-1 common-layout-margin-only-desktop">
           <IconBoxCard
             borderColor="transparent"
             bgColor="#47b2eb4f"
@@ -48,7 +45,7 @@ export default function Tips() {
           </IconBoxCard>
         </div>
 
-        <div className="text-justify mt-1">
+        <div className="text-justify mt-1 common-layout-margin-only-desktop">
           <IconBoxCard
             bgColor="transparent"
             borderWidth={3}
@@ -65,7 +62,7 @@ export default function Tips() {
           </IconBoxCard>
         </div>        
 
-        <div className="text-justify mt-1">
+        <div className="text-justify mt-1 common-layout-margin-only-desktop">
           <IconBoxCard
             bgColor="transparent"
             borderWidth={3}
@@ -81,7 +78,7 @@ export default function Tips() {
 
       </div>
 
-      <div className="text-justify mt-1">
+      <div className="text-justify mt-1 common-layout-margin-only-desktop">
         <IconBoxCard
           bgColor="transparent"
           borderWidth={3}
@@ -95,7 +92,7 @@ export default function Tips() {
         </IconBoxCard>
       </div>
 
-      <div className="text-justify mt-1">
+      <div className="text-justify mt-1 common-layout-margin-only-desktop">
         <IconBoxCard
           bgColor="transparent"
           borderWidth={3}
@@ -109,7 +106,7 @@ export default function Tips() {
         </IconBoxCard>
       </div>
 
-      <div className="text-justify mt-1">
+      <div className="text-justify mt-1 common-layout-margin-only-desktop">
         <IconBoxCard
           bgColor="transparent"
           borderWidth={3}
@@ -123,7 +120,7 @@ export default function Tips() {
         </IconBoxCard>
       </div>
 
-      <div className="text-justify mt-1">
+      <div className="text-justify mt-1 common-layout-margin-only-desktop">
         <IconBoxCard
           bgColor="#efcfb273"
           borderWidth={3}
@@ -135,7 +132,7 @@ export default function Tips() {
         </IconBoxCard>
       </div>
 
-      <div className="text-justify mt-4">
+      <div className="text-justify mt-4 common-layout-margin-only-desktop">
         <IconBoxCard
           bgColor="#47b2eb4f"
           borderWidth={3}
@@ -148,8 +145,8 @@ export default function Tips() {
           </p>
         </IconBoxCard>
       </div>
-      <div className="mt-4">
-        <div className="text-justify common-layout-margin">
+      <div className="mt-4 common-layout-margin">
+        <div className="text-justify">
           <strong>
             <p>
               Atención a las familias:
@@ -173,7 +170,7 @@ export default function Tips() {
         </div>
       </div>
 
-      <div className="mt-4 mb-3 mt-3">
+      <div className="mt-4 mb-3 mt-3 common-layout-margin-only-desktop">
         <IconBoxCard
           bgColor="#efcfb273"
           borderWidth={3}
@@ -185,7 +182,7 @@ export default function Tips() {
         </IconBoxCard>
       </div>
 
-      <div className="mt-4">
+      <div className="mt-4 common-layout-margin-only-desktop">
         <FlatOffsetCard
           borderColor="#e9a15f"
           bgColor="#efcfb273"
@@ -193,10 +190,8 @@ export default function Tips() {
           offsetX={7} offsetY={7}
           overhangX={7} overhangY={7}
         >
-          <div className="common-layout-margin text-justify">
-            <p className="mb-3 mt-3">
+          <div className="text-justify mx-4 px-4 common-layout-margin-only-not-desktop">
               El encarcelamiento estigmatiza a las familias, empobrece y genera nuevas vulnerabilidades.
-            </p>
           </div>
         </FlatOffsetCard>
       </div>

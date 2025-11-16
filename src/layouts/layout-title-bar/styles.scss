@@ -1,3 +1,5 @@
+@use "../../styles/variables";
+
 .fp-layout-topbar-2-container {
   background-color: red;
   background: var(--brand-green-live);
@@ -22,5 +24,28 @@
     padding-bottom: 7px;
     margin-bottom: -10px;
     padding-top: 20px;
+  }
+
+  .fp-layout-topbar-2 {
+    padding-left: var(--fp-margin-large-desktop);
+    padding-right: var(--fp-margin-large-desktop);
+  }
+  @media (max-width: variables.$fp-desktop-breakpoint-max) {
+    .fp-layout-topbar-2 {
+      padding-left: var(--fp-margin-desktop);
+      padding-right: var(--fp-margin-desktop);
+    }
+  }
+  @media (max-width: variables.$fp-tablet-breakpoint-max) {
+    .fp-layout-topbar-2 {
+      padding-left: var(--fp-margin-tablet);
+      padding-right: var(--fp-margin-tablet);
+    }
+  }
+  @media (max-width: variables.$fp-mobile-breakpoint-max) {
+    .fp-layout-topbar-2 {
+      padding-left: var(--fp-margin-mobile);
+      padding-right: var(--fp-margin-mobile);
+    }
   }
 }

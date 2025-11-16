@@ -25,7 +25,7 @@ export default function FamilyRole() {
             <strong>Sostenemos</strong> porque sabemos que la vida continua afuera, porque la vida continúa luego, porque la vida para ser transformada necesita de esperanza y dignidad.
           </p>
         </div>
-        <div className="mt-4 mb-4 fp-tips float-clean">
+        <div className="mt-4 mb-4 fp-tips float-clean common-layout-margin-only-desktop">
           <FlatOffsetCard
             borderColor="#e9a15f"
             bgColor="#efcfb273"
@@ -33,7 +33,7 @@ export default function FamilyRole() {
             offsetX={7} offsetY={7}
             overhangX={7} overhangY={7}
           >
-            <div className="common-layout-margin">
+            <div className="common-layout-margin-only-not-desktop py-4 px-4">
               <img src={child} className="child-image" alt="child logo" />
               <p className="text-justify">
                 Tenes que saber que si tu familiar detenido tiene infancias o adolescencias (NNA) a su cargo,
@@ -47,7 +47,7 @@ export default function FamilyRole() {
             </div>
           </FlatOffsetCard>
         </div>
-        <div className="mt-4 mb-4 fp-tips float-clean">
+        <div className="mt-4 mb-4 fp-tips common-layout-margin-only-desktop">
           <WomanBoxButton className="family-role-woman-card">
             <p className="text-justify">
               <a href="https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf" target="_blank">
@@ -60,7 +60,7 @@ export default function FamilyRole() {
         {/* <div className="mx-2 p-0 mt-4 text-font-size lh-base">
           <FpModal title="Si queres saber más acerca de Los principios de Bogota, pincha acá" onClick={() => { window.open('https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf', '_blank', 'noopener,noreferrer'); }} />
         </div> */}
-        <div className="mt-4 mb-4 fp-tips float-clean">
+        <div className="mt-4 mb-4 fp-tips common-layout-margin-only-desktop">
           <IconBoxCard
             borderColor="#e9a15f"
             bgColor="#efcfb273"
@@ -68,7 +68,7 @@ export default function FamilyRole() {
             offsetX={7} offsetY={7}
             overhangX={7} overhangY={7}
           >
-            <p className="text-justify">
+            <p className="text-justify mx-4 my-4">
               Si tu familiar es mujer, está detenida y/ o cursando un embarazo, o tiene hijos/as pequeños a su cuidado, tiene derecho a ser trasladada a una Unidad para mujeres con Niños/as, donde pueden ingresar y permanecer con ellos/as hasta que cumplan los 3 años de edad.  
               También se tramita la asistencia a Centro infantil o CAIF. 
             </p>

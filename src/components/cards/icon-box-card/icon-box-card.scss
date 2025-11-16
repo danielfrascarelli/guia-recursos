@@ -1,3 +1,5 @@
+@use "../../../styles/variables";
+
 .box-card {
   display: flex;
   position: relative;
@@ -19,5 +21,22 @@
     color: #182b66;
     font-size: clamp(16px, 2.1vw, 28px);
     line-height: 1.35;
+  }
+
+  .margin-box-card {
+    margin-left: var(--fp-margin-mobile);
+    margin-right: var(--fp-margin-mobile);
+  } 
+  @media (max-width: variables.$fp-tablet-breakpoint-max) {
+    .margin-box-card {
+      margin-left: var(--fp-margin-tablet);
+      margin-right: var(--fp-margin-tablet);
+    }
+  }
+  @media (max-width: variables.$fp-mobile-breakpoint-max) {
+    .margin-box-card {
+      margin-left: var(--fp-margin-mobile);
+      margin-right: var(--fp-margin-mobile);
+    }
   }
 }

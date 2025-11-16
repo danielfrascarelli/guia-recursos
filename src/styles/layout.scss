@@ -1,3 +1,5 @@
+@use "./variables";
+
 /* Asegurá el alto de pantalla y contexto de posicionamiento */
 .step-layout {
   min-height: 100dvh; /* fallback */
@@ -6,24 +8,15 @@
 
   position: relative;
 
-  // background-color: #ff00002e;
-
-  /* Header “Volver / Título” pegado arriba */
   .fp-intro-sticky {
     position: sticky;
     top: 0;
     z-index: 900;
-    // background: var(--brand-green-live);
     background: var(--brand-green-live);
   }
 
   .fp-intro-content {
     height: calc(100% - 64px - 44px);
-
-    // @media (max-width: 767.98px) {
-    //   padding-left: 20px;
-    //   padding-right: 20px;
-    // }
   }
 
   /* Cuando HAY CTA, reservamos espacio al final para que no lo tape */
@@ -33,9 +26,61 @@
 }
 
 .common-layout-margin {
-  margin-left: 40px;
-  margin-right: 40px;
+  margin-left: var(--fp-margin-large-desktop);
+  margin-right: var(--fp-margin-large-desktop);
 }
+@media (max-width: variables.$fp-desktop-breakpoint-max) {
+  .common-layout-margin {
+    margin-left: var(--fp-margin-desktop);
+    margin-right: var(--fp-margin-desktop);
+  }
+}
+@media (max-width: variables.$fp-tablet-breakpoint-max) {
+  .common-layout-margin {
+    margin-left: var(--fp-margin-tablet);
+    margin-right: var(--fp-margin-tablet);
+  }
+}
+@media (max-width: variables.$fp-mobile-breakpoint-max) {
+  .common-layout-margin {
+    margin-left: var(--fp-margin-mobile);
+    margin-right: var(--fp-margin-mobile);
+  }
+}
+.common-layout-margin-only-desktop {
+  margin-left: var(--fp-margin-large-desktop);
+  margin-right: var(--fp-margin-large-desktop);
+}
+
+@media (max-width: variables.$fp-desktop-breakpoint-max) {
+  .common-layout-margin-only-desktop {
+    margin-left: var(--fp-margin-desktop);
+    margin-right: var(--fp-margin-desktop);
+  }
+}
+@media (max-width: variables.$fp-tablet-breakpoint-max) {
+  .common-layout-margin-only-desktop {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+.common-layout-margin-only-not-desktop {
+  margin-left: 0px;
+  margin-right: 0px;
+}
+@media (max-width: variables.$fp-tablet-breakpoint-max) {
+  .common-layout-margin-only-not-desktop {
+    margin-left: var(--fp-margin-tablet);
+    margin-right: var(--fp-margin-tablet);
+  }
+}
+@media (max-width: variables.$fp-mobile-breakpoint-max) {
+  .common-layout-margin-only-not-desktop {
+    margin-left: var(--fp-margin-mobile);
+    margin-right: var(--fp-margin-mobile);
+  }
+}
+
 .text-justify {
   text-align: justify;
 }
