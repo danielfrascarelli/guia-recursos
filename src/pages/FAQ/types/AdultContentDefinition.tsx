@@ -62,6 +62,18 @@ export function getAdultContentDefinition(): ContentDefinition[] {
     {
       id: "5",
       variant: "pretty_white",
+      url: "sanciones",
+      imageUrl: salud,
+      icon: <HeartIcon />,
+      componentType: "SancionComponent",
+      props: {
+        title: "Qué esperar que suceda durante una sanción",
+        type: RelativeType.Adult
+      },
+    },
+    {
+      id: "5",
+      variant: "pretty_white",
       url: "acceso-a-derechos",
       imageUrl: acceso,
       icon: <KeyIcon />,
