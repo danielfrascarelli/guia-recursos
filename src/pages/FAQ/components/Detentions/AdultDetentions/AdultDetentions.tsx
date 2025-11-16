@@ -59,8 +59,8 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
             <div className="common-layout-margin mt-3">
               <ul>
                 <li>En el interior del país tenes que dirigirte directamente a la Defensoría Pública del departamento para tomar contacto con el/la abogado/a defensor/a.</li>
-                <li>En el interior, el abogado acompaña a la persona durante todo el proceso, desde la detención hasta su salida.</li>
-                <li>En Montevideo y Canelones, cuando la persona tiene una pena efectiva, es asistida por un/a abogado/a de ejecución penal.  (aca Acceso a la lista, que se encuentra por orden alfabético y corresponde por apellido)</li>
+                <li>Los abogados/as deben acompañar a la persona durante el proceso, desde la detención hasta su salida. Si hay un defensor/a especializado en ejecución penal y la persona tiene pena efectiva, él asumirá el acompañamiento. De no existir especialistas en el departamento, lo hará otro abogado defensor.</li>
+                <li>Tenes que saber que en algunos lugares del País, como es el caso de Paysandú, Rivera, Libertad, Canelones y Montevideo existe la posibilidad de contar con la asistencia de Abogados/ as defensores especializados en ejecución penal, la persona en este caso debe de tener una pena efectiva.</li>
               </ul>
             </div>
             <div className="mt-3">
