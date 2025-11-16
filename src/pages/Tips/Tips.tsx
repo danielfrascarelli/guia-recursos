@@ -135,7 +135,7 @@ export default function Tips() {
         </IconBoxCard>
       </div>
 
-      <div className="text-justify mt-5">
+      <div className="text-justify mt-4">
         <IconBoxCard
           bgColor="#47b2eb4f"
           borderWidth={3}
@@ -143,11 +143,11 @@ export default function Tips() {
           overhangX={7} overhangY={7}
           imgSrc={pencil}
         >
-          <strong>Ser familiar es: </strong>"Cualquier persona que mantenga un lazo de parentezco que la haga relativa de la persona privada de libertad, ya sea consanguíneo, legal, por afinidad o por elección incluyendo quien posea un vínculo afectivo derivado de un trato frecuente y de confianza, sin límites temporales y ninguna forma de discriminación."
-          <div>(CIDH, 2025, p.5)</div>
+          <p className="mt-3">
+            Desde Familias Presentes consideramos que ser familiar es, ser una persona que elige acompañar a una persona detenida, puede o no tener un vínculo de parentesco, ya sea por mantener un lazo sanguíneo, por relación legal o por afinidad. También incluimos a quienes mantienen una relación afectiva basada en la convivencia, la confianza o el trato continuo, sin restricciones de tiempo ni ningún tipo de discriminación. (CIDH, 2025)
+          </p>
         </IconBoxCard>
       </div>
-
       <div className="mt-4">
         <div className="text-justify common-layout-margin">
           <strong>
