@@ -37,6 +37,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <li>Para realizar la solicitud es importante qué la persona no tenga sanciones.</li>
               <li>"No gastar pólvora en chimangos" después qué se pide un traslado hay un plazo de 90 días para pedir otro. Salvo en situaciones de riesgo de la integridad física. Por ese motivo es recomendable poder evaluar con tu familiar si es conveniente hacer el mismo.</li>
               <li>Dependiendo del riesgo de reincidencia la Junta Nacional de Traslados toma la decisión del lugar al cual será trasladada la persona.</li>
+              <li>La Junta Nacional de Traslados toma la decisión del lugar al cual será trasladada la persona.</li>
             </ul>
           </div>
         </div>)
@@ -48,17 +49,10 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       url: "2",
       componentType: "TextComponent",
       props: {
-        title: "¿Cómo se mide el riesgo de Reincidencia?",
+        title: "¿Cómo se mide el riesgo de volver a cometer un delito?",
         text: (<div>
           <div className="common-layout-margin">
-            <p>Mediante el OASys que es una evaluación qué se aplica a las personas detenidas para “medir” el riesgo de reincidencia. Dependiendo si el mismo es Medio-Alto-Bajo será a la unidad qué es trasladado. </p>
-
-            <div className="pt-1">
-              <ul>
-                <li>La decisión más importante para esto es de la persona detenida.                </li>
-                <li>En situaciones de traslados no se informa previamente por cuestiones de seguridad.                </li>
-              </ul>
-            </div>
+            <p>Mediante el Programa OASys, el cual es una Evaluación de la Junta, qué se aplica a las personas detenidas cuando se encuentran ya dentro del sistema penitenciario. Este Programa fue creado con el fin de establecer una categoría asociada a la designación de la Unidad y/o el Traslado de la persona.</p>
           </div>
           <div className="mt-3">
             <IconBoxCard
@@ -70,6 +64,14 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <div>Cuando una persona es trasladada a otra unidad por ejemplo por problemas de conducta debe esperar 180 días para volver a solicitar el traslado. </div>
               </div>
             </IconBoxCard>
+          </div>
+          <div className="common-layout-margin">
+            <p>Recordá que la decisión del traslado es de la persona detenida.</p>
+            <div className="pt-1">
+              <ul>
+                <li>En situaciones de traslados no se informa previamente por cuestiones de seguridad.</li>
+              </ul>
+            </div>
           </div>
         </div>)
       },
