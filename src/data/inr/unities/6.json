@@ -152,6 +152,7 @@
     "restrictionsUrl": "#"
   },
   "visiting": {
-    "visitingHours": "Las visitas se realizan los días miércoles, sábados y domingos, en el horario de 08 a 17 hs, mientras que el registro de visitantes se lleva a cabo los lunes, martes, jueves y viernes, de 08 a 16 hs."
+    "visitingHours": "Las visitas se realizan los días miércoles, sábados y domingos, en el horario de 08 a 17 hs, mientras que el registro de visitantes se lleva a cabo los lunes, martes, jueves y viernes, de 08:00 a 16 hs.",
+    "restrictionsDressCodeUrl": "#"
   }
 }

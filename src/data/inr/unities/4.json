@@ -1,91 +1,90 @@
 {
-    "shortName": "Unidad 4",
-    "longName": "Unidad 4 - Santiago Vázquez, Montevideo",
-    "department": "Montevideo",
-    "city": null,
-    "neighborhood": null,
-    "address": {
-        "text": "Camino Basilio Muñoz s/n esquina Camino Las Flores, Santiago Vázquez",
-        "url": "https://maps.google.com/?q=Camino+Basilio+Mu%C3%B1oz+s%2Fn+esquina+Camino+Las+Flores%2C+Santiago+V%C3%A1zquez%2C"
+  "shortName": "Unidad 4",
+  "longName": "Unidad 4 - Santiago Vázquez, Montevideo",
+  "department": "Montevideo",
+  "city": null,
+  "neighborhood": null,
+  "address": {
+    "text": "Camino Basilio Muñoz s/n esquina Camino Las Flores, Santiago Vázquez",
+    "url": "https://maps.google.com/?q=Camino+Basilio+Mu%C3%B1oz+s%2Fn+esquina+Camino+Las+Flores%2C+Santiago+V%C3%A1zquez%2C"
+  },
+  "phone": [
+    {
+      "area": "Subdirección Administrativa",
+      "phones": ["2030 9758"]
     },
-    "phone": [
-        {
-            "area": "",
-            "phones": [
-                "2030-9700"
-            ]
-        },
-        {
-            "area": "Jefatura de Servicio",
-            "phones": [
-                "2030 9731"
-            ]
-        },
-        {
-            "area": "Subdirección Operativa",
-            "phones": [
-                "2030 9737"
-            ]
-        },
-        {
-            "area": "Área Jurídica",
-            "phones": [
-                "2030 9727"
-            ]
-        },
-        {
-            "area": "Secretaría",
-            "phones": [
-                "2312 0313"
-            ]
-        },
-        {
-            "area": "",
-            "phones": [
-                "2312 0068"
-            ]
-        },
-        {
-            "area": "Jefatura de Reclusión",
-            "phones": [
-                "2030 9736"
-            ]
-        }
-    ],
-    "email": [
-        {
-            "area": "Subdirección administrativa",
-            "emails": [
-                "inr-u-9.secretaria@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección operativa",
-            "emails": [
-                "inr-u-9.operativa@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección técnica",
-            "emails": [
-                "inr-u-9.tecnica@minterior.gub.uy"
-            ]
-        }
-    ],
-    "web": null,
-    "openingHours": null,
-    "packages": {
-        "deliveryHours": "dentro del horario de visita.",
-        "restrictionsUrl": "#"
+    {
+      "area": "Subdirección Operativa",
+      "phones": ["2030 9737"]
     },
-    "visiting": {
-        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
-        "restrictionsDressCodeUrl": "#",
-        "restrictionsText": [
-            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-            "Recibe un máximo de 4 visitantes, incluidos menores.",
-            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-        ]
+    {
+      "area": "Subdirección Técnica",
+      "phones": ["2312 0334"]
+    },
+    {
+      "area": "Secretaría",
+      "phones": ["2030 9711"]
+    },
+    {
+      "area": "Área Jurídica",
+      "phones": ["2030 9727"]
+    },
+    {
+      "area": "Atención a Familiares",
+      "phones": ["2030 9761"]
+    },
+    {
+      "area": "Jefatura de Servicio",
+      "phones": ["2030 9731"]
+    },
+    {
+      "area": "Revisoria",
+      "phones": ["2030 9703"]
     }
+  ],
+  "email": [
+    {
+      "area": "Subdirección administrativa",
+      "emails": ["inr-u4.subdir@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Operativa",
+      "emails": ["inr-u4-coordoperativa@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Técnica",
+      "emails": ["inr-u4.coordinacion.tecnica@minterior.gub.uy"]
+    },
+    {
+      "area": "Secretaría",
+      "emails": ["inr-u4.secretaria@minterior.gub.uy"]
+    },
+    {
+      "area": "Área Jurídica",
+      "emails": ["inr-u4.juridica@minterior.gub.uy"]
+    },
+    {
+      "area": "Atención a Familiares",
+      "emails": ["inr-pplatencionalfamiliar@minterior.gub.uy"]
+    },
+    {
+      "area": "Jefatura de Servicio",
+      "emails": ["inr-u4-jefserv@minterior.gub.uy"]
+    },
+    {
+      "area": "Jefatura de Servicio",
+      "emails": ["inr-u4.revisoria@minterior.gub.uy"]
+    }
+  ],
+  "web": null,
+  "openingHours": null,
+  "packages": {
+    "deliveryHours": "dentro del horario de visita.",
+    "restrictionsUrl": "#"
+  },
+  "visiting": {
+    "visitingHours": "Martes, Jueves, Sábado y Domingo de 07:30 a 15:30 hs. Horario de ingreso 09 a 13:30 hs. Horario de egreso 16 hs. Registro de visita por primera vez: Lunes, Miércoles y viernes horario 09 a 15 hs.(llevar cédula y constancia de domicilio emitidad por seccional).Perosnas que vivan en el interior: podrán ser registrados los mismos días e incluso los dias de visita. Deberán presentar lis mismos requisitos.",
+    "visitingRestrictions": "Si la visita posee sancion y se encuentra vigente.",
+    "visitingRestrictionsConjugal": "Si la PPL no posee la autorizacion con la persona que pretende usufructuar el beneficio"
+  }
 }
