@@ -1,73 +1,77 @@
 {
-    "shortName": "Unidad 11",
-    "longName": "Unidad 11 - Cañitas, Río Negro",
-    "department": "Río Negro",
-    "city": null,
-    "neighborhood": null,
-    "address": {
-        "text": "Ruta 2 - Ramal 10 Km 302.500, Cañitas, Río Negro",
-        "url": "https://maps.google.com/?q=Ruta+2+-+Ramal+10+Km+302.500%2C+Ca%C3%B1itas%2C+R%C3%ADo+Negro"
+  "shortName": "Unidad 11",
+  "longName": "Unidad 11 - Cañitas, Río Negro",
+  "department": "Río Negro",
+  "city": null,
+  "neighborhood": null,
+  "address": {
+    "text": "Ruta 2 - Ramal 10 Km 302.500, Cañitas, Río Negro",
+    "url": "https://maps.google.com/?q=Ruta+2+-+Ramal+10+Km+302.500%2C+Ca%C3%B1itas%2C+R%C3%ADo+Negro"
+  },
+  "phone": [
+    {
+      "area": "Subdirección Administrativa",
+      "phones": ["20309632"]
     },
-    "phone": [
-        {
-            "area": "Dirección",
-            "phones": [
-                "2030 9633"
-            ]
-        },
-        {
-            "area": "Subdirección Administrativa",
-            "phones": [
-                "2030 9632"
-            ]
-        },
-        {
-            "area": "Atención a Familias",
-            "phones": [
-                "2030 9634"
-            ]
-        },
-        {
-            "area": "Subdirección Técnica",
-            "phones": [
-                "099718852"
-            ]
-        }
-    ],
-    "email": [
-        {
-            "area": "Subdirección administrativa",
-            "emails": [
-                "inr-u-9.secretaria@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección operativa",
-            "emails": [
-                "inr-u-9.operativa@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección técnica",
-            "emails": [
-                "inr-u-9.tecnica@minterior.gub.uy"
-            ]
-        }
-    ],
-    "web": null,
-    "openingHours": null,
-    "packages": {
-        "deliveryHours": "dentro del horario de visita.",
-        "restrictionsUrl": "#"
+    {
+      "area": "Subdirección Operativa",
+      "phones": ["20309631"]
     },
-    "visiting": {
-        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
-        "restrictionsDressCodeUrl": "#",
-        "restrictionsText": [
-            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-            "Recibe un máximo de 4 visitantes, incluidos menores.",
-            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-        ]
+    {
+      "area": "Subdirección Técnica",
+      "phones": ["20309634"]
+    },
+    {
+      "area": "Secretaría",
+      "phones": ["20309633"]
+    },
+    {
+      "area": "Área Jurídica",
+      "phones": ["20309629"]
+    },
+    {
+      "area": "Atención a Familiares",
+      "phones": ["20309634"]
+    },
+    {
+      "area": "Guardia / Seguridad",
+      "phones": ["20309630", "45622044"]
     }
+  ],
+  "email": [
+    {
+      "area": "Subdirección Administrativa",
+      "emails": ["inr-u11.subdir@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Operativa",
+      "emails": ["inr-u11.subdiroperativa@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Técnica",
+      "emails": ["inr-u11.subdirtecnica@minterior.gub.uy"]
+    },
+    {
+      "area": "Secretaría",
+      "emails": ["inr-u11.secretaria@minterior.gub.uy"]
+    },
+    {
+      "area": "Área Jurídica",
+      "emails": ["inr-u11.juridica@minterior.gub.uy"]
+    },
+    {
+      "area": "Guardia / Seguridad",
+      "emails": ["inr-u11-jefserv@minterior.gub.uy"]
+    }
+  ],
+  "web": null,
+  "openingHours": null,
+  "packages": {
+    "deliveryHours": "09 a 13 hs.",
+    "restrictionsUrl": "#"
+  },
+  "visiting": {
+    "visitingHours": "Sábados y domingos de 08 a 16 hs.,  Miércoles preventivas.",
+    "visitingHoursConjugal": "En horario de visita."
+  }
 }

@@ -1,79 +1,71 @@
 {
-    "shortName": "Unidad 14",
-    "longName": "Unidad 14 - Piedra de los Indios, Colonia",
-    "department": "Colonia",
-    "city": null,
-    "neighborhood": null,
-    "address": {
-        "text": "Piedras de los Indios, Colonia",
-        "url": "https://maps.google.com/?q=Piedras+de+los+Indios%2C+Colonia"
+  "shortName": "Unidad 14",
+  "longName": "Unidad 14 - Piedra de los Indios, Colonia",
+  "department": "Colonia",
+  "city": null,
+  "neighborhood": null,
+  "address": {
+    "text": "Piedras de los Indios, Colonia",
+    "url": "https://maps.google.com/?q=Piedras+de+los+Indios%2C+Colonia"
+  },
+  "phone": [
+    {
+      "area": "Dirección",
+      "phones": ["2030 9541"]
     },
-    "phone": [
-        {
-            "area": "Dirección",
-            "phones": [
-                "2030 9541"
-            ]
-        },
-        {
-            "area": "Área Jurídica",
-            "phones": [
-                "2030 9539"
-            ]
-        },
-        {
-            "area": "Guardia / Seguridad",
-            "phones": [
-                "2030 9540"
-            ]
-        },
-        {
-            "area": "sub dir tecnica",
-            "phones": [
-                "2030 9543"
-            ]
-        },
-        {
-            "area": "sub dir administrativa",
-            "phones": [
-                "2030 9545"
-            ]
-        }
-    ],
-    "email": [
-        {
-            "area": "Subdirección administrativa",
-            "emails": [
-                "inr-u-9.secretaria@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección operativa",
-            "emails": [
-                "inr-u-9.operativa@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección técnica",
-            "emails": [
-                "inr-u-9.tecnica@minterior.gub.uy"
-            ]
-        }
-    ],
-    "web": null,
-    "openingHours": null,
-    "packages": {
-        "deliveryHours": "dentro del horario de visita.",
-        "restrictionsUrl": "#"
+    {
+      "area": "Área Jurídica",
+      "phones": ["2030 9539"]
     },
-    "visiting": {
-        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
-        "restrictionsDressCodeUrl": "#",
-        "restrictionsText": [
-            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-            "Recibe un máximo de 4 visitantes, incluidos menores.",
-            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-        ]
+    {
+      "area": "Guardia / Seguridad",
+      "phones": ["2030 9544"]
+    },
+    {
+      "area": "Subdireccion Tecnica",
+      "phones": ["2030 9543"]
+    },
+    {
+      "area": "Subdireccion Admistrativa",
+      "phones": ["2030 9545"]
     }
+  ],
+  "email": [
+    {
+      "area": "Dirección",
+      "emails": ["inr-u14.direccion@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección operativa",
+      "emails": ["inr-u14.subdiroperativa@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdireccion Tecnica",
+      "emails": ["inr-u14-subdirtecnica@minterior.gub.uy"]
+    },
+    {
+      "area": "RRHH",
+      "emails": ["inr-u14.rrhh@minterior.gub.uy"]
+    },
+    {
+      "area": "Educativo",
+      "emails": ["inr-u14.educativo@minterior.gub.uy"]
+    },
+    {
+      "area": "Área Jurídica",
+      "emails": ["inr-u14.juridica@minterior.gub.uy"]
+    }
+  ],
+  "web": null,
+  "openingHours": null,
+  "packages": {
+    "deliveryHours": "Se entrega por correo uruguayo y deberan colocar en la caja, fotocopia del remitente, constancia de domicilio y nombre de la ppl. Los dias de entrega de paquetes de familiares o amigos en la unidad son los dias martes y viernes entre las 09 a 15 hs, debiendo concurrir con cedula de identidad para el correcto registro y nombre de la ppl destinaria, teniendo un listado de los articulos a entregar.",
+    "restrictionsUrl": "#"
+  },
+  "visiting": {
+    "visitingHours": "Pabellones 1,2,3,4,5,6 y Zona chacra: Sabado y Domingo comenzando a las 09 hasta las 12 y de 13 a 16 hs. Anexos de seguridad Jueves horarios 09 a 15 hs. Sector Preventiva Martes y Jueves 09 a 15 Días de registro de visita. Siendo de la ciudad de Colonia se deberá registrar de lunes a viernes en el horario de 09 a 16 hrs. Si el domicilio es fuera del Departamento o la ciudad de Colonia se podrá registrar el día de visita, concurriendo con constancia de domicilio, cédula de identidad vigente y en buen estado",
+    "visitingRestrictions": "a visita debe estar registrada antes del ingreso. Cada PPL puede recibir hasta cuatro visitantes. Los menores de edad solo ingresan acompañados por sus padres o por un adulto responsable con autorización, partida de nacimiento y documentación de tenencia. No podrán ingresar personas con impedimento judicial o que se encuentren sancionadas.",
+    "visitingHoursConjugal": "Los días de visita conyugal dependen del sector donde esté alojada la PPL. La persona debe completar una solicitud con los datos de su pareja. Para quienes tienen visita sábado o domingo, el registro debe entregarse hasta el jueves previo; para los demás sectores, hasta el lunes anterior. Las visitas conyugales se otorgan cada 15 días.",
+    "visitingRestrictionsConjugal": "La PPL no puede tener sanciones vigentes para acceder a la visita conyugal. Si su pareja fue excarcelada, deberá esperar 90 días para ingresar, previa solicitud de la PPL con sus datos y fotocopia de cédula, autorizándose cada 15 días. Además, la pareja solo podrá ingresar si está registrada previamente como visita en la categoría “pareja”."
+  }
 }
