@@ -17,6 +17,10 @@
 .main {
   padding: 16px 0px 28px;
   margin: auto;
+
+  nav {
+    gap: 55px;
+  }
 }
 
 .title {
@@ -29,5 +33,5 @@
 
 .list {
   display: grid;
-  gap: 14px;
+  gap: 50px;
 }

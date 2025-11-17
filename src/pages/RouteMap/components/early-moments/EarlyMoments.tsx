@@ -24,7 +24,7 @@ export default function EarlyMoments() {
             <strong><p>¿A dónde debes recurrir para saber donde está detenida la persona?</p></strong>
             <p>Si la persona se encuentra en la Seccional policial, el personal responsable de allí, debe de informarte que tu familiar se encuentra en el lugar, en caso de ser derivado/a ante Fiscalía, no es obligatorio que te brinden esta información.</p>
           </div> </div>
-        <div className="">
+        <div className="common-layout-margin-only-desktop">
           <div className="mt-2">
             <FlatOffsetCard
               borderColor="#e9a15f"
@@ -33,7 +33,7 @@ export default function EarlyMoments() {
               offsetX={7} offsetY={7}
               overhangX={7} overhangY={7}
             >
-              <div className="mt-2 mb-2 common-layout-margin">
+              <div className="mx-xl-4 my-3 common-layout-margin-only-not-desktop">
                 En cuanto a las pertenencias que posee tu familiar al momento de la detención, el personal policial debe labrar un acta u otorgar una copia a la persona detenida.
               </div>
             </FlatOffsetCard>
@@ -50,7 +50,7 @@ export default function EarlyMoments() {
             </p>
           </div>
         </div>
-        <div className="">
+        <div className="common-layout-margin-only-desktop">
           <IconBoxCard
             borderColor="#e9a15f"
             bgColor="#efcfb273"
@@ -64,7 +64,7 @@ export default function EarlyMoments() {
             </div>
           </IconBoxCard>
         </div>
-        <div className="mt-4">
+        <div className="mt-4 common-layout-margin-only-desktop">
           <IconBoxCard
             borderColor="transparent"
             bgColor="#47b2eb4f"
@@ -90,7 +90,7 @@ export default function EarlyMoments() {
           </div>
         </div>
         <div>
-          <div className="mt-4">
+          <div className="mt-4 common-layout-margin-only-desktop">
             <IconBoxCard
               borderColor="#e9a15f"
               bgColor="#efcfb273"
@@ -103,7 +103,7 @@ export default function EarlyMoments() {
               </div>
             </IconBoxCard>
           </div>
-          <div className="mt-4">
+          <div className="mt-4 common-layout-margin-only-desktop">
             <FlatOffsetCard
               borderColor="#e9a15f"
               bgColor="#efcfb273"
@@ -111,12 +111,12 @@ export default function EarlyMoments() {
               offsetX={7} offsetY={7}
               overhangX={7} overhangY={7}
             >
-              <div className="common-layout-margin mt-2 mb-2">
+              <div className="mx-xl-4 my-xl-2 common-layout-margin-only-not-desktop">
                 Las infancias y adolescencias atravesadas por los procesos de encarcelamiento sufren impactos en su vida cotidiana, generando distintas afectaciones en su desarrollo y bienestar.
               </div></FlatOffsetCard>
 
           </div>
-          <div className="mt-4">
+          <div className="my-4 common-layout-margin-only-desktop">
             <IconBoxCard
               borderColor="transparent"
               bgColor="#47b2eb4f"

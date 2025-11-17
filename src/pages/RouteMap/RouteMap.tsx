@@ -20,8 +20,8 @@ export default function RouteMap() {
         <BackButton />
         <TitleBar title={"Mapa de ruta"} />
       </div>
-      <main className={`${styles.main} mt-4`}>
-        <div className="d-block common-layout-margin-only-desktop">
+      <main className={`${styles.main} mt-8`}>
+        <div className="d-block common-layout-margin-only-desktop gap-3">
           <ImageListOptions items={items} />
         </div>
       </main>

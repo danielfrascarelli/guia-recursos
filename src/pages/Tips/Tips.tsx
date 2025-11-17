@@ -190,7 +190,7 @@ export default function Tips() {
           offsetX={7} offsetY={7}
           overhangX={7} overhangY={7}
         >
-          <div className="text-justify mx-4 px-4 common-layout-margin-only-not-desktop">
+          <div className="mx-xl-4 my-xl-2 common-layout-margin-only-not-desktop">
               El encarcelamiento estigmatiza a las familias, empobrece y genera nuevas vulnerabilidades.
           </div>
         </FlatOffsetCard>
