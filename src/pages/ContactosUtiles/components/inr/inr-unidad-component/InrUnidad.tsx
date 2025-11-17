@@ -126,7 +126,7 @@ export const InrUnidad: React.FC<InrUnidadProps> = ({
                 <div className='unit-section unit-section-h4'>
                   <div className='unit-content'>
                     <h4 className='section-title'>
-                      Restricciones en visita conyugales
+                      Restricciones en visita conyugal
                     </h4>
                     <p className='section-content'>
                       {data.visiting.visitingRestrictionsConjugal}

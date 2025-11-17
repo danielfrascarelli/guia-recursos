@@ -1,91 +1,84 @@
 {
-    "shortName": "Unidad 16",
-    "longName": "Unidad 16 - Paysandú",
-    "department": "Paysandú",
-    "city": null,
-    "neighborhood": null,
-    "address": {
-        "text": "Av. San Martín esquina Joaquín Suárez, Paysandú",
-        "url": "https://maps.google.com/?q=Av.+San+Mart%C3%ADn+esquina+Joaqu%C3%ADn+Su%C3%A1rez%2C+Paysand%C3%BA"
+  "shortName": "Unidad 16",
+  "longName": "Unidad 16 - Paysandú",
+  "department": "Paysandú",
+  "city": null,
+  "neighborhood": null,
+  "address": {
+    "text": "Av. San Martín esquina Joaquín Suárez, Paysandú",
+    "url": "https://maps.google.com/?q=Av.+San+Mart%C3%ADn+esquina+Joaqu%C3%ADn+Su%C3%A1rez%2C+Paysand%C3%BA"
+  },
+  "phone": [
+    {
+      "area": "Subdirección Administrativa",
+      "phones": ["092 420 624"]
     },
-    "phone": [
-        {
-            "area": "Subdirección Administrativa",
-            "phones": [
-                "092 420 624"
-            ]
-        },
-        {
-            "area": "Subdirección Operativa",
-            "phones": [
-                "230 9621"
-            ]
-        },
-        {
-            "area": "Subdirección Técnica",
-            "phones": [
-                "098 467 412"
-            ]
-        },
-        {
-            "area": "Secretaría",
-            "phones": [
-                "2030 9621"
-            ]
-        },
-        {
-            "area": "Área Jurídica",
-            "phones": [
-                "2030 9624"
-            ]
-        },
-        {
-            "area": "Atención a Familias",
-            "phones": [
-                "2030 9621"
-            ]
-        },
-        {
-            "area": "Guardia / Seguridad",
-            "phones": [
-                "472 25595"
-            ]
-        }
-    ],
-    "email": [
-        {
-            "area": "Subdirección administrativa",
-            "emails": [
-                "inr-u-9.secretaria@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección operativa",
-            "emails": [
-                "inr-u-9.operativa@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección técnica",
-            "emails": [
-                "inr-u-9.tecnica@minterior.gub.uy"
-            ]
-        }
-    ],
-    "web": null,
-    "openingHours": null,
-    "packages": {
-        "deliveryHours": "dentro del horario de visita.",
-        "restrictionsUrl": "#"
+    {
+      "area": "Subdirección Operativa",
+      "phones": ["230 9621"]
     },
-    "visiting": {
-        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
-        "restrictionsDressCodeUrl": "#",
-        "restrictionsText": [
-            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-            "Recibe un máximo de 4 visitantes, incluidos menores.",
-            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-        ]
+    {
+      "area": "Subdirección Técnica",
+      "phones": ["098 467 412"]
+    },
+    {
+      "area": "Secretaría",
+      "phones": ["2030 9621"]
+    },
+    {
+      "area": "Área Jurídica",
+      "phones": ["2030 9624"]
+    },
+    {
+      "area": "Atención a Familias",
+      "phones": ["2030 9621"]
+    },
+    {
+      "area": "Guardia / Seguridad",
+      "phones": ["472 25595"]
     }
+  ],
+  "email": [
+    {
+      "area": "Subdirección Administrativa",
+      "emails": ["inr-u16.subdir@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Operativa",
+      "emails": ["inr-u16.secretaria@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Técnica",
+      "emails": ["inr-u16.subdirtecnica@minterior.gub.uy"]
+    },
+    {
+      "area": "Secretaría",
+      "emails": ["inr-u16.secretaria@minterior.gub.uy"]
+    },
+    {
+      "area": "Área Jurídica",
+      "emails": ["inr-u16.juridica@minterior.gub.uy"]
+    },
+    {
+      "area": "Atención a Familiares",
+      "emails": ["inr-u16.secretaria@minterior.gub.uy"]
+    },
+    {
+      "area": "Guardia / Seguridad",
+      "emails": ["inr-u16.secretaria@minterior.gub.uy"]
+    }
+  ],
+  "web": null,
+  "openingHours": null,
+  "packages": {
+    "deliveryHours": "Días Lunes, Martes y Viernes en el horario de 08 a 10 hs. - Recepción de encomiendas los días de lunes a Viernes de 08 a 17 hs.",
+    "restrictionsUrl": "#"
+  },
+  "visiting": {
+    "visitingHours": "Visita general días Miércoles y Domingos en el horario de 09 a 17 hs. - Visita pabellones de ingreso días jueves en el horario de 10 a 12 hs. - Visita preventivas los días Jueves de 12 a 16 hs.",
+    "visitingRestrictions": "- Ex ppl que no hayan cumplido 1 año de haber sido liberado/a - Particulares con medidas cautelares a nivel judicial - Victimas y/o Denunciantes particularmente de delitos de naturaleza sexual y/o violencia doméstica. - Particulares sancionados o cuando las ppl se encuentran sancionados.",
+    "visitingHoursConjugal": "Los días de visita comprendidas en el horario de 09 a 16 hs, cada visita conyugal tiene una duración de 1 hora la asignación de horarios a cargo del personal de guardia interna.",
+    "visitingRestrictionsConjugal": "Se restringe únicamente por sanción.",
+    "restrictionsDressCodeUrl": ""
+  }
 }
