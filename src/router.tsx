@@ -93,16 +93,16 @@ export const router = createBrowserRouter([
   },
   {
     path: "/mapa-de-ruta/primeros-momentos",
-    element: <Layout titleText="Primeros momentos"   />,
+    element: <Layout titleText="Primeros momentos" />,
     children: [
-      { index: true, element:  <EarlyMoments />, }
+      { index: true, element: <EarlyMoments />, }
     ],
   },
   {
     path: "/mapa-de-ruta/seleccionar-familiar",
-    element: <Layout titleText="Si tu familiar es:"   />,
+    element: <Layout titleText="Si tu familiar es:" />,
     children: [
-      { index: true, element:  <SelectRelativeType title="dummy" />, }
+      { index: true, element: <SelectRelativeType title="dummy" />, }
     ],
   },
   {
@@ -148,7 +148,6 @@ export const router = createBrowserRouter([
           element: <Cmp key={i} {...i.props} />
         })
       }),
- 
       // proceso-judicial
       {
         path: '/mapa-de-ruta/proceso-judicial',
@@ -161,7 +160,6 @@ export const router = createBrowserRouter([
           element: <Cmp key={i} {...i.props} />
         })
       }),
- 
       // instituto-nacional-de-rehabilitacion
       {
         path: '/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion',

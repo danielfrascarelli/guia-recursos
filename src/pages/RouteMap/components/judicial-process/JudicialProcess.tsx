@@ -9,7 +9,8 @@ import { ImageListOptions } from "../../../../components/list-options/image-list
 
 export interface JudicialProcessProps extends DefinitionProps {
 };
-export default function JudicialProcess(props: JudicialProcessProps) {
+
+export default function JudicialProcess() {
 
   const items = getContentDefinition().map(i => ({ title: (i.props as TextComponentProps).title, ...i }));
 
