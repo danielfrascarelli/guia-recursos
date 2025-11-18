@@ -72,6 +72,9 @@ export default function getBackUrl(curr: string): string {
             if (curr.startsWith('/mapa-de-ruta/contactos-utiles/') && (curr.match(/\//g) || []).length == 3)
                 return '/mapa-de-ruta/contactos-utiles';
 
+            if (curr.startsWith('/mapa-de-ruta/proceso-judicial/') && (curr.match(/\//g) || []).length == 3)
+                return '/mapa-de-ruta/proceso-judicial';
+
 
             return "/";
     }
