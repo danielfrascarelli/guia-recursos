@@ -1,4 +1,5 @@
 import WomanBoxButton from "../../components/box-buttons/woman-box-button/WomanBoxButton";
+import FpModal from "../../components/modal/FpModal";
 // import FpModal from "../../components/modal/FpModal";
 
 import "./introduction.scss";
@@ -16,7 +17,14 @@ export default function Introduction() {
             <p>Realizamos esta guía: para compartir lo que aprendimos acompañando, para que no estés sola/o, para hacer valer nuestros derechos, porque el encarcelamiento también nos hace ser parte. </p>
           </div>
         </div>
-        <div>
+
+        <div className="common-layout-margin-only-desktop">
+          <FpModal title="Acompañar!" modalTitle="Acompañar">
+            La palabra "acompañar" proviene del latín vulgar "companiare", que a su vez deriva de "cum panis" (con pan). Originalmente, significaba compartir el pan, es decir, estar con alguien y compartir un alimento básico, lo que implicaba cercanía y apoyo mutuo. Con el tiempo, el significado se extendió para abarcar la idea de estar con alguien en diferentes situaciones, no solo en la comida, sino también en el camino, en momentos importantes, ofreciendo compañía y apoyo.
+            El origen en "cum panis" (con pan) es clave para entender el significado profundo de acompañar.
+          </FpModal>
+        </div> 
+        
           <div className="mt-4 common-layout-margin-only-desktop">
             <WomanBoxButton className="fp-introduction-woman-card">
               <p className="fp-introduction-woman-card-content text-justify">
@@ -24,8 +32,7 @@ export default function Introduction() {
                   Entrá acá para ver el informe de la CIDH (02/2025) sobre derechos de familiares y afectos de personas privadas de libertad.
                 </a>
               </p>
-            </WomanBoxButton>
-          </div>
+            </WomanBoxButton> 
         </div>
       </div>
     </div>
