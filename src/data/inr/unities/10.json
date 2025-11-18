@@ -64,13 +64,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "dentro del horario de visita.",
-    "restrictionsUrl": "#"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u10/Restriciones paquetes.pdf"
   },
   "visiting": {
     "visitingHours": "Sábado y domingo de 09:00 a 17:00 hs.",
     "visitingRestrictions": "",
     "visitingHoursConjugal": "De 09:00 a 16:00 hs.",
     "visitingRestrictionsConjugal": "",
-    "restrictionsDressCodeUrl": ""
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u10/Restricciones%20visitas.pdf"
   }
 }

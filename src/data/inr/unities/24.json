@@ -60,12 +60,12 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "De 08 a 13 hs",
-    "restrictionsUrl": "#"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u24/Restricciones%20paquetes.pdf"
   },
   "visiting": {
     "visitingHours": "Sábado Pabellones A, C y F, Domingo Pabellones B y D horario de 08:00 a 16:00 hs",
     "visitingRestrictions": "",
     "visitingRestrictionsConjugal": "Durante el horario de visita",
-    "restrictionsDressCodeUrl": ""
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u24/Restricciones%20visitas.pdf"
   }
 }

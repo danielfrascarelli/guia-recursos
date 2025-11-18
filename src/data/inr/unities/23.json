@@ -80,13 +80,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Se reciben de 10 a 11 hs., de lunes a viernes.",
-    "restrictionsUrl": "#"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u23/Restricciones%20paquetes.pdf"
   },
   "visiting": {
     "visitingHours": "Los horarios de visita son los siguientes: los sábados, los sectores G y H de 8 a 11 hs, el sector Preventiva de 11:30 a 14:30 hs, y los sectores C y F de 15 a 18 hs; los domingos, el sector B de 8 a 11 hs, el sector D de 11:30 a 14:30 hs, y los sectores E y Femenino de 15 a 18 hs. Los horarios de registro para visita son los martes y viernes de 8 a 9 hs y de 14 a 16 hs.",
     "visitingRestrictions": "Las restricciones en las visitas son las siguientes: la persona debe registrarse previamente, salvo que no viva en el departamento, en cuyo caso se registrará en el día y hora correspondiente al sector, luego de ingresada la visita; se permite un máximo de 4 visitantes por persona, incluidos menores; no podrá ingresar ninguna persona que haya recuperado su libertad en los 90 días anteriores o que se encuentre sancionada; los menores ingresan únicamente acompañados por su padre o madre (con CI) o con autorización especial de ambos padres, en caso de que estén recluidos.",
     "visitingHoursConjugal": "Se otorgan visitas conyugales todos los días en el horario de 8 a 17 hs.",
     "visitingRestrictionsConjugal": "Se deben presentar solicitudes firmadas por ambas personas, junto con el documento del visitante, y solo se otorgan a internos con buena conducta, es decir, con 180 días sin sanciones.",
-    "restrictionsDressCodeUrl": ""
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u23/Restricciones%20visitas.pdf"
   }
 }

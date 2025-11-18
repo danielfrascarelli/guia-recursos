@@ -149,10 +149,10 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "De 08 a 15 hs",
-    "restrictionsUrl": "#"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u6/Restricciones%20paquetes.pdf"
   },
   "visiting": {
     "visitingHours": "Las visitas se realizan los días miércoles, sábados y domingos, en el horario de 08 a 17 hs, mientras que el registro de visitantes se lleva a cabo los lunes, martes, jueves y viernes, de 08:00 a 16 hs.",
-    "restrictionsDressCodeUrl": "#"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u6/Restricciones%20visitas.pdf"
   }
 }

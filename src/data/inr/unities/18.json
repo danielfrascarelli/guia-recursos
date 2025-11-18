@@ -60,11 +60,12 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Se recibe cajas y encomiendas los días lunes, miércoles y viernes desde las 09 hs hasta las 14 hs. Se autoriza una caja por persona de manera semanal.",
-    "restrictionsUrl": "#"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u18/Restricciones%20paquetes.pdf"
   },
   "visiting": {
     "visitingHours": "Sábados y domingos de 09 a 12 y de 13 a 16 hs.",
     "visitingHoursConjugal": "Sábados y domingos desde las 09:30 hasta las 15:30 hs.",
-    "visitingRestrictionsConjugal": " Para la persona que ingresa de visita: Carnet de salud vigente, fotocopia de documento de identidad. Para la ppl: 90 dias alojado en esta unidad. Se le otorga cada 15 dias por el lapso de 1 hora, debido a que existe un único espacio físico para lo mismo y son muchas las personas que solicitan visita conyugal."
+    "visitingRestrictionsConjugal": " Para la persona que ingresa de visita: Carnet de salud vigente, fotocopia de documento de identidad. Para la ppl: 90 dias alojado en esta unidad. Se le otorga cada 15 dias por el lapso de 1 hora, debido a que existe un único espacio físico para lo mismo y son muchas las personas que solicitan visita conyugal.",
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u18/Restricciones%20visitas.pdf"
   }
 }

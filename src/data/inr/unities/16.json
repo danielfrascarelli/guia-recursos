@@ -72,13 +72,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Días Lunes, Martes y Viernes en el horario de 08 a 10 hs. - Recepción de encomiendas los días de lunes a Viernes de 08 a 17 hs.",
-    "restrictionsUrl": "#"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u16/Restricciones%20paquetes.pdf"
   },
   "visiting": {
     "visitingHours": "Visita general días Miércoles y Domingos en el horario de 09 a 17 hs. - Visita pabellones de ingreso días jueves en el horario de 10 a 12 hs. - Visita preventivas los días Jueves de 12 a 16 hs.",
     "visitingRestrictions": "- Ex ppl que no hayan cumplido 1 año de haber sido liberado/a - Particulares con medidas cautelares a nivel judicial - Victimas y/o Denunciantes particularmente de delitos de naturaleza sexual y/o violencia doméstica. - Particulares sancionados o cuando las ppl se encuentran sancionados.",
     "visitingHoursConjugal": "Los días de visita comprendidas en el horario de 09 a 16 hs, cada visita conyugal tiene una duración de 1 hora la asignación de horarios a cargo del personal de guardia interna.",
     "visitingRestrictionsConjugal": "Se restringe únicamente por sanción.",
-    "restrictionsDressCodeUrl": ""
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u16/Restricciones%20visitas.pdf"
   }
 }

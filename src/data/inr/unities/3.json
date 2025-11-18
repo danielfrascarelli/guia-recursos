@@ -44,13 +44,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "dentro del horario de visita.",
-    "restrictionsUrl": "#"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u3/Restricciones%20paquetes.pdf"
   },
   "visiting": {
     "visitingHours": "De 08:00 a 15:00 (los días dependen del sector en el que esté alojado).",
     "visitingRestrictions": "La visita debe estar registrada, previa solicitud de la PPL. Restricciones de vestimenta: color y tipo de vestimenta según Orden de Servicio Nº 04/24.",
     "visitingHoursConjugal": "Dentro del horario de visita (08:00 a 15:00).",
     "visitingRestrictionsConjugal": "Se solicita en el momento del ingreso. La visita debe estar registrada en el Sistema de Gestión Carcelaria como pareja. No deben tener menores a cargo al momento de solicitarla. El beneficio es cada 15 días.",
-    "restrictionsDressCodeUrl": "Orden de Servicio Nº 04/24"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u3/Restricciones%20visitas.pdf"
   }
 }

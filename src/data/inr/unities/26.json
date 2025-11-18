@@ -43,10 +43,11 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Martes y jueves 8 a 15 hs.",
-    "restrictionsUrl": "#"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u26/Restricciones%20paquetes.pdf"
   },
   "visiting": {
     "visitingHours": "Las visitas se realizan sábados y domingos de 08:00 a 15:00, con ingreso permitido hasta las 11:00. Los sectores rotan entre sábado y domingo. El registro se hace al ingresar, separando por género y por grupos: adultos, mayores, adolescentes y niños (estos últimos acompañados por madre, padre o tutor).",
-    "visitingHoursConjugal": "Las visitas conyugales duran 2 horas y se realizan en días específicos según el sector: martes para conyugales intercarcelarias, jueves para Chacras y Barraca, y sábados para el Anexo Femenino. También existen visitas especiales para quienes tienen pareja fuera del departamento. El ingreso requiere ropa clara y adecuada, sin exhibiciones."
+    "visitingHoursConjugal": "Las visitas conyugales duran 2 horas y se realizan en días específicos según el sector: martes para conyugales intercarcelarias, jueves para Chacras y Barraca, y sábados para el Anexo Femenino. También existen visitas especiales para quienes tienen pareja fuera del departamento. El ingreso requiere ropa clara y adecuada, sin exhibiciones.",
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u26/Restricciones%20visitas.pdf"
   }
 }

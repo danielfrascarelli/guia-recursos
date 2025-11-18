@@ -64,13 +64,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Martes, miércoles y jueves - 08 a 12 hs.",
-    "restrictionsUrl": "#"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u19/Restricciones%20paquetes.pdf"
   },
   "visiting": {
     "visitingHours": "De 09 a 16 hs. Preventivas: Miércoles 09 a 15 hs.",
     "visitingRestrictions": "Pueden ingresar hasta 3 personas por PPL en el día.(Sábado o Domingo).Preventiva tiene visita solo los miércoles 09 a 15 hs.",
     "visitingHoursConjugal": "Sábados y domingos: 09 a 16 hs.",
     "visitingRestrictionsConjugal": "",
-    "restrictionsDressCodeUrl": ""
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u19/Restricciones%20visitas.pdf"
   }
 }
