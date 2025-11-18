@@ -1,4 +1,3 @@
-import { DisciplinaryMeasure, HeartIcon, HomeIcon, KeyIcon, PeopleIcon, TruckIcon } from "../../../assets/icons/icons";
 import type { ContentDefinition } from "../../../components/ItemDefinition";
 import { RelativeType } from "../../../shared/utils/RelativeType";
 
@@ -17,7 +16,6 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "detenciones",
       imageUrl: esposas,
-      icon: <PeopleIcon />,
       componentType: "DetentionsComponent",
       props: {
         title: "Detenciones en adultos",
@@ -29,7 +27,6 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "visitas-y-comunicacion",
       imageUrl: visitas,
-      icon: <PeopleIcon />,
       componentType: "VisitasYContactoComponent",
       props: {
         title: "Visitas",
@@ -41,7 +38,6 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "traslados",
       imageUrl: traslados,
-      icon: <TruckIcon />,
       componentType: "TrasladosComponent",
       props: {
         title: "Traslados",
@@ -53,7 +49,6 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "salud",
       imageUrl: salud,
-      icon: <HeartIcon />,
       componentType: "SaludComponent",
       props: {
         title: "Salud",
@@ -65,7 +60,6 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "sanciones",
       imageUrl: sancion,
-      icon: <DisciplinaryMeasure />,
       componentType: "SancionComponent",
       props: {
         title: "Qué esperar que suceda durante una sanción",
@@ -77,7 +71,6 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "acceso-a-derechos",
       imageUrl: acceso,
-      icon: <KeyIcon />,
       componentType: "AccesoADerechosComponent",
       props: {
         title: "Acceso a derechos y actividades",
@@ -89,7 +82,6 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "salida",
       imageUrl: salida,
-      icon: <HomeIcon />,
       componentType: "SalidaComponent",
       props: {
         title: "La salida",

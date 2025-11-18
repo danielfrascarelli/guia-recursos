@@ -1,4 +1,3 @@
-import { HeartIcon, HomeIcon, PeopleIcon, TruckIcon } from "../../../assets/icons/icons";
 import type { ContentDefinition } from "../../../components/ItemDefinition";
 import { RelativeType } from "../../../shared/utils/RelativeType";
 
@@ -16,7 +15,6 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "detenciones",
       imageUrl: esposas,
-      icon: <PeopleIcon />,
       componentType: "DetentionsComponent",
       props: {
         title: "Detenciones en adolescencias",
@@ -28,7 +26,6 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "visitas-y-comunicacion",
       imageUrl: visitas,
-      icon: <PeopleIcon />,
       componentType: "VisitasYContactoComponent",
       props: {
         title: "Visitas",
@@ -40,7 +37,6 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "traslados",
       imageUrl: traslados,
-      icon: <TruckIcon />,
       componentType: "TrasladosComponent",
       props: {
         title: "Traslados",
@@ -52,7 +48,6 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "salud",
       imageUrl: salud,
-      icon: <HeartIcon />,
       componentType: "SaludComponent",
       props: {
         title: "Salud",
@@ -64,7 +59,6 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
       variant: "pretty_white",
       url: "salida",
       imageUrl: salida,
-      icon: <HomeIcon />,
       componentType: "SalidaComponent",
       props: {
         title: "La salida",

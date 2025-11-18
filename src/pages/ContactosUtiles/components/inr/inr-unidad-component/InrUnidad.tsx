@@ -15,9 +15,9 @@ export const InrUnidad: React.FC<InrUnidadProps> = ({
   const general: GeneralInfoUnidad = generalJson;
 
   return (
-    <div className='inr-unidad__container'>
+    <div className='text-justify inr-unidad__container'>
       <CommonOfficeInfo title={title} data={data} />
-      <section className='unit-card'>
+      <section className='unit-card common-layout-margin'>
         {/* Paquetes */}
         <div className='mt-3'>
           {data.packages && (
@@ -32,12 +32,12 @@ export const InrUnidad: React.FC<InrUnidadProps> = ({
             >
               {(data.packages.deliveryHours ||
                 data.packages.restrictionsUrl) && (
-                <div className='unit-section'>
-                  <div className='unit-content'>
-                    <h3 className='section-title'>Paquetes</h3>
+                  <div className='unit-section'>
+                    <div className='unit-content'>
+                      <h3 className='section-title'>Paquetes</h3>
+                    </div>
                   </div>
-                </div>
-              )}
+                )}
               {data.packages.deliveryHours && (
                 <div className='unit-section unit-section-h4'>
                   <div className='unit-content'>
@@ -83,12 +83,12 @@ export const InrUnidad: React.FC<InrUnidadProps> = ({
             >
               {(data.visiting.visitingHours ||
                 data.visiting.visitingHoursConjugal) && (
-                <div className='unit-section'>
-                  <div className='unit-content'>
-                    <h3 className='section-title'>Visitas</h3>
+                  <div className='unit-section'>
+                    <div className='unit-content'>
+                      <h3 className='section-title'>Visitas</h3>
+                    </div>
                   </div>
-                </div>
-              )}
+                )}
               {data.visiting.visitingHours && (
                 <div className='unit-section unit-section-h4'>
                   <div className='unit-content'>
@@ -156,11 +156,15 @@ export const InrUnidad: React.FC<InrUnidadProps> = ({
             </IconBoxCard>
           )}
         </div>
-
+      </section>
+      <section className='text-justify common-layout-margin-only-desktop'>
         {/* Restricciones */}
         <div className='mt-3'>
-          <IconBoxCard bgColor='#efcfb273' borderWidth={3}>
-            <div className='unit-section unit-section-h4'>
+          <IconBoxCard bgColor='#efcfb273'
+            borderWidth={3}
+            offsetX={7} offsetY={7}
+            overhangX={7} overhangY={7}>
+            <div className='ps-3 unit-section unit-section-h4'>
               <div className='unit-content'>
                 <h3 className='section-title'>Restricciones</h3>
                 <ul className='section-list section-list-visiting-restrictions'>

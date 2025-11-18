@@ -1,29 +1,36 @@
 .unit-card {
+  .box-card .margin-box-card {
+    margin-left: 0px;
+    margin-right: 0px;
+    gap: 20px !important;
+  }
+
   .unit-section {
     color: var(--brand-wine);
-    font-size: 1rem;
 
     .unit-content {
       .section-title {
         font-weight: 700;
-        font-size: 1rem;
+        font-size: 17px;
       }
       .section-list {
         list-style-type: none;
         margin-block-start: 0em;
         padding-inline-start: 0px;
         margin-bottom: 0px;
-        font-size: 0.87rem;
       }
       .section-content {
         margin-bottom: 0px;
-        font-size: 0.87rem;
       }
 
       .address-button {
         margin-top: 10px;
+        button {
+          padding: 10px !important;
+        }
         a {
           color: var(--brand-wine);
+          font-size: 16px;
         }
       }
     }

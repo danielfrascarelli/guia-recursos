@@ -19,9 +19,9 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data, showHe
           {data.shortName && <TitleBar title={data.shortName} />}
         </div>
       }
-      <section className="unit-card">
+      <section className="unit-card common-layout-margin ">
         <div>
-          <div className="common-layout-margin d-flex flex-row ">
+          <div className="d-flex flex-row">
             {data.longName && <TitleDescriptionBar text={data.longName} />}
           </div>
         </div>
@@ -82,7 +82,7 @@ export const CommonOfficeInfo: React.FC<CommonOfficeInfoProps> = ({ data, showHe
                           variant={"white"}
                           title={(
                             <a className="map-button" href={data.address.url} target="_blank" rel="noreferrer">
-                              <span className="map-pin" aria-hidden="true">📍</span> Ver en mapa
+                              <span className="map-pin" aria-hidden="true">📍</span> Ver mapa
                             </a>
                           )}
                           style={{
