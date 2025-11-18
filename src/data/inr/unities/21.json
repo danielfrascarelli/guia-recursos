@@ -68,6 +68,7 @@
   },
   "visiting": {
     "visitingHours": "Las visitas para el sector de preventivas se realizan los días viernes de 08 a 15 hs; los sábados corresponde al sector Módulos en el mismo horario, y los domingos al sector Barracas, también de 08 a 15 hs. Registro de visita todos los días. 1 hora para usufructuar de dicho beneficio. Sobre las conyugales, los internos realizan solicitud para poseer la misma, una vez autorizada, el personal de revisoria verifica que los datos correspondan, una vez corroborado se procede con el registro de ingreso dejando constancia (fecha y hora de tal beneficio).",
+    "visitingRestrictions": null,
     "visitingHoursConjugal": "Las visitas se realizan los días viernes para PPL Preventivas de 08 a 15 hs, los sábados para el sector Módulos en el mismo horario, y los domingos para el sector Barraca, también de 08 a 15 hs.",
     "visitingRestrictionsConjugal": "En caso que la PPL se encuentre sancionada, que la misma lleve menos de 90 días de su ingreso a la Unidad, y que la visita se registre al ingreso acompañada de menores de edad",
     "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u21/Restricciones%20visitas.pdf"

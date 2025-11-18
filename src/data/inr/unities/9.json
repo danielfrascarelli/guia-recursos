@@ -71,6 +71,7 @@
     "visitingHours": "Miercoles y Sábados de 09 a 17 hs.( ingreso permitido hasta la hora 16:00, se ingresa solo con los alimentos para compartir en la visita)",
     "visitingRestrictions": "El registro de visitantes se realiza previa solicitud de la PPL ante la Coordinadora Penitenciaria, quien en primera instancia habilita al visitante y, posteriormente, en los días de visita se procede a finalizar su registro.",
     "visitingHoursConjugal": "El trámite lo realiza mediante solicitud la mujer privada de libertad y a posterior la Coordinadora Penitenciaria elabora el listado.",
+    "visitingRestrictionsConjugal": null,
     "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u9/Restricciones%20visitas.pdf"
   }
 }

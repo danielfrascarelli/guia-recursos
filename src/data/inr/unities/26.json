@@ -9,35 +9,152 @@
     "url": "https://maps.google.com/?q=Atahualpa+Aliano+Mencina+y+Avenida+Julio+A.+Olive%2C+Tacuaremb%C3%B3"
   },
   "phone": [
-    { "area": "Sub Director Operativo", "phones": ["2030 9231"] },
-    { "area": "Sub Director Administrativo", "phones": ["4633 9589"] },
-    { "area": "Anexo Femenino", "phones": ["4633 8391"] },
-    { "area": "Guardia Externa", "phones": ["4632 4570"] },
-    { "area": "Guardia Externa - Jefe de Servicio", "phones": ["2030 9220"] },
-    { "area": "Guardia Interna", "phones": ["2030 9221"] },
-    { "area": "Oficina Jurídica", "phones": ["2030 9225"] },
-    { "area": "Secretaría", "phones": ["2030 9227"] },
-    { "area": "Oficina RRHH", "phones": ["2030 9228"] },
-    { "area": "Oficina Redención de Pena", "phones": ["2030 9226"] },
-    { "area": "Oficina Subdirección Administrativa", "phones": ["2030 9229"] },
+    {
+      "area": "Sub Director Operativo",
+      "phones": [
+        "2030 9231"
+      ]
+    },
+    {
+      "area": "Sub Director Administrativo",
+      "phones": [
+        "4633 9589"
+      ]
+    },
+    {
+      "area": "Anexo Femenino",
+      "phones": [
+        "4633 8391"
+      ]
+    },
+    {
+      "area": "Guardia Externa",
+      "phones": [
+        "4632 4570"
+      ]
+    },
+    {
+      "area": "Guardia Externa - Jefe de Servicio",
+      "phones": [
+        "2030 9220"
+      ]
+    },
+    {
+      "area": "Guardia Interna",
+      "phones": [
+        "2030 9221"
+      ]
+    },
+    {
+      "area": "Oficina Jurídica",
+      "phones": [
+        "2030 9225"
+      ]
+    },
+    {
+      "area": "Secretaría",
+      "phones": [
+        "2030 9227"
+      ]
+    },
+    {
+      "area": "Oficina RRHH",
+      "phones": [
+        "2030 9228"
+      ]
+    },
+    {
+      "area": "Oficina Redención de Pena",
+      "phones": [
+        "2030 9226"
+      ]
+    },
+    {
+      "area": "Oficina Subdirección Administrativa",
+      "phones": [
+        "2030 9229"
+      ]
+    },
     {
       "area": "Oficina Sub. Dirección Administrativa (alternativo)",
-      "phones": ["4633 9487"]
+      "phones": [
+        "4633 9487"
+      ]
     },
-    { "area": "Oficina Subdirección Técnica", "phones": ["2030 9224"] },
-    { "area": "Oficina Atención a la Familia", "phones": ["2030 9227"] },
-    { "area": "Director", "phones": ["2030 9230"] }
+    {
+      "area": "Oficina Subdirección Técnica",
+      "phones": [
+        "2030 9224"
+      ]
+    },
+    {
+      "area": "Oficina Atención a la Familia",
+      "phones": [
+        "2030 9227"
+      ]
+    },
+    {
+      "area": "Director",
+      "phones": [
+        "2030 9230"
+      ]
+    }
   ],
   "email": [
-    { "area": "Dirección", "emails": ["inr-u26.direccion@minterior.gub.uy"] },
-    { "area": "Subdirección", "emails": ["inr-u26.subdir@minterior.gub.uy"] },
-    { "area": "Secretaría", "emails": ["inr-u26.secretaria@minterior.gub.uy"] },
-    { "area": "Redención", "emails": ["inr-u26.redencion@minterior.gub.uy"] },
-    { "area": "Jurídica", "emails": ["inr-u26.juridica@minterior.gub.uy"] },
-    { "area": "RRHH", "emails": ["inr-u26.rrhh@minterior.gub.uy"] },
-    { "area": "SDT", "emails": ["inr-u26.sdt@minterior.gub.uy"] },
-    { "area": "Educativo", "emails": ["inr-u26.educativo@minterior.gub.uy"] },
-    { "area": "Laboral", "emails": ["inr-u26.laboral@minterior.gub.uy"] }
+    {
+      "area": "Dirección",
+      "emails": [
+        "inr-u26.direccion@minterior.gub.uy"
+      ]
+    },
+    {
+      "area": "Subdirección",
+      "emails": [
+        "inr-u26.subdir@minterior.gub.uy"
+      ]
+    },
+    {
+      "area": "Secretaría",
+      "emails": [
+        "inr-u26.secretaria@minterior.gub.uy"
+      ]
+    },
+    {
+      "area": "Redención",
+      "emails": [
+        "inr-u26.redencion@minterior.gub.uy"
+      ]
+    },
+    {
+      "area": "Jurídica",
+      "emails": [
+        "inr-u26.juridica@minterior.gub.uy"
+      ]
+    },
+    {
+      "area": "RRHH",
+      "emails": [
+        "inr-u26.rrhh@minterior.gub.uy"
+      ]
+    },
+    {
+      "area": "SDT",
+      "emails": [
+        "inr-u26.sdt@minterior.gub.uy"
+      ]
+    },
+    {
+      "area": "Educativo",
+      "emails": [
+        "inr-u26.educativo@minterior.gub.uy"
+      ]
+    },
+    {
+      "area": "Laboral",
+      "emails": [
+        "inr-u26.laboral@minterior.gub.uy"
+      ]
+    }
   ],
   "web": null,
   "openingHours": null,
@@ -47,7 +164,9 @@
   },
   "visiting": {
     "visitingHours": "Las visitas se realizan sábados y domingos de 08:00 a 15:00, con ingreso permitido hasta las 11:00. Los sectores rotan entre sábado y domingo. El registro se hace al ingresar, separando por género y por grupos: adultos, mayores, adolescentes y niños (estos últimos acompañados por madre, padre o tutor).",
+    "visitingRestrictions": null,
     "visitingHoursConjugal": "Las visitas conyugales duran 2 horas y se realizan en días específicos según el sector: martes para conyugales intercarcelarias, jueves para Chacras y Barraca, y sábados para el Anexo Femenino. También existen visitas especiales para quienes tienen pareja fuera del departamento. El ingreso requiere ropa clara y adecuada, sin exhibiciones.",
+    "visitingRestrictionsConjugal": null,
     "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u26/Restricciones%20visitas.pdf"
   }
 }

@@ -7,12 +7,11 @@ export interface InfoUnidad extends OfficeData {
     restrictionsUrl?: string;
   };
   visiting: {
-    visitingHours: string;
-    visitingRestrictions: string;
-    visitingHoursConjugal: string;
-    visitingRestrictionsConjugal: string;
-    restrictionsDressCodeUrl?: string;
-    //restrictionsText: string[];
+    visitingHours: string | null;
+    visitingRestrictions: string | null;
+    visitingHoursConjugal: string | null;
+    visitingRestrictionsConjugal: string | null;
+    restrictionsDressCodeUrl: string | null;
   };
 }
 export interface GeneralInfoUnidad {
