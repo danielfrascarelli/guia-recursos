@@ -1,86 +1,56 @@
 {
-    "shortName": "Unidad 3",
-    "longName": "Unidad 3 - Penal de Libertad, San José",
-    "department": "San José",
-    "city": null,
-    "neighborhood": null,
-    "address": {
-        "text": "Penal de Libertad, Ruta 1 Km 53.500, San José",
-        "url": "https://maps.google.com/?q=Penal+de+Libertad%2C+Ruta+1+Km+53.500%2C+San+Jos%C3%A9"
+  "shortName": "Unidad 3",
+  "longName": "Unidad 3 - Penal de Libertad, San José",
+  "department": "San José",
+  "city": null,
+  "neighborhood": null,
+  "address": {
+    "text": "Penal de Libertad, Ruta 1 Km 53.500, San José",
+    "url": "https://maps.google.com/?q=Penal+de+Libertad%2C+Ruta+1+Km+53.500%2C+San+Jos%C3%A9"
+  },
+  "phone": [
+    {
+      "area": "Subdirección Administrativa",
+      "phones": ["2030 9807"]
     },
-    "phone": [
-        {
-            "area": "Subdirección Administrativa",
-            "phones": [
-                "2030 9807"
-            ]
-        },
-        {
-            "area": "Subdirección Operativa",
-            "phones": [
-                "2030 9807"
-            ]
-        },
-        {
-            "area": "Subdirección Técnica",
-            "phones": [
-                "2030 9807"
-            ]
-        },
-        {
-            "area": "Secretaría",
-            "phones": [
-                "2030 9807"
-            ]
-        },
-        {
-            "area": "Área Jurídica",
-            "phones": [
-                "2030 9807"
-            ]
-        },
-        {
-            "area": "Atención a Familiares (Reclusión)",
-            "phones": [
-                "2030 9806",
-                "094 014 872"
-            ]
-        }
-    ],
-    "email": [
-        {
-            "area": "Subdirección administrativa",
-            "emails": [
-                "inr-u-9.secretaria@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección operativa",
-            "emails": [
-                "inr-u-9.operativa@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección técnica",
-            "emails": [
-                "inr-u-9.tecnica@minterior.gub.uy"
-            ]
-        }
-    ],
-    "web": null,
-    "openingHours": null,
-    "packages": {
-        "deliveryHours": "dentro del horario de visita.",
-        "restrictionsUrl": "#"
+    {
+      "area": "Subdirección Operativa",
+      "phones": ["2030 9807"]
     },
-    "visiting": {
-        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
-        "restrictionsDressCodeUrl": "#",
-        "restrictionsText": [
-            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-            "Recibe un máximo de 4 visitantes, incluidos menores.",
-            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-        ]
+    {
+      "area": "Subdirección Técnica",
+      "phones": ["2030 9807"]
+    },
+    {
+      "area": "Secretaría",
+      "phones": ["2030 9807"]
+    },
+    {
+      "area": "Área Jurídica",
+      "phones": ["2030 9807"]
+    },
+    {
+      "area": "Atención a Familiares (Reclusión)",
+      "phones": ["2030 9806", "094 014 872"]
     }
+  ],
+  "email": [
+    {
+      "area": "Subdirección administrativa",
+      "emails": ["inr-u3.secretaria@minterior.gub.uy"]
+    }
+  ],
+  "web": null,
+  "openingHours": null,
+  "packages": {
+    "deliveryHours": "dentro del horario de visita.",
+    "restrictionsUrl": "#"
+  },
+  "visiting": {
+    "visitingHours": "De 08:00 a 15:00 (los días dependen del sector en el que esté alojado).",
+    "visitingRestrictions": "La visita debe estar registrada, previa solicitud de la PPL. Restricciones de vestimenta: color y tipo de vestimenta según Orden de Servicio Nº 04/24.",
+    "visitingHoursConjugal": "Dentro del horario de visita (08:00 a 15:00).",
+    "visitingRestrictionsConjugal": "Se solicita en el momento del ingreso. La visita debe estar registrada en el Sistema de Gestión Carcelaria como pareja. No deben tener menores a cargo al momento de solicitarla. El beneficio es cada 15 días.",
+    "restrictionsDressCodeUrl": "Orden de Servicio Nº 04/24"
+  }
 }

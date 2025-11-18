@@ -1,73 +1,158 @@
 {
-    "shortName": "Unidad 6",
-    "longName": "Unidad 6 - Punta de Rieles, Montevideo",
-    "department": "Montevideo",
-    "city": null,
-    "neighborhood": null,
-    "address": {
-        "text": "Camino Dionisos 6602 esquina Camino Punta de Rieles, Montevideo",
-        "url": "https://maps.google.com/?q=Camino+Dionisos+6602+esquina+Camino+Punta+de+Rieles%2C+Montevideo"
+  "shortName": "Unidad 6",
+  "longName": "Unidad 6 - Punta de Rieles, Montevideo",
+  "department": "Montevideo",
+  "city": null,
+  "neighborhood": null,
+  "address": {
+    "text": "Camino Dionisos esquina Camino Punta de Rieles, Montevideo",
+    "url": "https://maps.google.com/?q=Camino+Dionisos+6602+esquina+Camino+Punta+de+Rieles%2C+Montevideo"
+  },
+  "phone": [
+    {
+      "area": "Dirección",
+      "phones": ["20309664"]
     },
-    "phone": [
-        {
-            "area": "Atención a Familias / evaluaciones tecnicas",
-            "phones": [
-                "2030 9692"
-            ]
-        },
-        {
-            "area": "Área Jurídica / Subdirección Administrativa",
-            "phones": [
-                "2514 7257"
-            ]
-        },
-        {
-            "area": "Secretaría",
-            "phones": [
-                "2513 5630"
-            ]
-        },
-        {
-            "area": "Revisoría",
-            "phones": [
-                "2030 9663"
-            ]
-        }
-    ],
-    "email": [
-        {
-            "area": "Subdirección administrativa",
-            "emails": [
-                "inr-u-9.secretaria@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección operativa",
-            "emails": [
-                "inr-u-9.operativa@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección técnica",
-            "emails": [
-                "inr-u-9.tecnica@minterior.gub.uy"
-            ]
-        }
-    ],
-    "web": null,
-    "openingHours": null,
-    "packages": {
-        "deliveryHours": "dentro del horario de visita.",
-        "restrictionsUrl": "#"
+    {
+      "area": "Secretaría Dirección",
+      "phones": ["25135630"]
     },
-    "visiting": {
-        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
-        "restrictionsDressCodeUrl": "#",
-        "restrictionsText": [
-            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-            "Recibe un máximo de 4 visitantes, incluidos menores.",
-            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-        ]
+    {
+      "area": "Subdirección Operativa",
+      "phones": ["20309687"]
+    },
+    {
+      "area": "Subdirección Técnica",
+      "phones": ["25145708"]
+    },
+    {
+      "area": "Subdirección Administrativa",
+      "phones": ["25138575"]
+    },
+    {
+      "area": "Abordaje Integral",
+      "phones": ["20309659"]
+    },
+    {
+      "area": "Contable y Valores",
+      "phones": ["25144961"]
+    },
+    {
+      "area": "Educativo",
+      "phones": ["20309666"]
+    },
+    {
+      "area": "Emprendimientos Productivos",
+      "phones": ["25138575"]
+    },
+    {
+      "area": "Evaluaciones Técnicas",
+      "phones": ["20309693"]
+    },
+    {
+      "area": "Oficina Atención a la Familia P.P.L.",
+      "phones": ["20309692"]
+    },
+    {
+      "area": "Guardia Externa",
+      "phones": ["25148203", "25145708"]
+    },
+    {
+      "area": "Informática",
+      "phones": ["20309691"]
+    },
+    {
+      "area": "Jefatura Servicio",
+      "phones": ["25147899"]
+    },
+    {
+      "area": "Junta Disciplina",
+      "phones": ["20309687"]
+    },
+    {
+      "area": "Jurídica",
+      "phones": ["25147257"]
+    },
+    {
+      "area": "Laboral",
+      "phones": ["20309694"]
+    },
+    {
+      "area": "Logística",
+      "phones": ["25112306"]
+    },
+    {
+      "area": "Reclusión",
+      "phones": ["20309662"]
+    },
+    {
+      "area": "Redención de Pena",
+      "phones": ["20309690"]
+    },
+    {
+      "area": "Revisoría",
+      "phones": ["20309663"]
+    },
+    {
+      "area": "RR.HH.",
+      "phones": ["25113550"]
+    },
+    {
+      "area": "Taller Mecánico",
+      "phones": ["20309688"]
     }
+  ],
+  "email": [
+    {
+      "area": "Dirección / Secretaría",
+      "emails": ["inr-u6.secretaria@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Administrativa",
+      "emails": ["inr-u6.subdir@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Operativa",
+      "emails": ["inr-u6-operativa@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Técnica",
+      "emails": ["inr-u6-tecnica@minterior.gub.uy"]
+    },
+    {
+      "area": "Abordaje Integral",
+      "emails": ["inr-u06.abordaje@minterior.gub.uy"]
+    },
+    {
+      "area": "Contable y Valores",
+      "emails": ["inr-u6.contabilidad@minterior.gub.uy"]
+    },
+    {
+      "area": "Educativo",
+      "emails": ["inr-u6.educativo@minterior.gub.uy"]
+    },
+    {
+      "area": "Emprendimientos Productivos",
+      "emails": ["inr-u6.emprendimientos@minterior.gub.uy"]
+    },
+    {
+      "area": "Guardia Externa",
+      "emails": ["inr-u6-operativa@minterior.gub.uy"]
+    },
+    {
+      "area": "Revisoría",
+      "emails": ["inr-u6.revisoria@minterior.gub.uy"]
+    }
+  ],
+
+  "web": null,
+  "openingHours": null,
+  "packages": {
+    "deliveryHours": "De 08 a 15 hs",
+    "restrictionsUrl": "#"
+  },
+  "visiting": {
+    "visitingHours": "Las visitas se realizan los días miércoles, sábados y domingos, en el horario de 08 a 17 hs, mientras que el registro de visitantes se lleva a cabo los lunes, martes, jueves y viernes, de 08:00 a 16 hs.",
+    "restrictionsDressCodeUrl": "#"
+  }
 }

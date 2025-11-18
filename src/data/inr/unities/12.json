@@ -1,61 +1,102 @@
 {
-    "shortName": "Unidad 12",
-    "longName": "Unidad 12 - Cerro Carancho, Rivera",
-    "department": "Rivera",
-    "city": null,
-    "neighborhood": null,
-    "address": {
-        "text": "Ruta 27 Km 34, Cerro Carancho, Rivera",
-        "url": "https://maps.google.com/?q=Ruta+27+Km+34%2C+Cerro+Carancho%2C+Rivera"
+  "shortName": "Unidad 12",
+  "longName": "Unidad 12 - Cerro Carancho, Rivera",
+  "department": "Rivera",
+  "city": null,
+  "neighborhood": null,
+  "address": {
+    "text": "Ruta 27 Km 2 Camino Ney Alvez Apolo, Cerro Carancho, Rivera",
+    "url": "https://maps.google.com/?q=Ruta+27+Km+34%2C+Cerro+Carancho%2C+Rivera"
+  },
+  "phone": [
+    {
+      "area": "Secretaría general",
+      "phones": ["2030 9550"]
     },
-    "phone": [
-        {
-            "area": "Atención a Familias",
-            "phones": [
-                "2030 9562"
-            ]
-        },
-        {
-            "area": "Secretaría",
-            "phones": [
-                "2030 9550"
-            ]
-        }
-    ],
-    "email": [
-        {
-            "area": "Subdirección administrativa",
-            "emails": [
-                "inr-u-9.secretaria@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección operativa",
-            "emails": [
-                "inr-u-9.operativa@minterior.gub.uy"
-            ]
-        },
-        {
-            "area": "Subdirección técnica",
-            "emails": [
-                "inr-u-9.tecnica@minterior.gub.uy"
-            ]
-        }
-    ],
-    "web": null,
-    "openingHours": null,
-    "packages": {
-        "deliveryHours": "dentro del horario de visita.",
-        "restrictionsUrl": "#"
+    {
+      "area": "Subdirección Administrativa",
+      "phones": ["2030 9558"]
     },
-    "visiting": {
-        "visitingHours": "8 hs a 15 hs (los días dependen del sector)",
-        "restrictionsDressCodeUrl": "#",
-        "restrictionsText": [
-            "La misma debe estar registrada, previa solicitud de la persona solicitando que sea ingresada.",
-            "Recibe un máximo de 4 visitantes, incluidos menores.",
-            "El ingreso de menores cuando es traído por la mamá deberá acompañarse de venir de cédula de identidad; cuando ingresa con otro mayor, debe ser por solicitud especial, partida de nacimiento y consentimiento de la madre o tutor.",
-            "También tendrá restricciones para el ingreso a la visita toda aquella visita que tenga un impedimento judicial, o se encuentre sancionada."
-        ]
+    {
+      "area": "Subdirección Operativa",
+      "phones": ["2030 9552"]
+    },
+    {
+      "area": "Subdirección Técnica",
+      "phones": ["2030 9554"]
+    },
+    {
+      "area": "Departamento Jurídico",
+      "phones": ["2030 9564"]
+    },
+    {
+      "area": "Oficina Atencion a la familia",
+      "phones": ["2030 9562"]
+    },
+    {
+      "area": "Oficina Redención de pena",
+      "phones": ["2030 9551"]
+    },
+    {
+      "area": "Oficina de reclusón",
+      "phones": ["2030 9568"]
+    },
+    {
+      "area": "Revisoria",
+      "phones": ["2030 9572"]
+    },
+    {
+      "area": "Jefatura de servicio",
+      "phones": ["2030 9566"]
     }
+  ],
+  "email": [
+    {
+      "area": "Secretaría General",
+      "emails": ["inr-u12.secretaria@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Administrativa",
+      "emails": ["inr-u12.subdir@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Operativa",
+      "emails": ["inr-u12.subdirop@minterior.gub.uy"]
+    },
+    {
+      "area": "Subdirección Técnica",
+      "emails": ["inr-u12.tecnica@minterior.gub.uy"]
+    },
+    {
+      "area": "Departamento Jurídico",
+      "emails": ["inr-u12.juridica@minterior.gub.uy"]
+    },
+    {
+      "area": "Oficina Atención a la Familia",
+      "emails": ["inr-u12.familia@minterior.gub.uy"]
+    },
+    {
+      "area": "Oficina Redención de Pena",
+      "emails": ["inr-u12.redenciondepena@minterior.gub.uy"]
+    },
+    {
+      "area": "Oficina de Reclusión",
+      "emails": ["inr-crcc-reclusion@minterior.gub.uy"]
+    },
+    {
+      "area": "Jefatura de Servicio",
+      "emails": ["inr-crcc-intendencia@minterior.gub.uy"]
+    }
+  ],
+
+  "web": null,
+  "openingHours": null,
+  "packages": {
+    "deliveryHours": "De 8 A 16 hs. (todos los sectores)",
+    "restrictionsUrl": "#"
+  },
+  "visiting": {
+    "visitingHours": "8 hs a 16 hs (los días dependen del sector)",
+    "visitingRestrictions": "Al momento del ingreso de la PPL, esta proporciona el listado de visitantes que se agrega al sistema y no puede modificarse durante los primeros tres meses. Una vez que el visitante concurre en el día y horario correspondiente, su registro se finaliza en el sector de Revisoría y/o Atención a la Familia. Para agregar nuevos visitantes o realizar altas y bajas, la PPL debe solicitarlo por escrito. La visita debe estar previamente registrada mediante solicitud de la persona que desea ingresarla, y cada PPL puede recibir un máximo de cuatro visitantes, incluidos menores de edad. Los menores que ingresen con su madre deben presentar cédula de identidad, y si ingresan con otro adulto responsable, deberán contar con solicitud previa, partida de nacimiento y consentimiento de madre, padre o tutor. No podrán ingresar quienes sean víctimas del delito por el cual la PPL se encuentra recluida, quienes tengan prohibición de acercamiento o medidas cautelares vigentes, quienes posean requisitoria o averiguación de paradero, ni personas excarceladas que no sean familiares directos si no han transcurrido al menos 90 días desde su liberación."
+  }
 }
