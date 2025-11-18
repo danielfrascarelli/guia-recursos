@@ -18,7 +18,7 @@ export default function AdultSancionIntro({ }: AdultSancionIntroProps) {
           <div className="common-layout-margin mt-4">
             <p>Tenes que considerar que las visitas se van a ver afectadas, de todas formas está habilitado que una persona pueda ingresar, mediante la figura de VISITA EXCEPCIONAL una vez al mes.</p>
           </div>
-          <div>
+          <div className="common-layout-margin-only-desktop mt-4">
             <IconBoxCard
               borderColor="#e9a15f"
               bgColor="#efcfb273"

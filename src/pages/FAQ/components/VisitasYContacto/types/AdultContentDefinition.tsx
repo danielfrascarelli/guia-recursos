@@ -48,7 +48,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               </ul>
             </div>
 
-            <div className="mt-3">
+            <div className="mt-3 common-layout-margin-only-desktop">
               <IconBoxCard
                 borderColor="transparent"
                 bgColor="#47b2eb4f"
@@ -85,7 +85,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 En la cárcel de mujeres existe un día particular para la visita de infancias y adolescencias. Actualmente se realizan los días viernes.
               </div>
             </div>
-            <div className="pt-4">
+            <div className="pt-4 common-layout-margin-only-desktop">
               <IconBoxCard
                 borderWidth={3}
                 offsetX={7} offsetY={7}
@@ -119,7 +119,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <div>Cada unidad tiene sus particularidades. </div>
               <div>Aquí te presentamos un listado general, sugerimos consultar a la Unidad ante cualquier duda.</div>
             </div>
-            <div className="pt-4">
+            <div className="pt-4 common-layout-margin-only-desktop">
               <FlatOffsetCard
                 borderColor="#e9a15f"
                 bgColor="#efcfb273"
@@ -127,7 +127,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
               >
-                <div className="common-layout-margin t-2">
+                <div className="mx-xl-4 my-3 common-layout-margin-only-not-desktop">
                   En algunas unidades no se permite el ingreso con caravanas/accesorios como pircing u otros.
                 </div>
               </FlatOffsetCard>
@@ -176,14 +176,14 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <li>abrigo</li>
               </ul>
             </div>
-            <div className="mt-4">
+            <div className="mt-4 common-layout-margin-only-desktop">
               <FlatOffsetCard
                 borderColor="transparent"
                 bgColor="#47b2eb4f"
                 borderWidth={3}
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}>
-                <div className="pt-2 pb-2 common-layout-margin">
+                <div className="mx-xl-4 my-3 common-layout-margin-only-not-desktop">
                   <label>En algunas Unidades se puede llevar a la visita solo lo que se va a compartir durante el transcurso de la misma. </label>
                   <label>En otras habilitan el ingreso de más alimentos.</label>
                 </div>
@@ -211,7 +211,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <li>Cada unidad tiene un día específico para recibir paquetes, pedile a tu familiar que lo consulte previamente o asesórate tu.</li>
               </ul>
             </div>
-            <div className="mt-4">
+            <div className="mt-4 common-layout-margin-only-desktop">
               <IconBoxCard
                 borderColor="transparent"
                 bgColor="#47b2eb4f"
@@ -229,7 +229,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <p>En caso de existir escáner en la unidad, la persona y el paquete serán escaneados previo al ingreso. </p>
               <p>En caso de NO existir escáner, la revisión la realizará el personal a cargo.</p>
             </div>
-            <div className="mt-4">
+            <div className="mt-4 common-layout-margin-only-desktop">
               <IconBoxCard
                 borderWidth={3}
                 offsetX={7} offsetY={7}

@@ -1,7 +1,3 @@
-import { BoxListOptions } from "../../components/list-options/box-list-options/BoxListOptions";
-
-import styles from "./FAQ.module.scss";
-import "./faq.scss";
 import TitleBar from "../../components/title-bar/TitleBar";
 import type { DefinitionProps } from "../../components/DefinitionProps";
 import { RelativeType } from "../../shared/utils/RelativeType";
@@ -9,6 +5,9 @@ import { getContentDefinition } from "./ContentDefinition";
 import type { TextListItem } from "../../shared/utils/Item";
 import { ImageListOptions } from "../../components/list-options/image-list-options/ImageListOptions";
 import BackButton from "../../components/back-button/BackButton";
+
+import styles from "./FAQ.module.scss";
+import "./faq.scss";
 
 export interface FAQProps extends DefinitionProps {
   type: RelativeType;
@@ -28,12 +27,9 @@ export default function FAQ({ type }: FAQProps) {
           <BackButton />
           <TitleBar title="Orientación básica" />
         </div>
-        <main className={styles.main}>
-          <div className="d-block d-sm-none">
+        <main className={`${styles.main} mt-4`}>
+          <div className="d-block common-layout-margin-only-desktop gap-3">
             <ImageListOptions items={items} />
-          </div>
-          <div className="d-none d-sm-block">
-            <BoxListOptions items={items} variant="faq" />
           </div>
         </main>
       </div>

@@ -26,7 +26,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               , allí se encargarán de recepcionar tu solicitud generando un expediente, te recomendamos que solicites luego de realizado el trámite, el número de expediente para hacerle seguimiento y como garantia de que se dio inicio al trámite.
             </p>
           </div>
-          <div className="mt-3 mb-3 text-justify">
+          <div className="mt-3 mb-3 text-justify common-layout-margin-only-desktop">
             <IconBoxCard
               borderColor="#e9a15f"
               bgColor="#efcfb273"
@@ -48,32 +48,6 @@ export function getAdultContentDefinition(): ContentDefinition[] {
             <p>Las Unidades qué dependen de SAIPPL son las Nro. 4, 5, 9, 1, 3, 12.</p>
             <p>El resto de las Unidades dependen de Sanidad Policial. Se proyecta que toda la atención en Salud, pertenezca a ASSE.</p>
           </div>
-
-
-
-
-          {/* <div className="common-layout-margin">
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p></p>
-            <p>También podes dirigirte a la
-              <a href="/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/oficinas/1" target='_blank'>
-                &nbsp;Oficina de Atención a la Familia&nbsp;
-              </a>
-              vía email o presencial, y allí se ingresará una solicitud por alguien encargado del área de salud. </p>
-            <p>Se genera un expediente que se remite a la unidad. </p>
-            <p>Te recomendamos llevar contigo el número de expediente.</p>
-          </div>
-          <div className="pt-2">
-            <p>Tene en cuenta que:</p>
-            <ul>
-              <li>En caso de internación de tu familiar, se pueden solicitar cuidados para la persona. Dicha gestión se puede realizar en el INR quién determinará si es viable o no. Luego tiene que habilitar el Centro de Salud.</li>
-              <li>También es posible que no se habiliten los cuidados pero sí, una visita especial. Se puede autorizar a algún familiar a que lo vea. Esto dependerá del perfil de la persona detenida. De esto se encarga el INR. </li>
-              <li>Es necesario tener presente qué no todos los hospitales habilitan visitas, si se puede acceder siempre al informe médico.</li>
-            </ul>
-          </div> */}
         </div>
         )
       },
@@ -95,7 +69,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <li>Es necesario tener presente qué no todos los Centro Hospitalarios habiliten visitas, para el acceso a los informes médicos debes de consultar en que horarios se realizan, casi siempre se dan dos informes al día, depende de cada Centro de Salud.</li>
             </ul>
           </div>
-          <div className="mt-3 mb-3 text-justify">
+          <div className="mt-3 mb-3 text-justify common-layout-margin-only-desktop">
             <IconBoxCard
               borderColor="#e9a15f"
               bgColor="#efcfb273"

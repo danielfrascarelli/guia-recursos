@@ -18,7 +18,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <li>Cuando se solicitan Traslados de Unidad, el trámite puede demorar hasta 150 días desde el inicio de la solicitud, esto en el ideal no debería de superar los 90 días totales.</li>
             </ul>
           </div>
-          <div className="mt-3 mb-3">
+          <div className="mt-3 mb-3 common-layout-margin-only-desktop">
             <IconBoxCard
               borderWidth={3}
               offsetX={7} offsetY={7}
@@ -51,7 +51,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
           <div className="common-layout-margin">
             <p>Mediante el Programa OASys, el cual es una Evaluación de la Junta, qué se aplica a las personas detenidas cuando se encuentran ya dentro del sistema penitenciario. Este Programa fue creado con el fin de establecer una categoría asociada a la designación de la Unidad y/o el Traslado de la persona.</p>
           </div>
-          <div className="mt-3">
+          <div className="mt-3 mb-3 common-layout-margin-only-desktop">
             <IconBoxCard
               borderWidth={3}
               offsetX={7} offsetY={7}

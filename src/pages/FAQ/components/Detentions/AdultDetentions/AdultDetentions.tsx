@@ -44,7 +44,7 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
                   .</li>
               </ul>
             </div>
-            <div className="mt-3">
+            <div className="mt-3 common-layout-margin-only-desktop">
               <IconBoxCard
                 borderColor="transparent"
                 bgColor="#47b2eb4f"
@@ -63,7 +63,7 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
                 <li>Tenes que saber que en algunos lugares del País, como es el caso de Paysandú, Rivera, Libertad, Canelones y Montevideo existe la posibilidad de contar con la asistencia de Abogados/ as defensores especializados en ejecución penal, la persona en este caso debe de tener una pena efectiva.</li>
               </ul>
             </div>
-            <div className="mt-3">
+            <div className="mt-3 common-layout-margin-only-desktop">
               <IconBoxCard
                 borderColor="transparent"
                 bgColor="#47b2eb4f"
@@ -81,7 +81,7 @@ export default function AdultFaqIntro({ }: AdultFaqIntroProps) {
                 <li>En el interior generalmente ingresan en la Unidad del Departamento y no reciben evaluación. Al igual que las mujeres en todo el país. </li>
               </ul>
             </div>
-            <div className="mt-3">
+            <div className="mt-3 common-layout-margin-only-desktop">
               <IconBoxCard
                 borderColor="transparent"
                 bgColor="#47b2eb4f"

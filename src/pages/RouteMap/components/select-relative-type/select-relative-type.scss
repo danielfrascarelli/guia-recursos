@@ -1,18 +1,32 @@
 @use "../../../../styles/variables" as v;
 
-.screen {
-  display: flex;
-  flex-direction: column;
-}
+.select-relative-type {
+  .select-relative-type-screen {
+    display: flex;
+    flex-direction: column;
+  }
 
-.main {
-  padding: 16px 18px 28px;
-}
+  .select-relative-type-main {
+    padding: 16px 0px 28px;
+    margin: auto;
 
-.title {
-  font-size: 22px;
-  font-weight: 600;
-  color: v.$ink-900;
-  text-align: center;
-  margin: 18px 0 16px;
+    nav {
+      gap: 55px;
+    }
+  }
+  .select-relative-type-list {
+    min-width: 100px;
+
+    .image-box-button {
+      min-width: 300px;
+    }
+  }
+
+  .title {
+    font-size: 22px;
+    font-weight: 600;
+    color: v.$ink-900;
+    text-align: center;
+    margin: 18px 0 16px;
+  }
 }

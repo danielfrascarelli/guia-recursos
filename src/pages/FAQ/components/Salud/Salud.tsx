@@ -7,6 +7,7 @@ import type { DefinitionProps } from "../../../../components/DefinitionProps";
 import { RelativeType } from "../../../../shared/utils/RelativeType";
 import IntroTeenager from "./IntroTeenager";
 import BackButton from "../../../../components/back-button/BackButton";
+import { ImageListOptions } from "../../../../components/list-options/image-list-options/ImageListOptions";
 
 export interface SaludProps extends DefinitionProps {
   type: RelativeType;
@@ -21,13 +22,15 @@ export default function Salud({ type }: SaludProps) {
         <BackButton />
         <TitleBar title={"Salud"} />
       </div>
-      <main className={styles.main}>
+      <main className={`${styles.main} mt-4`}>
         {
           type == RelativeType.Adult
             ? <></>
             : <IntroTeenager />
         }
-        <TextListOptions items={items} />
+        <div className="d-block common-layout-margin-only-desktop gap-3">
+          <ImageListOptions items={items} />
+        </div>
       </main>
     </div>
   );

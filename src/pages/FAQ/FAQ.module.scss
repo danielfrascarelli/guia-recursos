@@ -5,20 +5,13 @@
   flex-direction: column;
 }
 
-.sticky {
-  position: sticky;
-  top: var(--sticky-offset, 44px);
-  z-index: 3;
-}
-
-.stickyInner {
-  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
-  padding: 10px 18px;
-}
-
 .main {
-  padding: 16px 18px 28px;
-  margin-top: 10px;
+  padding: 16px 0px 28px;
+  margin: auto;
+
+  nav {
+    gap: 55px;
+  }
 }
 
 .title {

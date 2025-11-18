@@ -22,7 +22,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 <li>Ocurre que cuando el INR no realiza la redención, corresponde que el/la abogado/a presente la solicitud frente al Juez, el mismo puede tomarlo en cuenta o no.</li>
               </ul>
             </div>
-            <div className="mt-2 mb-2">
+            <div className="mt-2 mb-2 common-layout-margin-only-desktop">
               <FlatOffsetCard
                 borderColor="#e9a15f"
                 bgColor="#efcfb273"
@@ -30,10 +30,8 @@ export function getAdultContentDefinition(): ContentDefinition[] {
                 offsetX={7} offsetY={7}
                 overhangX={7} overhangY={7}
               >
-                <div className="common-layout-margin text-justify">
-                  <div className="pt-3">
-                    <p> La solicitud de Redención de pena se puede gestionar en la Oficina de Redención de pena de cada Unidad, posterior a comprobar que la persona está estudiando.</p>
-                  </div>
+                <div className="mx-xl-4 my-3 common-layout-margin-only-not-desktop">
+                  <p>La solicitud de Redención de pena se puede gestionar en la Oficina de Redención de pena de cada Unidad, posterior a comprobar que la persona está estudiando.</p>
                 </div>
               </FlatOffsetCard>
             </div>

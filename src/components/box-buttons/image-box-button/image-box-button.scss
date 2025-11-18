@@ -11,7 +11,8 @@
     border: none;
 
     /* Sombra estilo botón 3D */
-    box-shadow: 0px 4px 0px #c4b797,
+    box-shadow:
+      0px 4px 0px #c4b797,
       /* sombra base inferior */ 0px 8px 16px rgba(0, 0, 0, 0.15); /* sombra suave difuminada */
 
     margin-left: 40px;
@@ -19,12 +20,16 @@
     padding: 19px 40px;
     cursor: pointer;
 
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition:
+      transform 0.15s ease,
+      box-shadow 0.15s ease;
 
     /* efecto al presionar */
     &:active {
       transform: translateY(3px);
-      box-shadow: 0px 1px 0px #c4b797, 0px 4px 8px rgba(0, 0, 0, 0.1);
+      box-shadow:
+        0px 1px 0px #c4b797,
+        0px 4px 8px rgba(0, 0, 0, 0.1);
     }
 
     .image-box-button-img-logo__container {
@@ -43,12 +48,16 @@
 
     .image-box-button-img-icon__container {
       width: 10%;
+      min-width: 25px;
+      max-width: 35px;
       display: flex;
       justify-content: center;
       align-items: center;
 
       .image-box-button-img-icon {
         width: 10%;
+        min-width: 25px;
+        max-width: 35px;
         height: auto;
         object-fit: contain;
       }

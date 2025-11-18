@@ -10,7 +10,7 @@ export default function IntroTeenager() {
                 <p>Atención en Salud mental, considerando las demoras actuales, se entiende necesario el cumplimiento a través de la búsqueda de abordaje por equipos interdisciplinarios.</p>
 
             </div>
-            <div className="mt-3">
+            <div className="mt-3 common-layout-margin-only-desktop">
                 <IconBoxCard
                     borderWidth={3}
                     offsetX={7} offsetY={7}

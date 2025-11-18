@@ -59,7 +59,7 @@ export function getTeenagerContentDefinition(): ContentDefinition[] {
                 <li>Hasta 3 bebidas gaseosas, las mismas serán abiertas para comprobar que el envase no fue adulterado.</li>
               </ul>
             </div>
-            <div className="mt-3 text-justify">
+            <div className="mt-3 text-justify common-layout-margin-only-desktop">
               <IconBoxCard
                 borderWidth={3}
                 offsetX={7} offsetY={7}
