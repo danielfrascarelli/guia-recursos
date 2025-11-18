@@ -1,4 +1,4 @@
-import { HeartIcon, HomeIcon, KeyIcon, PeopleIcon, TruckIcon } from "../../../assets/icons/icons";
+import { DisciplinaryMeasure, HeartIcon, HomeIcon, KeyIcon, PeopleIcon, TruckIcon } from "../../../assets/icons/icons";
 import type { ContentDefinition } from "../../../components/ItemDefinition";
 import { RelativeType } from "../../../shared/utils/RelativeType";
 
@@ -6,6 +6,7 @@ import acceso from '../../../assets/images/menu/acceso.svg';
 import esposas from '../../../assets/images/esposas.svg';
 import salida from '../../../assets/images/menu/salida.svg';
 import salud from '../../../assets/images/menu/salud.svg';
+import sancion from '../../../assets/images/menu/sancion.svg';
 import traslados from '../../../assets/images/menu/traslados.svg';
 import visitas from '../../../assets/images/menu/visitas.svg';
 
@@ -63,8 +64,8 @@ export function getAdultContentDefinition(): ContentDefinition[] {
       id: "5",
       variant: "pretty_white",
       url: "sanciones",
-      imageUrl: salud,
-      icon: <HeartIcon />,
+      imageUrl: sancion,
+      icon: <DisciplinaryMeasure />,
       componentType: "SancionComponent",
       props: {
         title: "Qué esperar que suceda durante una sanción",
