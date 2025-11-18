@@ -4,7 +4,7 @@ import type { OfficeData } from '../../common/common-component/CommonOfficeInfoP
 export interface InfoUnidad extends OfficeData {
   packages: {
     deliveryHours: string;
-    restrictionsUrl?: string;
+    restrictionsUrl: string| null;
   };
   visiting: {
     visitingHours: string | null;

@@ -21,7 +21,7 @@ export default function BackButton({ className }: BackButtonProps) {
   };
 
   const onShare = () => {
-    const msg = `Hola 👋, entrá al siguiente link para ver la Guía para el acompañamiento: https://gr.face-auth.me${location.pathname}`;
+    const msg = `Hola 👋, entrá al siguiente link para ver la Guía para el acompañamiento: https://familiaspresentes.uy/guia${location.pathname}`;
     const url = "https://api.whatsapp.com/send?text=" + encodeURIComponent(msg);
     window.open(url, "_blank");
   };

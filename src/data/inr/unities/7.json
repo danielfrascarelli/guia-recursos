@@ -81,13 +81,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "La recepción de encomiendas entregadas por civiles se realiza en la puerta de la unidad de 08:00 a 15:00, y las PPL las reciben el mismo día los lunes, miércoles y viernes. Cada encomienda debe contener un máximo de 20 kg en una sola bolsa transparente con alimentos y vestimenta, además de hasta 2 litros de productos de limpieza y 2 litros de refresco.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u7/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": null
   },
   "visiting": {
     "visitingHours": "Los horarios de visita establecen que el portón principal se abre a las 07:30 para el inicio del registro, permitiendo que los visitantes ingresen desde las 08:00 hasta las 14:00, pudiéndose retirar como máximo a las 16:00. Los días de registro son lunes, miércoles y viernes, según el horario de atención. En caso de que el visitante resida a más de 70 km de la unidad, podrá concurrir el mismo día de visita, registrándose en ese momento mediante la constancia de domicilio correspondiente para realizar un nuevo registro.",
     "visitingRestrictions": "La visita puede ser restringida cuando la persona esté sancionada por resolución de la Dirección Nacional, cuando la PPL se encuentre sancionada y ya haya hecho uso de su visita mensual (permitiéndose solo una persona), o si se trata de un ex-PPL que no ha cumplido el plazo preventivo de su libertad, en cuyo caso el sistema no autoriza el ingreso. Ante requisitorias de la SGSP, se consulta a Jefatura de Servicio y, si no se requiere detención, se autoriza el ingreso. Otra restricción aplica a personas menores de edad, quienes aunque estén casadas legalmente con la PPL, deben ingresar acompañadas por madre, padre o tutor legal. Si el ingreso está prohibido por causa justificada, se puede solicitar una visita especial por escrito según la Orden 43/25 de la Dirección del INR.",
     "visitingHoursConjugal": "El registro de visitas conyugales se realiza el mismo día de la visita, con personal de Revisoría presente a las 09:00 para revisar habitaciones y constatar daños, quedando a la espera de que las PPL ingresen a usufructuar el beneficio. En Revisoría se llevan planillas con los datos de las PPL y sus parejas, incluyendo fotocopia de cédula, que luego se verifican en el sector conyugal. El registro y descarga de nuevas planillas se realiza al finalizar la visita, previa entrega de solicitud y cédula de la pareja.",
     "visitingRestrictionsConjugal": "No se permite el ingreso si la persona intenta ingresar con alguien no registrado como su pareja, ni si la pareja trae menores a cargo y se dejan con terceros, salvo que sean familiares directos mayores de edad. La duración del beneficio es de 60 minutos, con aviso a los 45 minutos.",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u7/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": null
   }
 }

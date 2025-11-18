@@ -17,7 +17,7 @@ export default function Tips() {
           >
             <p>
               Acércate a la
-              <a href="/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/oficinas/1" target='_blank'>
+              <a href="mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/oficinas/1" target='_blank'>
                 &nbsp;Oficina de Atención a la Familia&nbsp;
               </a>
               del INR y despeja junto a ellos qué trámites podes realizar siendo familiar, y si no puedes escribe un correo electrónico a <a href="mailto:inr-pplatencionalfamiliar@minterior.gub.uy">inr-pplatencionalfamiliar@minterior.gub.uy</a>.
