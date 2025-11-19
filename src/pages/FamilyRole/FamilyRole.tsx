@@ -33,16 +33,19 @@ export default function FamilyRole() {
             offsetX={7} offsetY={7}
             overhangX={7} overhangY={7}
           >
-            <div className="common-layout-margin-only-not-desktop py-4 px-4">
+            <div className="common-layout-margin-only-not-desktop py-2 px-4">
               <img src={child} className="child-image" alt="child logo" />
               <p className="text-justify">
-                Tenes que saber que si tu familiar detenido tiene infancias o adolescencias (NNA) a su cargo,
+                Tenes que saber que si tu familiar detenido tiene infancias o adolescencias a su cargo,
                 seguramente seas la persona que deberá brindar protección a los mismos.
               </p>
               <p className="text-justify">
                 Si no podes, lo mejor es aconsejar a la persona detenida que identifique
                 referentes protectores y de esta manera dar garantías a los derechos de
                 los/as niños, niñas y adolescentes (NNA).
+              </p>
+              <p className="text-justify">
+                Si no hay figuras de cuidado, se debe de recurrir a INAU para que de protección y garantías a los/as NNA involucrados. 
               </p>
             </div>
           </FlatOffsetCard>

@@ -54,7 +54,7 @@ export default function Tips() {
             imgSrc={circleCheck}
           >
             <p>
-              Para realizar solicitudes ante la oficina, necesitas realizar una solicitud, aqui te la dejamos: 
+              Para realizar solicitudes ante la oficina, necesitas realizar una solicitud. Te dejamos un modelo de cómo deberían presentarse: 
               <a href="https://familiaspresentes.uy/guia-docs/Prototipo para solicitudes en oficina de atención a la familia.pdf" target="_blank">
                 &nbsp;Prototipo para solicitudes en oficina de atención a la familia
               </a>

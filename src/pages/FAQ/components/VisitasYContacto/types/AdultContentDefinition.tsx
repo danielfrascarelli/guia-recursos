@@ -64,7 +64,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <p>Tiempos de espera en la visita: </p>
               <ul>
                 <li>Contempla que existen prioridades a la hora del ingreso, aquí te contamos cuáles son.</li>
-                <li>Embarazadas y personas en situación de discapacidad tienen prioridad a la hora de realizar fila en la unidad. /Acá se meten unos buenos iconos. </li>
+                <li>Embarazadas y personas en situación de discapacidad tienen prioridad a la hora de realizar fila en la unidad.</li>
               </ul>
             </div>
           </div>

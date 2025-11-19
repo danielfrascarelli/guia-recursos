@@ -52,7 +52,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         text: (<>
           <div className="common-layout-margin text-justify">
             <div>
-              <p>Tenes que considerar que existen Cupos Laborales para la persona que se encuentra cumpliendo un medida.</p>
+              <p>Tenes que considerar que existen Cupos Laborales para la persona que se encuentra cumpliendo una medida.</p>
               <p>La persona detenida puede acceder a Cupos Laborales, esto no implica que todos los Trabajos sean remunerados, existen prácticas laborales que son llamadas Comisiones las cuales pueden ser de estudio o trabajo.</p>
               <p>En algunas situaciones particulares se puede acceder a un peculio, el cual corresponde actualmente a dos BPC (Base de Prestaciones y Contribuciones). Puede solicitarlo la persona en la Unidad o el familiar/ referente afectivo realizar la gestión.</p>
             </div>

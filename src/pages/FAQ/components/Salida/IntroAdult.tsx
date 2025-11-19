@@ -5,8 +5,8 @@ export default function IntroAdult() {
       <div className="common-layout-margin text-justify mt-3">
             <div>
                 <p>Previo a la salida, desde la unidad corresponde tramitar los pasajes para el traslado de la persona hacia su comunidad.</p>
-                <p>Mientras acompañas a tu familiar y se preparan para la salida, orientalo para qué dentro de la Unidad pueda generar documentación útil como: cédula de identidad, carné de salud.</p>
-                <p>Existe la DINALI qué es la Dirección Nacional de Apoyo al Liberado. La misma se centraliza en Montevideo, en el resto de los departamentos debes dirigirte a la Oficina Territorial de tu departamento correspondiente al Ministerio de Desarrollo Social.</p>
+                <p>Mientras acompañas a tu familiar y se preparan para la salida, orientalo para que dentro de la Unidad pueda generar documentación útil como: cédula de identidad, carné de salud.</p>
+                <p>Existe la DINALI que es la Dirección Nacional de Apoyo al Liberado. La misma se centraliza en Montevideo, en el resto de los departamentos debes dirigirte a la Oficina Territorial de tu departamento correspondiente al Ministerio de Desarrollo Social.</p>
             </div>
             <div className="pb-3">
                 <a href="https://www.gub.uy/ministerio-desarrollo-social/territorio" target="_blank">

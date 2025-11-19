@@ -1,3 +1,4 @@
+import FlatOffsetCard from "../../../../../components/cards/flat-offset-card/FlatOffsetCard";
 import IconBoxCard from "../../../../../components/cards/icon-box-card/IconBoxCard";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
 
@@ -14,7 +15,22 @@ export function getAdultContentDefinition(): ContentDefinition[] {
           <div className="common-layout-margin text-justify">
             <p>Desde Familias Presentes comprendemos que el acompañamiento en el cuidado de la salud es de especial importancia.</p>
             <p>Si tu familiar tiene algun problema de salud crónico, está bueno que estes al tanto de su situación, si accede a la medicación correspondiente o se debe de realizar la solicitud de la misma.</p>
-            <p>La persona que acompana tiene derecho a llamar y consultar acerca de la situacion de salud de su ser querido, esta consulta se realiza con el referente del área en la Unidad correspondiente.</p>
+            <p>La persona que acompaña tiene derecho a llamar y consultar acerca de la situacion de salud de su ser querido, esta consulta se realiza con el referente del área en la Unidad correspondiente.</p>
+          </div>
+          <div className="mt-2 mb-2 common-layout-margin-only-desktop">
+            <FlatOffsetCard
+              borderColor="#e9a15f"
+              bgColor="#efcfb273"
+              borderWidth={3}
+              offsetX={7} offsetY={7}
+              overhangX={7} overhangY={7}
+            >
+              <div className="mx-xl-4 my-3 common-layout-margin-only-not-desktop">
+                <p>En caso de nacimiento de un hijo/a o fallecimiento de un familiar, se puede solicitar Salida Transitoria. </p>
+              </div>
+            </FlatOffsetCard>
+          </div>
+          <div className="common-layout-margin text-justify">
             <p>En cada Unidad existe un/a Coordinador/a encargado del Área de Salud.</p>
             <p>También podes dirigirte a la
               <a href="/mapa-de-ruta/contactos-utiles/instituto-nacional-de-rehabilitacion/oficinas/1" target='_blank'>
@@ -45,7 +61,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
             <p>En caso de depender de la Unidad de SAIPPL existe un correo de Atención, donde los/as familiares pueden realizar consultas y solicitudes al correo:&nbsp;
               <a href="mailto:atencionalusuario086@asse.com.uy" target='_blank'>
                 &nbsp;atencionalusuario086@asse.com.uy&nbsp;</a>o al telefóno:<a href="tel:+59823550456" target='_blank'>&nbsp;23550456</a>.</p>
-            <p>Las Unidades qué dependen de SAIPPL son las Nro. 4, 5, 9, 1, 3, 12.</p>
+            <p>Las Unidades que dependen de SAIPPL son las Nro. 4, 5, 9, 1, 3, 12.</p>
             <p>El resto de las Unidades dependen de Sanidad Policial. Se proyecta que toda la atención en Salud, pertenezca a ASSE.</p>
           </div>
         </div>
@@ -66,7 +82,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
               <li>En caso de que la persona necesite atención en un Centro de Salud, dependerá de las disposiciones de ese Centro Hospitalario, que los familiares accedan a informes, médicos, visitas y/o cuidados.</li>
               <li>En caso de internación, el acompañamiento y cuidados de la persona se pueden solicitar a través del INR, allí evaluarán si es posible o no, luego de tener esa respuesta, se solicita que el Centro de Salud lo habilite.</li>
               <li>Considera que puede que no se habiliten las visitas y cuidados durante el periodo de internación y/ o visitas especiales.</li>
-              <li>Es necesario tener presente qué no todos los Centro Hospitalarios habiliten visitas, para el acceso a los informes médicos debes de consultar en que horarios se realizan, casi siempre se dan dos informes al día, depende de cada Centro de Salud.</li>
+              <li>Es necesario tener presente que no todos los Centro Hospitalarios habiliten visitas, para el acceso a los informes médicos debes de consultar en que horarios se realizan, casi siempre se dan dos informes al día, depende de cada Centro de Salud.</li>
             </ul>
           </div>
           <div className="mt-3 mb-3 text-justify common-layout-margin-only-desktop">
@@ -111,7 +127,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         text: (<>
           <div className="common-layout-margin text-justify">
             <div>
-              <p>La tuberculosis es una de las enfermedades qué más afecta a las personas privadas de libertad.. Esto se debe a las condiciones de vida dentro de las celdas y las Unidades, siendo el hacinamiento una de las características más comunes para la propagación de la misma.<br />La superpoblación a su vez, hace que los controles en salud sean escasos, por eso es importante que pidas información acerca de los controles de salud de tu familiar. </p>
+              <p>La tuberculosis es una de las enfermedades que más afecta a las personas privadas de libertad.. Esto se debe a las condiciones de vida dentro de las celdas y las Unidades, siendo el hacinamiento una de las características más comunes para la propagación de la misma.<br />La superpoblación a su vez, hace que los controles en salud sean escasos, por eso es importante que pidas información acerca de los controles de salud de tu familiar. </p>
               <p>Debes saber que se transmite por vía aérea, cuando una persona que tiene la enfermedad tose, libera bacterias que pueden ser inhaladas por quienes comparten el espacio, por eso los lugares cerrados son propicios para que se expanda.</p>
               <p>No se transmite por contacto con ropa personal, cama o uso de platos, cubiertos u objetos personales de la persona enferma.<br />Tampoco se transmite en las relaciones sexuales, ni en las trasnfusiones de sangre, de todas formas hay otras enfermedades que si, por lo que siempre debes de usar protección. </p>
               <p>Tenes que saber que si se puede compartir Mate.</p>

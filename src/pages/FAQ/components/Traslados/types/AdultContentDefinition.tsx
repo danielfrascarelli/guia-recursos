@@ -31,8 +31,8 @@ export function getAdultContentDefinition(): ContentDefinition[] {
           </div>
           <div className="common-layout-margin">
             <ul>
-              <li>Para realizar la solicitud es importante qué la persona no tenga sanciones.</li>
-              <li>"No gastar pólvora en chimangos" después qué se pide un traslado hay un plazo de 90 días para pedir otro. Salvo en situaciones de riesgo de la integridad física. Por ese motivo es recomendable poder evaluar con tu familiar si es conveniente hacer el mismo.</li>
+              <li>Para realizar la solicitud de traslado, es importante qué la persona no tenga sanciones.</li>
+              <li>"No gastar pólvora en chimangos" después que se pide un traslado hay un plazo de 90 días para pedir otro. Salvo en situaciones de riesgo de la integridad física. Por ese motivo es recomendable poder evaluar con tu familiar si es conveniente hacer el mismo.</li>
               <li>Dependiendo del riesgo de reincidencia la Junta Nacional de Traslados toma la decisión del lugar al cual será trasladada la persona.</li>
               <li>La Junta Nacional de Traslados toma la decisión del lugar al cual será trasladada la persona.</li>
             </ul>
@@ -83,7 +83,7 @@ export function getAdultContentDefinition(): ContentDefinition[] {
         text: (
           <div className="common-layout-margin text-justify">
             <p>
-              Corresponde qué la unidad qué deriva o recibe le avisé a algún familiar o qué se habilite una llamada y la persona detenida avisa.
+              Corresponde que la unidad que deriva o recibe le avisé a algún familiar o qué se habilite una llamada y la persona detenida avisa.
             </p>
           </div>)
       },

@@ -42,7 +42,10 @@ export default function EarlyMoments() {
         <div className="common-layout-margin mt-4">
           <div className="mt-2">
             <strong><p>¿A dónde me puedo dirigir para saber sobre su situación?</p></strong>
-            <p>Te sugerimos: acudir a la seccional para averiguar la Sede de fiscalía correspondiente y consultar allí.</p>
+            <p>
+              Te sugerimos: Acudir a la Seccional Policial y solicitar datos de la Sede de  Fiscalía correspondiente, luego acercarte hasta allí y consultar.
+              Podes solicitar también hablar con el Abogado/a defensor.
+            </p>
           </div>
           <div className="mt-2">
             <p>
@@ -59,7 +62,7 @@ export default function EarlyMoments() {
             overhangX={7} overhangY={7}
           >
             <div className="mt-3 mb-3">
-              <p>Es fundamental saber que, durante las primeras 24 horas posteriores a la detención, el juez debe dar garantías de que se hayan respetado ciertos derechos.</p>
+              <p>Es fundamental saber que, durante las primeras 24 horas posteriores a la detención, el/la Juez/a debe dar garantías de que se hayan respetado ciertos derechos.</p>
 
             </div>
           </IconBoxCard>
@@ -84,7 +87,7 @@ export default function EarlyMoments() {
         </div>
         <div>
           <div className="common-layout-margin mt-4">
-            <p>Es importante saber que cualquier persona puede presenciar una audiencia penal, ya que son públicas.</p>
+            <p>Es importante saber que cualquier persona puede presenciar una audiencia penal, las mismas son de carácter abierto y público.</p>
             <p>Te recordamos que como familiar, tenés derecho a estar presente en la audiencia, salvo que la persona detenida y/o el juez/a dispongan que no sea así, las razones deben de ser fundamentadas.</p>
             <p>En caso de que sea tu familiar quien no quiere que participes, debes de comprender que las situaciones son personales y eso no debería de afectar el vínculo y acompañamiento del resto del proceso.</p>
           </div>

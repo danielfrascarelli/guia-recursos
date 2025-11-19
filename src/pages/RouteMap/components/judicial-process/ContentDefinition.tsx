@@ -44,7 +44,7 @@ export function getContentDefinition(): ContentDefinition[] {
         text: (<div>
           <div className="common-layout-margin text-justify">
             <p>En este proceso, la Fiscalía y la Defensa presentan pruebas y argumentos ante un juez de turno el cual realiza una valoración decidiendo además que la persona sea responsable o no en el hecho adjudicado.</p>
-            <p>El tiempo de resolución es más largo qué el de otros procesos, pero entendemos que es el camino donde se puede dar un mejor proceso hacia la sentencia con mayores garantías de Derechos.</p>
+            <p>El tiempo de resolución es más largo que el de otros procesos, pero entendemos que es el camino donde se puede dar un mejor proceso hacia la sentencia con mayores garantías de Derechos.</p>
             <p>Además permite a todas las partes participar y discutir los hechos y el tiempo de condena.</p>
           </div>
         </div>)
@@ -75,7 +75,7 @@ export function getContentDefinition(): ContentDefinition[] {
                 overhangX={7} overhangY={7}
               >
                 <div className="pt-3 pb-3">
-                  Es importante qué vos y tu familiar comprendan que la medida llamada Libertad a prueba, implica un compromiso con las indicaciones y pautas dadas para el cumplimiento de la medida, esto se da a través de una Resolución judicial y cumpliéndose correctamente  evita la prisión. Consulta con el/la abogado/a defensor/a para colaborar con el cumplimiento de la medida.
+                  Es importante que vos y tu familiar comprendan que la medida llamada Libertad a prueba, implica un compromiso con las indicaciones y pautas dadas para el cumplimiento de la medida, esto se da a través de una Resolución judicial y cumpliéndose correctamente  evita la prisión. Consulta con el/la abogado/a defensor/a para colaborar con el cumplimiento de la medida.
                 </div>
               </IconBoxCard>
             </div>
@@ -99,7 +99,7 @@ export function getContentDefinition(): ContentDefinition[] {
                 </FlatOffsetCard>
               </div>
             </div>
-            <div className="common-layout-margin text-justify">
+            {/* <div className="common-layout-margin text-justify">
               <p>Para comunicarte con tu familiar en las Unidades de detención existen cabineros (icono de teléfono), los mismos tienen un número fijo, te conviene averiguarlo.</p>
               <p>Es importante que tengas en cuenta que no siempre funcionan o la persona detenida logra acceder.</p>
             </div>
@@ -115,7 +115,7 @@ export function getContentDefinition(): ContentDefinition[] {
                   En caso de necesitar una comunicación urgente porque no logras saber de tu familiar hace varios días puedes dirigirte a la Oficina de Atención a la Familia.
                 </div>
               </IconBoxCard>
-            </div>            
+            </div>             */}
           </div>
         )
       },
