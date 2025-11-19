@@ -5,6 +5,8 @@ import FlatOffsetCard from "../../components/cards/flat-offset-card/FlatOffsetCa
 import IconBoxCard from "../../components/cards/icon-box-card/IconBoxCard";
 import WomanBoxButton from "../../components/box-buttons/woman-box-button/WomanBoxButton";
 
+import black_boy from '../../assets/images/people/black_boy.svg';
+
 export default function FamilyRole() {
   return (
     <div className="h-100">
@@ -51,7 +53,7 @@ export default function FamilyRole() {
           </FlatOffsetCard>
         </div>
         <div className="mt-4 mb-4 fp-tips common-layout-margin-only-desktop">
-          <WomanBoxButton className="family-role-woman-card">
+          <WomanBoxButton className="family-role-woman-card" srcImg={black_boy}>
             <p className="text-justify">
               <a href="https://rimuf.org/wp-content/uploads/2023/03/Version-oficial-Espanol-Principios-de-Bogota-Bogota-Colombia-2023-.docx.pdf" target="_blank">
                 Si queres saber más acerca de Los principios de Bogota, pincha acá.

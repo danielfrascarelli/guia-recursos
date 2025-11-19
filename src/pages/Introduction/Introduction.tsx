@@ -36,7 +36,7 @@ export default function Introduction() {
           </div>
         </div>
 
-        <div className='common-layout-margin-only-desktop'>
+        <div className='common-layout-margin d-block'>
           <FpModal title='Acompañar!' modalTitle='Acompañar'>
             <div className='text-justify'>
               <p>
@@ -55,7 +55,7 @@ export default function Introduction() {
           </FpModal>
         </div>
 
-        <div className='mt-4 common-layout-margin-only-desktop'>
+        <div className='mt-4 common-layout-margin'>
           <WomanBoxButton className='fp-introduction-woman-card'>
             <p className='fp-introduction-woman-card-content text-justify'>
               <a

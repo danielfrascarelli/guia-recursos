@@ -12,6 +12,7 @@ export type WomanBoxButtonProps = {
   // overhangY?: number; // default 18
   // padding?: number;
   className?: string;
+  srcImg?: string;
   style?: React.CSSProperties;
   children: React.ReactNode;
 };
