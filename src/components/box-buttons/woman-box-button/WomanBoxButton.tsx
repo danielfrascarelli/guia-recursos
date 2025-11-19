@@ -1,7 +1,7 @@
 import './woman-box-button.scss';
 import type { WomanBoxButtonProps } from './WomanBoxButtonProps';
 
-import boy from '../../../assets/images/people/chico-01.svg';
+import boy from '../../../assets/images/people/woman.svg';
 
 export default function WomanBoxButton({
   className = '',
