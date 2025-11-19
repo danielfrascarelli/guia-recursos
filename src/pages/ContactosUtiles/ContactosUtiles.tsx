@@ -1,4 +1,3 @@
-import { BoxListOptions } from "../../components/list-options/box-list-options/BoxListOptions";
 import type { DefinitionProps } from "../../components/DefinitionProps";
 import TitleBar from "../../components/title-bar/TitleBar";
 import styles from "./ContactosUtiles.module.scss";

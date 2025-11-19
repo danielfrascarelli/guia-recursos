@@ -5,7 +5,7 @@ import type { InrProps } from "./InrProps";
 import { getContentDefinition as getOfficesContentDefinition } from "./OfficesContentDefinition";
 import { getContentDefinition as getUnitiesContentDefinition } from "./UnitiesContentDefinition";
 import type { InrUnidadProps } from "../inr-unidad-component/InrUnidadProps";
-import { BoxListOptions } from "../../../../../components/list-options/box-list-options/BoxListOptions";
+// import { BoxListOptions } from "../../../../../components/list-options/box-list-options/BoxListOptions";
 import TitleBar from "../../../../../components/title-bar/TitleBar";
 import SubtitleBar from "../../../../../components/subtitle-bar/SubtitleBar";
 import type { ContentDefinition } from "../../../../../components/ItemDefinition";
@@ -27,13 +27,13 @@ export const Inr: React.FC<InrProps> = ({ }) => {
     }));
   }
 
-  const fnBoxItems = function (cd: ContentDefinition[]) {
-    return cd.map(u => ({
-      ...u,
-      title: getBoxTitle(u.props as InrUnidadProps | InrOfficeProps),
-      subtitle: getBoxSubtitle(u.props as InrUnidadProps | InrOfficeProps),
-    }));
-  }
+  // const fnBoxItems = function (cd: ContentDefinition[]) {
+  //   return cd.map(u => ({
+  //     ...u,
+  //     title: getBoxTitle(u.props as InrUnidadProps | InrOfficeProps),
+  //     subtitle: getBoxSubtitle(u.props as InrUnidadProps | InrOfficeProps),
+  //   }));
+  // }
 
   return (
     <div className={styles.screen}>

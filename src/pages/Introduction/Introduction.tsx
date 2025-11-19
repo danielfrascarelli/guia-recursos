@@ -18,7 +18,7 @@ export default function Introduction() {
           </div>
         </div>
 
-        <div className="common-layout-margin-only-desktop">
+        <div className="common-layout-margin-only-desktop d-none">
           <FpModal title="Acompañar!" modalTitle="Acompañar">
             La palabra "acompañar" proviene del latín vulgar "companiare", que a su vez deriva de "cum panis" (con pan). Originalmente, significaba compartir el pan, es decir, estar con alguien y compartir un alimento básico, lo que implicaba cercanía y apoyo mutuo. Con el tiempo, el significado se extendió para abarcar la idea de estar con alguien en diferentes situaciones, no solo en la comida, sino también en el camino, en momentos importantes, ofreciendo compañía y apoyo.
             El origen en "cum panis" (con pan) es clave para entender el significado profundo de acompañar.
