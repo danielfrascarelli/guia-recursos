@@ -56,7 +56,7 @@ export default function Introduction() {
         </div>
 
         <div className='mt-4 common-layout-margin'>
-          <WomanBoxButton className='fp-introduction-woman-card'>
+          <WomanBoxButton className='fp-introduction-woman-card woman-cidh'>
             <p className='fp-introduction-woman-card-content text-justify'>
               <a
                 href='https://www.oas.org/es/cidh/informes/pdfs/2025/resolucion_ppl-es.pdf'

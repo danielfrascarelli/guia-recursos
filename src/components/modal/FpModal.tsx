@@ -8,13 +8,13 @@ type ModalProps = {
   onClick?: () => void;
 };
 
-import woman from '../../assets/images/people/woman.svg';
+// import woman from '../../assets/images/people/woman.svg';
 import black_boy from '../../assets/images/people/black_boy.svg';
 import './fp-modal.scss';
 import WomanBoxButton from '../box-buttons/woman-box-button/WomanBoxButton';
 
 export default function FpModal({
-  title,
+  // title,
   modalTitle,
   onClick,
   children,

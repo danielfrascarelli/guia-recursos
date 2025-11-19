@@ -1,6 +1,6 @@
 .fp-introduction {
   .fp-introduction-woman-card {
-    img.img-logo{
+    img.img-logo {
       width: 100px;
     }
     p.fp-introduction-woman-card-content {
@@ -10,9 +10,17 @@
       }
     }
   }
-  .woman-box-button.fp-introduction-woman-card-btn{
+  .woman-box-button.fp-introduction-woman-card-btn {
     margin-left: 0px;
     margin-right: 0px;
     margin: auto;
+  }
+
+  @media (max-width: 450px) {
+    .woman-cidh {
+      .img-logo {
+        display: none;
+      }
+    }
   }
 }
