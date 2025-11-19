@@ -72,13 +72,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Lunes, miércoles y viernes de 08 a 12 hs.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u20/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u20/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "Sábado y domingo de 9 a 16 el ingreso y hasta las 17 hs. la permanencia en la visita.",
     "visitingRestrictions": "Los alimentos a ingresar tienen que ser los que se vayan a consumir en el momento. El mate tiene que estar sin aprontar con cebadura de yerba en bolsa transparente. Con respecto a las personas no ingresan quienes hayan sido sancionadas internamente por alguna falta cometida. Personas con procesos judiciales en curso o personas con restricciones judiciales. Asi como las establecidas en protocolos del INR inherente a los tiempos de recuperación de la libertad.",
     "visitingHoursConjugal": "Lunes a viernes de 8 a 18 hs. Horarios coordinados con las PPls de acuerdo a disponibilidad de las habitaciones de conyugales.",
     "visitingRestrictionsConjugal": "Limitaciones con respecto a las conyugales, las ya establecidas por el INR.",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u20/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u20/Restricciones%20Vestimenta.pdf"
   }
 }

@@ -52,13 +52,13 @@
     "openingHours": null,
     "packages": {
         "deliveryHours": "Sábados de 10 a 18 hs y domingos de 08 a 18hs.",
-        "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u2/Restricciones%20paquetes.pdf"
+        "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u2/Restricciones%20Paquete.pdf"
     },
     "visiting": {
         "visitingHours": "De 09 a 16 hs.",
         "visitingRestrictions": "Ingresan máximo 5 personas por PPL por día. No hay restricción en cuanto al color, sí en cuanto al tipo: no se permite minifalda, short, top ni musculosa.",
         "visitingHoursConjugal": "Sábado a las 10 hs hasta el domingo a las 18hs, ya que las parejas pueden pernoctar en la Unidad.",
         "visitingRestrictionsConjugal": "Visita conyugales no tienen restricciones.",
-        "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u2/Restricciones%20visitas.pdf"
+        "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u2/Restricciones%20Vestimenta.pdf"
     }
 }

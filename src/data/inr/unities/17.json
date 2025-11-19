@@ -59,13 +59,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Se reciben unicamente los días Martes de 08 a 16 hs. Y los días de visita (siendo unicamente habilitado a ingresar paquetes el visitante correspondiente a ese día), y los días viernes llegan los paquetes enviados por el Correo Uruguayo.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u17/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u17/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "Horario de 10 a 17 hs., se autoriza el ingreso de la visita hasta la hora 16 hs.",
     "visitingRestrictions": "No podrán ingresar como visita las personas que posean medidas de restricción respecto de la PPL, o cuando la PPL mantenga restricciones hacia ellas. Tampoco podrán ingresar las personas sancionadas, ni aquellas que hayan sido liberadas y no hayan cumplido un año desde su egreso.",
     "visitingHoursConjugal": "De 08 a 10 hs.",
     "visitingRestrictionsConjugal": "",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u17/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u17/Restricciones%20Vestimenta.pdf"
   }
 }

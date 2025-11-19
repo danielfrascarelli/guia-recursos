@@ -80,13 +80,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "De 8 a 15 hs",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u1/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u1/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "De 8 a 12 y 14 a 18 hs. Viernes, sábado y domingo. (Un solo día por semana en horario matutino o vespertino dependiendo del sector de alojamiento).",
     "visitingRestrictions": "La visita debe estar registrada previamente. Ingresan según disponibilidad del sector de alojamiento.",
     "visitingHoursConjugal": "Lunes a Viernes de 09:00 a 13:00 hs. (Horario excepcional de 14:30 a 15:30 en casos justificados y con previa autorización).",
     "visitingRestrictionsConjugal": "La visita debe estar registrada como pareja y habilitada mediante solicitud expresa con datos y copia de cédula. Debe ser mayor de edad (salvo matrimonio legal). Para el ingreso, ni la PPL ni la visita pueden poseer sanción.",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u1/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u1/Restricciones%20Vestimenta.pdf"
   }
 } 

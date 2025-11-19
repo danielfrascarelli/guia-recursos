@@ -60,13 +60,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Se entrega por correo uruguayo y deberan colocar en la caja, fotocopia del remitente, constancia de domicilio y nombre de la ppl. Los dias de entrega de paquetes de familiares o amigos en la unidad son los dias martes y viernes entre las 09 a 15 hs, debiendo concurrir con cedula de identidad para el correcto registro y nombre de la ppl destinaria, teniendo un listado de los articulos a entregar.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u14/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u14/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "Pabellones 1,2,3,4,5,6 y Zona chacra: Sabado y Domingo comenzando a las 09 hasta las 12 y de 13 a 16 hs. Anexos de seguridad Jueves horarios 09 a 15 hs. Sector Preventiva Martes y Jueves 09 a 15 Días de registro de visita. Siendo de la ciudad de Colonia se deberá registrar de lunes a viernes en el horario de 09 a 16 hrs. Si el domicilio es fuera del Departamento o la ciudad de Colonia se podrá registrar el día de visita, concurriendo con constancia de domicilio, cédula de identidad vigente y en buen estado",
     "visitingRestrictions": "a visita debe estar registrada antes del ingreso. Cada PPL puede recibir hasta cuatro visitantes. Los menores de edad solo ingresan acompañados por sus padres o por un adulto responsable con autorización, partida de nacimiento y documentación de tenencia. No podrán ingresar personas con impedimento judicial o que se encuentren sancionadas.",
     "visitingHoursConjugal": "Los días de visita conyugal dependen del sector donde esté alojada la PPL. La persona debe completar una solicitud con los datos de su pareja. Para quienes tienen visita sábado o domingo, el registro debe entregarse hasta el jueves previo; para los demás sectores, hasta el lunes anterior. Las visitas conyugales se otorgan cada 15 días.",
     "visitingRestrictionsConjugal": "La PPL no puede tener sanciones vigentes para acceder a la visita conyugal. Si su pareja fue excarcelada, deberá esperar 90 días para ingresar, previa solicitud de la PPL con sus datos y fotocopia de cédula, autorizándose cada 15 días. Además, la pareja solo podrá ingresar si está registrada previamente como visita en la categoría “pareja”.",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u14/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u14/Restricciones%20Vestimenta.pdf"
   }
 }

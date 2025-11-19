@@ -113,13 +113,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Días Lunes y Jueves de 09 a 16 hs.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u5/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u5/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "El horario de ingreso a las visitas será de 09 a 12 y de 13 a 16, aunque las visitas podrán usufructuarse durante toda la jornada, que finaliza a las 17 hs. Los días y sectores asignados son los siguientes: martes y sábados para los sectores 1º, 2º y 3º Oeste, así como las primarias del primero y segundo piso (4º nivel SET y 5º piso ala “B”); miércoles y domingos para los sectores 1º, 2º y 3º Este y 3º piso Polo, además de las preventivas primarias (3º Oeste, 4º y 5º nivel ala “A”); lunes y jueves para preventivas reincidentes y arresto administrativo; y sábados y domingos para el SET.",
     "visitingRestrictions": null,
     "visitingHoursConjugal": null,
     "visitingRestrictionsConjugal": null,
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u5/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u5/Restricciones%20Vestimenta.pdf"
   }
 }

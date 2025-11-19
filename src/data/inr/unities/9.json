@@ -65,13 +65,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Martes de 08:00 a 12:00 y de 13:00 a 16:00, un peso máximo de 20 kilos. Las encomiendas se recibirán de lunes a viernes, entre las 09:00 y las 17:00 horas, y cada Persona Privada de Libertad podrá recibir una encomienda por semana. No se aceptarán encomiendas provenientes de la Zona Metropolitana, salvo excepciones debidamente autorizadas por el comando. El peso de cada encomienda no deberá superar los 20 kg aproximadamente.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u9/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u9/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "Miercoles y Sábados de 09 a 17 hs.( ingreso permitido hasta la hora 16:00, se ingresa solo con los alimentos para compartir en la visita)",
     "visitingRestrictions": "El registro de visitantes se realiza previa solicitud de la PPL ante la Coordinadora Penitenciaria, quien en primera instancia habilita al visitante y, posteriormente, en los días de visita se procede a finalizar su registro.",
     "visitingHoursConjugal": "El trámite lo realiza mediante solicitud la mujer privada de libertad y a posterior la Coordinadora Penitenciaria elabora el listado.",
     "visitingRestrictionsConjugal": null,
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u9/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u9/Restricciones%20Vestimenta.pdf"
   }
 }

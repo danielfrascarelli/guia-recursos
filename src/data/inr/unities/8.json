@@ -32,13 +32,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "De 09:00 a 18:00",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u8/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u8/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "De 09:00 a 18:00 sábados, domingos y feriados; 13:00 a 18:00 de lunes a viernes.",
     "visitingRestrictions": "Ingresan los visitantes que no tengan requisitorias ni medidas cautelares, y que el interno quiera recibir. Sin restricciones de vestimenta (color o tipo).",
     "visitingHoursConjugal": "De 09:00 a 18:00 sábados, domingos y feriados; 13:00 a 18:00 de lunes a viernes.",
     "visitingRestrictionsConjugal": "Sin restricciones.",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u8/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u8/Restricciones%20Vestimenta.pdf"
   }
 }

@@ -68,13 +68,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Martes y Jueves de 09 a 12 hs.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u22/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u22/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "Sábados y domingos de 09 a 13 hs. y preventiva de 14:30 a 17 hs., se alternan los días fin de semana por medio.",
     "visitingRestrictions": "No ingresan víctimas de los formalizados alojados en esta Unidad y ciudadanos con los cuales haya existido intervención por incautación de sustancias dentro de esta Unidad, personas liberadas de cualquier centro penitenciario del país con menos de un año de otorgada la misma.",
     "visitingHoursConjugal": "Lunes, miércoles y viernes de 15 a 17 hs, sábados y domingos de 09 a 11 hs, de 11 a 13 hs, de 13 a 15 hs y Preventivas de 15 a 17 hs.",
     "visitingRestrictionsConjugal": "Menores de edad y víctimas de los formalizados alojados en esta Unidad.",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u22/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u22/Restricciones%20Vestimenta.pdf"
   }
 }

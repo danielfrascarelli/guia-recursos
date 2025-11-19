@@ -44,13 +44,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "Martes y jueves de 07 a 12 hs.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u25/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u25/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "Cada PPL puede usufructuar el derecho a la vista 2 días a la semana, de acuerdo a lo designado para cada Sector y en coordinación con el jefe de servicio. Horario de 09 a las 15 hs. DIAS DE REGISTRO DE VISITAS: lunes a viernes de 08:00 a 12.00 horas.",
     "visitingRestrictions": "Si bien pueden registrarse un máximo de 10 visitantes por PPL, en un mismo día solo pueden ingresar a la visita un máximo de dos mayores de edad a la vez por PPL o un mayor y dos menores. Eventualmente y previa solicitud de la PPL se podrá autorizar visita especial en fecha tales como cumpleaños, fiestas tradicionales, etc.",
     "visitingHoursConjugal": "El mismo día que la PPL recibe la visita puede solicitar la conyugal, usufructuando la misma en el caso de que la habitación se encuentre disponible previa solicitud y coordinación.",
     "visitingRestrictionsConjugal": "No se permite usufructuar el beneficio de la visita conyugal a la PPL cuando la misma se encuentra sancionada.",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u25/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u25/Restricciones%20Vestimenta.pdf"
   }
 }

@@ -80,13 +80,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "dentro del horario de visita.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u4/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u4/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "Martes, Jueves, Sábado y Domingo de 07:30 a 15:30 hs. Horario de ingreso 09 a 13:30 hs. Horario de egreso 16 hs. Registro de visita por primera vez: Lunes, Miércoles y viernes horario 09 a 15 hs.(llevar cédula y constancia de domicilio emitidad por seccional).Perosnas que vivan en el interior: podrán ser registrados los mismos días e incluso los dias de visita. Deberán presentar lis mismos requisitos.",
     "visitingRestrictions": "Si la visita posee sancion y se encuentra vigente.",
     "visitingHoursConjugal": null,
     "visitingRestrictionsConjugal": "Si la PPL no posee la autorizacion con la persona que pretende usufructuar el beneficio",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u4/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u4/Restricciones%20Vestimenta.pdf"
   }
 }

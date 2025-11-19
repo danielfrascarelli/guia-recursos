@@ -84,13 +84,13 @@
   "openingHours": null,
   "packages": {
     "deliveryHours": "La recepción de paquetes traídos a la Unidad por familiares o amigos es en el horario de 08:00 a 10:30 la distribución de días y sectores se puede visualizar en Orden de Servicio Nº017/2025, las encomiendas enviadas por Correo Uruguayo se reciben para todos los sectores de Lunes a Viernes.",
-    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u13/Restricciones%20paquetes.pdf"
+    "restrictionsUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u13/Restricciones%20Paquete.pdf"
   },
   "visiting": {
     "visitingHours": "El registro de la visita comienza a la hora 08:30 y su ingreso a la hora 09:00,  los días sábados y domingos visita de Población General y los días miércoles visita de población Preventiva; (ingreso de 09:00 a 11:00 y de 14:00 a 16:00), las que se podrán retirar hasta la hora 12:00 o después de la hora 14:00. A su vez la población que se encuentra en celdas de seguridad sector A celdas 1 a 4, sector A celda 12 y sector E celda 12, se les otorga visita un día durante la primera semana de cada mes, un día por cada celda, no se cuenta con un día fijo dado que se encuentra sujeto a disposición de espacio en función de las distintas actividades que se llevan a cabo en la Unidad, previa coordinación con Jefatura de Reclusión.",
     "visitingRestrictions": " Vistas sancionadas: Se podrá aplicar la suspensión del derecho de visita aquellos visitantes familiares o amistades de la persona privada de libertad, que en su pasaje o permanencia en las instalaciones de la Unidad, hayan quebrantado normas de seguridad o de orden, así como también quienes en envío de encomiendas se les incautare elementos ilícitos. Visitas de personas liberadas: No podrán ingresar a ningún establecimiento carcelario antes de los 365 días posteriores a su excarcelación, salvo que a juicio del/la Director/a de la Unidad se justifique un régimen especial de visita. Estas visitas excepcionales podrán tener como máximo una frecuencia quincenal.",
     "visitingHoursConjugal": "",
     "visitingRestrictionsConjugal": "",
-    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u13/Restricciones%20visitas.pdf"
+    "restrictionsDressCodeUrl": "https://familiaspresentes.uy/guia-docs/inr/unidades/u13/Restricciones%20Vestimenta.pdf"
   }
 }
