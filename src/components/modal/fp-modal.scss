@@ -27,3 +27,22 @@
     }
   }
 }
+.fp-modal {
+  .modal-title {
+    color: var(--brand-wine);
+    font-weight: 700;
+  }
+  .modal-content {
+    background-color: var(--brand-bg-light);
+    color: var(--fp-text);
+    padding: 6% 4% 6% 4%;
+  }
+  .modal-footer {
+    .fp-btn-modal {
+      color: white;
+      background-color: var(--brand-wine);
+      border: none;
+      border-radius: 9999px;
+    }
+  }
+}
