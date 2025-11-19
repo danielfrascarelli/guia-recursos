@@ -41,22 +41,18 @@ export const Inr: React.FC<InrProps> = ({ }) => {
         <BackButton />
         <TitleBar title="Instituto Nacional de Rehabilitación" />
       </div>
-      <div className="mt-3">
-        <SubtitleBar text="Oficinas"></SubtitleBar>
-        <div className="d-block d-sm-none">
-          <ImageListOptions items={fnListItems(getOfficesContentDefinition())} />
+      <div className="common-layout-margin gap-3">
+        <div className="mt-3">
+          <SubtitleBar text="Oficinas"></SubtitleBar>
+          <div className="d-block">
+            <ImageListOptions items={fnListItems(getOfficesContentDefinition())} />
+          </div>
         </div>
-        <div className="d-none d-sm-block">
-          <BoxListOptions items={fnBoxItems(getOfficesContentDefinition())} variant="inr" />
-        </div>
-      </div>
-      <div className="mt-3">
-        <SubtitleBar text="Unidades"></SubtitleBar>
-        <div className="d-block d-sm-none">
-          <ImageListOptions items={fnListItems(getUnitiesContentDefinition())} />
-        </div>
-        <div className="d-none d-sm-block">
-          <BoxListOptions items={fnBoxItems(getUnitiesContentDefinition())} variant="inr" />
+        <div className="mt-3">
+          <SubtitleBar text="Unidades"></SubtitleBar>
+          <div className="d-block">
+            <ImageListOptions items={fnListItems(getUnitiesContentDefinition())} />
+          </div>
         </div>
       </div>
     </div>

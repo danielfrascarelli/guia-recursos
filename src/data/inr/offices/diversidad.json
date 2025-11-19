@@ -1,38 +1,32 @@
 {
-    "shortName": "**Junta Nacional de Traslados",
-    "longName": "**Junta Nacional de Traslados",
-    "department": "Montevideo",
-    "city": "Montevideo",
-    "neighborhood": " ",
-    "address": {
-        "text": " ",
-        "url": " "
-    },
-    "phone": [
-        {
-            "area": " ",
-            "phones": [
-                ""
-            ]
-        } 
-    ],
-      "email": [
+  "shortName": "Departamento de Género y Diversidad",
+  "longName": "Departamento de Género y Diversidad",
+  "department": "Montevideo",
+  "city": "Montevideo",
+  "neighborhood": null,
+  "address": {
+    "text": "Cerrito 425, Montevideo",
+    "url": "https://www.google.com/maps/place/Cerrito+425,+11000+Montevideo,+Departamento+de+Montevideo/@-34.9054772,-56.2100779,17z/data=!4m6!3m5!1s0x959f7f86c849090f:0x628e994755e6136b!8m2!3d-34.9054816!4d-56.2074976!16s%2Fg%2F11jz6ph20c?entry=ttu&g_ep=EgoyMDI1MTExNi4wIKXMDSoASAFQAw%3D%3D"
+  },
+  "phone": [
     {
       "area": "",
-      "emails": [
-        " "
+      "phones": [
+        "2030 9148"
       ]
-    },
+    }
+  ],
+  "email": [
     {
       "area": "",
       "emails": [
-        " " 
+        "inr-generoydiversidad@minterior.gub.uy"
       ]
     }
   ],
   "web": {
-    "text": " ",
-    "url": " "
+    "text": "https://www.gub.uy/ministerio-interior/instituto-nacional-rehabilitacion/genero-diversidad/departamento-genero-diversidad-dgd",
+    "url": "https://www.gub.uy/ministerio-interior/instituto-nacional-rehabilitacion/genero-diversidad/departamento-genero-diversidad-dgd"
   },
-  "openingHours": " "
+  "openingHours": null
 }
